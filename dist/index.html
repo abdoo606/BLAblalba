@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="kit" data-mode="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Levain Kit — multilingual bakery &amp; patisserie website templates</title>
+    <meta name="description" content="Three interactive, responsive website templates for artisan bakeries and patisseries, shipped in English, French, Spanish and Arabic.">
+    <meta name="theme-color" content="#f7f4ef">
+    <meta name="color-scheme" content="light dark">
+    <meta name="author" content="BLAblalba Studio">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Levain Kit — multilingual bakery &amp; patisserie website templates">
+    <meta property="og:description" content="Three interactive, responsive website templates for artisan bakeries and patisseries, shipped in English, French, Spanish and Arabic.">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:image" content="./assets/img/hero-artisan.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="./index.html">
+    <link rel="alternate" hreflang="en" href="./index.html">
+    <link rel="alternate" hreflang="fr" href="./index.html?lang=fr">
+    <link rel="alternate" hreflang="es" href="./index.html?lang=es">
+    <link rel="alternate" hreflang="ar" href="./index.html?lang=ar">
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="preload" as="image" fetchpriority="high" href="./assets/img/hero-artisan.jpg">
+    <link rel="stylesheet" href="./assets/core.css">
+    <link rel="stylesheet" href="./assets/hub.css">
+    <script>
+      // prevent theme/lang flash: read prefs before first paint
+      try {
+        var l = JSON.parse(localStorage.getItem('levain.lang') || 'null');
+        var m = JSON.parse(localStorage.getItem('levain.mode') || 'null');
+        if (m) document.documentElement.dataset.mode = m;
+        if (l && ["en","fr","es","ar"].indexOf(l) > -1 && location.search.indexOf('lang=') < 0) {
+          document.documentElement.lang = l;
+          document.documentElement.dir = {"en":"ltr","fr":"ltr","es":"ltr","ar":"rtl"}[l];
+        }
+      } catch (e) {}
+    </script>
+  </head>
+
+  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to main content</a>
+  <header class="site-header" data-stuck="false">
+    <div class="wrap bar">
+      <a class="brand" href="./#top">
+        <span class="brand__mark" aria-hidden="true">LE</span>
+        <span class="brand__text">
+          <span class="brand__name" >Levain Kit</span>
+          <span class="brand__tag" >Bakery · Pâtisserie · 4 languages</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul><li><a href="#galleryTitle" data-i18n="hub.galleryTitle">Three templates, one engine</a></li><li><a href="#featTitle" data-i18n="hub.featTitle">What is inside every page</a></li><li><a href="#langTitle" data-i18n="hub.langTitle">One click, whole site</a></li><li><a href="#calcTitle" data-i18n="hub.calcTitle">Price a client site in 20 seconds</a></li><li><a href="#docsTitle" data-i18n="hub.docsTitle">Files that matter</a></li></ul>
+      </nav>
+      <div class="bar__actions">
+        <div class="lang-picker">
+          <label class="sr-only" for="langSel" data-i18n="common.lang">Language</label>
+          <select id="langSel" data-lang-select name="lang"></select>
+        </div>
+        <button class="icon-btn" type="button" data-mode-toggle aria-pressed="false" data-i18n-aria="common.theme" aria-label="Theme">
+          <span data-mode-icon></span>
+        </button>
+        <button class="icon-btn" type="button" data-open-basket data-i18n-aria="nav.basket" aria-label="Basket">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16l-1.4 11.2a2 2 0 0 1-2 1.8H7.4a2 2 0 0 1-2-1.8L4 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="count-pill" data-basket-count data-show="false">0</span>
+        </button>
+        <a class="btn btn--sm btn--order" href="#order"  data-i18n="nav.order">Pre-order</a>
+        <button class="icon-btn burger" type="button" aria-expanded="false" data-i18n-aria="common.menu" aria-label="Open navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+    <div class="scrollbar-progress" aria-hidden="true"></div>
+  </header>
+<main id="main">
+
+  <section class="kit-hero" id="top">
+    <div class="wrap">
+      <div class="kit-hero__top">
+        <span class="pill"><strong>3</strong> templates · <strong>4</strong> languages · <strong>0</strong> dependencies · <strong>~38 KB</strong> JS</span>
+        <div class="chip-row" role="group" aria-label="Language">
+          <button class="chip" type="button" data-set-lang="en" aria-pressed="true">English</button><button class="chip" type="button" data-set-lang="fr" >Français</button><button class="chip" type="button" data-set-lang="es" >Español</button><button class="chip" type="button" data-set-lang="ar" >العربية</button>
+        </div>
+      </div>
+      <div class="stack" style="--flow:1.1rem;max-inline-size:62rem">
+        <span class="eyebrow" data-i18n="hub.badge">Open-source starter kit · 3 templates · 4 languages</span>
+        <h1><span data-i18n="hub.title">Templates for bakers who also speak French</span></h1>
+        <p class="hero__lead" data-i18n="hub.lead">A production-ready website kit for artisan bakeries and patisseries: three design systems, one interactive engine, four languages (English, French, Spanish, Arabic) and a pre-order basket — no framework, no build lock-in.</p>
+        <div class="kit-hero__actions">
+          <a class="btn" href="#showcase" data-i18n="hub.ctaGallery">Explore the templates</a>
+          <a class="btn btn--ghost" href="#calcTitle" data-i18n="hub.ctaPricing">Price a client site</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="showcase" style="padding-block-start:1.2rem">
+    <div class="wrap">
+      <div class="section-head section-head--row">
+        <div><h2 class="h-sec" data-i18n="hub.galleryTitle">Three templates, one engine</h2>
+        <p class="h-lead" data-i18n="hub.galleryLead">Same data, same components, three completely different design systems. Ship any of them in an afternoon.</p></div>
+      </div>
+      <div class="showcase">
+        <div class="showcase__list" role="tablist" aria-label="Layout">
+      <button class="tpl-tab" type="button" role="tab" data-tpl="artisan" aria-selected="true">
+        <span class="tpl-tab__n">01 / artisan</span>
+        <span class="tpl-tab__name" data-i18n="hub.t.artisan">hub.t.artisan</span>
+        <span class="tpl-tab__k" data-i18n="hub.t.artisan.k">hub.t.artisan.k</span>
+        <span class="swatches" aria-hidden="true">
+          
+          <i class="swatch" style="background:#1c1611"></i>
+          <i class="swatch" style="background:#e08a2e"></i>
+          <i class="swatch" style="background:#c2ae98"></i>
+        </span>
+      </button>
+      <button class="tpl-tab" type="button" role="tab" data-tpl="patisserie" aria-selected="false">
+        <span class="tpl-tab__n">02 / patisserie</span>
+        <span class="tpl-tab__name" data-i18n="hub.t.patisserie">hub.t.patisserie</span>
+        <span class="tpl-tab__k" data-i18n="hub.t.patisserie.k">hub.t.patisserie.k</span>
+        <span class="swatches" aria-hidden="true">
+          
+          <i class="swatch" style="background:#fffafc"></i>
+          <i class="swatch" style="background:#a4445f"></i>
+          <i class="swatch" style="background:#ecd8de"></i>
+        </span>
+      </button>
+      <button class="tpl-tab" type="button" role="tab" data-tpl="moderno" aria-selected="false">
+        <span class="tpl-tab__n">03 / moderno</span>
+        <span class="tpl-tab__name" data-i18n="hub.t.moderno">hub.t.moderno</span>
+        <span class="tpl-tab__k" data-i18n="hub.t.moderno.k">hub.t.moderno.k</span>
+        <span class="swatches" aria-hidden="true">
+          
+          <i class="swatch" style="background:#fbf6ee"></i>
+          <i class="swatch" style="background:#c2532a"></i>
+          <i class="swatch" style="background:#c2532a"></i>
+        </span>
+      </button></div>
+        <div class="frame" data-frame>
+          <div class="frame__chrome">
+            <span class="frame__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="frame__url" data-frame-url>/templates/artisan/index.html</span>
+            <span class="frame__sizes" role="group" aria-label="Viewport">
+              <button class="size-btn" type="button" data-size="mobile" aria-pressed="false" aria-label="Mobile preview — 390px" title="390px"><i></i></button>
+              <button class="size-btn" type="button" data-size="tablet" aria-pressed="false" aria-label="Tablet preview — 768px" title="768px"><i></i></button>
+              <button class="size-btn" type="button" data-size="desktop" aria-pressed="true" aria-label="Desktop preview — 1440px" title="1440px"><i></i></button>
+            </span>
+          </div>
+          <div class="frame__viewport" data-viewport data-size="desktop">
+            <iframe title="Template demo" src="./templates/artisan/index.html?embed=1" data-live-demo loading="eager"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid--3" style="margin-top:2.2rem">
+      <article class="card stack" style="--flow:.6rem" data-reveal>
+        <p class="tiny mono muted">01 · /templates/artisan</p>
+        <h3 style="font-size:var(--fs-2)" data-i18n="hub.t.artisan">hub.t.artisan</h3>
+        <p class="tiny" style="color:var(--accent);font-weight:700;letter-spacing:.06em;text-transform:uppercase" data-i18n="hub.t.artisan.k">hub.t.artisan.k</p>
+        <p class="tiny muted" data-i18n="hub.t.artisan.d">hub.t.artisan.d</p>
+        <p class="chip-row"><span class="chip chip--tag" aria-hidden="true">FR</span><span class="chip chip--tag" aria-hidden="true">BE</span><span class="chip chip--tag" aria-hidden="true">CH</span><span class="chip chip--tag" aria-hidden="true">UK</span><span class="chip chip--tag" aria-hidden="true">CA</span><span class="chip chip--tag" aria-hidden="true">ES</span></p>
+        <p style="display:flex;gap:.5rem;flex-wrap:wrap">
+          <a class="btn btn--sm" href="./templates/artisan/index.html" data-i18n="hub.open">Open full demo</a>
+          <button class="btn btn--sm btn--ghost" type="button" data-tpl="artisan" data-i18n="hub.previewNote">Live demo — click to interact</button>
+        </p>
+      </article>
+      <article class="card stack" style="--flow:.6rem" data-reveal>
+        <p class="tiny mono muted">02 · /templates/patisserie</p>
+        <h3 style="font-size:var(--fs-2)" data-i18n="hub.t.patisserie">hub.t.patisserie</h3>
+        <p class="tiny" style="color:var(--accent);font-weight:700;letter-spacing:.06em;text-transform:uppercase" data-i18n="hub.t.patisserie.k">hub.t.patisserie.k</p>
+        <p class="tiny muted" data-i18n="hub.t.patisserie.d">hub.t.patisserie.d</p>
+        <p class="chip-row"><span class="chip chip--tag" aria-hidden="true">FR</span><span class="chip chip--tag" aria-hidden="true">MC</span><span class="chip chip--tag" aria-hidden="true">BE</span><span class="chip chip--tag" aria-hidden="true">CH</span><span class="chip chip--tag" aria-hidden="true">ES</span><span class="chip chip--tag" aria-hidden="true">IT</span></p>
+        <p style="display:flex;gap:.5rem;flex-wrap:wrap">
+          <a class="btn btn--sm" href="./templates/patisserie/index.html" data-i18n="hub.open">Open full demo</a>
+          <button class="btn btn--sm btn--ghost" type="button" data-tpl="patisserie" data-i18n="hub.previewNote">Live demo — click to interact</button>
+        </p>
+      </article>
+      <article class="card stack" style="--flow:.6rem" data-reveal>
+        <p class="tiny mono muted">03 · /templates/moderno</p>
+        <h3 style="font-size:var(--fs-2)" data-i18n="hub.t.moderno">hub.t.moderno</h3>
+        <p class="tiny" style="color:var(--accent);font-weight:700;letter-spacing:.06em;text-transform:uppercase" data-i18n="hub.t.moderno.k">hub.t.moderno.k</p>
+        <p class="tiny muted" data-i18n="hub.t.moderno.d">hub.t.moderno.d</p>
+        <p class="chip-row"><span class="chip chip--tag" aria-hidden="true">ES</span><span class="chip chip--tag" aria-hidden="true">MX</span><span class="chip chip--tag" aria-hidden="true">AR</span><span class="chip chip--tag" aria-hidden="true">CL</span><span class="chip chip--tag" aria-hidden="true">CO</span><span class="chip chip--tag" aria-hidden="true">US</span></p>
+        <p style="display:flex;gap:.5rem;flex-wrap:wrap">
+          <a class="btn btn--sm" href="./templates/moderno/index.html" data-i18n="hub.open">Open full demo</a>
+          <button class="btn btn--sm btn--ghost" type="button" data-tpl="moderno" data-i18n="hub.previewNote">Live demo — click to interact</button>
+        </p>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="featTitle">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">engine</span>
+        <h2 class="h-sec" data-i18n="hub.featTitle">What is inside every page</h2>
+        <p class="h-lead" data-i18n="hub.featLead">Features a bakery actually asks for, written without a framework so the file stays editable for the next ten years.</p>
+      </div>
+      <div class="feat"><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14 0 18M12 3c-3 3.5-3 14 0 18"/></svg></span>
+          <h3 data-i18n="hub.f1t">4 languages out of the box</h3>
+          <p data-i18n="hub.f1d">English, French, Spanish and Arabic dictionaries, 100% key parity, validated at build time.</p>
+        </div><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 0 8H8a4 4 0 0 1-4-4Z"/><path d="M9 14v4M15 14v4"/></svg></span>
+          <h3 data-i18n="hub.f2t">True right-to-left</h3>
+          <p data-i18n="hub.f2d">One attribute flips the whole layout: logical CSS properties, mirrored icons, Arabic numerals and Arabic plural rules.</p>
+        </div><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16l-1.4 11.2a2 2 0 0 1-2 1.8H7.4a2 2 0 0 1-2-1.8L4 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span>
+          <h3 data-i18n="hub.f3t">Pre-order basket</h3>
+          <p data-i18n="hub.f3d">Add, edit quantities, remember it in localStorage, hand the order over by WhatsApp or email. Nothing charged, nothing to maintain.</p>
+        </div><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s5 4.2 5 8.5a5 5 0 0 1-10 0C7 7.2 12 3 12 3Z"/><path d="M12 20a3 3 0 0 1-3-3c0-2 3-4 3-4s3 2 3 4a3 3 0 0 1-3 3Z"/></svg></span>
+          <h3 data-i18n="hub.f4t">Live oven countdown</h3>
+          <p data-i18n="hub.f4d">“Next bake in 42 min” computed from the bake log, updated every second, honest about sold-out batches.</p>
+        </div><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+          <h3 data-i18n="hub.f5t">Open-now logic</h3>
+          <p data-i18n="hub.f5d">Header badge and hours table read your schedule, your timezone and today&#39;s holiday, not a hard-coded string.</p>
+        </div><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18l-2 7H5l-2-7Z"/><circle cx="9" cy="9" r="1.6"/><circle cx="15" cy="9" r="1.6"/></svg></span>
+          <h3 data-i18n="hub.f6t">Responsive to 320 px</h3>
+          <p data-i18n="hub.f6d">Fluid type with clamp(), touch targets ≥ 44 px, container queries on cards, print sheet for the till.</p>
+        </div><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 13V5a1.5 1.5 0 0 1 3 0v6M10 11V4a1.5 1.5 0 0 1 3 0v7M13 11V6a1.5 1.5 0 0 1 3 0v8a6 6 0 0 1-6 6H9a5 5 0 0 1-5-5v-3l2 1"/></svg></span>
+          <h3 data-i18n="hub.f7t">Accessible by default</h3>
+          <p data-i18n="hub.f7d">Keyboard paths, focus rings, aria-live on basket updates, 4.5:1 contrast, reduced-motion honoured.</p>
+        </div><div class="feat__cell" data-reveal>
+          <span class="feat__i"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15c6 3 12 3 18 0-1-5-4-8-9-8s-8 3-9 8Z"/><path d="M8 8 6 5M16 8l2-3"/></svg></span>
+          <h3 data-i18n="hub.f8t">Fast and offline-friendly</h3>
+          <p data-i18n="hub.f8d">Zero dependencies, ~38 KB of script, system fonts, preloaded hero, works from a file:// folder if you must.</p>
+        </div></div>
+    </div>
+  </section>
+
+  <section class="section" id="langTitle">
+    <div class="wrap">
+      <div class="langlab">
+        <div class="stack" style="--flow:.8rem" data-reveal>
+          <span class="eyebrow">i18n · RTL</span>
+          <h2 class="h-sec" data-i18n="hub.langTitle">One click, whole site</h2>
+          <p class="h-lead" data-i18n="hub.langLead">Every string, date, number, currency and direction is driven by the dictionary below. The choice is remembered per visitor.</p>
+          <p class="tiny muted" data-i18n="hub.langNote">Numbers and currency are formatted with the browser&#39;s Intl API: €2.40 becomes 2,40 € in French, 2,40 € in Spanish and ‏٢٫٤٠ € when Arabic is requested with Arabic numerals.</p>
+        </div>
+        <div class="langlab__demo" data-reveal><div class="langlab__row" data-dir="ltr" data-reveal>
+          <span class="langlab__code">en · en-GB</span>
+          <span class="langlab__txt">Fresh butter croissant — €2.40 — out of the oven at 06:30<small>English · LTR · €2.40</small></span>
+        </div><div class="langlab__row" data-dir="ltr" data-reveal>
+          <span class="langlab__code">fr · fr-FR</span>
+          <span class="langlab__txt">Croissant au beurre frais — 2,40 € — sortie du four à 6 h 30<small>Français · LTR · 2,40 €</small></span>
+        </div><div class="langlab__row" data-dir="ltr" data-reveal>
+          <span class="langlab__code">es · es-ES</span>
+          <span class="langlab__txt">Croissant de mantequilla recién hecho — 2,40 € — del horno a las 6:30<small>Español · LTR · 2,40 €</small></span>
+        </div><div class="langlab__row" data-dir="rtl" data-reveal>
+          <span class="langlab__code">ar · ar-EB</span>
+          <span class="langlab__txt">كرواسون بالزبدة طازة — ٢,٤٠ € — يطلع من الفرن ٦:٣٠<small>العربية · RTL · ‏2.40 €</small></span>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="calcTitle">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">pricing</span>
+        <h2 class="h-sec" data-i18n="hub.calcTitle">Price a client site in 20 seconds</h2>
+        <p class="h-lead" data-i18n="hub.calcLead">Pick a template, a package and the options your client needs. The maths matches the price list in docs/PRICING.md.</p>
+      </div>
+      <div class="calc" data-calc>
+        <div class="stack" style="--flow:1.2rem">
+          <div class="calc__group">
+            <span class="calc__legend" data-i18n="hub.calcTemplate">Template</span>
+            <div class="chip-row" id="tplPick" role="group" aria-label="Template"><button class="chip" type="button" data-quote-tpl="artisan" aria-pressed="true">hub.t.artisan</button><button class="chip" type="button" data-quote-tpl="patisserie" aria-pressed="false">hub.t.patisserie</button><button class="chip" type="button" data-quote-tpl="moderno" aria-pressed="false">hub.t.moderno</button></div>
+          </div>
+          <div class="calc__group">
+            <span class="calc__legend" data-i18n="hub.calcPackage">Package</span>
+            <div class="seg" role="group"><button type="button" data-pkg="baguette" aria-pressed="false">
+        hub.pkg.baguette<small>€750.00 · 1 lang</small></button><button type="button" data-pkg="croissant" aria-pressed="true">
+        hub.pkg.croissant<small>€1,450.00 · 2 lang</small></button><button type="button" data-pkg="patisserie" aria-pressed="false">
+        hub.pkg.patisserie<small>€2,900.00 · 4 lang</small></button></div>
+          </div>
+          <div class="calc__group">
+            <span class="calc__legend" data-i18n="hub.calcLangs">Languages</span>
+            <div class="seg" data-langs role="group"><button type="button" data-langs="1" aria-pressed="false" aria-label="1 Languages">1</button><button type="button" data-langs="2" aria-pressed="true" aria-label="2 Languages">2</button><button type="button" data-langs="3" aria-pressed="false" aria-label="3 Languages">3</button><button type="button" data-langs="4" aria-pressed="false" aria-label="4 Languages">4</button></div>
+          </div>
+          <div class="calc__group">
+            <span class="calc__legend" data-i18n="hub.calcOptions">Add-ons</span>
+            <div class="checks"><label data-opt="seo"><input type="checkbox" checked><span><b>hub.opt.seo — +€380.00</b><span data-i18n="hub.opt.seo.d">hub.opt.seo.d</span></span></label><label data-opt="photo"><input type="checkbox" ><span><b>hub.opt.photo — +€320.00</b><span data-i18n="hub.opt.photo.d">hub.opt.photo.d</span></span></label><label data-opt="preorder"><input type="checkbox" ><span><b>hub.opt.preorder — +€460.00</b><span data-i18n="hub.opt.preorder.d">hub.opt.preorder.d</span></span></label><label data-opt="care"><input type="checkbox" ><span><b>hub.opt.care — +€45.00/mo</b><span data-i18n="hub.opt.care.d">hub.opt.care.d</span></span></label></div>
+          </div>
+          <p class="field"><label for="client" class="calc__legend" style="font-size:var(--fs--2)">Client name (optional)</label>
+            <input class="input" id="client" data-client placeholder="Boulangerie Dupont"></p>
+        </div>
+        <div class="calc__out" data-reveal>
+          <span class="calc__legend" style="opacity:.7" data-i18n="hub.calcTotal">Project total</span>
+          <p class="calc__total" data-calc-total>—</p>
+          <div class="calc__rows" data-calc-rows></div>
+          <div class="calc__meta">
+            <span class="pill"><span data-i18n="hub.calcMonthly">Care plan</span> <b data-calc-monthly>—</b></span>
+            <span class="pill"><span data-i18n="hub.calcDays">Delivery</span> <b data-calc-days>—</b></span>
+          </div>
+          <div>
+            <p class="calc__legend" style="margin-bottom:.4rem" data-i18n="hub.calcWhats">What the client gets</p>
+            <ul class="tiny" style="display:grid;gap:.3rem" data-calc-list></ul>
+          </div>
+          <button class="btn btn--block" type="button" data-copy-quote data-i18n="hub.calcCopy">Copy quote summary</button>
+          <p class="calc__note" data-i18n="hub.calcNote">Self-employed rates, ex-VAT. Deposit 40% before work starts, balance at go-live.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="devTitle">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">docs</span>
+        <h2 class="h-sec" data-i18n="hub.devTitle">Run it, brand it, ship it</h2>
+        <p class="h-lead" data-i18n="hub.devLead">Four commands between a clone and a client&#39;s domain. Everything is plain HTML, CSS and ESM JavaScript.</p>
+      </div>
+      <div class="grid" style="--gap:1.2rem;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:start">
+        <div class="codewrap" data-reveal>
+          <pre class="code"><code><span class="c"># 1 — clone &amp; preview</span>
+git clone https://github.com/abdoo606/BLAblalba.git cd BLAblalba
+npm run dev              <span class="c"># http://localhost:5173</span>
+
+<span class="c"># 2 — make it the client's shop</span>
+<span class="p">nano</span> src/data/site.json          <span class="c"># prices, hours, batches</span>
+<span class="p">nano</span> src/data/locales/fr.json     <span class="c"># copy &amp; translate</span>
+<span class="p">nano</span> src/styles/core.css          <span class="c"># colours, type scale</span>
+
+<span class="c"># 3 — build &amp; ship</span>
+npm run build            <span class="c"># → dist/ (static, 4 pages)</span>
+npm run package          <span class="c"># → release/levain-kit.zip</span>
+<span class="k">gh</span> api /repos/x/pages  <span class="c"># or drop dist/ on any host</span></code></pre>
+          <button class="copy-btn" type="button" data-copy="git clone && npm run dev">copy</button>
+        </div>
+        <div class="steps" data-reveal><article class="step" data-reveal><h3 data-i18n="hub.step1t">Clone</h3><p data-i18n="hub.step1d">Install nothing. The kit has no dependencies at all.</p></article><article class="step" data-reveal><h3 data-i18n="hub.step2t">Change content</h3><p data-i18n="hub.step2d">Edit src/data/site.json for prices, hours and products; edit src/data/locales/*.json for words.</p></article><article class="step" data-reveal><h3 data-i18n="hub.step3t">Build</h3><p data-i18n="hub.step3d">The generator rebuilds three static templates and inlines the dictionaries.</p></article><article class="step" data-reveal><h3 data-i18n="hub.step4t">Deploy</h3><p data-i18n="hub.step4d">Any static host. Netlify, Vercel, GitHub Pages, Cloudflare, a USB stick — it all works.</p></article></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--edge" id="deployTitle">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">hosting</span>
+        <h2 class="h-sec" data-i18n="hub.deployTitle">Where it goes live</h2>
+        <p class="h-lead" data-i18n="hub.deployLead">Static files, so hosting is free or nearly free, and the client keeps the whole site in a folder.</p>
+      </div>
+      <div class="feat" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr))"><div class="feat__cell" data-reveal><h3>hub.deploy.netlify</h3><p data-i18n="hub.deploy.netlify.d">hub.deploy.netlify.d</p></div><div class="feat__cell" data-reveal><h3>hub.deploy.vercel</h3><p data-i18n="hub.deploy.vercel.d">hub.deploy.vercel.d</p></div><div class="feat__cell" data-reveal><h3>hub.deploy.github</h3><p data-i18n="hub.deploy.github.d">hub.deploy.github.d</p></div><div class="feat__cell" data-reveal><h3>hub.deploy.custom</h3><p data-i18n="hub.deploy.custom.d">hub.deploy.custom.d</p></div></div>
+    </div>
+  </section>
+
+  <section class="section" id="demoTitle">
+    <div class="wrap">
+      <div class="grid" style="grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);--gap:2rem;align-items:start">
+        <div class="stack" style="--flow:.8rem" data-reveal>
+          <span class="eyebrow">QA checklist</span>
+          <h2 class="h-sec" data-i18n="hub.demoTitle">Things to try right now</h2>
+          <p class="h-lead" data-i18n="hub.demoLead">Open any template and poke it: these interactions are wired and working in the demo.</p>
+        </div>
+        <ol class="try"><li data-reveal><span data-i18n="hub.d1">Add three croissants to the basket, reload the page — it is still there.</span></li><li data-reveal><span data-i18n="hub.d2">Switch to العربية and watch the layout mirror, prices and dates re-format.</span></li><li data-reveal><span data-i18n="hub.d3">Watch the “next bake” countdown tick down to zero and flip to “just out of the oven”.</span></li><li data-reveal><span data-i18n="hub.d4">Type “cake” in the menu search and see the filter, count and empty state react.</span></li><li data-reveal><span data-i18n="hub.d5">Submit the pre-order form with empty fields to see the inline validation.</span></li><li data-reveal><span data-i18n="hub.d6">Resize to 320 px, or zoom to 200%, and check nothing breaks.</span></li></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="docsTitle">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">files</span>
+        <h2 class="h-sec" data-i18n="hub.docsTitle">Files that matter</h2>
+        <p class="h-lead" data-i18n="hub.docsLead">Everything a designer or a client&#39;s nephew needs to keep the site fresh.</p>
+      </div>
+      <div class="docs"><a class="doc" href="./docs/README.md" data-reveal><span class="doc__ico">MD</span><span><b>docs/README.md</b><span data-i18n="hub.file.readme">hub.file.readme</span></span></a><a class="doc" href="./docs/PRICING.md" data-reveal><span class="doc__ico">€</span><span><b>docs/PRICING.md</b><span data-i18n="hub.file.pricing">hub.file.pricing</span></span></a><a class="doc" href="./docs/PROSPECTS.md" data-reveal><span class="doc__ico">☰</span><span><b>docs/PROSPECTS.md</b><span data-i18n="hub.file.prospects">hub.file.prospects</span></span></a><a class="doc" href="./assets/i18n.generated.js" data-reveal><span class="doc__ico">i18n</span><span><b>src/data/locales/</b><span data-i18n="hub.file.locales">hub.file.locales</span></span></a><a class="doc" href="./assets/core.css" data-reveal><span class="doc__ico">CSS</span><span><b>src/styles/core.css</b><span data-i18n="hub.file.themes">hub.file.themes</span></span></a></div>
+    </div>
+  </section>
+
+  <section class="section" id="cta">
+    <div class="wrap">
+      <div class="bigcta" data-reveal>
+        <h2 data-i18n="hub.ctaTitle">Ready to send a proposal?</h2>
+        <p data-i18n="hub.ctaLead">The kit, the price list and a shortlist of bakeries worth calling are all in the repo.</p>
+        <div class="bigcta__row">
+          <a class="btn" href="mailto:hello@blablalba.dev" data-i18n="hub.ctaMail">Email the studio</a>
+          <a class="btn btn--ghost" href="./docs/PRICING.md" data-i18n="hub.ctaDocs">Read the sales pack</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="stack" style="--flow:.7rem">
+          <a class="brand" href="./">
+            <span class="brand__mark" aria-hidden="true">LK</span>
+            <span class="brand__text"><span class="brand__name">Levain Kit</span></span>
+          </a>
+          <p class="tiny muted" data-i18n="footer.blurb">Independent bakehouse, wood-fired oven, three bakes a day and a website that finally speaks the neighbourhood&#39;s languages.</p>
+          <p class="tiny"><span data-i18n="footer.made">Built with the Levain Kit</span> · <a class="kit-link" href="./"><span data-i18n="footer.backKit">Back to the kit</span> →</a></p>
+        </div>
+        <div><h4 data-i18n="footer.hoursTitle">Opening hours</h4><ul><li><span data-i18n="hours.day.mon">hours.day.mon</span> — <span class="num">Closed</span></li><li><span data-i18n="hours.day.tue">hours.day.tue</span> — <span class="num">07:00 am–07:00 pm</span></li><li><span data-i18n="hours.day.wed">hours.day.wed</span> — <span class="num">07:00 am–07:00 pm</span></li><li><span data-i18n="hours.day.thu">hours.day.thu</span> — <span class="num">07:00 am–07:00 pm</span></li><li><span data-i18n="hours.day.fri">hours.day.fri</span> — <span class="num">07:00 am–08:00 pm</span></li><li><span data-i18n="hours.day.sat">hours.day.sat</span> — <span class="num">07:30 am–08:00 pm</span></li><li><span data-i18n="hours.day.sun">hours.day.sun</span> — <span class="num">07:30 am–01:00 pm</span></li></ul></div>
+        <div><h4 data-i18n="footer.contactTitle">Talk to us</h4>
+          <ul>
+            <li><a href="tel:+33600000000">+33 6 00 00 00 00</a></li>
+            <li><a href="mailto:hello@blablalba.dev">hello@blablalba.dev</a></li>
+            <li><a href="https://wa.me/33600000000">WhatsApp</a></li>
+            <li><a href="#hours" data-i18n="footer.instagram">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.langTitle">This site in</h4>
+          <ul><li><button type="button" data-set-lang="en" aria-current="true">English</button></li><li><button type="button" data-set-lang="fr" >Français</button></li><li><button type="button" data-set-lang="es" >Español</button></li><li><button type="button" data-set-lang="ar" >العربية</button></li></ul>
+          <form class="news" onsubmit="return false" aria-label="Newsletter">
+            <label class="sr-only" for="nl" data-i18n="footer.emailPh">Your email</label>
+            <input class="input" id="nl" type="email" data-i18n-ph="footer.emailPh" placeholder="Your email">
+            <button class="btn btn--sm" type="submit" data-i18n="footer.newsletterCta">Subscribe</button>
+          </form>
+          <p class="tiny muted" style="margin-top:.5rem" data-i18n="footer.newsletter">One message a month: what is baking, what is new.</p>
+        </div>
+      </div>
+      <div class="foot-bar">
+        <p>© 2026 BLAblalba Studio — <span data-i18n="footer.rights">All rights reserved.</span></p>
+        <p class="tiny"><span data-i18n="common.demo">Demo data</span> · <a href="#faq">FAQ</a> · <a href="#menu">Our bread</a></p>
+      </div>
+    </div>
+    <button class="icon-btn to-top" type="button" data-show="false" data-i18n-aria="common.top" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+  </footer>
+  <script>window.LEVAIN_CFG={"templateId":"kit","base":".","brandName":"Levain Kit","currency":"EUR","defaultLanguage":"en","languages":[{"code":"en","locale":"en-GB","name":"English","native":"English","dir":"ltr"},{"code":"fr","locale":"fr-FR","name":"French","native":"Français","dir":"ltr"},{"code":"es","locale":"es-ES","name":"Spanish","native":"Español","dir":"ltr"},{"code":"ar","locale":"ar-EB","name":"Arabic","native":"العربية","dir":"rtl"}],"templates":[{"id":"artisan","path":"templates/artisan","theme":"artisan","brandKey":"artisan","hero":"img/hero-artisan.jpg","accentImage":"img/hero-artisan.jpg","lang":"fr","heroLayout":"split","menuLayout":"grid","sections":["hero","marquee","specialties","menu","batch","story","services","gallery","testimonials","hours","order","faq","footer"],"markets":["FR","BE","CH","UK","CA","ES","DE","IT","AE","LB","JO"]},{"id":"patisserie","path":"templates/patisserie","theme":"patisserie","brandKey":"patisserie","hero":"img/hero-patisserie.jpg","accentImage":"img/hero-patisserie.jpg","lang":"fr","heroLayout":"editorial","menuLayout":"list","sections":["hero","marquee","specialties","menu","story","services","gallery","testimonials","batch","hours","order","faq","footer"],"markets":["FR","MC","BE","CH","ES","IT","UK","AE","LB","JO","QA"]},{"id":"moderno","path":"templates/moderno","theme":"moderno","brandKey":"moderno","hero":"img/hero-modern.jpg","accentImage":"img/hero-modern.jpg","lang":"es","heroLayout":"center","menuLayout":"cards","sections":["hero","specialties","menu","batch","story","services","gallery","hours","testimonials","order","faq","footer"],"markets":["ES","MX","AR","CL","CO","US","FR","DE","IT","AE","MA"]}],"products":[{"id":"sourdough","category":"bread","price":5.8,"weight":"1 kg","image":"img/product-sourdough.jpg","tags":["vegan"]},{"id":"tradition","category":"bread","price":1.6,"weight":"400 g","image":"img/product-baguette.jpg","tags":[]},{"id":"rye","category":"bread","price":6.4,"weight":"900 g","image":"img/product-rye.jpg","tags":["seeds"]},{"id":"croissant","category":"viennoiserie","price":2.4,"weight":"90 g","image":"img/product-croissant.jpg","tags":["signature"]},{"id":"chocolatine","category":"viennoiserie","price":2.7,"weight":"110 g","image":"img/product-pain-au-chocolat.jpg","tags":[]},{"id":"cinnamon","category":"viennoiserie","price":3.2,"weight":"120 g","image":"img/product-cinnamon.jpg","tags":["seasonal"]},{"id":"fruitart","category":"pastry","price":4.5,"weight":"1 pc","image":"img/product-tart.svg","tags":["seasonal"]},{"id":"eclair","category":"pastry","price":4.2,"weight":"1 pc","image":"img/product-eclair.svg","tags":["signature"]},{"id":"macaron","category":"pastry","price":2.2,"weight":"1 pc","image":"img/product-macaron.svg","tags":["gf"]},{"id":"basque","category":"celebration","price":28,"weight":"8 pers.","image":"img/product-cake.svg","tags":["order-ahead"]},{"id":"tropezien","category":"celebration","price":32,"weight":"10 pers.","image":"img/product-baba.svg","tags":["order-ahead"]},{"id":"kingcake","category":"celebration","price":24,"weight":"6 pers.","image":"img/product-galette.svg","tags":["seasonal"]}],"hours":[{"day":"mon","open":null,"close":null},{"day":"tue","open":"07:00","close":"19:00"},{"day":"wed","open":"07:00","close":"19:00"},{"day":"thu","open":"07:00","close":"19:00"},{"day":"fri","open":"07:00","close":"20:00"},{"day":"sat","open":"07:30","close":"20:00"},{"day":"sun","open":"07:30","close":"13:00"}],"batches":[{"id":"am","time":"06:30","items":["croissant","tradition"]},{"id":"noon","time":"12:00","items":["sourdough","rye"]},{"id":"pm","time":"16:30","items":["cinnamon","fruitart"]}],"packages":[{"id":"licence","price":149,"recurring":0,"days":0,"languages":4},{"id":"baguette","price":750,"recurring":0,"days":5,"languages":1},{"id":"croissant","price":1450,"recurring":0,"days":7,"languages":2},{"id":"patisserie","price":2900,"recurring":0,"days":14,"languages":4}],"options":[{"id":"language","price":220,"labelKey":"calc.opt.language"},{"id":"seo","price":380,"labelKey":"calc.opt.seo"},{"id":"photo","price":320,"labelKey":"calc.opt.photo"},{"id":"preorder","price":460,"labelKey":"calc.opt.preorder"},{"id":"care","price":45,"labelKey":"calc.opt.care","recurring":true}],"whatsapp":"33600000000","email":"hello@blablalba.dev","repo":"https://github.com/abdoo606/BLAblalba"};</script>
+    <script src="./assets/i18n.generated.js" defer></script>
+    <script src="./assets/app.js" defer></script>
+    <script src="./assets/hub.js" defer></script>
+  </body>
+</html>

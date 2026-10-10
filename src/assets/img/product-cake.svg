@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img"><defs>
+<radialGradient id="g" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#fffaf2"/><stop offset="1" stop-color="#eadfcd"/></radialGradient>
+<filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#6b4a22" flood-opacity=".22"/></filter>
+</defs>
+<rect width="800" height="600" fill="url(#g)"/>
+<g filter="url(#s)"><ellipse cx="400" cy="470" rx="250" ry="34" fill="#d9c8ad"/>
+<path d="M200 250h400l-26 200H226z" fill="#f0dcae"/>
+<path d="M200 250h400c-14 34-116 52-200 52s-186-18-200-52z" fill="#7c4a1e"/>
+<path d="M400 302l74 -52 -74 130 -74 -130z" fill="#e8c98d" opacity=".55"/>
+<path d="M200 250h400" stroke="#5c3312" stroke-width="6"/></g>
+<rect x="34" y="34" width="732" height="532" fill="none" stroke="#c9b48f" stroke-opacity=".45" stroke-width="2"/>
+</svg>

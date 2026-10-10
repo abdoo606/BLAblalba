@@ -1,0 +1,889 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="moderno" data-mode="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Horno Vivo — Bread that keeps</title>
+    <meta name="description" content="Four flours, one starter, twenty-six hours of patience. Baked twice a day, sold out by seven — come early or reserve online.">
+    <meta name="theme-color" content="#fbf6ee">
+    <meta name="color-scheme" content="light dark">
+    <meta name="author" content="BLAblalba Studio">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Horno Vivo — Bread that keeps the village awake">
+    <meta property="og:description" content="Four flours, one starter, twenty-six hours of patience. Baked twice a day, sold out by seven — come early or reserve online.">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:image" content="../../assets/img/hero-modern.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="../../templates/moderno/index.html">
+    <link rel="alternate" hreflang="en" href="../../templates/moderno/index.html">
+    <link rel="alternate" hreflang="fr" href="../../templates/moderno/index.html?lang=fr">
+    <link rel="alternate" hreflang="es" href="../../templates/moderno/index.html?lang=es">
+    <link rel="alternate" hreflang="ar" href="../../templates/moderno/index.html?lang=ar">
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../assets/site.webmanifest">
+    <link rel="preload" as="image" fetchpriority="high" href="../../assets/img/hero-modern.jpg">
+    <link rel="stylesheet" href="../../assets/core.css">
+    <link rel="stylesheet" href="../../assets/hub.css">
+    <script>
+      // prevent theme/lang flash: read prefs before first paint
+      try {
+        var l = JSON.parse(localStorage.getItem('levain.lang') || 'null');
+        var m = JSON.parse(localStorage.getItem('levain.mode') || 'null');
+        if (m) document.documentElement.dataset.mode = m;
+        if (l && ["en","fr","es","ar"].indexOf(l) > -1 && location.search.indexOf('lang=') < 0) {
+          document.documentElement.lang = l;
+          document.documentElement.dir = {"en":"ltr","fr":"ltr","es":"ltr","ar":"rtl"}[l];
+        }
+      } catch (e) {}
+    </script>
+  </head>
+
+  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to main content</a>
+  <header class="site-header" data-stuck="false">
+    <div class="wrap bar">
+      <a class="brand" href="../../">
+        <span class="brand__mark" aria-hidden="true">HO</span>
+        <span class="brand__text">
+          <span class="brand__name" data-i18n="brand.moderno.name">Horno Vivo</span>
+          <span class="brand__tag" data-i18n="brand.moderno.tag">Panadería de masa madre</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul><li><a href="#menu" data-i18n="nav.menu">Our bread</a></li><li><a href="#story" data-i18n="nav.story">The house</a></li><li><a href="#hours" data-i18n="nav.hours">Find us</a></li><li><a href="#order" data-i18n="nav.order">Pre-order</a></li><li><a href="#faq" data-i18n="nav.faq">FAQ</a></li></ul>
+      </nav>
+      <div class="bar__actions">
+        <div class="lang-picker">
+          <label class="sr-only" for="langSel" data-i18n="common.lang">Language</label>
+          <select id="langSel" data-lang-select name="lang"></select>
+        </div>
+        <button class="icon-btn" type="button" data-mode-toggle aria-pressed="false" data-i18n-aria="common.theme" aria-label="Theme">
+          <span data-mode-icon></span>
+        </button>
+        <button class="icon-btn" type="button" data-open-basket data-i18n-aria="nav.basket" aria-label="Basket">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16l-1.4 11.2a2 2 0 0 1-2 1.8H7.4a2 2 0 0 1-2-1.8L4 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="count-pill" data-basket-count data-show="false">0</span>
+        </button>
+        <a class="btn btn--sm btn--order" href="#order"  data-i18n="nav.order">Pre-order</a>
+        <button class="icon-btn burger" type="button" aria-expanded="false" data-i18n-aria="common.menu" aria-label="Open navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+    <div class="scrollbar-progress" aria-hidden="true"></div>
+  </header>
+<main id="main">
+
+  <section class="hero" id="top" data-layout="center">
+    <div class="wrap hero__grid">
+      
+      <div class="hero__copy stack" style="--flow:1.05rem">
+        <span class="eyebrow"><span data-i18n="hero.kicker">Wood-fired · Sourdough · Since 1991</span></span>
+        <h1>
+          <span data-i18n="hero.title">Bread that keeps</span>
+          <span class="accent" data-i18n="hero.titleAccent">the village awake</span>
+        </h1>
+        <p class="hero__lead" data-i18n="hero.lead">Four flours, one starter, twenty-six hours of patience. Baked twice a day, sold out by seven — come early or reserve online.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#menu" data-i18n="hero.ctaMenu">See today&#39;s bake</a>
+          <a class="btn btn--ghost" href="#order" data-i18n="hero.ctaOrder">Reserve a loaf</a>
+        </div>
+        <ul class="hero__stats"><li data-reveal><span data-i18n="hero.stat1">26 h slow fermentation</span></li><li data-reveal><span data-i18n="hero.stat2">92% flour milled within 80 km</span></li><li data-reveal><span data-i18n="hero.stat3">3 bakes every single day</span></li></ul>
+      </div>
+      <div class="hero__media">
+        <img src="../../assets/img/hero-modern.jpg" alt="" width="1200" height="900" fetchpriority="high" decoding="async">
+        <div class="hero__float">
+          <span class="badge" data-open-badge><span class="dot"></span><span>Open now</span></span>
+          <span class="tiny muted" style="display:flex;align-items:center;gap:.4rem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s5 4.2 5 8.5a5 5 0 0 1-10 0C7 7.2 12 3 12 3Z"/><path d="M12 20a3 3 0 0 1-3-3c0-2 3-4 3-4s3 2 3 4a3 3 0 0 1-3 3Z"/></svg><span data-i18n="batch.next">Next bake</span> <b class="num" data-batch-countdown-inline>12:00 pm</b></span>
+        </div>
+        <span class="hero__bg-word" aria-hidden="true">Horno</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="specialties">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="nav.menu">Our bread</span>
+        <h2 class="h-sec" data-i18n="specialties.title">What we are known for</h2>
+        <p class="h-lead" data-i18n="specialties.lead">A short menu, kept honest. Everything on the counter was shaped by hand this morning.</p>
+      </div>
+      <div class="grid grid--3">
+      <article class="spec" data-reveal style="--d:0ms">
+        <span class="spec__n">01</span>
+        <h3 data-i18n="specialties.c1t">The country loaf</h3>
+        <p data-i18n="specialties.c1d">Rye and wheat levain, 26-hour cold ferment, blistered crust that sings when it cools.</p>
+      </article>
+      <article class="spec" data-reveal style="--d:90ms">
+        <span class="spec__n">02</span>
+        <h3 data-i18n="specialties.c2t">Butter viennoiserie</h3>
+        <p data-i18n="specialties.c2d">Charentes-Poitou butter, 27 laminated layers, proofed overnight so the crumb stays open.</p>
+      </article>
+      <article class="spec" data-reveal style="--d:180ms">
+        <span class="spec__n">03</span>
+        <h3 data-i18n="specialties.c3t">Weekend pastries</h3>
+        <p data-i18n="specialties.c3d">Fruit tarts, éclairs and celebration cakes — ordered Thursday, ready Saturday.</p>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="menu">
+    <div class="wrap">
+      <div class="section-head section-head--row">
+        <div class="stack" style="--flow:.5rem">
+          <h2 class="h-sec" data-i18n="menu.title">Today at the counter</h2>
+          <p class="h-lead" data-i18n="menu.lead">Live prices, live stock. Add to your basket and we will have the bag ready at the counter.</p>
+        </div>
+        <p class="menu-count num" data-menu-count>12 items available</p>
+      </div>
+      <div class="menu-tools">
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+          <label class="sr-only" for="q" data-i18n="menu.search">Search the bakehouse…</label>
+          <input id="q" class="input" type="search" data-menu-search data-i18n-ph="menu.search" placeholder="Search the bakehouse…" autocomplete="off">
+          <button class="search__clear" type="button" data-clear-search data-i18n-aria="basket.remove" aria-label="Clear"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        </div>
+        <div class="chip-row" role="group" aria-label="Filters"><button class="chip" type="button" data-cat="all" aria-pressed="true">
+         <span data-i18n="menu.all">Everything</span>
+       </button><button class="chip" type="button" data-cat="bread" aria-pressed="false">
+         <span data-i18n="menu.cat.bread">menu.cat.bread</span>
+       </button><button class="chip" type="button" data-cat="viennoiserie" aria-pressed="false">
+         <span data-i18n="menu.cat.viennoiserie">menu.cat.viennoiserie</span>
+       </button><button class="chip" type="button" data-cat="pastry" aria-pressed="false">
+         <span data-i18n="menu.cat.pastry">menu.cat.pastry</span>
+       </button><button class="chip" type="button" data-cat="celebration" aria-pressed="false">
+         <span data-i18n="menu.cat.celebration">menu.cat.celebration</span>
+       </button></div>
+        <div class="chip-row" role="group" aria-label="Filters"><button class="chip chip--tag" type="button" data-tag="vegan" aria-pressed="false"><span data-i18n="menu.vegan">Plant-based</span></button><button class="chip chip--tag" type="button" data-tag="gf" aria-pressed="false"><span data-i18n="menu.gf">Gluten-free</span></button><button class="chip chip--tag" type="button" data-tag="signature" aria-pressed="false"><span data-i18n="menu.signature">Signature</span></button><button class="chip chip--tag" type="button" data-tag="seasonal" aria-pressed="false"><span data-i18n="menu.seasonal">Seasonal</span></button></div>
+      </div>
+      <div class="menu-grid" data-menu data-menu-layout="cards">
+      <article class="item" data-item data-id="sourdough" data-category="bread" data-tags="vegan"
+               data-name="Country levain loaf Miche au levain Hogaza de masa madre رغيف الخميرة الطبيعية" data-desc="Wheat &amp; rye, 1 kg, stone-milled Blé &amp; seigle, 1 kg, mouture sur meule Trigo y centeno, 1 kg, molienda a piedra قمح وجاودار، ١ كغ، طحن حجري" data-reveal style="--d:0ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-sourdough.jpg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.vegan">Plant-based</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.sourdough.name">Country levain loaf</h3>
+          <p class="item__desc" data-i18n="product.sourdough.desc">Wheat &amp; rye, 1 kg, stone-milled</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="5.8">€5.80</span> <span class="unit">/ 1 kg</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="tradition" data-category="bread" data-tags=""
+               data-name="Baguette de tradition Baguette de tradition Barra de tradición باجيت على الأصول" data-desc="Cracked crust, open crumb, 400 g Croûte craquante, mie alvéolée, 400 g Corteza quebradiza, alveolos abiertos, 400 g قشرة مقرمشة وفتات مفتوح، ٤٠٠ غ" data-reveal style="--d:70ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-baguette.jpg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.tradition.name">Baguette de tradition</h3>
+          <p class="item__desc" data-i18n="product.tradition.desc">Cracked crust, open crumb, 400 g</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="1.6">€1.60</span> <span class="unit">/ 400 g</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="rye" data-category="bread" data-tags="seeds"
+               data-name="Seeded rye brick Tourteau de seigle Pan de centeno con semillas خبز الجاودار بالبذور" data-desc="Caraway, linseed, 24 h ferment Carvi, lin, 24 h de fermentation Alcaravea y lino, 24 h de fermentación كمون وكتان، تخمير ٢٤ ساعة" data-reveal style="--d:140ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-rye.jpg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.seeds">Seeded</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.rye.name">Seeded rye brick</h3>
+          <p class="item__desc" data-i18n="product.rye.desc">Caraway, linseed, 24 h ferment</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="6.4">€6.40</span> <span class="unit">/ 900 g</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="croissant" data-category="viennoiserie" data-tags="signature"
+               data-name="Butter croissant Croissant au beurre Croissant de mantequilla كرواسون بالزبدة" data-desc="27 layers, cultured butter 27 couches, beurre de baratte 27 capas, mantequilla de barrica ٢٧ طبقة، زبدة مخضوضة" data-reveal style="--d:0ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-croissant.jpg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.signature">Signature</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.croissant.name">Butter croissant</h3>
+          <p class="item__desc" data-i18n="product.croissant.desc">27 layers, cultured butter</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="2.4">€2.40</span> <span class="unit">/ 90 g</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="chocolatine" data-category="viennoiserie" data-tags=""
+               data-name="Pain au chocolat Pain au chocolat Napolitana de chocolate كرواسون الشوكولا" data-desc="Two batons of 66% chocolate Deux barres de chocolat 66% Dos tabletas de chocolate 66% شريطان شوكولا ٦٦٪" data-reveal style="--d:70ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-pain-au-chocolat.jpg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.chocolatine.name">Pain au chocolat</h3>
+          <p class="item__desc" data-i18n="product.chocolatine.desc">Two batons of 66% chocolate</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="2.7">€2.70</span> <span class="unit">/ 110 g</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="cinnamon" data-category="viennoiserie" data-tags="seasonal"
+               data-name="Morning bun Vendange du matin Caracol de canela دوامة القرفة" data-desc="Cinnamon sugar, orange zest Sucre cannelle, zeste d&#39;orange Azúcar canela, ralladura de naranja سكر بالقرفة وبرش برتقال" data-reveal style="--d:140ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-cinnamon.jpg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.seasonal">Seasonal</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.cinnamon.name">Morning bun</h3>
+          <p class="item__desc" data-i18n="product.cinnamon.desc">Cinnamon sugar, orange zest</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="3.2">€3.20</span> <span class="unit">/ 120 g</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="fruitart" data-category="pastry" data-tags="seasonal"
+               data-name="Vanilla &amp; fruit tart Tarte vanille &amp; fruits Tarta de vainilla y fruta تارت الفانيلا والفاكهة" data-desc="Crème légère, market fruit Crème légère, fruits du marché Crema ligera, fruta del mercado كريمة خفيفة وفواكه السوق" data-reveal style="--d:0ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-tart.svg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.seasonal">Seasonal</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.fruitart.name">Vanilla &amp; fruit tart</h3>
+          <p class="item__desc" data-i18n="product.fruitart.desc">Crème légère, market fruit</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="4.5">€4.50</span> <span class="unit">/ 1 pc</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="eclair" data-category="pastry" data-tags="signature"
+               data-name="Praline éclair Éclair praliné Eclair de praliné إكلير البرالينيه" data-desc="Hazelnut cream, caramel glaze Crème noisette, glaçage caramel Crema de avellana, glasé de caramelo كريمة بندق وطلاء كراميل" data-reveal style="--d:70ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-eclair.svg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.signature">Signature</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.eclair.name">Praline éclair</h3>
+          <p class="item__desc" data-i18n="product.eclair.desc">Hazelnut cream, caramel glaze</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="4.2">€4.20</span> <span class="unit">/ 1 pc</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="macaron" data-category="pastry" data-tags="gf"
+               data-name="Macaron Macaron Macaron ماكرون" data-desc="Pistachio, salted caramel, raspberry Pistache, caramel beurré, framboise Pistacho, caramelo salado, frambuesa فستق، كراميل مملّح، توت العليق" data-reveal style="--d:140ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-macaron.svg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.gf">Gluten-free</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.macaron.name">Macaron</h3>
+          <p class="item__desc" data-i18n="product.macaron.desc">Pistachio, salted caramel, raspberry</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="2.2">€2.20</span> <span class="unit">/ 1 pc</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="basque" data-category="celebration" data-tags="order-ahead"
+               data-name="Burnt Basque cheesecake Cheesecake basque brûlé Tarta quemada vasca تشيز كيك الباسكي المحروق" data-desc="For 8, chilled 12 h Pour 8, frais 12 h Para 8, en frío 12 h لـ٨ أشخاص، تبريد ١٢ ساعة" data-reveal style="--d:0ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-cake.svg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.order-ahead">menu.order-ahead</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.basque.name">Burnt Basque cheesecake</h3>
+          <p class="item__desc" data-i18n="product.basque.desc">For 8, chilled 12 h</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="28">€28.00</span> <span class="unit">/ 8 pers.</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="tropezien" data-category="celebration" data-tags="order-ahead"
+               data-name="Saint-Honoré Saint-Honoré Saint-Honoré سان أونوريه" data-desc="For 10, choux &amp; caramel Pour 10, pâte à choux &amp; caramel Para 10, pasta choux y caramelo لـ١٠ أشخاص، عجينة شو وكراميل" data-reveal style="--d:70ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-baba.svg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.order-ahead">menu.order-ahead</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.tropezien.name">Saint-Honoré</h3>
+          <p class="item__desc" data-i18n="product.tropezien.desc">For 10, choux &amp; caramel</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="32">€32.00</span> <span class="unit">/ 10 pers.</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="item" data-item data-id="kingcake" data-category="celebration" data-tags="seasonal"
+               data-name="King cake (galette) Galette des rois Roscón de reyes كيكة الملك" data-desc="Almond frangipane, fève included Frangipane amande, fève incluse Frangipane de almendra, con haba فرنجيبان اللوز مع التميمة" data-reveal style="--d:140ms">
+        <div class="item__media">
+          <img src="../../assets/img/product-galette.svg" alt="" loading="lazy" decoding="async" width="800" height="600">
+          <div class="item__tags"><span class="badge tiny" data-i18n="menu.seasonal">Seasonal</span></div>
+          <span class="item__flash" data-flash data-i18n="menu.added">In the basket</span>
+        </div>
+        <div class="item__body">
+          <h3 class="item__name" data-i18n="product.kingcake.name">King cake (galette)</h3>
+          <p class="item__desc" data-i18n="product.kingcake.desc">Almond frangipane, fève included</p>
+          <div class="item__foot">
+            <p class="price"><span class="num" data-price="24">€24.00</span> <span class="unit">/ 6 pers.</span></p>
+            <div class="item__add">
+              <div class="stepper">
+                <button type="button" data-minus aria-label="−">−</button>
+                <output data-qty class="num">0</output>
+                <button type="button" data-plus aria-label="+">+</button>
+              </div>
+              <button class="btn btn--sm" type="button" data-add data-i18n="menu.add">Add</button>
+            </div>
+          </div>
+        </div>
+      </article></div>
+      <p class="menu-empty" data-menu-empty hidden data-i18n="menu.empty">Nothing matches that. Try “sourdough”, “butter” or “cake”.</p>
+      <p class="menu-foot"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="menu.note">Prices include local tax. Last basket taken 30 minutes before closing.</span></p>
+    </div>
+  </section>
+
+  <section class="section" id="batch">
+    <div class="wrap">
+      <div class="batch" data-batch>
+        <div class="stack" style="--flow:.8rem" data-reveal>
+          <span class="eyebrow"><span class="dot" style="color:var(--good)"></span><span data-i18n="batch.live">Live</span></span>
+          <h2 class="h-sec" data-i18n="batch.title">Out of the oven in</h2>
+          <p class="h-lead" data-i18n="batch.lead">Real countdown to the next bake, straight from our oven log.</p>
+          <p class="batch__clock num" data-batch-clock aria-live="off">00:00:00</p>
+          <p class="batch__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s5 4.2 5 8.5a5 5 0 0 1-10 0C7 7.2 12 3 12 3Z"/><path d="M12 20a3 3 0 0 1-3-3c0-2 3-4 3-4s3 2 3 4a3 3 0 0 1-3 3Z"/></svg><span data-batch-label>Next bake</span></p>
+          <p class="batch__items" data-batch-items></p>
+        </div>
+        <div data-reveal>
+          <h3 class="tiny muted" style="text-transform:uppercase;letter-spacing:.1em;margin-bottom:.7rem" data-i18n="batch.today">Bake times today</h3>
+          <ul class="batch__list" style="list-style:none;padding:0">
+      <li class="batch__row" data-batch-row data-time="06:30">
+        <span><b>Breakfast bake</b><br><span class="tiny muted"><span data-i18n="product.croissant.name">Butter croissant</span> · <span data-i18n="product.tradition.name">Baguette de tradition</span></span></span>
+        <span class="batch__time num" data-batch-state>06:30 am</span>
+      </li>
+      <li class="batch__row" data-batch-row data-time="12:00">
+        <span><b>Lunch bake</b><br><span class="tiny muted"><span data-i18n="product.sourdough.name">Country levain loaf</span> · <span data-i18n="product.rye.name">Seeded rye brick</span></span></span>
+        <span class="batch__time num" data-batch-state>12:00 pm</span>
+      </li>
+      <li class="batch__row" data-batch-row data-time="16:30">
+        <span><b>After-work bake</b><br><span class="tiny muted"><span data-i18n="product.cinnamon.name">Morning bun</span> · <span data-i18n="product.fruitart.name">Vanilla &amp; fruit tart</span></span></span>
+        <span class="batch__time num" data-batch-state>04:30 pm</span>
+      </li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--edge" id="story">
+    <div class="wrap split">
+      <div class="story__media" data-reveal>
+        <img src="../../assets/img/atelier.jpg" alt="" width="1100" height="800" loading="lazy" decoding="async">
+      </div>
+      <div class="stack" style="--flow:1.1rem" data-reveal>
+        <span class="eyebrow" data-i18n="story.kicker">The house</span>
+        <h2 class="h-sec" data-i18n="story.title">Three generations, one stubborn starter</h2>
+        <p class="h-lead" data-i18n="story.lead">Marcel started with a borrowed oven in 1991. His granddaughter runs it today and the levain — begun in 1974 — still gets fed twice a day.</p>
+        <p data-i18n="story.p1">We mill in small batches, ferment cold and refuse to rush. If a dough is not ready, the shelf stays half empty and we say so at the counter.</p>
+        <p data-i18n="story.p2">Everything is written twice: once on the slate behind the till, once here — in your language, with the same prices.</p>
+        <blockquote class="quote" data-i18n="story.quote">“Good bread is a promise kept every morning.”</blockquote>
+        <div class="stats">
+      <div class="stat" data-reveal>
+        <p class="stat__v" data-count="34" data-suffix="+">0</p>
+        <p class="stat__l" data-i18n="story.stat.years">story.stat.years</p>
+      </div>
+      <div class="stat" data-reveal>
+        <p class="stat__v" data-count="1200" data-suffix="">0</p>
+        <p class="stat__l" data-i18n="story.stat.loaves">story.stat.loaves</p>
+      </div>
+      <div class="stat" data-reveal>
+        <p class="stat__v" data-count="92" data-suffix="%">0</p>
+        <p class="stat__l" data-i18n="story.stat.flour">story.stat.flour</p>
+      </div>
+      <div class="stat" data-reveal>
+        <p class="stat__v" data-count="26" data-suffix="h">0</p>
+        <p class="stat__l" data-i18n="story.stat.start">story.stat.start</p>
+      </div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h-sec" data-i18n="services.title">More than a bakery</h2>
+        <p class="h-lead" data-i18n="services.lead">Three things we do besides baking, all bookable from this page.</p>
+      </div>
+      <div class="grid grid--3">
+      <article class="svc" data-reveal style="--d:0ms">
+        <span class="svc__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 13V5a1.5 1.5 0 0 1 3 0v6M10 11V4a1.5 1.5 0 0 1 3 0v7M13 11V6a1.5 1.5 0 0 1 3 0v8a6 6 0 0 1-6 6H9a5 5 0 0 1-5-5v-3l2 1"/></svg></span>
+        <h3 data-i18n="services.workshops.t">services.workshops.t</h3>
+        <p data-i18n="services.workshops.d">services.workshops.d</p>
+        <a href="#order"><span data-i18n="nav.order">Pre-order</span> <span class="arrow" aria-hidden="true">→</span></a>
+      </article>
+      <article class="svc" data-reveal style="--d:80ms">
+        <span class="svc__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16v-6a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v6Z"/><path d="M12 11V8M12 5.5c1 0 1.5-.7 1.5-1.5S13 2.5 12 2.5 10.5 3.2 10.5 4s.5 1.5 1.5 1.5Z"/></svg></span>
+        <h3 data-i18n="services.weddings.t">services.weddings.t</h3>
+        <p data-i18n="services.weddings.d">services.weddings.d</p>
+        <a href="#order"><span data-i18n="nav.order">Pre-order</span> <span class="arrow" aria-hidden="true">→</span></a>
+      </article>
+      <article class="svc" data-reveal style="--d:160ms">
+        <span class="svc__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span>
+        <h3 data-i18n="services.wholesale.t">services.wholesale.t</h3>
+        <p data-i18n="services.wholesale.d">services.wholesale.d</p>
+        <a href="#order"><span data-i18n="nav.order">Pre-order</span> <span class="arrow" aria-hidden="true">→</span></a>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="gallery">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h-sec" data-i18n="gallery.title">Inside the bakehouse</h2>
+        <p class="h-lead" data-i18n="gallery.lead">Shot on a phone, at 4 a.m., by whoever was on shift.</p>
+      </div>
+      <div class="gal">
+      <figure data-gal-item tabindex="0" data-full="../../assets/img/hero-artisan.jpg" data-reveal>
+        <img src="../../assets/img/hero-artisan.jpg" alt="" loading="lazy" decoding="async" width="900" height="700">
+        <figcaption><svg style="width:14px;height:14px;stroke:#fff" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg> <span data-i18n="gallery.open" data-i18n-args="1">Open image 1</span></figcaption>
+      </figure>
+      <figure data-gal-item tabindex="0" data-full="../../assets/img/hero-patisserie.jpg" data-reveal>
+        <img src="../../assets/img/hero-patisserie.jpg" alt="" loading="lazy" decoding="async" width="900" height="700">
+        <figcaption><svg style="width:14px;height:14px;stroke:#fff" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg> <span data-i18n="gallery.open" data-i18n-args="2">Open image 2</span></figcaption>
+      </figure>
+      <figure data-gal-item tabindex="0" data-full="../../assets/img/product-croissant.jpg" data-reveal>
+        <img src="../../assets/img/product-croissant.jpg" alt="" loading="lazy" decoding="async" width="900" height="700">
+        <figcaption><svg style="width:14px;height:14px;stroke:#fff" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg> <span data-i18n="gallery.open" data-i18n-args="3">Open image 3</span></figcaption>
+      </figure>
+      <figure data-gal-item tabindex="0" data-full="../../assets/img/product-tart.svg" data-reveal>
+        <img src="../../assets/img/product-tart.svg" alt="" loading="lazy" decoding="async" width="900" height="700">
+        <figcaption><svg style="width:14px;height:14px;stroke:#fff" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg> <span data-i18n="gallery.open" data-i18n-args="4">Open image 4</span></figcaption>
+      </figure>
+      <figure data-gal-item tabindex="0" data-full="../../assets/img/hero-modern.jpg" data-reveal>
+        <img src="../../assets/img/hero-modern.jpg" alt="" loading="lazy" decoding="async" width="900" height="700">
+        <figcaption><svg style="width:14px;height:14px;stroke:#fff" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg> <span data-i18n="gallery.open" data-i18n-args="5">Open image 5</span></figcaption>
+      </figure>
+      <figure data-gal-item tabindex="0" data-full="../../assets/img/product-macaron.svg" data-reveal>
+        <img src="../../assets/img/product-macaron.svg" alt="" loading="lazy" decoding="async" width="900" height="700">
+        <figcaption><svg style="width:14px;height:14px;stroke:#fff" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg> <span data-i18n="gallery.open" data-i18n-args="6">Open image 6</span></figcaption>
+      </figure></div>
+    </div>
+    <div class="lightbox" hidden data-lightbox role="dialog" aria-modal="true" aria-label="Inside the bakehouse">
+      <div class="lightbox__bar">
+        <span class="tiny num" data-lb-counter>1</span>
+        <span style="display:flex;gap:.5rem">
+          <button class="icon-btn" type="button" data-lb-prev data-i18n-aria="gallery.prev" aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="icon-btn" type="button" data-lb-next data-i18n-aria="gallery.next" aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          <button class="icon-btn" type="button" data-lb-close data-i18n-aria="gallery.close" aria-label="Close gallery"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        </span>
+      </div>
+      <img src="" alt="">
+    </div>
+  </section>
+
+  <section class="section section--alt" id="hours">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h-sec" data-i18n="hours.title">Find the shop</h2>
+        <p class="h-lead" data-i18n="hours.lead">Corner of the market square. Two tables outside when the weather behaves.</p>
+      </div>
+      <div class="hours-grid">
+        <div class="card card--flat" data-reveal>
+          <div style="display:flex;justify-content:space-between;gap:1rem;align-items:center;margin-bottom:.8rem">
+            <h3 class="tiny" style="text-transform:uppercase;letter-spacing:.1em;color:var(--muted)" data-i18n="footer.hoursTitle">Opening hours</h3>
+            <span class="badge" data-open-badge><span class="dot"></span><span>Open now</span></span>
+          </div>
+          <table class="hours-table"><tbody>
+      <tr data-hours-row="mon">
+        <td data-i18n="hours.day.mon">hours.day.mon</td>
+        <td class="num" data-hours-value>Closed</td>
+      </tr>
+      <tr data-hours-row="tue">
+        <td data-i18n="hours.day.tue">hours.day.tue</td>
+        <td class="num" data-hours-value>07:00 am – 07:00 pm</td>
+      </tr>
+      <tr data-hours-row="wed">
+        <td data-i18n="hours.day.wed">hours.day.wed</td>
+        <td class="num" data-hours-value>07:00 am – 07:00 pm</td>
+      </tr>
+      <tr data-hours-row="thu">
+        <td data-i18n="hours.day.thu">hours.day.thu</td>
+        <td class="num" data-hours-value>07:00 am – 07:00 pm</td>
+      </tr>
+      <tr data-hours-row="fri">
+        <td data-i18n="hours.day.fri">hours.day.fri</td>
+        <td class="num" data-hours-value>07:00 am – 08:00 pm</td>
+      </tr>
+      <tr data-hours-row="sat">
+        <td data-i18n="hours.day.sat">hours.day.sat</td>
+        <td class="num" data-hours-value>07:30 am – 08:00 pm</td>
+      </tr>
+      <tr data-hours-row="sun">
+        <td data-i18n="hours.day.sun">hours.day.sun</td>
+        <td class="num" data-hours-value>07:30 am – 01:00 pm</td>
+      </tr></tbody></table>
+          <p class="tiny muted" style="margin-top:.9rem"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> <span data-i18n="hours.holiday">Closed 1 May, 25 Dec, 1 Jan. First week of August: mornings only.</span></p>
+        </div>
+        <div class="info-card" data-reveal>
+          <div class="map"><span class="map__pin"><span></span><b class="tiny">Metro A — Hôtel de Ville, 3 min on foot</b></span></div>
+          <div class="card">
+            <p class="tiny muted" style="text-transform:uppercase;letter-spacing:.1em" data-i18n="hours.address">Address</p>
+            <address><strong data-i18n="hours.addressValue">14 Place du Marché, 69001 Lyon</strong></address>
+            <p class="tiny muted" data-i18n="hours.transit">Metro A — Hôtel de Ville, 3 min on foot</p>
+            <div class="chip-row" style="margin-top:.6rem">
+              <a class="btn btn--sm btn--ghost" href="tel:+33600000000"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h3l2 5-2.5 1.5a12 12 0 0 0 6 6L15 13l5 2v3a2 2 0 0 1-2.2 2A17 17 0 0 1 3 5.2A2 2 0 0 1 5 3Z"/></svg><span data-i18n="hours.phone">Call the counter</span></a>
+              <a class="btn btn--sm" href="https://maps.google.com/?q=14%20Place%20du%20March%C3%A9%2C%2069001%20Lyon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg><span data-i18n="hours.directions">Get directions</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="voices">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h-sec" data-i18n="testimonials.title">What the street says</h2>
+        <p class="h-lead" data-i18n="testimonials.lead">Reviews from locals, walkers and one very persistent food blogger.</p>
+      </div>
+      <div class="quotes" data-carousel tabindex="0" role="group" aria-roledescription="carousel" aria-label="What the street says">
+        <div class="quotes__viewport"><div class="quotes__track" data-track>
+      <article class="quote-card" data-slide="v1" aria-roledescription="slide">
+        <p class="stars" aria-label="5/5">★★★★★</p>
+        <blockquote data-i18n="testimonials.v1.text">testimonials.v1.text</blockquote>
+        <div class="quote-card__who">
+          <span class="avatar" aria-hidden="true">MC</span>
+          <span><b data-i18n="testimonials.v1.name">testimonials.v1.name</b><br>
+          <span class="tiny muted" data-i18n="testimonials.v1.role">testimonials.v1.role</span></span>
+        </div>
+      </article>
+      <article class="quote-card quote-card--alt" data-slide="v2" aria-roledescription="slide">
+        <p class="stars" aria-label="5/5">★★★★★</p>
+        <blockquote data-i18n="testimonials.v2.text">testimonials.v2.text</blockquote>
+        <div class="quote-card__who">
+          <span class="avatar" aria-hidden="true">JR</span>
+          <span><b data-i18n="testimonials.v2.name">testimonials.v2.name</b><br>
+          <span class="tiny muted" data-i18n="testimonials.v2.role">testimonials.v2.role</span></span>
+        </div>
+      </article>
+      <article class="quote-card" data-slide="v3" aria-roledescription="slide">
+        <p class="stars" aria-label="5/5">★★★★★</p>
+        <blockquote data-i18n="testimonials.v3.text">testimonials.v3.text</blockquote>
+        <div class="quote-card__who">
+          <span class="avatar" aria-hidden="true">AS</span>
+          <span><b data-i18n="testimonials.v3.name">testimonials.v3.name</b><br>
+          <span class="tiny muted" data-i18n="testimonials.v3.role">testimonials.v3.role</span></span>
+        </div>
+      </article>
+      <article class="quote-card quote-card--alt" data-slide="v4" aria-roledescription="slide">
+        <p class="stars" aria-label="4/5">★★★★</p>
+        <blockquote data-i18n="testimonials.v4.text">testimonials.v4.text</blockquote>
+        <div class="quote-card__who">
+          <span class="avatar" aria-hidden="true">LB</span>
+          <span><b data-i18n="testimonials.v4.name">testimonials.v4.name</b><br>
+          <span class="tiny muted" data-i18n="testimonials.v4.role">testimonials.v4.role</span></span>
+        </div>
+      </article></div></div>
+        <div class="quotes__nav">
+          <div class="dots" role="tablist" aria-label="Reviews"><button type="button" data-dot="0" aria-selected="true" aria-label="testimonials.v1.name — 1/4"></button><button type="button" data-dot="1" aria-selected="false" aria-label="testimonials.v2.name — 2/4"></button><button type="button" data-dot="2" aria-selected="false" aria-label="testimonials.v3.name — 3/4"></button><button type="button" data-dot="3" aria-selected="false" aria-label="testimonials.v4.name — 4/4"></button></div>
+          <div class="chip-row">
+            <button class="icon-btn" type="button" data-prev aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <button class="icon-btn" type="button" data-next aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="order">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="nav.order">Pre-order</span>
+        <h2 class="h-sec" data-i18n="order.title">Pre-order for the counter</h2>
+        <p class="h-lead" data-i18n="order.lead">Fill this in, we print it at 5 a.m. and your bag is on the shelf with your name.</p>
+      </div>
+      <div class="order-grid">
+        <form class="card" name="preorder" novalidate data-reveal>
+          <div class="form-grid form-grid--2">
+            <p class="field"><label for="oname" data-i18n="order.name">Your name</label>
+              <input class="input" id="oname" name="name" required data-i18n-ph="order.namePh" placeholder="e.g. Camille Roux" autocomplete="name"><span class="field-error" data-err aria-live="polite"></span></p>
+            <p class="field"><label for="ophone" data-i18n="order.phone">Phone</label>
+              <input class="input" id="ophone" name="phone" type="tel" required data-i18n-ph="order.phonePh" placeholder="+33 6 12 34 56 78" autocomplete="tel"><span class="field-error" data-err aria-live="polite"></span></p>
+            <p class="field"><label for="omail" data-i18n="order.email">Email</label>
+              <input class="input" id="omail" name="email" type="email" data-i18n-ph="order.emailPh" placeholder="you@example.com" autocomplete="email"><span class="field-error" data-err aria-live="polite"></span></p>
+            <p class="field"><label for="odate" data-i18n="order.date">Collection day</label>
+              <input class="input" id="odate" name="date" type="date" required><span class="field-error" data-err aria-live="polite"></span></p>
+            <p class="field"><label for="otime" data-i18n="order.time">Collection time</label>
+              <select class="input" id="otime" name="time"><option value="06:30">06:30 am</option><option value="12:00">12:00 pm</option><option value="16:30">04:30 pm</option></select></p>
+            <p class="field"><label for="opeople" data-i18n="order.people">Number of people</label>
+              <input class="input" id="opeople" name="people" type="number" min="1" max="200" value="2"></p>
+          </div>
+          <p class="field" style="margin-top:1rem"><span class="tiny muted" data-i18n="order.method">How would you like it?</span>
+            <span class="radio-row">
+              <label><input type="radio" name="method" value="pickup" checked> <span data-i18n="order.pickup">Pick up in shop</span></label>
+              <label><input type="radio" name="method" value="delivery"> <span data-i18n="order.delivery">Bicycle delivery (3 km)</span></label>
+            </span></p>
+          <p class="field" style="margin-top:1rem"><label for="onotes" data-i18n="order.notes">Anything we should know</label>
+            <textarea class="input" id="onotes" name="notes" data-i18n-ph="order.notesPh" placeholder="Allergies, celebration, leave at the door…"></textarea></p>
+          <p class="field" style="margin-top:.6rem"><label style="display:flex;gap:.5rem;align-items:center;font-weight:500">
+            <input type="checkbox" name="consent" checked> <span data-i18n="order.consent">Text me when it is ready</span></label></p>
+          <div style="display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-top:1.1rem">
+            <button class="btn" type="submit" data-submit data-i18n="order.submit">Send my order</button>
+            <span data-order-handoff style="display:flex;gap:.5rem;flex-wrap:wrap"></span>
+          </div>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          <p class="form-note" style="margin-top:.8rem" data-i18n="order.privacy">We keep your order for 30 days, then delete it. No newsletters, ever.</p>
+        </form>
+        <aside class="card stack" style="--flow:.55rem" aria-label="Your basket" data-reveal>
+          <h3 data-i18n="order.summary">Your basket</h3>
+          <p data-basket-summary class="tiny muted">Nothing added yet — pick from the menu above.</p>
+          <p class="summary__row"><span data-i18n="basket.subtotal">Subtotal</span><b class="num" data-subtotal>€0.00</b></p>
+          <p class="summary__row summary__total"><span data-i18n="basket.total">Total</span><b class="num" data-total>€0.00</b></p>
+          <p class="tiny muted" data-i18n="basket.note">Nothing is charged online. We get paid at the till.</p>
+          <button class="btn btn--ghost btn--sm" type="button" data-open-basket data-i18n="nav.basket">Basket</button>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--edge" id="faq">
+    <div class="wrap wrap--narrow">
+      <div class="section-head">
+        <h2 class="h-sec" data-i18n="faq.title">Questions we get at the till</h2>
+        <p class="h-lead" data-i18n="faq.lead">Short answers, no small print.</p>
+      </div>
+      <div class="acc" data-acc>
+      <div class="acc__item" data-open="false">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="p-f1"><span data-i18n="faq.f1.q">faq.f1.q</span></button></h3>
+        <div class="acc__panel" id="p-f1" role="region"><div><p data-i18n="faq.f1.a">faq.f1.a</p></div></div>
+      </div>
+      <div class="acc__item" data-open="false">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="p-f2"><span data-i18n="faq.f2.q">faq.f2.q</span></button></h3>
+        <div class="acc__panel" id="p-f2" role="region"><div><p data-i18n="faq.f2.a">faq.f2.a</p></div></div>
+      </div>
+      <div class="acc__item" data-open="false">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="p-f3"><span data-i18n="faq.f3.q">faq.f3.q</span></button></h3>
+        <div class="acc__panel" id="p-f3" role="region"><div><p data-i18n="faq.f3.a">faq.f3.a</p></div></div>
+      </div>
+      <div class="acc__item" data-open="false">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="p-f4"><span data-i18n="faq.f4.q">faq.f4.q</span></button></h3>
+        <div class="acc__panel" id="p-f4" role="region"><div><p data-i18n="faq.f4.a">faq.f4.a</p></div></div>
+      </div>
+      <div class="acc__item" data-open="false">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="p-f5"><span data-i18n="faq.f5.q">faq.f5.q</span></button></h3>
+        <div class="acc__panel" id="p-f5" role="region"><div><p data-i18n="faq.f5.a">faq.f5.a</p></div></div>
+      </div></div>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="stack" style="--flow:.7rem">
+          <a class="brand" href="../../">
+            <span class="brand__mark" aria-hidden="true">HO</span>
+            <span class="brand__text"><span class="brand__name">Horno Vivo</span></span>
+          </a>
+          <p class="tiny muted" data-i18n="footer.blurb">Independent bakehouse, wood-fired oven, three bakes a day and a website that finally speaks the neighbourhood&#39;s languages.</p>
+          <p class="tiny"><span data-i18n="footer.made">Built with the Levain Kit</span> · <a class="kit-link" href="../../"><span data-i18n="footer.backKit">Back to the kit</span> →</a></p>
+        </div>
+        <div><h4 data-i18n="footer.hoursTitle">Opening hours</h4><ul><li><span data-i18n="hours.day.mon">hours.day.mon</span> — <span class="num">Closed</span></li><li><span data-i18n="hours.day.tue">hours.day.tue</span> — <span class="num">07:00 am–07:00 pm</span></li><li><span data-i18n="hours.day.wed">hours.day.wed</span> — <span class="num">07:00 am–07:00 pm</span></li><li><span data-i18n="hours.day.thu">hours.day.thu</span> — <span class="num">07:00 am–07:00 pm</span></li><li><span data-i18n="hours.day.fri">hours.day.fri</span> — <span class="num">07:00 am–08:00 pm</span></li><li><span data-i18n="hours.day.sat">hours.day.sat</span> — <span class="num">07:30 am–08:00 pm</span></li><li><span data-i18n="hours.day.sun">hours.day.sun</span> — <span class="num">07:30 am–01:00 pm</span></li></ul></div>
+        <div><h4 data-i18n="footer.contactTitle">Talk to us</h4>
+          <ul>
+            <li><a href="tel:+33600000000">+33 6 00 00 00 00</a></li>
+            <li><a href="mailto:hello@blablalba.dev">hello@blablalba.dev</a></li>
+            <li><a href="https://wa.me/33600000000">WhatsApp</a></li>
+            <li><a href="#hours" data-i18n="footer.instagram">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.langTitle">This site in</h4>
+          <ul><li><button type="button" data-set-lang="en" aria-current="true">English</button></li><li><button type="button" data-set-lang="fr" >Français</button></li><li><button type="button" data-set-lang="es" >Español</button></li><li><button type="button" data-set-lang="ar" >العربية</button></li></ul>
+          <form class="news" onsubmit="return false" aria-label="Newsletter">
+            <label class="sr-only" for="nl" data-i18n="footer.emailPh">Your email</label>
+            <input class="input" id="nl" type="email" data-i18n-ph="footer.emailPh" placeholder="Your email">
+            <button class="btn btn--sm" type="submit" data-i18n="footer.newsletterCta">Subscribe</button>
+          </form>
+          <p class="tiny muted" style="margin-top:.5rem" data-i18n="footer.newsletter">One message a month: what is baking, what is new.</p>
+        </div>
+      </div>
+      <div class="foot-bar">
+        <p>© 2026 Horno Vivo — <span data-i18n="footer.rights">All rights reserved.</span></p>
+        <p class="tiny"><span data-i18n="common.demo">Demo data</span> · <a href="#faq">FAQ</a> · <a href="#menu">Our bread</a></p>
+      </div>
+    </div>
+    <button class="icon-btn to-top" type="button" data-show="false" data-i18n-aria="common.top" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+  </footer>
+
+  <div class="scrim" data-scrim data-close-basket></div>
+  <aside class="basket" data-basket data-open="false" aria-hidden="true" aria-label="Your basket">
+    <div class="basket__head">
+      <h2 style="font-size:var(--fs-2)" data-i18n="basket.title">Your basket</h2>
+      <button class="icon-btn" type="button" data-close-basket data-i18n-aria="gallery.close" aria-label="Close gallery"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="basket__body" data-basket-body></div>
+    <div class="basket__foot">
+      <p class="summary__row"><span data-i18n="basket.total">Total</span><b class="num" data-total>€0.00</b></p>
+      <p class="tiny muted" data-i18n="basket.note">Nothing is charged online. We get paid at the till.</p>
+      <button class="btn btn--block" type="button" data-basket-whatsapp>Send basket on WhatsApp</button>
+      <a class="btn btn--ghost btn--block" href="#order" data-close-basket data-i18n="order.submit">Send my order</a>
+    </div>
+  </aside>
+  <script>window.LEVAIN_CFG={"templateId":"moderno","base":"../..","brandName":"Horno Vivo","brandSlug":"moderno","currency":"EUR","defaultLanguage":"en","languages":[{"code":"en","locale":"en-GB","name":"English","native":"English","dir":"ltr"},{"code":"fr","locale":"fr-FR","name":"French","native":"Français","dir":"ltr"},{"code":"es","locale":"es-ES","name":"Spanish","native":"Español","dir":"ltr"},{"code":"ar","locale":"ar-EB","name":"Arabic","native":"العربية","dir":"rtl"}],"products":[{"id":"sourdough","category":"bread","price":5.8,"weight":"1 kg","image":"img/product-sourdough.jpg","tags":["vegan"]},{"id":"tradition","category":"bread","price":1.6,"weight":"400 g","image":"img/product-baguette.jpg","tags":[]},{"id":"rye","category":"bread","price":6.4,"weight":"900 g","image":"img/product-rye.jpg","tags":["seeds"]},{"id":"croissant","category":"viennoiserie","price":2.4,"weight":"90 g","image":"img/product-croissant.jpg","tags":["signature"]},{"id":"chocolatine","category":"viennoiserie","price":2.7,"weight":"110 g","image":"img/product-pain-au-chocolat.jpg","tags":[]},{"id":"cinnamon","category":"viennoiserie","price":3.2,"weight":"120 g","image":"img/product-cinnamon.jpg","tags":["seasonal"]},{"id":"fruitart","category":"pastry","price":4.5,"weight":"1 pc","image":"img/product-tart.svg","tags":["seasonal"]},{"id":"eclair","category":"pastry","price":4.2,"weight":"1 pc","image":"img/product-eclair.svg","tags":["signature"]},{"id":"macaron","category":"pastry","price":2.2,"weight":"1 pc","image":"img/product-macaron.svg","tags":["gf"]},{"id":"basque","category":"celebration","price":28,"weight":"8 pers.","image":"img/product-cake.svg","tags":["order-ahead"]},{"id":"tropezien","category":"celebration","price":32,"weight":"10 pers.","image":"img/product-baba.svg","tags":["order-ahead"]},{"id":"kingcake","category":"celebration","price":24,"weight":"6 pers.","image":"img/product-galette.svg","tags":["seasonal"]}],"hours":[{"day":"mon","open":null,"close":null},{"day":"tue","open":"07:00","close":"19:00"},{"day":"wed","open":"07:00","close":"19:00"},{"day":"thu","open":"07:00","close":"19:00"},{"day":"fri","open":"07:00","close":"20:00"},{"day":"sat","open":"07:30","close":"20:00"},{"day":"sun","open":"07:30","close":"13:00"}],"batches":[{"id":"am","time":"06:30","items":["croissant","tradition"]},{"id":"noon","time":"12:00","items":["sourdough","rye"]},{"id":"pm","time":"16:30","items":["cinnamon","fruitart"]}],"templates":[{"id":"artisan","path":"templates/artisan","theme":"artisan","brandKey":"artisan","hero":"img/hero-artisan.jpg","accentImage":"img/hero-artisan.jpg","lang":"fr","heroLayout":"split","menuLayout":"grid","sections":["hero","marquee","specialties","menu","batch","story","services","gallery","testimonials","hours","order","faq","footer"],"markets":["FR","BE","CH","UK","CA","ES","DE","IT","AE","LB","JO"]},{"id":"patisserie","path":"templates/patisserie","theme":"patisserie","brandKey":"patisserie","hero":"img/hero-patisserie.jpg","accentImage":"img/hero-patisserie.jpg","lang":"fr","heroLayout":"editorial","menuLayout":"list","sections":["hero","marquee","specialties","menu","story","services","gallery","testimonials","batch","hours","order","faq","footer"],"markets":["FR","MC","BE","CH","ES","IT","UK","AE","LB","JO","QA"]},{"id":"moderno","path":"templates/moderno","theme":"moderno","brandKey":"moderno","hero":"img/hero-modern.jpg","accentImage":"img/hero-modern.jpg","lang":"es","heroLayout":"center","menuLayout":"cards","sections":["hero","specialties","menu","batch","story","services","gallery","hours","testimonials","order","faq","footer"],"markets":["ES","MX","AR","CL","CO","US","FR","DE","IT","AE","MA"]}],"whatsapp":"33600000000","email":"hello@blablalba.dev","packages":[{"id":"licence","price":149,"recurring":0,"days":0,"languages":4},{"id":"baguette","price":750,"recurring":0,"days":5,"languages":1},{"id":"croissant","price":1450,"recurring":0,"days":7,"languages":2},{"id":"patisserie","price":2900,"recurring":0,"days":14,"languages":4}],"options":[{"id":"language","price":220,"labelKey":"calc.opt.language"},{"id":"seo","price":380,"labelKey":"calc.opt.seo"},{"id":"photo","price":320,"labelKey":"calc.opt.photo"},{"id":"preorder","price":460,"labelKey":"calc.opt.preorder"},{"id":"care","price":45,"labelKey":"calc.opt.care","recurring":true}],"repo":"https://github.com/abdoo606/BLAblalba"};</script>
+  <script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Bakery",
+ "name": "Horno Vivo",
+ "description": "Four flours, one starter, twenty-six hours of patience. Baked twice a day, sold out by seven — come early or reserve online.",
+ "url": "/templates/moderno/index.html",
+ "telephone": "+33 6 00 00 00 00",
+ "email": "hello@blablalba.dev",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "14 Place du Marché, 69001 Lyon",
+  "addressCountry": "FR"
+ },
+ "inLanguage": [
+  "en",
+  "fr",
+  "es",
+  "ar"
+ ],
+ "openingHoursSpecification": [
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Tue",
+   "opens": "07:00",
+   "closes": "19:00"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Wed",
+   "opens": "07:00",
+   "closes": "19:00"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Thu",
+   "opens": "07:00",
+   "closes": "19:00"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Fri",
+   "opens": "07:00",
+   "closes": "20:00"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Sat",
+   "opens": "07:30",
+   "closes": "20:00"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Sun",
+   "opens": "07:30",
+   "closes": "13:00"
+  }
+ ],
+ "menu": "/#menu",
+ "servesCuisine": "French, Mediterranean",
+ "priceRange": "€€"
+}</script>
+    <script src="../../assets/i18n.generated.js" defer></script>
+    <script src="../../assets/app.js" defer></script>
+    <script src="../../assets/hub.js" defer></script>
+  </body>
+</html>

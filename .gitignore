@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# local artefacts (the built site in dist/ IS committed on purpose: clients can open it without a build step)
+.cache/
+.tmp/
+*.log
+.DS_Store
+Thumbs.db
+
+# packaged deliverables
+release/
+
+# editor
+.idea/
+*.swp
