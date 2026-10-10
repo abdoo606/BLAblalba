@@ -1,39 +1,39 @@
-#,Client / العميل,City,Country,Why now (public signal),Web status — verify,Template,Package,Langs,Add-ons,Price EUR,Price USD,Care €/mo,First-year EUR,Disc %,Priority
-1,August Bakery,London,GB,"Bakers' Dozen 2026 #1 (British Baker), opened only a year ago, queues on…",IG-first; site is thin - one landing page,artisan,patisserie,2,seo + photo + preorder,3857,4204,45,4397,5,B — upgrade
-2,Chatsworth Bakehouse,London,GB,"Bakers' Dozen 2026, 'sells out quicker than Glastonbury tickets', focus on…",Has simple site; no pre-order basket,artisan,croissant,2,preorder + photo,2230,2431,45,2770,0,B — upgrade
-3,Lovingly Artisan,Kendal / Burneside,GB,"Best artisan bakery 3 years running, new Burneside site, Baker of the Year…",Strong site + webshop - retainer/upgrade…,artisan,patisserie,2,seo + preorder,3740,4077,45,4280,0,B — upgrade
-4,Bread Source,Norwich / Norfolk,GB,"7 stores + public production bakery, Bakers' Dozen 2025 top 6",Multi-site CMS + 4 languages needed,artisan,patisserie,4,seo + photo + preorder,4060,4425,45,4600,0,B — upgrade
-5,The Tiny Bakery,Leicester,GB,"Bakers' Dozen 2026 entry, small team, national press without national web…",Unknown - verify before call,artisan,croissant,2,seo + photo,1935,2109,0,1935,10,B — upgrade
-6,Northern Rye,Newcastle / Tyneside,GB,"Bakers' Dozen 2026, regional cult following, wholesale growth",Instagram-only per public listings,moderno,baguette,1,seo,1017,1109,45,1557,10,A — hot
-7,Pettigrew Bakeries,Cardiff,GB,"Bakers' Dozen 2026; café + bakery + wholesale group, 100+ staff","Wix-era site, no online ordering",patisserie,croissant,2,preorder + seo,2290,2496,45,2830,0,B — upgrade
-8,Long Boi's Bakehouse,Manchester,GB,"Award-winning since 2020, all-female team, Levenshulme queue culture",Unknown - verify,moderno,croissant,2,photo + seo,2042,2226,0,2042,5,B — upgrade
-9,Masa Bakery,"Prestwich, Manchester",GB,"Started in a garage 2020, award-winning sourdough, now wholesale + market…",No shopfront; needs ordering flow,artisan,baguette,1,preorder,1089,1187,45,1629,10,B — upgrade
-10,Tiptree Patisserie,Essex,GB,National Bakery Awards 2025 regional pick for Essex,Unknown - verify,patisserie,croissant,2,photo + seo,2042,2226,0,2042,5,B — upgrade
-11,Entremets et Créations,Templeuve-en-Pévèle,FR,"Won the Nord-Pas-de-Calais week of 'La meilleure boulangerie de France' (M6),…",Small site or none; M6 coverage unmanaged,patisserie,croissant,2,seo + photo,2150,2344,45,2690,0,B — upgrade
-12,Boulangerie Bleue (Elio & Franck),Rueil-Malmaison,FR,"2025 Best Artisan Baker trophy, Hauts-de-Seine (employer category) +…",Local site; no English for expat clients,artisan,croissant,2,seo,1830,1995,45,2370,0,B — upgrade
-13,Maison Pitman,Lambersart,FR,"Regional finalist, praised 'artisan raffiné', growing wedding-cake side",No pre-order for entremets,patisserie,croissant,2,preorder + photo,2118,2309,0,2118,5,B — upgrade
-14,Boulangerie-Pâtisserie Familha,"Chambonas, Ardèche",FR,"Meilleure Boulangerie de France 2025 - national winner in a 1,000-person…",Zero national web funnel,artisan,patisserie,3,seo + photo + preorder,4060,4425,45,4600,0,A — hot
-15,Le Four à Pattes,"Mazaugues, Var",FR,"Var week winner 2025, rural micro-bakery, media exposure",Unknown - verify,artisan,baguette,1,seo,1017,1109,0,1017,10,A — hot
-16,Panera Boulangerie,Nice,FR,Côte d'Azur winner 2025 - tourist clientele needs EN/IT/ES menu,"Site exists, single language, no tourists…",moderno,croissant,3,seo + photo,2370,2583,45,2910,0,B — upgrade
-17,Grall's Family,La Garenne-Colombes,FR,"2025 Hauts-de-Seine runner-up, family group with several shops",Multi-location pages thin,artisan,croissant,2,preorder,1910,2082,45,2450,0,B — upgrade
-18,Forn Pa Serra,Barcelona,ES,"Third generation since 1929; source states plainly: 'no tienen ni web, ni…",NO website at all - hottest lead in the…,moderno,baguette,2,seo,1148,1251,45,1688,15,A — hot
-19,Forn Gil,Barcelona,ES,"Four generations since 1891, pa de pagès IGP, Sant Andreu institution",Outdated site or none - verify,moderno,croissant,3,seo + photo,2252,2455,45,2792,5,B — upgrade
-20,Fleca Balmes,Barcelona,ES,"Neighbourhood fleca since 1912, cake + confectionery line",Unknown - verify,patisserie,croissant,2,photo,1593,1736,0,1593,10,B — upgrade
-21,Oz Natural Bakery,Barcelona (Gràcia),ES,"Ranked in the city's top artisan bakeries 2025, challah + brookies cult…",Basic site; no ordering,moderno,croissant,2,seo + preorder,2176,2372,45,2716,5,B — upgrade
-22,Novo Mundo,Madrid (La Latina),ES,"'La panadería del Rastro', best bread in Madrid 2023, café + counter",No e-commerce,artisan,croissant,2,seo + photo,2042,2226,0,2042,5,B — upgrade
-23,Panadario,Madrid (Salamanca),ES,"100% masa madre obrador since 2015, wholesale to restaurants",No B2B page for hostelería,moderno,croissant,2,preorder + seo,2176,2372,45,2716,5,B — upgrade
-24,Panátika,Madrid (Lista),ES,"Neighbourhood obrador with custom allergy-friendly bakes (no-salt rye,…",Unknown - verify,patisserie,baguette,1,seo,1017,1109,0,1017,10,B — upgrade
-25,Handy Bakery,Barcelona (Gràcia),ES,"New 2025 opening (bakery + patisserie + specialty coffee) - greenfield, needs…",Brand new; likely no site yet,patisserie,croissant,3,photo + seo + preorder,2830,3085,45,3370,0,A — hot
-26,Wild Crumb,"Bozeman, MT",US,James Beard 2026 Outstanding Bakery WINNER in a 55k-person mountain town,"Has a site; no ordering, no bilingual",artisan,patisserie,2,seo + photo + preorder,4060,4425,45,4600,0,A — hot
-27,JinJu Patisserie,"Portland, OR",US,"James Beard 2025 Outstanding Bakery; relocating to 3494 N Williams Ave, soft…","Rebrand moment = new site, high intent",patisserie,patisserie,3,seo + photo,3600,3924,45,4140,0,B — upgrade
-28,Weltons Tiny Bakeshop,"Charleston, SC",US,"James Beard 2026 Outstanding Bakery finalist, one-room shop",Instagram-first; national press with no…,patisserie,baguette,2,seo,1215,1324,45,1755,10,A — hot
-29,Super Secret Ice Cream,"Bethlehem, NH",US,"JB 2026 finalist for Outstanding Bakery - rural NH, huge seasonal traffic",Unknown - verify,moderno,baguette,1,seo + photo,1305,1422,0,1305,10,B — upgrade
-30,Cultured,"Sister Bay, WI",US,JB 2026 finalist on the Door County peninsula - tourist season rush,"Seasonal site, no pre-order for resorts",patisserie,croissant,2,preorder + seo,2176,2372,45,2716,5,B — upgrade
-31,Fire Island Rustic Bakeshop,"Anchorage, AK",US,"JB 2026 finalist - remote market, mail-order potential",No national/webshop reach,artisan,patisserie,2,photo + preorder,3496,3811,45,4036,5,B — upgrade
-32,Pancho Anaya,"Tulsa, OK",US,"Century-old panadería (Michoacán roots), expanding family business","Bilingual audience, no ES site",moderno,patisserie,3,seo + photo,3600,3924,45,4140,0,B — upgrade
-33,Belle's Bread,"Columbus, OH",US,"Multiple locations, growing bakery group + catering","Corporate-ish site, weak ordering",moderno,croissant,2,preorder,1910,2082,45,2450,0,B — upgrade
-34,Noble Bread,"Phoenix, AZ",US,"Home launch 2012 → city-wide staple, sells to restaurants across town",No wholesale portal,artisan,croissant,2,preorder + seo,2290,2496,45,2830,0,B — upgrade
-35,Babettes Artisan Breads,"Denver, CO",US,Sells out of every loaf daily inside a busy market hall; catering expansion,"No pre-order, no 'notify me'",artisan,baguette,2,seo,1282,1397,0,1282,5,B — upgrade
-36,Poupart Beacon Bakery,"Lafayette, LA",US,"James Beard America's Classic 2025 buzz, French market café + wholesale bread",Legacy site; no online menu,patisserie,croissant,3,seo + photo,2252,2455,45,2792,5,B — upgrade
+#,Client / العميل,City,Country,Status,Verified contact,What their web presence actually is,Package,Price EUR,Price USD,Care €/mo,Priority
+1,August Bakery,London,GB,VERIFIED,hello@august-bakery.com · +44 7707 038794,august-bakery.com (Squarespace),patisserie,3857,4204,45,B — upgrade
+6,Northern Rye,Newcastle / Tyneside,GB,VERIFIED,shop@northern-rye.co.uk · +44 191 250 9716,northern-rye.co.uk,croissant,2385,2600,45,A — hot
+18,Forn Pa Serra,Barcelona,ES,VERIFIED,"+34 934 242 541 · Carrer de l'Olivera 31,…",NONE — only Yelp/Tripadvisor/aggregators + a junk…,baguette,1148,1251,45,A — hot
+25,Handy Bakery,Barcelona (Gràcia) — Carrer de…,ES,VERIFIED,Instagram @handybakery_ · Carrer de Rabassa…,handybakery.es — one sentence: “Contáctanos por Instagram”,croissant,2830,3085,45,A — hot
+28,Weltons Tiny Bakeshop,"Charleston, SC",US,VERIFIED,+1 843-666-7277 (no public email found),weltonstinybakeshop.com,baguette,1215,1324,45,A — hot
+2,Chatsworth Bakehouse,London,GB,to verify,check Google Business profile / their IG bio,?,croissant,2230,2431,45,B — upgrade
+3,Lovingly Artisan,Kendal / Burneside,GB,to verify,check Google Business profile / their IG bio,?,patisserie,3740,4077,45,B — upgrade
+4,Bread Source,Norwich / Norfolk,GB,to verify,check Google Business profile / their IG bio,?,patisserie,4060,4425,45,B — upgrade
+5,The Tiny Bakery,Leicester,GB,to verify,check Google Business profile / their IG bio,?,croissant,1935,2109,0,B — upgrade
+7,Pettigrew Bakeries,Cardiff,GB,to verify,check Google Business profile / their IG bio,?,croissant,2290,2496,45,B — upgrade
+8,Long Boi's Bakehouse,Manchester,GB,to verify,check Google Business profile / their IG bio,?,croissant,2042,2226,0,B — upgrade
+9,Masa Bakery,"Prestwich, Manchester",GB,to verify,check Google Business profile / their IG bio,?,baguette,1089,1187,45,B — upgrade
+10,Tiptree Patisserie,Essex,GB,to verify,check Google Business profile / their IG bio,?,croissant,2042,2226,0,B — upgrade
+11,Entremets et Créations,Templeuve-en-Pévèle,FR,to verify,check Google Business profile / their IG bio,?,croissant,2150,2344,45,B — upgrade
+12,Boulangerie Bleue (Elio & Franck),Rueil-Malmaison,FR,to verify,check Google Business profile / their IG bio,?,croissant,1830,1995,45,B — upgrade
+13,Maison Pitman,Lambersart,FR,to verify,check Google Business profile / their IG bio,?,croissant,2118,2309,0,B — upgrade
+14,Boulangerie-Pâtisserie Familha,"Chambonas, Ardèche",FR,to verify,check Google Business profile / their IG bio,?,patisserie,4060,4425,45,A — hot
+15,Le Four à Pattes,"Mazaugues, Var",FR,to verify,check Google Business profile / their IG bio,?,baguette,1017,1109,0,A — hot
+16,Panera Boulangerie,Nice,FR,to verify,check Google Business profile / their IG bio,?,croissant,2370,2583,45,B — upgrade
+17,Grall's Family,La Garenne-Colombes,FR,to verify,check Google Business profile / their IG bio,?,croissant,1910,2082,45,B — upgrade
+19,Forn Gil,Barcelona,ES,to verify,check Google Business profile / their IG bio,?,croissant,2252,2455,45,B — upgrade
+20,Fleca Balmes,Barcelona,ES,to verify,check Google Business profile / their IG bio,?,croissant,1593,1736,0,B — upgrade
+21,Oz Natural Bakery,Barcelona (Gràcia),ES,to verify,check Google Business profile / their IG bio,?,croissant,2176,2372,45,B — upgrade
+22,Novo Mundo,Madrid (La Latina),ES,to verify,check Google Business profile / their IG bio,?,croissant,2042,2226,0,B — upgrade
+23,Panadario,Madrid (Salamanca),ES,to verify,check Google Business profile / their IG bio,?,croissant,2176,2372,45,B — upgrade
+24,Panátika,Madrid (Lista),ES,to verify,check Google Business profile / their IG bio,?,baguette,1017,1109,0,B — upgrade
+26,Wild Crumb,"Bozeman, MT",US,to verify,check Google Business profile / their IG bio,?,patisserie,4060,4425,45,A — hot
+27,JinJu Patisserie,"Portland, OR",US,to verify,check Google Business profile / their IG bio,?,patisserie,3600,3924,45,B — upgrade
+29,Super Secret Ice Cream,"Bethlehem, NH",US,to verify,check Google Business profile / their IG bio,?,baguette,1305,1422,0,B — upgrade
+30,Cultured,"Sister Bay, WI",US,to verify,check Google Business profile / their IG bio,?,croissant,2176,2372,45,B — upgrade
+31,Fire Island Rustic Bakeshop,"Anchorage, AK",US,to verify,check Google Business profile / their IG bio,?,patisserie,3496,3811,45,B — upgrade
+32,Pancho Anaya,"Tulsa, OK",US,to verify,check Google Business profile / their IG bio,?,patisserie,3600,3924,45,B — upgrade
+33,Belle's Bread,"Columbus, OH",US,to verify,check Google Business profile / their IG bio,?,croissant,1910,2082,45,B — upgrade
+34,Noble Bread,"Phoenix, AZ",US,to verify,check Google Business profile / their IG bio,?,croissant,2290,2496,45,B — upgrade
+35,Babettes Artisan Breads,"Denver, CO",US,to verify,check Google Business profile / their IG bio,?,baguette,1282,1397,0,B — upgrade
+36,Poupart Beacon Bakery,"Lafayette, LA",US,to verify,check Google Business profile / their IG bio,?,croissant,2252,2455,45,B — upgrade
 
-,TOTAL — 36 prospects,,,,,,,,,82177,89575,1170,96217,,
+,TOTAL 36 prospects (5 verified today),,,,,,,83545,91064,1170,
