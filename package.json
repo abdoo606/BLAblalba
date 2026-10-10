@@ -13,7 +13,8 @@
     "start": "node tools/serve.mjs",
     "validate": "node tools/validate.mjs",
     "package": "node tools/package.mjs",
-    "test": "node tools/smoke.mjs"
+    "test": "node tools/smoke.mjs",
+    "smoke": "node tools/smoke.mjs"
   },
   "keywords": [
     "bakery",
