@@ -91,7 +91,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [82-hart-s-bakery](./82-hart-s-bakery.md) | Hart's Bakery | Bristol | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [83-haxby-bakehouse](./83-haxby-bakehouse.md) | Haxby Bakehouse | York | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [84-hilda-bakery](./84-hilda-bakery.md) | Hilda Bakery | Bristol | 1 | patisserie | 1830 | ⬜ | to be found during verification |
-| [85-imma-the-bakery](./85-imma-the-bakery.md) | Imma The Bakery | Stoke Row, near Henley-on-Thames | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [85-imma-the-bakery](./85-imma-the-bakery.md) | Imma The Bakery | Stoke Row, near Henley-on-Thames | 1 | artisan | 1130 | ✅ | email |
 | [86-kanto](./86-kanto.md) | Kanto | Cambridge | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [87-landrace-bakery](./87-landrace-bakery.md) | Landrace Bakery | Bath | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [88-lannan-bakery](./88-lannan-bakery.md) | Lannan Bakery | Edinburgh | 1 | artisan | 1450 | ⬜ | to be found during verification |
@@ -132,7 +132,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [126-bale-artisano](./126-bale-artisano.md) | Balé Artisano | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [127-artigrano](./127-artigrano.md) | Artigrano | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [128-barrio-bread](./128-barrio-bread.md) | Barrio Bread | Tucson, AZ | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ✅ | email |
 | [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [133-1900-barker-bakery-and-cafe](./133-1900-barker-bakery-and-cafe.md) | 1900 Barker Bakery and Cafe | Lawrence, KS | 1 | artisan | 1630 | ⬜ | to be found during verification |
@@ -142,4 +142,4 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [137-carstens-bakery](./137-carstens-bakery.md) | Carstens Bakery | Idaho Falls, ID | 1 | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 24 of 134 are ✅.
+so the message stays undelivered until someone opens their site. 26 of 134 are ✅.

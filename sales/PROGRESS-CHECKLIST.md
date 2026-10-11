@@ -81,3 +81,14 @@ Three things must exist **before the first email leaves**, and none of them is t
 Mass-send from your Gmail without a per-lead read; invent or scrape emails; quote a price that isn't in
 `sales/drive-clients-pricing.csv`; register a domain in your name; sign anything; take a call; sit between
 turns watching your inbox (ping me with “check replies” and I do it in the same minute).
+
+## The 108 to-verify queue — how it is being worked (started 2026-10-11)
+Verification is the bottleneck, not writing. One unit of work = one shop: open their own site, paste what the
+page says into `audit_note`, record the published email in `contact_verified`, set `verification` to
+`VERIFIED 2026-10-11`, then `node tools/make-pitches.mjs` + `python3 tools/make-sheet.py`. If an address was
+published on their own page, it is sent the same morning; if not, the row becomes a phone/DM row and stays unsent.
+Order of work: (1) Britain's Best Loaf 2026 medallists and GFG 50 Best 2026 entries in Great Britain,
+(2) the 2026 US state picks, (3) older to-verify rows. Batch 1 is done: Imma The Bakery (verified → emailed)
+and Sea Wolf Bakers (verified → no pitch, their stack is ahead of ours). Nothing is sent from a press list
+without the site being opened first, and the numbers in `README.md`, `sales/OUTREACH.md` and the register PDF
+are regenerated from the CSVs - `python3 tools/make-register.py` - never typed.

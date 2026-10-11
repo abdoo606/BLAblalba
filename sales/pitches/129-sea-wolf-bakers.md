@@ -1,15 +1,16 @@
 # Sea Wolf Bakers — design board & pitch
 
-Seattle, WA, US · B · template **artisan** · baguette · 1450 €
-Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
+Seattle, WA, US · D - no pitch · template **artisan** · baguette · 1450 €
+Verified 2026-10-11: **YES**
 
 ## 1. Why them, now
 Food Republic's best bakery in Washington 2026; supplies 30+ local restaurants and cafés
-Source on file: Food Republic, 'best bakery in every US state', 2026-08-18.
+Source on file: Food Republic, 'best bakery in every US state', 2026-08-18 | own site opened 2026-10-11 (contact + wholesale).
 
 ## 2. What their web presence actually is
-public notes say: “Wholesale accounts on a napkin: no trade page, no ordering, no hours in one place” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Wholesale accounts on a napkin: no trade page, no ordering, no hours in one place
+OPENED 2026-10-11 10:33Z: seawolfbakers.com/contact + /wholesale (search-indexed copy of their own page). I wrote in the first pass that they had 'no trade page, no ordering' - that was WRONG and I checked: there is a wholesale page, a Wholesale Portal Guide explaining invoice previews and order edits, office hours for the trade desk (7-3 Mon-Fri), orders@ and support@ for portal problems, classes@ on the contact page, closure dates published in advance, gift cards, careers, donations. This is a bakery that already has a developer. NO PITCH, recorded so the next batch does not re-sell them the same thing. The false line in web_presence_note is left visible here as a reminder of what 'not opened yet' means: it is a hypothesis, not a fact.
+Found live: https://www.seawolfbakers.com
+Contact: classes@seawolfbakers.com is the only email on /contact (rest is a form); wholesale/orders@ and support@ on /wholesale - 206-360-0001 - 3617 Stone Way N STE 101, Seattle WA 98103
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
@@ -17,11 +18,11 @@ Claimed earlier (press/aggregator): Wholesale accounts on a napkin: no trade pag
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
 - **Hero line:** “Sea Wolf Bakers — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
-## 4. What I would say (first touch, to be found during verification)
-> Hi Sea Wolf Bakers team — I looked at your online presence this morning. public notes say: “Wholesale accounts on a napkin: no trade page, no ordering, no hours in one place” — open their site before you use this sentence.
+## 4. What I would say (first touch, email)
+> Hi Sea Wolf Bakers team — I looked at https://www.seawolfbakers.com this morning. OPENED 2026-10-11 10:33Z: seawolfbakers.com/contact + /wholesale (search-indexed copy of their own page). I wrote in the first pass that they had 'no trade page, no ordering' - that was WRONG and I checked: there is a wholesale page, a Wholesale Portal Guide explaining invoice previews and order edits, office hours for the trade desk (7-3 Mon-Fri), orders@ and support@ for portal problems, classes@ on the contact page, closure dates published in advance, gift cards, careers, donations. This is a bakery that already has a developer. NO PITCH, recorded so the next batch does not re-sell them the same thing. The false line in web_presence_note is left visible here as a reminder of what 'not opened yet' means: it is a hypothesis, not a fact.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
