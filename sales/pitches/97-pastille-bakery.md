@@ -1,6 +1,6 @@
 # Pastille Bakery — design board & pitch
 
-Liverpool, GB · B · template **patisserie** · croissant · 1830 €
+Liverpool, GB · A - hot · template **artisan** · croissant · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -8,21 +8,21 @@ GFG 50 Best 2026 new entry
 Source on file: Good Food Guide, Britain's 50 Best Bakeries 2026 (published 2026-03-24; list as printed by the Evening Standard/Timeout).
 
 ## 2. What their web presence actually is
-public notes say: “Liverpool pastry counter, nothing to reserve” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Liverpool pastry counter, nothing to reserve
+public notes say: “Site read 2026-10-11: pastillebakery.com. Sent 1450 EUR pitch.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site read 2026-10-11: pastillebakery.com. Sent 1450 EUR pitch.
 
 ## 3. The design I'd ship
-- **Template:** patisserie · **palette:** Pistachio, cream, mint — `#141b1a ink / #3f8f7a accent / #f2f7f4 paper / #4a6b62 muted`
-- **Sections, in order:** hero → marquee → specialties → menu → story → services → gallery → testimonials → batch → hours → order → faq → footer
+- **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer
 - **Languages:** en
-- **Menu to enter (their real items, from their own posts):** Macaron £2.20 · pastry · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie
+- **Menu to enter (their real items, from their own posts):** Butter Croissant £2.40 · viennoiserie · Macaron £2.20 · pastry · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Pain Au Chocolat £2.70 · viennoiserie
 - **Hero line:** “Pastille Bakery — what the whole street talks about” — one language, so it stays human.
 - **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
-- **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
+- **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Pastille Bakery team — I looked at your online presence this morning. public notes say: “Liverpool pastry counter, nothing to reserve” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1575 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
+> Hi Pastille Bakery team — I looked at pastillebakery.com this morning. public notes say: “Site read 2026-10-11: pastillebakery.com. Sent 1450 EUR pitch.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >

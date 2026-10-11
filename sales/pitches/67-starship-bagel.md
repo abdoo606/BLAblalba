@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Not audited. On the same shortlist that prod
 - **Live preview:** `dist/templates/moderno/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Starship Bagel team — I looked at your online presence this morning. public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence.
+> Hi Starship Bagel team — I looked at starshipbagel.com this morning. public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, specialties, menu, batch — 1230 $ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

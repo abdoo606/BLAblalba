@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): One location, no online menu prices, no way 
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Arôme Bakery team — I looked at your online presence this morning. public notes say: “One location, no online menu prices, no way to pre-order a box before the 8am rush” — open their site before you use this sentence.
+> Hi Arôme Bakery team — I looked at aromebakery.co.uk this morning. public notes say: “One location, no online menu prices, no way to pre-order a box before the 8am rush” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1575 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

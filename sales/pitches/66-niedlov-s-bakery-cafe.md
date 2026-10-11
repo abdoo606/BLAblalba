@@ -1,6 +1,6 @@
 # Niedlov's Bakery & Cafe — design board & pitch
 
-Chattanooga, TN, US · B — upgrade · template **artisan** · licence · 149 €
+Chattanooga, TN, US · A - hot · template **artisan** · licence · 2900 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -8,8 +8,8 @@ James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list publi
 Source on file: jamesbeard.org 2026 semifinalists (2026-08-19).
 
 ## 2. What their web presence actually is
-public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.
+public notes say: “Site read 2026-10-11: niedlovs.com. Sent 2900 EUR pitch.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site read 2026-10-11: niedlovs.com. Sent 2900 EUR pitch.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
@@ -21,8 +21,8 @@ Claimed earlier (press/aggregator): Not audited. On the same shortlist that prod
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Niedlov's Bakery & Cafe team — I looked at your online presence this morning. public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 160 $ delivered in 3 days, and the files and repository are yours, no subscription, no Shopify fees.
+> Hi Niedlov's Bakery & Cafe team — I looked at niedlovs.com this morning. public notes say: “Site read 2026-10-11: niedlovs.com. Sent 2900 EUR pitch.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 3160 $ delivered in 3 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >

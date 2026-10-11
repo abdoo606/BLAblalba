@@ -15,13 +15,13 @@ Claimed earlier (press/aggregator): Bristol; order-ahead exists on paper only
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
 - **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **gallery: 9 shots, client-shot, I direct remotely**
 - **Languages:** en
-- **Menu to enter (their real items, from their own posts):** Macaron £2.20 · pastry · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie
+- **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Morning Bun £3.20 · viennoiserie · Vanilla & Fruit Tart £4.50 · pastry · Macaron £2.20 · pastry · King Cake (Galette) £24.00 · celebration · Baguette De Tradition £1.60 · bread
 - **Hero line:** “Hart's Bakery — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Hart's Bakery team — I looked at your online presence this morning. public notes say: “Bristol; order-ahead exists on paper only” — open their site before you use this sentence.
+> Hi Hart's Bakery team — I looked at hartsbakery.co.uk this morning. public notes say: “Bristol; order-ahead exists on paper only” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

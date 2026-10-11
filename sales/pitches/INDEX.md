@@ -58,17 +58,17 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [52-night-moves-bread](./52-night-moves-bread.md) | Night Moves Bread | South Portland, ME | 1 | artisan | 1910 | ⬜ | to be found during verification |
 | [53-poulette-bakeshop](./53-poulette-bakeshop.md) | Poulette Bakeshop | Parker, CO | 1 | artisan | 149 | ✅ | phone / counter / DM (no public email) |
 | [54-damsel-bakery](./54-damsel-bakery.md) | Damsel Bakery | Crieff, Perthshire | 1 | artisan | 1130 | ⬜ | to be found during verification |
-| [55-two-magpies-bakery](./55-two-magpies-bakery.md) | Two Magpies Bakery | Norfolk + Suffolk (11 shops) | 1 | artisan | 3620 | ⬜ | to be found during verification |
+| [55-two-magpies-bakery](./55-two-magpies-bakery.md) | Two Magpies Bakery | Norfolk + Suffolk (11 shops) | 1 | artisan | 2900 | ⬜ | to be found during verification |
 | [56-hobbs-house-bakery](./56-hobbs-house-bakery.md) | Hobbs House Bakery | Sherston / Malmesbury, Wiltshire | 1 | artisan | 149 | ✅ | phone / counter / DM (no public email) |
 | [57-most-bakery](./57-most-bakery.md) | MOST Bakery | Altrincham | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [58-harry-gow-bakery](./58-harry-gow-bakery.md) | Harry Gow Bakery | Inverness | 1 | artisan | 1830 | ⬜ | to be found during verification |
 | [59-banh-by-lauren](./59-banh-by-lauren.md) | Bánh by Lauren | New York, NY | 1 | patisserie | 2900 | ⬜ | to be found during verification |
 | [60-the-burque-bakehouse](./60-the-burque-bakehouse.md) | The Burque Bakehouse | Albuquerque, NM | 1 | artisan | 1830 | ⬜ | to be found during verification |
 | [62-dan-the-baker](./62-dan-the-baker.md) | Dan The Baker | Columbus, OH | 1 | artisan | 1830 | ⬜ | to be found during verification |
-| [63-deluxe-cakes-and-pastries](./63-deluxe-cakes-and-pastries.md) | DeLuxe Cakes and Pastries | Iowa City, IA | 1 | patisserie | 2900 | ⬜ | to be found during verification |
+| [63-deluxe-cakes-and-pastries](./63-deluxe-cakes-and-pastries.md) | DeLuxe Cakes and Pastries | Iowa City, IA | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [64-librae-bakery](./64-librae-bakery.md) | Librae Bakery | New York, NY | 1 | patisserie | 2900 | ⬜ | to be found during verification |
 | [65-mercado-sin-nombre](./65-mercado-sin-nombre.md) | Mercado Sin Nombre | Austin, TX | 1 | moderno | 1670 | ⬜ | to be found during verification |
-| [66-niedlov-s-bakery-cafe](./66-niedlov-s-bakery-cafe.md) | Niedlov's Bakery & Cafe | Chattanooga, TN | 1 | artisan | 149 | ⬜ | to be found during verification |
+| [66-niedlov-s-bakery-cafe](./66-niedlov-s-bakery-cafe.md) | Niedlov's Bakery & Cafe | Chattanooga, TN | 1 | artisan | 2900 | ⬜ | to be found during verification |
 | [67-starship-bagel](./67-starship-bagel.md) | Starship Bagel | Dallas, TX | 1 | moderno | 1130 | ⬜ | to be found during verification |
 | [68-the-local-general-store](./68-the-local-general-store.md) | The Local General Store | Honolulu, HI | n | artisan | 1450 | ⬜ | to be found during verification |
 | [69-i-loaf-sourdough](./69-i-loaf-sourdough.md) | I Loaf Sourdough | Fort Lauderdale, FL | 1 | artisan | 1130 | ✅ | email |
@@ -81,11 +81,11 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [144-bandit-bakery](./144-bandit-bakery.md) | Bandit Bakery | Aberdeen | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [145-breadmill-bakery](./145-breadmill-bakery.md) | Breadmill Bakery | Nottingham | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [74-don-t-tell-dad](./74-don-t-tell-dad.md) | Don't Tell Dad | Queen's Park, London | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [75-e5-bakehouse](./75-e5-bakehouse.md) | E5 Bakehouse | Hackney, London | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [75-e5-bakehouse](./75-e5-bakehouse.md) | E5 Bakehouse | Hackney, London | 1 | artisan | 2900 | ⬜ | to be found during verification |
 | [76-eric-s](./76-eric-s.md) | Eric's | East Dulwich, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
 | [77-farro](./77-farro.md) | Farro | Bristol | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [78-field-bakery](./78-field-bakery.md) | Field Bakery | Bridgwater | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [79-fred-bakery](./79-fred-bakery.md) | Fred Bakery | Oxford Circus, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [79-fred-bakery](./79-fred-bakery.md) | Fred Bakery | Oxford Circus, London | 1 | artisan | 2900 | ⬜ | to be found during verification |
 | [80-grain-hearth](./80-grain-hearth.md) | Grain & Hearth | Whitstable | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [81-hamblin-bread](./81-hamblin-bread.md) | Hamblin Bread | Oxford | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [82-hart-s-bakery](./82-hart-s-bakery.md) | Hart's Bakery | Bristol | 1 | artisan | 1450 | ⬜ | to be found during verification |
@@ -101,7 +101,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [94-native-grain](./94-native-grain.md) | Native Grain | Truro | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [95-nourish-bakery](./95-nourish-bakery.md) | Nourish Bakery | Fishguard | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [96-nova-bakehouse](./96-nova-bakehouse.md) | Nova Bakehouse | Leeds | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [97-pastille-bakery](./97-pastille-bakery.md) | Pastille Bakery | Liverpool | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [97-pastille-bakery](./97-pastille-bakery.md) | Pastille Bakery | Liverpool | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [98-pipit-bakery](./98-pipit-bakery.md) | Pipit Bakery | Bradford on Avon | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [99-pollen-bakery](./99-pollen-bakery.md) | Pollen Bakery | Manchester | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [100-rye-bakery-pizzeria](./100-rye-bakery-pizzeria.md) | Rye Bakery & Pizzeria | Frome | 1 | artisan | 1450 | ⬜ | to be found during verification |

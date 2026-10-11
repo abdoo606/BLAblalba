@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Several shops, one menu per shop, no single 
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Gail's team — I looked at your online presence this morning. public notes say: “Several shops, one menu per shop, no single source of truth - the exact thing the kit is for” — open their site before you use this sentence.
+> Hi Gail's team — I looked at gails.com this morning. public notes say: “Several shops, one menu per shop, no single source of truth - the exact thing the kit is for” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1400 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo, extra location.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

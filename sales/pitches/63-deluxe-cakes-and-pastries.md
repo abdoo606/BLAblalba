@@ -1,6 +1,6 @@
 # DeLuxe Cakes and Pastries — design board & pitch
 
-Iowa City, IA, US · B — upgrade · template **patisserie** · patisserie · 2900 €
+Iowa City, IA, US · A - hot · template **artisan** · patisserie · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -8,21 +8,21 @@ James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list publi
 Source on file: jamesbeard.org 2026 semifinalists (2026-08-19).
 
 ## 2. What their web presence actually is
-public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.
+public notes say: “Site read 2026-10-11: deluxeiowa.com. Sent 1450 EUR pitch.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site read 2026-10-11: deluxeiowa.com. Sent 1450 EUR pitch.
 
 ## 3. The design I'd ship
-- **Template:** patisserie · **palette:** Raspberry, buttercream — `#20141c ink / #c2496b accent / #fdf4f6 paper / #7a4256 muted`
-- **Sections, in order:** hero → marquee → specialties → menu → story → services → gallery → testimonials → batch → hours → order → faq → footer
+- **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
 - **Hero line:** “DeLuxe Cakes and Pastries — what the whole street talks about” — one language, so it stays human.
 - **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
-- **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
+- **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi DeLuxe Cakes and Pastries team — I looked at your online presence this morning. public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 3160 $ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees.
+> Hi DeLuxe Cakes and Pastries team — I looked at deluxeiowa.com this morning. public notes say: “Site read 2026-10-11: deluxeiowa.com. Sent 1450 EUR pitch.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >

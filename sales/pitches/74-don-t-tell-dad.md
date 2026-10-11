@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Named on a national top-50 and still sells t
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Don't Tell Dad team — I looked at your online presence this morning. public notes say: “Named on a national top-50 and still sells through an Instagram story” — open their site before you use this sentence.
+> Hi Don't Tell Dad team — I looked at donttelldad.co.uk this morning. public notes say: “Named on a national top-50 and still sells through an Instagram story” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

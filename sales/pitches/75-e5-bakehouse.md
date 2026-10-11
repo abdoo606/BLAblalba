@@ -1,6 +1,6 @@
 # E5 Bakehouse — design board & pitch
 
-Hackney, London, GB · B · template **artisan** · baguette · 1450 €
+Hackney, London, GB · A - hot · template **artisan** · baguette · 2900 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -8,12 +8,12 @@ GFG 50 Best 2026 returnee; the bakers' bakery, whole-food bakery with training p
 Source on file: Good Food Guide, Britain's 50 Best Bakeries 2026 (published 2026-03-24; list as printed by the Evening Standard/Timeout).
 
 ## 2. What their web presence actually is
-public notes say: “Big reputation, old-looking web presence; wholesale trade page deserves to be first-class” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Big reputation, old-looking web presence; wholesale trade page deserves to be first-class
+public notes say: “Site read 2026-10-11: e5bakehouse.com. Sent 2900 EUR pitch.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site read 2026-10-11: e5bakehouse.com. Sent 2900 EUR pitch.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
-- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **gallery: 9 shots, client-shot, I direct remotely**
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Macaron £2.20 · pastry · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie
 - **Hero line:** “E5 Bakehouse — what the whole street talks about” — one language, so it stays human.
@@ -21,8 +21,8 @@ Claimed earlier (press/aggregator): Big reputation, old-looking web presence; wh
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi E5 Bakehouse team — I looked at your online presence this morning. public notes say: “Big reputation, old-looking web presence; wholesale trade page deserves to be first-class” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
+> Hi E5 Bakehouse team — I looked at e5bakehouse.com this morning. public notes say: “Site read 2026-10-11: e5bakehouse.com. Sent 2900 EUR pitch.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 2495 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
