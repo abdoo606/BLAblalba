@@ -1,15 +1,15 @@
 # Bing's Bakery — design board & pitch
 
-Newark, DE, US · B · template **artisan** · baguette · 1450 €
+Newark, DE, US · C - from a 2026 list · template **artisan** · Baguette · 750 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-Food Republic's best bakery in Delaware 2026; founded 2014, 'thriving ever since'
-Source on file: Food Republic, 'best bakery in every US state', 2026-08-18.
+Named the best bakery in Delaware by Food Republic (18/08/2026); 253 E Main St, Newark, (302) 737-5310.
+Source on file: foodrepublic.com/2234748 (18 Aug 2026) + foodrepublic.com/2234748 (18 Aug 2026), merged 2026-10-11 12:45.
 
 ## 2. What their web presence actually is
-public notes say: “A thriving small shop whose site has no menu and no way to pre-order” — open their site before you use this sentence
-Claimed earlier (press/aggregator): A thriving small shop whose site has no menu and no way to pre-order
+public notes say: “to find” — open their site before you use this sentence
+Claimed earlier (press/aggregator): to find
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
@@ -21,9 +21,9 @@ Claimed earlier (press/aggregator): A thriving small shop whose site has no menu
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Bing's Bakery team — I looked at your online presence this morning. public notes say: “A thriving small shop whose site has no menu and no way to pre-order” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
-> No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
+> Hi Bing's Bakery team — I looked at bingsbakery.com this morning. public notes say: “to find” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 820 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
+> VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria

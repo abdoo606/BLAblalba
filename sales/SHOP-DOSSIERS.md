@@ -4,7 +4,7 @@
 الملف مولّد من `sales/prospects-2026.csv` + `OUTREACH-LOG.csv` + `SENT-RECORD.csv` بـ `tools/make-dossiers.py`.
 لا تحرّروه بالدرايف — عدّل الـCSV وأعيدوا التوليد.
 
-## القسم الأول — محلات تحركنا فيها (47)
+## القسم الأول — محلات تحركنا فيها (52)
 
 ### Wild Crumb — Bozeman, MT, US  ·  sent
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -62,6 +62,18 @@
 **السعر:** 3,496 €  ·  ≈ 3,811 $  ·  ≈ 3,007 £ · رعاية 45 €/شهر · السنة الأولى 4,036 €
 **الخطوة الجاية:** Their own page says twice: "We do not have online ordering capabilities at this time" / "We do not accept special orders — 2026-11-01
 **مصدر الاسم:** cnn.com 16 Jun 2026
+
+### The Dusty Knuckle — London (Dalston / Green Lanes / new Finsbury Park), GB  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** thedustyknuckle.com
+**اللي نشروه عندهن:** charly.young@thedustyknuckle.com - printed on their own homepage in the merch line "To pre-order ten items or more, hit up charly.young@thedustyknuckle.com" (opened 2026-10-11 12:40). No general inbox published; /contact is a Squarespace 404.
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: / and /contact. Verbatim: "New DK Merch!" ... "100% of proceeds go to the Dusty Knuckle Youth Training Programme" ... "AVAILABLE NOW FROM OUR DALSTON AND HARRINGAY CAFES" - and that is the whole home page: no bread, no addresses, no hours. The merch block then says "To pre-order ten items or more, hit up charly.young@thedustyknuckle.com with what you want and how many" while the same page carries a cart. /contact returns the site's own 404 copy: "We couldn't find the page you were looking for... has been moved or deleted." Third site (81 Blackstock Road, N4 2JW) opens November 2026 per Time Out 28/09/2026 and The Nudge 02/10/2026 - not mentioned anywhere on their site.
+**ليش هلأ:** Third site opens November 2026 at 81 Blackstock Rd, N4 2JW (Time Out 28/09/2026; The Nudge 02/10/2026); Time Out Bakery of the Year 2025; social enterprise with a youth trainee programme and a Highbury Fields van cafe.
+**اتجاهنا:** Locations page with hours incl. the November Finsbury Park opening, the youth programme stated once properly, merch pre-orders through the cart they already pay for, a contact page that exists. 2,900 EUR.
+**السعر:** 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · رعاية 45 €/شهر · السنة الأولى 3,530 €
+**المبعوث:** charly.young@thedustyknuckle.com · 2026-10-11T12:41Z · “Your homepage today is hoodies, not bread - and /contact is a 404”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstimes.co.uk 2026
 
 ### Handy Bakery — Barcelona (Gràcia) — Carrer de Rabassa 5, ES  ·  verified-ready
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -225,6 +237,17 @@
 **الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18
 
+### Toad Bakery — London (Camberwell + Deptford), GB  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no readable site
+**الموقع:** https://www.toadbakery.com (Square Online)
+**اللي نشروه عندهن:** NO address we could read: https://www.toadbakery.com renders only an empty Square basket modal ("Back to Basket / You do not have any items in your cart / Secure checkout by Square"); /contact and /policies/privacy-policy both return "404 - Page Not Found" (tried 2026-10-11 12:33).
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: the whole domain returns a single Square basket modal and two 404s (/contact, /policies/privacy-policy). No menu, no location page, no order link, no email anywhere we could read - the strongest "your site is worse than your Instagram" case on the list, but it needs a human browser check or an Instagram DM, not an email.
+**ليش هلأ:** London Bakery of the Year 2025 (National Bakery Awards); a third site in Deptford announced for summer 2026 (Hot Dinners, 06/07/2026, updated with the opening date).
+**اتجاهنا:** Three sites (Broadway Market, Columbia Road, new Deptford) and no location page: build the page that shows where and when, takes pre-orders and lists the collab bakes. 1,450 EUR.
+**السعر:** 1,630 €  ·  ≈ 1,777 $  ·  ≈ 1,402 £ · رعاية 45 €/شهر · السنة الأولى 2,170 €
+**الخطوة الجاية:** Abdulrhman: DM @toadbakery; browser-check toadbakery.com (renders an empty basket; /contact and /policies/privacy-policy are 404) — 2026-11-01
+**مصدر الاسم:** londonyaar.com — 15 best bakeries in London to visit in 2026 (2026-08-16)
+
 ### 1900 Barker Bakery and Cafe — Lawrence, KS, US  ·  sent
 **وين إحنا:** VERIFIED 2026-10-11
 **اللي نشروه عندهن:** hello@1900barker.com - mailto "Get in Touch" on BOTH https://www.1900barker.com/19th-street and https://www.1900barker.com/downtown (opened 2026-10-11 11:53). /contact itself is a 404.
@@ -245,6 +268,18 @@
 **السعر:** 1,530 €  ·  ≈ 1,668 $  ·  ≈ 1,316 £ · رعاية 45 €/شهر · السنة الأولى 2,070 €
 **الخطوة الجاية:** SEND NOW - sales/pitches/51-*.md section 4
 **مصدر الاسم:** chesterfield.co.uk 2026-04-21 + bakeryinfo.co.uk Britain's Best Loaf 2026 + site opened 2026-10-11
+
+### Lovingly Artisan — Kendal / Burneside, GB  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** ?
+**اللي نشروه عندهن:** info@lovinglyartisan.com - mailto on https://lovinglyartisan.com/contact/ (opened 2026-10-11 12:31; the same page also lists catherine@ for education and dean@ for wholesale, under two different phone numbers)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: /, /faqs/, /contact/. Verbatim defects: (1) opening hours disagree across their own pages - footer "Monday 8.00 - 16.00 (Bread from 9.00) / Tues to Sat 8.00 - 16.00" while the FAQs say the Kendal Bread Store is "open Tuesdays through to Saturday from 8am - 4pm" (Mondays closed?) and Altrincham is "Tues, Fri, Sat 07.30 - 16.00" on one page vs "Tuesday / Friday / Saturday from 8am - 4pm" on the other; (2) the Burneside mill, their 2026 expansion, is nowhere in the nav - the flour and pasta products say "milled in Burneside" but there is no mill page, address or visiting hours; (3) the map on /contact/ renders raw OSM tiles with no pin and no popup ("Leaflet | (c) OpenStreetMap contributors"); (4) alt text on live products carries typos: "no aditions" (twice), "Sourodugh", "folic free"; (5) /contact/ uses the same mailbox for "General" and "Bread Store", one mailto written "Info@lovinglyartisan.com".
+**ليش هلأ:** Best artisan bakery three years running; opened the Burneside mill in 2026 and sells 16kg stone-ground flour plus a pasta line direct; Good Food Guide 1- and 2-star badges uploaded 2026-09.
+**اتجاهنا:** Targeted fix list, no rebuild: one source of truth for hours, a "visit the mill" page for Burneside with address and hours, a real map pin, alt-text and mailto cleanup - then care. 1,450 EUR + 45/mo.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** info@lovinglyartisan.com · 2026-10-11T12:40Z · “Two pages of your site disagree about Monday - and the mill isn't in the nav”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** bakeryinfo.co.uk 28 Jan 2025
 
 ### Suba Bakery — London (Walthamstow), GB  ·  sent
 **وين إحنا:** NOT YET VERIFIED — press-list only (2026-10-11)
@@ -356,6 +391,28 @@
 **المبعوث:** sales@jaarsmabakery.com · 2026-10-11T11:49Z · “Your reviews block shows the same customer twice”
 **الخطوة الجاية:** await reply — 2026-10-18
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18
+
+### Carstens Bakery — Idaho Falls, ID, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - read their own pages
+**الموقع:** nataliejg011.wixsite.com/carstensbakery (free Wix subdomain) + carstensbakery.bigcartel.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11. The whole "website" is one screen: a Wix ad banner across the top ("This website was built on Wix. Create yours today. Get Started"), a four-sentence welcome signed "Willi Carstens", one Facebook icon, three photos, and the words "DANISH LOVE". No address, no phone, no hours, no menu, no prices, no email, no ordering - and the ordering that does exist is on a second free service (BigCartel) with its own login. Yellow Pages lists Tue-Sat 7:30-5:00; their own page says nothing.
+**ليش هلأ:** Named the best bakery in Idaho by Food Republic (18 Aug 2026); founded by Will Carstens, 58+ years in the same building at 243 Cliff St.
+**اتجاهنا:** A 58-year-old bakery advertising on someone else's subdomain: one domain, the real menu (pumpernickel, applesauce donuts, peach danishes), hours, phone, and one pickup pre-order page. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**الخطوة الجاية:** Abdulrhman: call (208) 529-3629 - their own page publishes no phone, address, hours or email — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + foodrepublic.com/2234748 (18 Aug 2026), merged 2026-10-11 12:45
+
+### Swells Sourdough Bakery — San Diego, CA, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11 - read their own pages
+**الموقع:** swellssourdough.com
+**اللي نشروه عندهن:** erik@swellsbakery.com + (619) 273-3244 - the email is published on their own page, at the end of https://swellssourdough.com/policies/privacy-policy ("please call or email us at erik@swellsbakery.com"); /pages/contact is a form only. Opened 2026-10-11 12:38.
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: /, /pages/contact, /policies/privacy-policy. (1) The email lives only on the privacy policy - "please call or email us at erik@swellsbakery.com" - while /pages/contact offers a form only, and the mailbox is on a different domain from the shop (swellsbakery.com vs swellssourdough.com). (2) The same block gives the address as "909 Agate St unit 4, San Diego, CA 92109" - the old production unit, not the new shop - and the policy is stamped "Last updated: April 8, 2025", eighteen months before they opened. (3) /pages/contact literally invites "wholesale inquiries" into a free-text Comment box: no wholesale page, no terms, no lead time. (4) Markets are listed without addresses ("Between Vincenzo and Princess Pub", "On the grounds of La Jolla Elementary"). (5) Croissants "on weekends" and the cold-foam flavours are one prose paragraph: no menu, no prices, no sold-out signal. Pitched 2026-10-11 12:40 to the address we read on their own policy page, naming the address/domain mismatch as the reason it was hiding there.
+**ليش هلأ:** GRAND OPENED 2026-10-01: first permanent shop at 2254 India St after four years at the Little Italy Mercato and La Jolla Open Aire; in Eater San Diego's "Best New Restaurants" heatmap the same month, plus Union-Tribune, CBS 8, Patch, Hoodline.
+**اتجاهنا:** They opened ten days ago and their own paperwork still points at the old kitchen: put the phone and email on the contact page, a wholesale form that actually routes, a menu with prices and a daily "what is baked" block. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** erik@swellsbakery.com · 2026-10-11T12:40Z · “Congrats on India Street - your privacy page still sends people to Agate St”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** swellssourdough.com + sandiegouniontribune.com 01 Oct 2026
 
 ### Super Secret Ice Cream — Bethlehem, NH, US  ·  verified-ready
 **وين إحنا:** VERIFIED 2026-10-11 — footer not readable by us
@@ -525,7 +582,7 @@
 **الخطوة الجاية:** no pitch - their stack is ahead of the kit; revisit in 6 months — 2027-04-01
 **مصدر الاسم:** niedlovs.com/contact-us (own site, opened 2026-10-11)
 
-## القسم الثاني — 94 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
+## القسم الثاني — 101 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
 كل سطر هنا اسمه من مصدر 2026 موثّق، بس ما قرينا صفحة ولا واحد منهن: لا إيميل، لا عرض، لا وعد. الطابور يمشي محل-بمحل.
 
 سطر لكل محل: الاسم · المدينة · السعر · الإشارة. ما في إيميل ولا عرض مفصّل - لأنو ما قرينا صفحة ولا واحد منهن.
@@ -545,9 +602,11 @@
 - **4Eyes Bakery & Patisserie** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Winner of Britain's Best Loaf 2024 (Tom Martin): customers stocking the winning focaccia +
 - **Artichoke Bake & More** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 silver + bronze (gluten-free loaf, Eco Sourdough)
 - **Arôme Bakery** — Covent Garden, London, GB · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · GFG 50 Best 2026 new entry; French-Asian pastries, queues at the market counter
+- **Astrid Atelier** — London (Muswell Hill), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · New 900 sq ft "atelier" opened 2026 a few doors from the original Muswell Hill bakery (lau
 - **Bakers Yard Bakery** — Sheffield, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Bandit Bakery** — Aberdeen, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry
 - **Basil's Bakery** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 bronze x2 (Village Loaf, Seeded Brown)
+- **Bread Ahead (Harpenden)** — Harpenden, Herts, GB · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · First UK branch outside London announced for 2026: 2,500 sq ft on Harpenden High Street wi
 - **Bread Source** — Norwich / Norfolk, GB · 4,060 €  ·  ≈ 4,425 $  ·  ≈ 3,492 £ · 7 stores + public production bakery, Bakers' Dozen 2025 top 6
 - **Bread and Loaf** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 innovation medal (Cheddar & Marmite Loaf)
 - **Breadmill Bakery** — Nottingham, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry
@@ -560,6 +619,7 @@
 - **Fitzbillies Ltd** — Cambridge, GB · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · BBL 2026 medals x2 (Cambridge Seeded Sourdough, White Sourdough Loaf)
 - **Fred Bakery** — Oxford Circus, London, GB · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · GFG 50 Best 2026 new entry; 10:30 sell-outs
 - **Gail's** — London (multiple), GB · 1,630 €  ·  ≈ 1,777 $  ·  ≈ 1,402 £ · BBL 2026 medals x2 (House Sourdough, Bruern Farms) + GFG-list regular
+- **Get Baked** — Manchester / London Covent Garden, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Opened a permanent Covent Garden store in summer 2026 after its Headingley flagship closed
 - **Grain & Hearth** — Whitstable, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Hamblin Bread** — Oxford, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026; organic, stone-milled, sells at farmers markets
 - **Harry Gow** — Glasgow, GB, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 name from the same list; Scottish bakes, wholesale ambitions
@@ -567,6 +627,7 @@
 - **Hart's Bakery** — Bristol, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Haxby Bakehouse** — York, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Hilda Bakery** — Bristol, GB · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · GFG 50 Best 2026 new entry
+- **It's Bagels** — London (Primrose Hill / new Hampstead), GB · 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · Second site on Hampstead High Street at the end of summer 2026, three years after Primrose
 - **Kanto** — Cambridge, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Kuma-San Bakehouse** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Winner of Britain's Best Loaf 2025 AND 2023 (Miyo Aoetsu), on the organisers' own page: th
 - **Lannan Bakery** — Edinburgh, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
@@ -575,7 +636,6 @@
 - **Little Valley Bakery** — Swansea, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry; organic, on a farm
 - **Long Boi's Bakehouse** — Manchester, GB · 2,042 €  ·  ≈ 2,226 $  ·  ≈ 1,756 £ · Award-winning since 2020, all-female team, Levenshulme queue culture
 - **Longstraw Bakery** — Wiveliscombe, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
-- **Lovingly Artisan** — Kendal / Burneside, GB · 3,740 €  ·  ≈ 4,077 $  ·  ≈ 3,216 £ · Best artisan bakery 3 years running, new Burneside site, Baker of the Year 2024
 - **Luke's Bakery** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 medals x2 (Seeded + White Sourdough)
 - **MOST Bakery** — Altrincham, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Multiseed Sourdough = Britain's Best Seeded Sourdough 2026 (Britain's Best Loaf awards)
 - **Masa Bakery** — Prestwich, Manchester, GB · 1,089 €  ·  ≈ 1,187 $  ·  ≈ 937 £ · Started in a garage 2020, award-winning sourdough, now wholesale + market stall
@@ -587,11 +647,13 @@
 - **Pastille Bakery** — Liverpool, GB · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · GFG 50 Best 2026 new entry
 - **Peter Cooks Bread** — (GB - town from their site), GB · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · Winner of Britain's Best Loaf 2020 (Peter Cook). OLDER signal - listed only because the or
 - **Pettigrew Bakeries** — Cardiff, GB · 2,290 €  ·  ≈ 2,496 $  ·  ≈ 1,969 £ · Bakers' Dozen 2026; café + bakery + wholesale group, 100+ staff
+- **Pinkmans Bakery** — Bristol (5 sites, new Wapping Wharf), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Extended to five sites with a new unit inside a converted shipping container at Wapping Wh
 - **Pipit Bakery** — Bradford on Avon, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Pollen Bakery** — Manchester, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Rye Bakery & Pizzeria** — Frome, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Small Food Bakery** — Nottingham, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Solo Bread** — Birkenhead, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry
+- **Sourdough Sophia** — London (Crouch End / Islington / Primrose Hill / Covent Garden), GB · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · Fifth shop at Primrose Hill and a sixth at Neal's Yard Covent Garden, "on track to reach e
 - **The Danish Bakery Ltd** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 medal (Black Pepper, Sea Salt, Thyme & Cracked Wheat)
 - **The Garage Bakehouse** — Market Harborough, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **The Lost Mill Bakery** — Cowes, Isle of Wight, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry; flour milled on the island
@@ -599,7 +661,6 @@
 - **The Tiny Bakery** — Leicester, GB · 1,935 €  ·  ≈ 2,109 $  ·  ≈ 1,664 £ · Bakers' Dozen 2026 entry, small team, national press without national web presence
 - **The Wild Loaf** — Liverpool, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry
 - **Tiptree Patisserie** — Essex, GB · 2,042 €  ·  ≈ 2,226 $  ·  ≈ 1,756 £ · National Bakery Awards 2025 regional pick for Essex
-- **Toad Bakery** — London (Camberwell + Deptford), GB · 1,630 €  ·  ≈ 1,777 $  ·  ≈ 1,402 £ · Good Food Guide 2026 Britain's Best Bakeries; Time Out reports the Saturday queue; OPENED 
 - **Two Magpies Bakery** — Norfolk + Suffolk (11 shops), GB · 3,620 €  ·  ≈ 3,946 $  ·  ≈ 3,113 £ · Five medals at Britain's Best Loaf Awards 2026 (gold in Gluten Free) plus Britain's Best C
 - **White Horse Bakery** — Holme-next-the-Sea, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry
 - **Wild Breads Bakery** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 bronzes x3 (nori/spirulina, nettle, Kozunak)
@@ -607,19 +668,22 @@
 - **Babettes Artisan Breads** — Denver, CO, US · 1,282 €  ·  ≈ 1,397 $  ·  ≈ 1,103 £ · Sells out of every loaf daily inside a busy market hall; catering expansion
 - **Barrio Bread** — Tucson, AZ, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Food Republic's best bakery in Arizona 2026; Don Guerra is a James Beard Outstanding Baker
 - **Belle's Bread** — Columbus, OH, US · 1,910 €  ·  ≈ 2,082 $  ·  ≈ 1,643 £ · Multiple locations, growing bakery group + catering
-- **Bing's Bakery** — Newark, DE, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Food Republic's best bakery in Delaware 2026; founded 2014, 'thriving ever since'
+- **Bing's Bakery** — Newark, DE, US · 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · Named the best bakery in Delaware by Food Republic (18/08/2026); 253 E Main St, Newark, (3
+- **Brooklyn Sour** — High Falls, NY, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · First brick-and-mortar opened the first weekend of May 2026 at 1219 Route 213 in the forme
 - **Bánh by Lauren** — New York, NY, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **Carstens Bakery** — Idaho Falls, ID, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Food Republic's best bakery in Idaho 2026; German-founded 1955 family shop
 - **Cultured** — Sister Bay, WI, US · 2,176 €  ·  ≈ 2,372 $  ·  ≈ 1,871 £ · JB 2026 finalist on the Door County peninsula - tourist season rush
 - **Cultured Bakery** — Sister Bay, WI, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 name from the same list; neighbourhood sourdough + pastry
 - **Dan The Baker** — Columbus, OH, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **DeLuxe Cakes** — Los Angeles, CA, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 semifinalist; LA storefront with a cult order book
 - **DeLuxe Cakes and Pastries** — Iowa City, IA, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **La Segunda Central Bakery** — Tampa, FL, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · Best bakery in Florida (Food Republic, 18/08/2026); "the world's largest producer of authe
 - **Librae** — Seattle, WA, US · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · Beard 2026 semifinalist; single-line pastry counter
 - **Librae Bakery** — New York, NY, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **Long's Bakery** — Indianapolis, IN, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Named the best bakery in Indiana by Food Republic; open since 1955, multiple locations, an
 - **Mercado Sin Nombre** — Austin, TX, US · 1,670 €  ·  ≈ 1,820 $  ·  ≈ 1,436 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **Niedlov's Bakery & Cafe** — Chattanooga, TN, US · 149 €  ·  ≈ 162 $  ·  ≈ 128 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **Poupart Beacon Bakery** — Lafayette, LA, US · 2,252 €  ·  ≈ 2,455 $  ·  ≈ 1,937 £ · James Beard America's Classic 2025 buzz, French market café + wholesale bread
+- **Rye (Martin Auer)** — New York (Soho), US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Opened September 2026 on the eastern edge of Soho: one Austrian rye sourdough from a 57-ye
 - **Starship Bagel** — Dallas, TX, US · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **The Burque Bakehouse** — Albuquerque, NM, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **The Local General Store** — Honolulu, HI, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **The Local General Store** — Honolulu, HI, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Best bakery in Hawaii (Food Republic, 18/08/2026); bakery/butchery hybrid born of Hawaii's

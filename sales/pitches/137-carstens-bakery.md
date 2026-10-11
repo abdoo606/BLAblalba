@@ -1,15 +1,15 @@
 # Carstens Bakery — design board & pitch
 
-Idaho Falls, ID, US · B · template **artisan** · baguette · 1450 €
+Idaho Falls, ID, US · A - hot · template **artisan** · Croissant · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-Food Republic's best bakery in Idaho 2026; German-founded 1955 family shop
-Source on file: Food Republic, 'best bakery in every US state', 2026-08-18.
+Named the best bakery in Idaho by Food Republic (18 Aug 2026); founded by Will Carstens, 58+ years in the same building at 243 Cliff St.
+Source on file: foodrepublic.com/2234748 (18 Aug 2026) + foodrepublic.com/2234748 (18 Aug 2026), merged 2026-10-11 12:45.
 
 ## 2. What their web presence actually is
-public notes say: “Their web address in the article points at a wixsite.com subdomain - no real domain of their own” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Their web address in the article points at a wixsite.com subdomain - no real domain of their own
+public notes say: “Two free tools bolted together: a Wix starter page and a separate BigCartel shop. No own domain.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Two free tools bolted together: a Wix starter page and a separate BigCartel shop. No own domain.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
@@ -17,13 +17,13 @@ Claimed earlier (press/aggregator): Their web address in the article points at a
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
 - **Hero line:** “Carstens Bakery — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Carstens Bakery team — I looked at your online presence this morning. public notes say: “Their web address in the article points at a wixsite.com subdomain - no real domain of their own” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
-> No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
+> Hi Carstens Bakery team — I looked at nataliejg011.wixsite.com/carstensbakery (free Wix subdomain) + carstensbakery.bigcartel.com this morning. public notes say: “Two free tools bolted together: a Wix starter page and a separate BigCartel shop. No own domain.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
+> VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria

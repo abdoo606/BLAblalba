@@ -70,7 +70,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [65-mercado-sin-nombre](./65-mercado-sin-nombre.md) | Mercado Sin Nombre | Austin, TX | 1 | moderno | 1670 | ⬜ | to be found during verification |
 | [66-niedlov-s-bakery-cafe](./66-niedlov-s-bakery-cafe.md) | Niedlov's Bakery & Cafe | Chattanooga, TN | 1 | artisan | 149 | ⬜ | to be found during verification |
 | [67-starship-bagel](./67-starship-bagel.md) | Starship Bagel | Dallas, TX | 1 | moderno | 1130 | ⬜ | to be found during verification |
-| [68-the-local-general-store](./68-the-local-general-store.md) | The Local General Store | Honolulu, HI | 1 | artisan | 1830 | ⬜ | to be found during verification |
+| [68-the-local-general-store](./68-the-local-general-store.md) | The Local General Store | Honolulu, HI | n | artisan | 1450 | ⬜ | to be found during verification |
 | [69-i-loaf-sourdough](./69-i-loaf-sourdough.md) | I Loaf Sourdough | Fort Lauderdale, FL | 1 | artisan | 1130 | ✅ | email |
 | [70-cafe-dear-leon](./70-cafe-dear-leon.md) | Café Dear Leon | Canton + Remington, Baltimore, MD | 1 | patisserie | 2010 | ✅ | phone / counter / DM (no public email) |
 | [71-mabel-the-bakery](./71-mabel-the-bakery.md) | Mabel the Bakery | Downham Market, Norfolk | 1 | artisan | 1450 | ✅ | phone / counter / DM (no public email) |
@@ -134,12 +134,12 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [128-barrio-bread](./128-barrio-bread.md) | Barrio Bread | Tucson, AZ | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ✅ | email |
 | [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1130 | ⬜ | to be found during verification |
-| [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | n | artisan | 750 | ⬜ | to be found during verification |
 | [133-1900-barker-bakery-and-cafe](./133-1900-barker-bakery-and-cafe.md) | 1900 Barker Bakery and Cafe | Lawrence, KS | U | artisan | 1630 | ⬜ | to be found during verification |
 | [134-root-a-bakers-bakery-and-cafe](./134-root-a-bakers-bakery-and-cafe.md) | Root-A-Bakers Bakery and Cafe | Morehead, KY | U | patisserie | 1830 | ⬜ | to be found during verification |
 | [135-weber-s-bakery](./135-weber-s-bakery.md) | Weber's Bakery | Chicago, IL | 1 | patisserie | 1450 | ⬜ | to be found during verification |
 | [136-jaarsma-bakery](./136-jaarsma-bakery.md) | Jaarsma Bakery | Pella, IA | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [137-carstens-bakery](./137-carstens-bakery.md) | Carstens Bakery | Idaho Falls, ID | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [137-carstens-bakery](./137-carstens-bakery.md) | Carstens Bakery | Idaho Falls, ID | n | artisan | 1450 | ⬜ | to be found during verification |
 | [138-deluxe-cakes](./138-deluxe-cakes.md) | DeLuxe Cakes | Los Angeles, CA | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [139-librae](./139-librae.md) | Librae | Seattle, WA | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [140-cultured-bakery](./140-cultured-bakery.md) | Cultured Bakery | Sister Bay, WI | 1 | artisan | 1450 | ⬜ | to be found during verification |
@@ -147,6 +147,18 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [146-kuma-san-bakehouse](./146-kuma-san-bakehouse.md) | Kuma-San Bakehouse | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [147-peter-cooks-bread](./147-peter-cooks-bread.md) | Peter Cooks Bread | (GB - town from their site) | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [148-4eyes-bakery-patisserie](./148-4eyes-bakery-patisserie.md) | 4Eyes Bakery & Patisserie | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [149-swells-sourdough-bakery](./149-swells-sourdough-bakery.md) | Swells Sourdough Bakery | San Diego, CA | n | artisan | 1450 | ⬜ | to be found during verification |
+| [151-the-dusty-knuckle](./151-the-dusty-knuckle.md) | The Dusty Knuckle | London (Dalston / Green Lanes / new Finsbury Park) | n | artisan | 2900 | ⬜ | to be found during verification |
+| [152-get-baked](./152-get-baked.md) | Get Baked | Manchester / London Covent Garden | n | artisan | 1450 | ⬜ | to be found during verification |
+| [153-bread-ahead-harpenden](./153-bread-ahead-harpenden.md) | Bread Ahead (Harpenden) | Harpenden, Herts | n | artisan | 2900 | ⬜ | to be found during verification |
+| [154-sourdough-sophia](./154-sourdough-sophia.md) | Sourdough Sophia | London (Crouch End / Islington / Primrose Hill / Covent Garden) | n | artisan | 2900 | ⬜ | to be found during verification |
+| [155-pinkmans-bakery](./155-pinkmans-bakery.md) | Pinkmans Bakery | Bristol (5 sites, new Wapping Wharf) | n | artisan | 1450 | ⬜ | to be found during verification |
+| [156-astrid-atelier](./156-astrid-atelier.md) | Astrid Atelier | London (Muswell Hill) | n | artisan | 1450 | ⬜ | to be found during verification |
+| [157-it-s-bagels](./157-it-s-bagels.md) | It's Bagels | London (Primrose Hill / new Hampstead) | n | artisan | 750 | ⬜ | to be found during verification |
+| [158-brooklyn-sour](./158-brooklyn-sour.md) | Brooklyn Sour | High Falls, NY | n | artisan | 1450 | ⬜ | to be found during verification |
+| [159-rye-martin-auer](./159-rye-martin-auer.md) | Rye (Martin Auer) | New York (Soho) | n | artisan | 1450 | ⬜ | to be found during verification |
+| [161-long-s-bakery](./161-long-s-bakery.md) | Long's Bakery | Indianapolis, IN | n | artisan | 1450 | ⬜ | to be found during verification |
+| [162-la-segunda-central-bakery](./162-la-segunda-central-bakery.md) | La Segunda Central Bakery | Tampa, FL | n | artisan | 2900 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 26 of 141 are ✅.
+so the message stays undelivered until someone opens their site. 26 of 153 are ✅.

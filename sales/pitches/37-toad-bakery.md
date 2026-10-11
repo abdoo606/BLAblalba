@@ -1,15 +1,15 @@
 # Toad Bakery — design board & pitch
 
-London (Camberwell + Deptford), GB · A — hot (needs judgement: they are tech-forward) · template **artisan** · croissant · 1630 €
+London (Camberwell + Deptford), GB · B - opening a new shop · template **artisan** · croissant · 1630 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-Good Food Guide 2026 Britain's Best Bakeries; Time Out reports the Saturday queue; OPENED A SECOND SHOP IN DEPTFORD IN 2026
+London Bakery of the Year 2025 (National Bakery Awards); a third site in Deptford announced for summer 2026 (Hot Dinners, 06/07/2026, updated with the opening date).
 Source on file: londonyaar.com — 15 best bakeries in London to visit in 2026 (2026-08-16).
 
 ## 2. What their web presence actually is
-public notes say: “Unaudited. Camberwell bakery with a second site since 2026 — check whether one page serves both and whether either shows today's bakes” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Unaudited. Camberwell bakery with a second site since 2026 — check whether one page serves both and whether either shows today's bakes
+public notes say: “Square Online storefront; Good Food Guide 2026 'Britain's Best Bakeries'. Three rooms to run, one empty checkout page.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Square Online storefront; Good Food Guide 2026 'Britain's Best Bakeries'. Three rooms to run, one empty checkout page.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Unaudited. Camberwell bakery with a second s
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Toad Bakery team — I looked at https://www.toadbakery.com (Square Online) this morning. public notes say: “Unaudited. Camberwell bakery with a second site since 2026 — check whether one page serves both and whether either shows today's bakes” — open their site before you use this sentence.
+> Hi Toad Bakery team — I looked at https://www.toadbakery.com (Square Online) this morning. public notes say: “Square Online storefront; Good Food Guide 2026 'Britain's Best Bakeries'. Three rooms to run, one empty checkout page.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1400 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes extra-location + photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
