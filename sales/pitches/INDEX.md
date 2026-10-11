@@ -140,10 +140,10 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [135-weber-s-bakery](./135-weber-s-bakery.md) | Weber's Bakery | Chicago, IL | 1 | patisserie | 1450 | ⬜ | to be found during verification |
 | [136-jaarsma-bakery](./136-jaarsma-bakery.md) | Jaarsma Bakery | Pella, IA | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [137-carstens-bakery](./137-carstens-bakery.md) | Carstens Bakery | Idaho Falls, ID | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [138-bakery-small-counter](./138-bakery-small-counter.md) | bakery / small counter | Los Angeles, CA | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [139-bakery-small-counter](./139-bakery-small-counter.md) | bakery / small counter | Seattle, WA | 1 | artisan | 1130 | ⬜ | to be found during verification |
-| [140-bakery-small-counter](./140-bakery-small-counter.md) | bakery / small counter | Seattle, WA | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [141-bakery-small-counter](./141-bakery-small-counter.md) | bakery / small counter | Glasgow, GB | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [138-deluxe-cakes](./138-deluxe-cakes.md) | DeLuxe Cakes | Los Angeles, CA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [139-librae](./139-librae.md) | Librae | Seattle, WA | 1 | artisan | 1130 | ⬜ | to be found during verification |
+| [140-cultured-bakery](./140-cultured-bakery.md) | Cultured Bakery | Sister Bay, WI | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [141-harry-gow](./141-harry-gow.md) | Harry Gow | Glasgow, GB | 1 | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
 so the message stays undelivered until someone opens their site. 26 of 138 are ✅.
