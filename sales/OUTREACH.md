@@ -8,7 +8,7 @@ Three rules before anything else:
 4. **Payment talk comes third, not first.** No crypto word in a cold email; USDT appears on the *quote*, as an
    alternative the client agrees to, with the amount still written in euros. Full rule: `sales/PAYMENTS-USDT.md`.
 
-> **Status 2026-10-11 (six batches incl. two verification batches):** **22 emails sent, 39,664 €€ quoted (1 bounced back: I Loaf), 0 human replies, 1 auto-reply, 1 bounce (I Loaf - the address on their own site has no mail server).**
+> **Status 2026-10-11 (six batches incl. two verification batches):** **22 emails sent, 39,664  € quoted (1 bounced back: I Loaf), 0 human replies, 1 auto-reply, 1 bounce (I Loaf - the address on their own site has no mail server).**
 > August, Northern Rye and Wild Crumb first; then Suba, Chatsworth Bakehouse, Layla, Wild Hearth, The Bakery House,
 > Wild Yeast, Heritage Rise and Daily Bread; then Born & Bread, ARAN and Gusto Bread; then I Loaf Sourdough. Every
 > one of them went to an address read off that shop's own site the same morning, and the observation the email opens
@@ -19,7 +19,7 @@ Three rules before anything else:
 > That is the whole sendable list. Eight verified shops publish a phone number or a form and no email (Pa Serra,
 > Handy, Weltons, Peak and Stone, Night Moves, Café Dear Leon, Mabel, Gorse) — those get a call, a DM or a form,
 > never an invented address; three shops were looked at and recorded as no-pitch (Poulette, Hobbs House, Niedlov's)
-> because their own stack is ahead of what we sell. The remaining 108 of 134 rows are press-list entries with no
+> because their own stack is ahead of what we sell. The remaining 108 of 141 rows are press-list entries with no
 > verified address (64 were added on 2026-10-11 in the doubling batch, all of them from dated 2026 award lists): they get verified or dropped, not emailed.
 > Full machine-readable version: **`sales/OUTREACH-REGISTER.pdf`** (`python3 tools/make-register.py`) — one row per
 > shop with the address, its source, the subject line, the offer, the price and what only Abdulrhman can unblock.
