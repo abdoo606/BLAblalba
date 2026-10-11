@@ -4,9 +4,18 @@
     "desc": "Three interactive, responsive website templates for artisan bakeries and patisseries, shipped in English, French, Spanish and Arabic."
   },
   "brand": {
-    "artisan": { "name": "Bois & Levain", "tag": "Boulangerie au feu de bois" },
-    "patisserie": { "name": "Rose & Glacé", "tag": "Pâtisserie fine" },
-    "moderno": { "name": "Horno Vivo", "tag": "Panadería de masa madre" }
+    "artisan": {
+      "name": "Bois & Levain",
+      "tag": "Boulangerie au feu de bois"
+    },
+    "patisserie": {
+      "name": "Rose & Glacé",
+      "tag": "Pâtisserie fine"
+    },
+    "moderno": {
+      "name": "Horno Vivo",
+      "tag": "Panadería de masa madre"
+    }
   },
   "common": {
     "skip": "Skip to main content",
@@ -20,7 +29,8 @@
     "copy": "Copy",
     "copied": "Copied",
     "new": "New",
-    "demo": "Demo data"
+    "demo": "Demo data",
+    "demoNotice": "Demo template — fictional bakery data and sample address, not the developer’s business location. No live orders."
   },
   "nav": {
     "menu": "Our bread",
@@ -87,18 +97,54 @@
     "note": "Prices include local tax. Last basket taken 30 minutes before closing."
   },
   "product": {
-    "sourdough": { "name": "Country levain loaf", "desc": "Wheat & rye, 1 kg, stone-milled" },
-    "tradition": { "name": "Baguette de tradition", "desc": "Cracked crust, open crumb, 400 g" },
-    "rye": { "name": "Seeded rye brick", "desc": "Caraway, linseed, 24 h ferment" },
-    "croissant": { "name": "Butter croissant", "desc": "27 layers, cultured butter" },
-    "chocolatine": { "name": "Pain au chocolat", "desc": "Two batons of 66% chocolate" },
-    "cinnamon": { "name": "Morning bun", "desc": "Cinnamon sugar, orange zest" },
-    "fruitart": { "name": "Vanilla & fruit tart", "desc": "Crème légère, market fruit" },
-    "eclair": { "name": "Praline éclair", "desc": "Hazelnut cream, caramel glaze" },
-    "macaron": { "name": "Macaron", "desc": "Pistachio, salted caramel, raspberry" },
-    "basque": { "name": "Burnt Basque cheesecake", "desc": "For 8, chilled 12 h" },
-    "tropezien": { "name": "Saint-Honoré", "desc": "For 10, choux & caramel" },
-    "kingcake": { "name": "King cake (galette)", "desc": "Almond frangipane, fève included" }
+    "sourdough": {
+      "name": "Country levain loaf",
+      "desc": "Wheat & rye, 1 kg, stone-milled"
+    },
+    "tradition": {
+      "name": "Baguette de tradition",
+      "desc": "Cracked crust, open crumb, 400 g"
+    },
+    "rye": {
+      "name": "Seeded rye brick",
+      "desc": "Caraway, linseed, 24 h ferment"
+    },
+    "croissant": {
+      "name": "Butter croissant",
+      "desc": "27 layers, cultured butter"
+    },
+    "chocolatine": {
+      "name": "Pain au chocolat",
+      "desc": "Two batons of 66% chocolate"
+    },
+    "cinnamon": {
+      "name": "Morning bun",
+      "desc": "Cinnamon sugar, orange zest"
+    },
+    "fruitart": {
+      "name": "Vanilla & fruit tart",
+      "desc": "Crème légère, market fruit"
+    },
+    "eclair": {
+      "name": "Praline éclair",
+      "desc": "Hazelnut cream, caramel glaze"
+    },
+    "macaron": {
+      "name": "Macaron",
+      "desc": "Pistachio, salted caramel, raspberry"
+    },
+    "basque": {
+      "name": "Burnt Basque cheesecake",
+      "desc": "For 8, chilled 12 h"
+    },
+    "tropezien": {
+      "name": "Saint-Honoré",
+      "desc": "For 10, choux & caramel"
+    },
+    "kingcake": {
+      "name": "King cake (galette)",
+      "desc": "Almond frangipane, fève included"
+    }
   },
   "batch": {
     "title": "Out of the oven in",
@@ -203,7 +249,7 @@
     "notesPh": "Allergies, celebration, leave at the door…",
     "submit": "Send my order",
     "sending": "Sending…",
-    "success": "Order received. We will text you when the tray is out.",
+    "success": "Request prepared, not received or confirmed. Use a handoff link if this is a real deployment; the demo does not book orders or send SMS.",
     "errorName": "Please tell us who the bag is for.",
     "errorPhone": "We need a number to text you.",
     "errorDate": "Choose a day from tomorrow onwards.",
@@ -302,39 +348,39 @@
     "langLead": "Every string, date, number, currency and direction is driven by the dictionary below. The choice is remembered per visitor.",
     "langSample": "Fresh butter croissant — €2.40 — out of the oven at 06:30",
     "langNote": "Numbers and currency are formatted with the browser's Intl API: €2.40 becomes 2,40 € in French, 2,40 € in Spanish and ‏٢٫٤٠ € when Arabic is requested with Arabic numerals.",
-    "calcTitle": "Price a client site in 20 seconds",
-    "calcLead": "Pick a template, a package and the options your client needs. The maths matches the price list in docs/PRICING.md.",
+    "calcTitle": "Plan a small bakery project",
+    "calcLead": "Choose a bounded scope. These are draft estimates, not live offers or the full demo feature set.",
     "calcTemplate": "Template",
     "calcPackage": "Package",
-    "calcLangs": "Languages",
-    "calcOptions": "Add-ons",
-    "calcTotal": "Project total",
+    "calcLangs": "Included languages",
+    "calcOptions": "Optional care only",
+    "calcTotal": "One-time draft fee",
     "calcMonthly": "Care plan",
-    "calcDays": "Delivery",
+    "calcDays": "Estimated build after readiness",
     "calcDaysValue": "{{n}} working days",
-    "calcWhats": "What the client gets",
+    "calcWhats": "Agreed scope, not every demo feature",
     "calcCopy": "Copy quote summary",
     "calcCopied": "Quote copied to clipboard",
-    "calcNote": "Self-employed rates, ex-VAT. Deposit 40% before work starts, balance at go-live.",
-    "pkg.licence": "Template licence (DIY)",
-    "pkg.licence.d": "The repo, all templates, all four languages, no support.",
-    "pkg.baguette": "Baguette — launch site",
-    "pkg.baguette.d": "One template, one language, text and photos from the client, online in 5 days.",
-    "pkg.croissant": "Croissant — local favourite",
-    "pkg.croissant.d": "Two languages, pre-order basket, countdown, analytics, photo pass, training call.",
-    "pkg.patisserie": "Pâtisserie — flagship",
-    "pkg.patisserie.d": "Four languages including Arabic RTL, custom theme layer, menu CMS, local SEO, 12 months of care.",
+    "calcNote": "Draft only. Tax and feasibility are confirmed before agreement. One revision; client supplies content. No required subscription; 40% deposit after an approved written scope.",
+    "pkg.licence": "DIY template files",
+    "pkg.licence.d": "Template files and sample dictionaries only. Self-installation; no custom setup, translation or ongoing service.",
+    "pkg.baguette": "Baguette — one useful page",
+    "pkg.baguette.d": "One responsive page, one language, approved client content and an existing order/contact link. One revision. No new checkout.",
+    "pkg.croissant": "Croissant — two clear pages",
+    "pkg.croissant.d": "Menu and visit/collection information, two pages in one language. Existing checkout unchanged; client-supplied content and one revision.",
+    "pkg.patisserie": "Pâtisserie — three-page enquiries",
+    "pkg.patisserie.d": "Up to three template-based pages in one language and a simple enquiry form. No payments, inventory, custom CMS, photography, translation or care bundled.",
     "pkg.includes": "Includes",
     "opt.language": "Extra language",
-    "opt.language.d": "+220 € per language, translated by a human, reviewed on the page.",
+    "opt.language.d": "Not included in this smaller-scope catalogue; separate review and quote required.",
     "opt.seo": "Local SEO pack",
-    "opt.seo.d": "+380 € — Google Business, schema.org Bakery, city keywords, 3 landing snippets.",
+    "opt.seo.d": "No marketing campaign or ranking promise in the smaller fee.",
     "opt.photo": "Photo pass (half day)",
-    "opt.photo.d": "+320 € — 25 retouched shots of counter, bake and team.",
+    "opt.photo.d": "Photography is not included; use approved client-supplied images.",
     "opt.preorder": "Deposit-ready ordering",
-    "opt.preorder.d": "+460 € — Stripe or SumUp payments, no-show deposits, cake configurator.",
-    "opt.care": "Care plan",
-    "opt.care.d": "+45 €/month — updates, uptime, text edits within 24 h.",
+    "opt.preorder.d": "Payment, inventory and confirmed-order integrations are not included.",
+    "opt.care": "Optional separate care",
+    "opt.care.d": "+25 EUR/month only if chosen: one small content edit per month and agreed technical upkeep. Hosting/domain paid by client.",
     "devTitle": "Run it, brand it, ship it",
     "devLead": "Four commands between a clone and a client's domain. Everything is plain HTML, CSS and ESM JavaScript.",
     "step1t": "Clone",

@@ -56,7 +56,7 @@
   }
 
   /* -------------------------------------------- quote calculator (pricing) */
-  const state = { pkg: 'croissant', langs: 2, opts: new Set(['seo']), client: '' };
+  const state = { pkg: 'baguette', langs: 1, opts: new Set(), client: '' };
 
   function calc() {
     const root = $('[data-calc]');
@@ -66,7 +66,12 @@
 
     const render = () => {
       const pkg = pkgs.find((p) => p.id === state.pkg) || pkgs[0];
-      const extraLangs = Math.max(0, state.langs - (pkg.languages || 1));
+      state.langs = pkg.languages || 1;
+      $$('[data-langs] button', root).forEach((b) => {
+        b.disabled = Number(b.dataset.langs) !== state.langs;
+        b.setAttribute('aria-pressed', String(!b.disabled));
+      });
+      const extraLangs = 0; // smaller scopes do not offer free extra languages
       const langPrice = extraLangs * (opts.find((o) => o.id === 'language')?.price || 0);
       const chosen = opts.filter((o) => o.id !== 'language' && state.opts.has(o.id) && !o.recurring);
       const recurring = opts.filter((o) => o.id !== 'language' && state.opts.has(o.id) && o.recurring);
@@ -87,15 +92,8 @@
       $('[data-calc-days]', root).textContent = pkg.days ? t('hub.calcDaysValue', { n: pkg.days }) : t('hub.pkg.licence');
       const bullets = $('[data-calc-list]', root);
       if (bullets) {
-        const items = [
-          t('hub.f1t') + ' — ' + t('hub.f1d'),
-          t('hub.f3t') + ' — ' + t('hub.f3d'),
-          t('hub.f6t') + ' — ' + t('hub.f6d'),
-        ];
-        if (state.opts.has('seo')) items.push(t('hub.opt.seo'));
-        if (state.opts.has('photo')) items.push(t('hub.opt.photo'));
-        if (state.opts.has('preorder')) items.push(t('hub.opt.preorder'));
-        if (state.pkg === 'patisserie') items.push(t('hub.f7t'), t('hub.f5t'));
+        const items = [t('hub.pkg.' + pkg.id + '.d'), t('hub.calcNote')];
+        if (state.opts.has('care')) items.push(t('hub.opt.care.d'));
         bullets.innerHTML = items.map((i) => `<li>${i}</li>`).join('');
       }
       state.total = total;
@@ -106,7 +104,7 @@
       b.addEventListener('click', () => {
         state.pkg = b.dataset.pkg;
         const pkg = (CFG.packages || []).find((p) => p.id === state.pkg);
-        if (pkg) state.langs = Math.max(state.langs, pkg.languages || 1);
+        if (pkg) state.langs = pkg.languages || 1;
         $$('[data-pkg]', root).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
         const langBtns = $$('[data-langs] button', root);
         langBtns.forEach((x) => x.setAttribute('aria-pressed', String(Number(x.dataset.langs) === state.langs)));
@@ -115,6 +113,7 @@
     );
     $$('[data-langs] button', root).forEach((b) =>
       b.addEventListener('click', () => {
+        if (b.disabled) return;
         state.langs = Number(b.dataset.langs);
         $$('[data-langs] button', root).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
         render();
@@ -130,7 +129,7 @@
     $('[data-client]', root)?.addEventListener('input', (e) => { state.client = e.target.value.trim(); });
     $('[data-copy-quote]', root)?.addEventListener('click', async () => {
       const lines = [
-        `Levain Kit — ${t('hub.calcTitle')}`,
+        `DRAFT ONLY — Levain Kit — ${t('hub.calcTitle')}`,
         state.client ? `Client: ${state.client}` : '',
         `Template: ${$('[data-quote-tpl][aria-pressed="true"]')?.dataset.quoteTpl || 'any'}`,
         `Package: ${state.pkg} · Languages: ${state.langs}`,

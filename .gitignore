@@ -16,3 +16,22 @@ release/
 # editor
 .idea/
 *.swp
+
+# Private CRM / campaign data: local workspace + owner-only Drive backup, never public Git
+/docs/PROSPECTS.md
+/sales/prospects-2026.csv
+/sales/prospects-2026.json
+/sales/OUTREACH-LOG.csv
+/sales/SENT-RECORD.csv
+/sales/SUPPRESSION-LIST.json
+/sales/CAMPAIGN-ACTIVITY.json
+/sales/EMAIL-REWRITE-BRIEFS.json
+/sales/EMAIL-REWRITES.json
+/sales/EMAIL-REWRITES.md
+/sales/email-drafts/
+/sales/pitches/
+/sales/SHOP-DOSSIERS.md
+/sales/drive-clients-pricing.csv
+/sales/OUTREACH-REGISTER.pdf
+/sales/OUTREACH-REGISTER-AR.pdf
+/sales/DRIVE-RESUME.md

@@ -132,6 +132,7 @@ function header({ rel, tplId, embedHide = '' }) {
         (k) => `<li><a href="#${k}" data-i18n="hub.${k}">${esc(s('hub.' + k))}</a></li>`
       ).join('');
   return `
+  ${site.demo ? `<aside role="note" style="padding:9px 16px;background:#fff1cf;color:#403922;font:13px/1.6 system-ui,sans-serif;text-align:center" data-i18n="common.demoNotice">${esc(s('common.demoNotice'))}</aside>` : ''}
   <a class="skip-link" href="#main" data-i18n="common.skip">${esc(s('common.skip'))}</a>
   <header class="site-header" data-stuck="false">
     <div class="wrap bar">
@@ -485,7 +486,7 @@ function hoursSection() {
             <address><strong data-i18n="hours.addressValue">${esc(s('hours.addressValue'))}</strong></address>
             <p class="tiny muted" data-i18n="hours.transit">${esc(s('hours.transit'))}</p>
             <div class="chip-row" style="margin-top:.6rem">
-              <a class="btn btn--sm btn--ghost" href="tel:${site.studio.phone.replace(/\s/g, '')}">${I.phone}<span data-i18n="hours.phone">${esc(s('hours.phone'))}</span></a>
+              ${site.studio.phone ? `<a class="btn btn--sm btn--ghost" href="tel:${site.studio.phone.replace(/\s/g, '')}">${I.phone}<span data-i18n="hours.phone">${esc(s('hours.phone'))}</span></a>` : ''}
               <a class="btn btn--sm" href="https://maps.google.com/?q=${encodeURIComponent(s('hours.addressValue'))}" target="_blank" rel="noopener">${I.pin}<span data-i18n="hours.directions">${esc(s('hours.directions'))}</span></a>
             </div>
           </div>
@@ -594,9 +595,9 @@ function footerSection({ rel, tplId }) {
         <div><h4 data-i18n="footer.hoursTitle">${esc(s('footer.hoursTitle'))}</h4><ul>${hoursRows}</ul></div>
         <div><h4 data-i18n="footer.contactTitle">${esc(s('footer.contactTitle'))}</h4>
           <ul>
-            <li><a href="tel:${site.studio.phone.replace(/\s/g, '')}">${esc(site.studio.phone)}</a></li>
+            ${site.studio.phone ? `<li><a href="tel:${site.studio.phone.replace(/\s/g, '')}">${esc(site.studio.phone)}</a></li>` : ''}
             <li><a href="mailto:${site.studio.email}">${esc(site.studio.email)}</a></li>
-            <li><a href="https://wa.me/${site.studio.whatsapp}">WhatsApp</a></li>
+            ${site.studio.whatsapp ? `<li><a href="https://wa.me/${site.studio.whatsapp}">WhatsApp</a></li>` : ''}
             <li><a href="#hours" data-i18n="footer.instagram">${esc(s('footer.instagram'))}</a></li>
           </ul>
         </div>
@@ -695,7 +696,7 @@ function hubPage({ rel }) {
   const pkgBtns = site.packages
     .filter((p) => p.id !== 'licence')
     .map(
-      (p) => `<button type="button" data-pkg="${p.id}" aria-pressed="${p.id === 'croissant'}">
+      (p) => `<button type="button" data-pkg="${p.id}" aria-pressed="${p.id === 'baguette'}">
         ${esc(s('hub.pkg.' + p.id))}<small>${moneyOf(p.price)} · ${p.languages} lang</small></button>`
     )
     .join('');
@@ -1064,7 +1065,7 @@ function render404() {
 function write(file, content) {
   const p = join(DIST, file);
   mkdirSync(dirname(p), { recursive: true });
-  writeFileSync(p, content);
+  writeFileSync(p, file.endsWith('.html') ? String(content).replace(/[\t ]+$/gm, '') : content);
   return p;
 }
 

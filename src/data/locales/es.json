@@ -4,9 +4,18 @@
     "desc": "Tres plantillas interactivas y adaptables para panaderías artesanas y pastelerías, en inglés, francés, español y árabe."
   },
   "brand": {
-    "artisan": { "name": "Bois & Levain", "tag": "Horno de leña" },
-    "patisserie": { "name": "Rose & Glacé", "tag": "Alta pastelería" },
-    "moderno": { "name": "Horno Vivo", "tag": "Panadería de masa madre" }
+    "artisan": {
+      "name": "Bois & Levain",
+      "tag": "Horno de leña"
+    },
+    "patisserie": {
+      "name": "Rose & Glacé",
+      "tag": "Alta pastelería"
+    },
+    "moderno": {
+      "name": "Horno Vivo",
+      "tag": "Panadería de masa madre"
+    }
   },
   "common": {
     "skip": "Ir al contenido principal",
@@ -20,7 +29,8 @@
     "copy": "Copiar",
     "copied": "Copiado",
     "new": "Nuevo",
-    "demo": "Datos de ejemplo"
+    "demo": "Datos de ejemplo",
+    "demoNotice": "Plantilla de demostración — datos y dirección de panadería ficticios, no la ubicación del desarrollador. Sin pedidos reales."
   },
   "nav": {
     "menu": "Nuestro pan",
@@ -87,18 +97,54 @@
     "note": "Precios con impuestos locales. Último pedido 30 minutos antes del cierre."
   },
   "product": {
-    "sourdough": { "name": "Hogaza de masa madre", "desc": "Trigo y centeno, 1 kg, molienda a piedra" },
-    "tradition": { "name": "Barra de tradición", "desc": "Corteza quebradiza, alveolos abiertos, 400 g" },
-    "rye": { "name": "Pan de centeno con semillas", "desc": "Alcaravea y lino, 24 h de fermentación" },
-    "croissant": { "name": "Croissant de mantequilla", "desc": "27 capas, mantequilla de barrica" },
-    "chocolatine": { "name": "Napolitana de chocolate", "desc": "Dos tabletas de chocolate 66%" },
-    "cinnamon": { "name": "Caracol de canela", "desc": "Azúcar canela, ralladura de naranja" },
-    "fruitart": { "name": "Tarta de vainilla y fruta", "desc": "Crema ligera, fruta del mercado" },
-    "eclair": { "name": "Eclair de praliné", "desc": "Crema de avellana, glasé de caramelo" },
-    "macaron": { "name": "Macaron", "desc": "Pistacho, caramelo salado, frambuesa" },
-    "basque": { "name": "Tarta quemada vasca", "desc": "Para 8, en frío 12 h" },
-    "tropezien": { "name": "Saint-Honoré", "desc": "Para 10, pasta choux y caramelo" },
-    "kingcake": { "name": "Roscón de reyes", "desc": "Frangipane de almendra, con haba" }
+    "sourdough": {
+      "name": "Hogaza de masa madre",
+      "desc": "Trigo y centeno, 1 kg, molienda a piedra"
+    },
+    "tradition": {
+      "name": "Barra de tradición",
+      "desc": "Corteza quebradiza, alveolos abiertos, 400 g"
+    },
+    "rye": {
+      "name": "Pan de centeno con semillas",
+      "desc": "Alcaravea y lino, 24 h de fermentación"
+    },
+    "croissant": {
+      "name": "Croissant de mantequilla",
+      "desc": "27 capas, mantequilla de barrica"
+    },
+    "chocolatine": {
+      "name": "Napolitana de chocolate",
+      "desc": "Dos tabletas de chocolate 66%"
+    },
+    "cinnamon": {
+      "name": "Caracol de canela",
+      "desc": "Azúcar canela, ralladura de naranja"
+    },
+    "fruitart": {
+      "name": "Tarta de vainilla y fruta",
+      "desc": "Crema ligera, fruta del mercado"
+    },
+    "eclair": {
+      "name": "Eclair de praliné",
+      "desc": "Crema de avellana, glasé de caramelo"
+    },
+    "macaron": {
+      "name": "Macaron",
+      "desc": "Pistacho, caramelo salado, frambuesa"
+    },
+    "basque": {
+      "name": "Tarta quemada vasca",
+      "desc": "Para 8, en frío 12 h"
+    },
+    "tropezien": {
+      "name": "Saint-Honoré",
+      "desc": "Para 10, pasta choux y caramelo"
+    },
+    "kingcake": {
+      "name": "Roscón de reyes",
+      "desc": "Frangipane de almendra, con haba"
+    }
   },
   "batch": {
     "title": "Sale del horno en",
@@ -203,7 +249,7 @@
     "notesPh": "Alergias, celebración, dejar en el portal…",
     "submit": "Enviar mi pedido",
     "sending": "Enviando…",
-    "success": "Pedido recibido. Te avisamos por SMS cuando salga la bandeja.",
+    "success": "Solicitud preparada, no recibida ni confirmada. Usa un enlace de envío en un despliegue real; la demostración no reserva pedidos ni envía SMS.",
     "errorName": "Dinos a nombre de quién va la bolsa.",
     "errorPhone": "Necesitamos un número para avisarte.",
     "errorDate": "Elige un día a partir de mañana.",
@@ -302,39 +348,39 @@
     "langLead": "Cada texto, fecha, número, moneda y dirección sale del diccionario. La elección se recuerda por visitante.",
     "langSample": "Croissant de mantequilla recién hecho — 2,40 € — del horno a las 6:30",
     "langNote": "Números y monedas se forman con la API Intl del navegador: 2,40 € en español, €2.40 en inglés, 2,40 € en francés y ٢٫٤٠ € en árabe con dígitos árabes.",
-    "calcTitle": "Presupuesta una web de cliente en 20 segundos",
-    "calcLead": "Elige plantilla, paquete y complementos. Las cuentas siguen la tarifa de docs/PRICING.md.",
+    "calcTitle": "Planifica un proyecto pequeño de panadería",
+    "calcLead": "Elige un alcance limitado. Son estimaciones, no ofertas enviadas ni todas las funciones de la demostración.",
     "calcTemplate": "Plantilla",
     "calcPackage": "Paquete",
-    "calcLangs": "Idiomas",
-    "calcOptions": "Extras",
-    "calcTotal": "Total del proyecto",
+    "calcLangs": "Idiomas incluidos",
+    "calcOptions": "Solo mantenimiento opcional",
+    "calcTotal": "Importe único estimado",
     "calcMonthly": "Plan de cuidado",
-    "calcDays": "Entrega",
+    "calcDays": "Plazo estimado tras confirmar",
     "calcDaysValue": "{{n}} días laborables",
-    "calcWhats": "Qué recibe el cliente",
+    "calcWhats": "Alcance acordado, no toda la demostración",
     "calcCopy": "Copiar resumen",
     "calcCopied": "Presupuesto copiado al portapapeles",
-    "calcNote": "Tarifas de autónomo, sin IVA. 40% al arrancar, resto al publicar.",
-    "pkg.licence": "Licencia de plantilla (DIY)",
-    "pkg.licence.d": "El repositorio, las tres plantillas, los cuatro idiomas, sin acompañamiento.",
-    "pkg.baguette": "Baguette — web de arranque",
-    "pkg.baguette.d": "Una plantilla, un idioma, textos y fotos del cliente, en línea en 5 días.",
-    "pkg.croissant": "Croissant — el favorito del barrio",
-    "pkg.croissant.d": "Dos idiomas, cesta de encargo, cuenta atrás, analítica, sesión de fotos y formación.",
-    "pkg.patisserie": "Pâtisserie — web insignia",
-    "pkg.patisserie.d": "Cuatro idiomas incluido árabe RTL, tema a medida, CMS de carta, SEO local y 12 meses de cuidado.",
+    "calcNote": "Borrador. Impuestos y viabilidad se confirman antes del acuerdo. Una revisión y contenido del cliente. Sin suscripción obligatoria; anticipo del 40 % tras aprobar el alcance escrito.",
+    "pkg.licence": "Archivos de plantilla DIY",
+    "pkg.licence.d": "Solo archivos y diccionarios de ejemplo. Instalación propia; sin personalización, traducción ni servicio recurrente.",
+    "pkg.baguette": "Baguette — una página útil",
+    "pkg.baguette.d": "Una página adaptable, un idioma, contenido aprobado y enlace de pedido/contacto existente. Una revisión, sin nueva pasarela.",
+    "pkg.croissant": "Croissant — dos páginas claras",
+    "pkg.croissant.d": "Menú y visita/recogida: dos páginas en un idioma. Conserva la pasarela existente; contenido del cliente y una revisión.",
+    "pkg.patisserie": "Pâtisserie — tres páginas de consultas",
+    "pkg.patisserie.d": "Hasta tres páginas basadas en plantilla, un idioma y un formulario sencillo. Sin pagos, inventario, CMS propio, fotos, traducción ni mantenimiento incluido.",
     "pkg.includes": "Incluye",
     "opt.language": "Idioma extra",
-    "opt.language.d": "+220 € por idioma, traducido por una persona y revisado en la página.",
+    "opt.language.d": "No incluido en este catálogo reducido; requiere revisión y presupuesto separados.",
     "opt.seo": "Pack de SEO local",
-    "opt.seo.d": "+380 € — Google Business, schema.org Bakery, palabras clave de la ciudad, 3 textos locales.",
+    "opt.seo.d": "Sin campaña de marketing ni promesa de posicionamiento incluida.",
     "opt.photo": "Sesión de fotos (media jornada)",
-    "opt.photo.d": "+320 € — 25 fotos retocadas del mostrador, el obrador y el equipo.",
+    "opt.photo.d": "Fotografía no incluida; utiliza imágenes aprobadas aportadas por el cliente.",
     "opt.preorder": "Encargos con señal",
-    "opt.preorder.d": "+460 € — cobro Stripe o SumUp, señal anti no-show, configurador de tartas.",
-    "opt.care": "Plan de cuidado",
-    "opt.care.d": "+45 €/mes — actualizaciones, disponibilidad y textos corregidos en 24 h.",
+    "opt.preorder.d": "Pagos, inventario y pedidos confirmados no incluidos.",
+    "opt.care": "Mantenimiento separado opcional",
+    "opt.care.d": "+25 EUR/mes solo si se elige: un pequeño cambio de contenido al mes y cuidado técnico acordado. Dominio/alojamiento pagados por el cliente.",
     "devTitle": "Arráncala, cámbiala, publícala",
     "devLead": "Cuatro comandos entre un clon y el dominio del cliente. Solo HTML, CSS y JavaScript ESM.",
     "step1t": "Clonar",

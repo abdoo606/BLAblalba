@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "updated_on": "2026-10-11",
+  "send_paused": true,
+  "pause_reason": "No replay of old messages. Cross-border sender obligations, recipient entity or consent, contact purpose and privacy information must be documented before a new send.",
+  "sender": {
+    "display_name": "Abdulrhman Thali",
+    "role": "Independent web developer for bakeries",
+    "reply_to": "abdulrhmant948@gmail.com",
+    "marketing_signature_includes_location": false,
+    "legal_review_status": "pending",
+    "legal_review_reference": null,
+    "tax_review_status": "pending",
+    "tax_review_reference": null,
+    "payment_route_verified": false,
+    "legal_identity_verified": false
+  },
+  "rates": {
+    "EUR": 1.0,
+    "USD": 1.09,
+    "GBP": 0.86
+  },
+  "rates_note": "Planning equivalents only, not a verified live exchange rate. Invoice currency and rate are agreed in writing.",
+  "deposit_pct": 40,
+  "revision_rounds": 1,
+  "bug_fix_days": 14,
+  "default_care_eur_per_month": 0,
+  "optional_care_eur_per_month": 25,
+  "hosting": "Client-owned account, paid by client; no hosting subscription bundled in the project fee.",
+  "packages": {
+    "licence": {
+      "name": "DIY template licence",
+      "price_eur": 99,
+      "days": 0,
+      "pages": 0,
+      "languages": 0,
+      "scope": "Template files only; self-installation. No custom content, setup, translation or ongoing service.",
+      "deliverables": [
+        "Template source files",
+        "Installation notes"
+      ]
+    },
+    "baguette": {
+      "name": "Baguette — one useful page",
+      "price_eur": 290,
+      "days": 3,
+      "pages": 1,
+      "languages": 1,
+      "scope": "One responsive page in one language: menu or visit/collection information and a link to an existing order route. Client supplies final text, hours, prices and images. One revision round.",
+      "deliverables": [
+        "One mobile-friendly information page",
+        "One clear link to an existing order or contact route",
+        "An editable content file and handover notes"
+      ]
+    },
+    "croissant": {
+      "name": "Croissant — two clear pages",
+      "price_eur": 490,
+      "days": 5,
+      "pages": 2,
+      "languages": 1,
+      "scope": "Two responsive pages in one language: a menu and a visit/collection page for one location or a simple location list. Existing checkout stays unchanged. Client-supplied text and images. One revision round.",
+      "deliverables": [
+        "A mobile-friendly menu page",
+        "A visit or collection-information page",
+        "Editable content and handover notes"
+      ]
+    },
+    "patisserie": {
+      "name": "Pâtisserie — three-page enquiry site",
+      "price_eur": 790,
+      "days": 7,
+      "pages": 3,
+      "languages": 1,
+      "scope": "Up to three template-based pages in one language, with a simple request form handing details to the business by email. Requests are not confirmed orders. Existing checkout remains unchanged. Client-supplied text and images. One revision round.",
+      "deliverables": [
+        "Up to three mobile-friendly pages",
+        "A simple enquiry or collection-request form",
+        "Editable content and handover notes"
+      ]
+    }
+  },
+  "excluded_by_default": [
+    "Payment processing or a new checkout",
+    "Inventory, confirmed order slots or delivery integrations",
+    "Multiple custom location sites or a custom CMS",
+    "Translation or additional-language content entry",
+    "Photography, branding or custom illustration",
+    "SEO campaigns or ranking/sales guarantees",
+    "Migration of customer data",
+    "Hosting, domains, subscriptions or ongoing care",
+    "Unlimited revisions"
+  ],
+  "markets": {
+    "US": {
+      "status": "excluded-permanent",
+      "reason": "User excludes commercial-email markets requiring a valid postal address; no location-free workaround."
+    },
+    "CA": {
+      "status": "excluded-permanent",
+      "reason": "Mailing-address and CASL requirements are incompatible with this campaign's no-address instruction."
+    },
+    "GB": {
+      "status": "hold",
+      "requires": "Documented corporate-subscriber status or appropriate prior consent, relevant contact purpose, identity and privacy review."
+    },
+    "FR": {
+      "status": "hold",
+      "requires": "Documented professional relevance, source, information/objection and privacy review, or appropriate consent. No blanket EU exemption."
+    },
+    "ES": {
+      "status": "hold",
+      "requires": "Documented prior authorisation or a reviewed applicable exception. A public email is not sufficient."
+    }
+  },
+  "rules": [
+    "No city, country, nationality or substitute location in marketing signatures.",
+    "Keep the real sender identity and working reply address; never use a fake local company, address or phone.",
+    "Required billing, contractual, tax or payment/KYC details must be truthful; decline the transaction if required details will not be disclosed.",
+    "If a prospect makes disclosure of provider locality a condition and the user declines, exclude that prospect permanently; do not invent an answer.",
+    "An address published for hiring, merchandise preorders or another narrow purpose is not a general vendor-proposal inbox.",
+    "No sender-country assumption and no guarantee that excluding a recipient country removes all sender-side legal obligations.",
+    "Old delivered messages cannot be edited or recalled. New drafts are neither backdated replacements nor automatic follow-ups.",
+    "No new send until the suppression and legal gates pass. A prior recipient requires separate follow-up approval.",
+    "No tax-free, no-VAT or guaranteed-legality claim in marketing or generated quotes."
+  ],
+  "storage": {
+    "repository_expected_private": false,
+    "repository_private_verified": false,
+    "drive_not_public_verified": true,
+    "privacy_storage_reviewed": false,
+    "review_note": "Drive folder ACL checked on 2026-10-11: owner-only, no anyone/domain permission. This is not legal approval; historic public data was not erased.",
+    "contact_data_tracked": false,
+    "storage_strategy": "Website/code in public Git; current CRM in workspace and owner-only Drive source bundle.",
+    "public_history_remains": true
+  }
+}

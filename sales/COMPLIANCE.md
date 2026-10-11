@@ -1,81 +1,39 @@
-# Compliance — what is legal, what is not, and the line I will not cross
+# Compliance review — conditional, not a guarantee · 2026-10-11
 
-Checked 2026-10-10 against public guidance (CNIL/RGPD doctrine, L.34-5 CPCE, CAN-SPAM, UK PECR/ICO).
-This is a working checklist, not legal advice: for a real contract and for VAT status in your country,
-ask an accountant once — it costs less than one lawsuit.
+**Status: sending paused.** This is a working review of official published guidance, not a legal opinion, approval of previous sends, or a promise that a message is lawful in every jurisdiction. Rules can depend on the actual sender, recipient, routing, entity, consent, data processing and transaction. No substitute nationality, city, company, phone or address is allowed.
 
-## 1. Cold outreach by email — allowed, with conditions
+## What changed
 
-| Where | Rule for B2B email to a business | Mandatory in every message |
+- Marketing signatures no longer contain provider locality. Real identity and a working reply/opt-out route remain. Where lawful disclosure is required in billing, contracts, tax, privacy or payment/KYC, provide truthful information or decline the transaction; do not conceal it.
+- US recipients are permanently removed from this campaign by the user's instruction. Canada is permanently blocked from future imports. These are **user exclusions**, not invented recipient opt-outs.
+- Remaining markets are research/draft-only until recipient entity/consent, contact purpose, privacy information and sender-side obligations are documented. A business-looking email address is not proof of corporate status.
+- Old sent copies were moved to Gmail trash at the user's request. This does not edit, recall or erase recipients' copies, or establish retroactive compliance. New copy is draft-only and must not be replayed as a fresh first contact.
+
+## Official rules relevant to the decisions
+
+| Market | Published guidance | Campaign action |
 |---|---|---|
-| **France** (and most EU) | Lawful **without prior consent** (opt-out) under legitimate interest, art. 6.1.f RGPD + art. L.34-5 CPCE, *provided* the offer relates to their professional activity | Real identity of the sender · a free, immediate way to object (“reply *stop*”) · data collected lawfully |
-| **Generic addresses** `contact@`/`info@` | Not personal data in French doctrine → most comfortable channel for a small shop | same as above |
-| **UK** | Permitted to **corporate bodies** under PECR (the consent rule bites for sole traders/individuals, not limited companies) | identity + unsubscribe; respect objections |
-| **US / Canada** | CAN-SPAM: no consent needed for B2B, but **a valid physical postal address is required**, no deceptive subject/headers, opt-out honoured within 10 business days. Canada (CASL) is stricter — opt-in | full postal address in the footer · working opt-out · truthful subject |
-| **Sole traders / micro-entrepreneurs** | Grey zone: many are legally “individuals”, so treat them closer to the B2C rule — phone, a DM, or a visit beats a cold email | prefer non-email first touch |
+| US | CAN-SPAM covers commercial messages including B2B, requires truthful headers/subjects, advertisement identification, a valid physical postal address and opt-out. The address rule is not a requirement to state nationality. [1](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) | Permanently excluded; do not remove a mandatory footer or invent a local mailbox. |
+| Canada | CASL generally requires consent, identifying information and unsubscribe; its mailing-address guidance permits real alternatives such as a PO box. Public publication is not a broad licence to send, and requirements must be assessed case by case. [1](https://crtc.gc.ca/eng/com500/faq500.htm) | Permanently excluded from this no-address campaign, including future imports. |
+| UK | Corporate-subscriber email differs from sole traders/ordinary partnerships. Unknown subscriber status should be treated as individual; public contact details alone do not supply the consent required for individuals. Identity and a valid opt-out contact remain required. Named contact data may engage UK GDPR. ICO also flags that guidance is under review after legislative changes. [2](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) | Hold until corporate status or appropriate consent and privacy/source review are documented. No blanket UK/B2B exemption. |
+| France | CNIL distinguishes professional relevance/information/objection from prior consent for consumer marketing; sender identity and a simple objection route remain necessary. [2](https://www.cnil.fr/en/node/14686) | Hold pending a documented lawful route, information, relevance and privacy review. Do not extrapolate to all Europe. |
+| Spain | Article 21 generally prohibits unrequested/unauthorised electronic promotions, with a limited previous-contract/similar-product exception. [3](https://www.aepd.es/documento/2018-0173.pdf) | Hold without documented prior authorisation or an applicable reviewed exception. A public email is not enough. |
 
-Extra French note: the anti-harassment call law that entered into force **11 August 2026** targets
-*consumers*; B2B calls to a professional line remain under legitimate interest. And keep in mind:
-**you may not** buy a prospect list, harvest personal addresses of the owner's private mailbox, or send
-from a fake identity — CNIL fines go up to €20M or 4 % of global turnover.
+Excluding a recipient country **does not prove** that sender-side or other applicable laws disappear. The actual sender-side jurisdictions are not verified in this project. Do not use a phone, DM, intermediary or a second address to bypass a blocked marketing route.
 
-## 2. Records you must keep (nobody does this, everybody should)
+## Billing, tax and payments are separate checks
 
-- A log: who was contacted, when, from which public source, what was said. → `sales/OUTREACH-LOG.csv`
-- A **suppression list kept forever** (the point is not to re-contact someone who said no — re-contacting
-  an objector is the fastest way to a complaint).
-- Prospect data deleted after **3 years** of silence (CNIL doctrine).
-- GDPR art. 14: because we collected their address *indirectly*, the first message must say who we are,
-  where the address came from, and how to object — one sentence does it:
-  > *Je vous écris parce que [boutique] apparaît dans [source]. Vos coordonnées professionnelles sont
-  > publiques. Vous pouvez vous opposer à tout moment à ces messages en répondant « stop ».*
-- A short privacy notice page on our own site (hosting the demo is already enough to need one).
+- EU guidance lists supplier and customer full name/address on a full VAT invoice. The applicable invoice type and obligations require transaction-specific review. [1](https://taxation-customs.ec.europa.eu/taxation/vat/vat-businesses/invoicing_en)
+- UK place-of-supply/reverse-charge rules depend on where the parties belong and what is supplied. They do not establish that everybody owes no tax. [1](https://www.gov.uk/guidance/vat-place-of-supply-of-services-notice-741a)
+- OFAC's updated guidance reports changes to comprehensive country sanctions while preserving targeted restrictions. This is not an approval of a particular person, bank, transfer, payment provider or contract. [2](https://ofac.treasury.gov/faqs/topic/1571)
+- No blanket “no VAT anywhere”, “legal for sure”, unsupported payment-availability assertion, or automatic tax-form selection remains authorised. Sender identity, applicable jurisdictions, tax treatment and a supported lawful payment route must be reviewed before sending a priced proposal or taking a deposit.
 
-## 3. Sending mechanics (where accounts actually die)
+## Storage and public history
 
-- 1:1 personalised messages from a normal mailbox: **max 5–10/day**, unique body, no attachments in the
-  first message, no link shorteners, SPF + DKIM + DMARC configured on the sending domain.
-- Do **not** push this list through Mailchimp/Brevo/HubSpot marketing: their ToS require opt-in and they
-  suspend accounts for purchased/scraped B2B lists — the platform rule is stricter than the law.
-- A domain used for outreach should be a **secondary domain** you are willing to burn, not your main one.
-- WhatsApp/Instagram DM: fine for a first touch, but no broadcast lists, no automated blasts — Meta bans
-  the number, and a bakery owner seeing a bot message is a lost referral.
+Repository visibility and Drive sharing must be reviewed before publishing new compiled contact data. A public repository can expose both present records and older Git revisions. Making it private reduces exposure but does not erase earlier public copies, recipients' messages, caches or trash. Technical visibility/ACL checks do not by themselves prove compliance with privacy law. No privacy-storage approval is recorded yet.
 
-## 4. The pitch itself — truth rules
+## Enforced workflow
 
-- ✅ “Votre site est en une seule langue”, “il n’y a pas de précommande”, “vos horaires sur Google ne
-  correspondent pas à votre page” — all checkable, all said politely, all verified before we write it.
-- ❌ “Votre site est nul”, “vos clients vous quittent à cause de ça”, “votre concurrent X nous a engagé”,
-  “il ne me reste que 2 créneaux” (fake scarcity), “nous sommes partenaires de [prix James Beard/M6]”.
-- ❌ Never use their **brand name in the subject line** as if we were affiliated: “à propos de la
-  Page du Marché” is fine, “[Brand] × OurStudio” is not.
-- ❌ No press photos, no images from their Instagram in our proposals or our own marketing without asking.
-  Our demo uses our own generated imagery — keep it that way until they sign.
-- Mentioning that they won an award, in a private proposal, as a fact with a source: fine. Building an ad
-  around it: not fine.
+`python3 tools/suppression.py` blocks opt-outs, user exclusions and excluded recipient countries. `python3 tools/outreach_policy.py check-send ID` fails closed if any required evidence or approval is missing. An earlier recipient needs separate follow-up approval. The gate is an operational safeguard, not a legal certificate.
 
-## 5. Money and contract
-
-- Written quote valid 21 days, with **what is excluded** listed (that is where disputes come from).
-- Deposit 40 % before work, balance at go-live, late-payment terms stated.
-- VAT: if you are under the *franchise en base* threshold, invoice “TVA non applicable, art. 293 B du CGI”
-  (FR) — say it on every quote, and register for VAT when you pass the threshold. UK/US clients: no EU VAT
-  on services to a VAT-numbered business — get their number.
-- **Domain and hosting belong to the client**, in their name, on their email, with their own 2FA. If we
-  pay for it first, we disclose that, bill it at cost (+ €25 admin), and transfer the registrar account
-  within 7 days. Never register it in our name to keep them “sticky” — that is both bad practice and, in
-  several countries, an abusive clause.
-- When we handle their customers' data (pre-order basket → their WhatsApp/email), we are a processor:
-  no retention on our side, no analytics cookies without consent banner, and a one-paragraph DPA clause
-  in the contract.
-- Professional indemnity insurance (RC Pro / E&O) before the third paying client.
-
-## 6. What I (the agent) will not do — and why
-
-| Request | My answer |
-|---|---|
-| “Send to everyone on the list” | On 2026-10-11 the user approved sending, and 11 emails went out — every one of them to a business whose own website I had opened that morning and whose address I read off that site (August, Northern Rye, Wild Crumb, Suba, Chatsworth, Layla, Wild Hearth, Bakery House, Wild Yeast, Heritage Rise, Daily Bread). What I still refuse: inventing or guessing addresses for the 32 rows that are only press-list entries, and scraping purchased lists. That's the part that turns lawful B2B outreach into spam, and the mailbox reputation is a real asset. | I will prepare and *queue* drafts, show you each one, and send only after you approve each batch — from your account, in your name, with your legal identity. I need real name + studio + postal address first, otherwise the message is illegal in the US and sloppy everywhere. |
-| “Negotiate for me, promise a date” | I draft, you decide. A contract and a delivery date are commitments in your name. |
-| “Answer the phone / sit a meeting” | I can't. I can prep a call sheet and write the follow-up within a minute of your notes. |
-| “Buy the domains” | I can't pay and I can't be the registrant. I can check availability (RDAP/DNS), prepare the exact registrar basket, DNS zone, SPF/DKIM/DMARC records and the transfer email. |
-| “Say their site is terrible” | Never in writing. Verified facts only. |
+If a prospective client makes provider-locality disclosure a condition and the user declines it: exclude that client with reason `user-exclusion`; do not invent an answer or work around the requirement. An opt-out is acted on immediately, without re-pitch or a second confirmation.

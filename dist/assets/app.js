@@ -572,7 +572,7 @@
           const body = encodeURIComponent(orderText());
           handoff.innerHTML =
             `<a class="btn btn--ghost btn--sm" href="mailto:${CFG.email || ''}?subject=${encodeURIComponent((CFG.brandName || '') + ' — ' + t('order.title'))}&body=${body}">${t('order.submit')} ✉</a>
-             <a class="btn btn--sm" href="https://wa.me/${CFG.whatsapp}?text=${body}" target="_blank" rel="noopener">WhatsApp</a>`;
+             ${CFG.whatsapp ? `<a class="btn btn--sm" href="https://wa.me/${CFG.whatsapp}?text=${body}" target="_blank" rel="noopener">WhatsApp</a>` : ''}`;
         }
         D.dispatchEvent(new CustomEvent('levain:toast', { detail: t('order.success') }));
       }, 700);

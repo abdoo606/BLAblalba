@@ -1,25 +1,13 @@
-# Data quality / deletion notes · 2026-10-11
+# Reset / data-quality notes · 2026-10-11
 
-## Full removal, not a suppressed sales dossier
+The user requested location-free professional copy, removal of incompatible markets, smaller prices/scopes and clearing old sent-copy material. The 55 freshly listed campaign-only sender message IDs were checked against the recorded sends before Gmail trashing. No unrelated email or draft was deleted. No recipient copy was changed or recalled, and no new email was sent.
 
-One requested opt-out was removed from all active prospect/contact source lists, the active sent-contact export and generated boards. No new pitch or second confirmation was sent. The Gmail conversation was moved to trash and removed from the client label.
+Seventy US prospect records were permanently removed from CSV/JSON/log/boards; Canada had no current rows but is blocked for future imports. These are user exclusions, not recipient opt-outs. The earlier true opt-out remains protected. Hashes never apply to all of a shared mail provider; business-domain prevention excludes shared roots such as Gmail.
 
-Only pseudonymous SHA-256 fingerprints remain in `sales/SUPPRESSION-LIST.json`, for the sole purpose of preventing re-import and any future contact. No name, email address, site, reply quotation or offered price is retained in that suppression record. Hashes are not encryption and not guaranteed anonymity. Git history and Gmail/Drive trash are not erased by this operation. Superseded Drive copies must be trashed after successful replacement.
+Old active SENT-RECORD entries, subject/body narratives, historical fee totals and automatic chase dates were cleared. Minimal aggregate history and message/prevention fingerprints remain in CAMPAIGN-ACTIVITY.json/SUPPRESSION-LIST.json, not old contact dossiers. Previous contact dates remain on retained leads to stop accidental first-touch replay. Git/Drive/Gmail trash and external copies are not erased.
 
-Commands and deletion regressions: `tools/suppression.py`, `tests/test_suppression.py`. Every outreach generator now refuses blocked source records, and the board generator deletes its own orphaned numeric-prefix files before packaging.
+A shared-mailbox index previously mis-matched a contacted discovery row to a different placeholder. That resolver's regressions remain. No old financial figure is carried forward as a new quote, contract or revenue.
 
-## Corrected price lookup: a shared mailbox is not a unique lead key
+ARAN's research row was cross-contaminated with an unrelated business. Its wrong audit was discarded and its own homepage re-read; only displayed opening times/cart summary are recorded. Address publication and entity still need review. Hiring/merchandise/order-specific inboxes in other retained rows remain blocked for vendor proposals.
 
-Rows 66 (Niedlov's Bakery & Cafe, actual sent quote EUR 2,900) and 73 (Niedlov's Breadworks, no-pitch licence placeholder EUR 149) have the same published mailbox. The old resume and Arabic-register dictionaries let the later discovery row overwrite the contacted row. This understated those reports by EUR 2,751; it did not change the offer that was actually sent.
-
-`tools/outreach_data.py` now prioritises the action log's contacted row over the uncontacted duplicate and refuses two equally active matches. The two discovery rows have **not** been silently merged; review them before any future research or campaign. The English register and log already used the contacted row's price. `tests/test_outreach_data.py` tests both row orders and ambiguous matches.
-
-Standing-offer totals exclude bounced messages as well as removed leads. These totals are hypothetical offers, **not** earned money, signed contracts, payment commitments or verified customer budgets. Historical send counts in current exports exclude the fully removed contact, while the separate suppression counter records that one deletion took place.
-
-## Reply classification
-
-White Horse's receipt acknowledgement dated 2026-10-11T14:33:13Z was booked as automatic. It is not human interest, budget approval or an opt-in. No answer was sent; its existing 2026-10-20 chase date is unchanged. The current active log has five automatic acknowledgements.
-
-## Sales interpretation
-
-An award, a weak site, or a salary comparison does not establish the owner's wealth or available budget. Do not infer that an expression such as "a month's wages" means a recurring fee, especially if the original offer explicitly says there is no monthly charge. Keep the project fee one-time, optional services separate, and prioritise evidence of a relevant commercial need on the shop's own pages.
+New fees represent new smaller scopes, not retroactive edits to delivered offers. All recipient entity/consent/source/privacy fields are pending review, and the sender-side/tax/payment reviews are also pending. There are zero send-ready leads. No certainty about past legality, future legality, customer budget or sales outcome is claimed.

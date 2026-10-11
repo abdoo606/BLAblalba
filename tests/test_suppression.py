@@ -88,6 +88,29 @@ class SuppressionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Empty suppression entry"):
             suppression.check_sources(self.root)
 
+    def test_shared_mail_provider_is_not_a_business_domain(self):
+        fields, rows = suppression.read_csv(self.root / "sales/prospects-2026.csv")
+        rows[0]["contact_verified"] = "owner@gmail.com"
+        suppression.write_csv(self.root / "sales/prospects-2026.csv", fields, rows)
+        self.remove()
+        registry = suppression.load_registry(self.root)
+        self.assertTrue(suppression.is_blocked({"email": "owner@gmail.com"}, registry))
+        self.assertFalse(suppression.is_blocked({"email": "unrelated@gmail.com"}, registry))
+        self.assertNotIn(suppression.fingerprint("domain", "gmail.com"), registry["entries"][0]["fingerprints"]["domain"])
+
+    def test_country_exclusion_is_permanent_and_distinct_from_opt_out(self):
+        fields, rows = suppression.read_csv(self.root / "sales/prospects-2026.csv")
+        for row in rows:
+            row["country"] = "US" if row["id"] == "999" else "GB"
+        suppression.write_csv(self.root / "sales/prospects-2026.csv", fields + ["country"], rows)
+        suppression.exclude_countries(["US", "CA"], "2026-10-11", self.root)
+        registry = suppression.load_registry(self.root)
+        self.assertEqual(registry["entries"][0]["reason"], "user-exclusion")
+        self.assertTrue(suppression.is_blocked({"country": "US", "email": "new@new.example"}, registry))
+        self.assertTrue(suppression.is_blocked({"country": "CA"}, registry))
+        self.assertFalse(suppression.is_blocked({"country": "GB", "email": "hello@other.example"}, registry))
+        self.assertEqual(suppression.check_sources(self.root), 1)
+
     def test_unknown_id_does_not_change_data(self):
         before = (self.root / suppression.REGISTRY).read_bytes()
         with self.assertRaises(ValueError):

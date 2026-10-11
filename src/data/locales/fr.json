@@ -4,9 +4,18 @@
     "desc": "Trois modèles de sites interactifs et responsives pour boulangeries artisanales et pâtisseries, livrés en anglais, français, espagnol et arabe."
   },
   "brand": {
-    "artisan": { "name": "Bois & Levain", "tag": "Boulangerie au feu de bois" },
-    "patisserie": { "name": "Rose & Glacé", "tag": "Pâtisserie fine" },
-    "moderno": { "name": "Horno Vivo", "tag": "Panadería de masa madre" }
+    "artisan": {
+      "name": "Bois & Levain",
+      "tag": "Boulangerie au feu de bois"
+    },
+    "patisserie": {
+      "name": "Rose & Glacé",
+      "tag": "Pâtisserie fine"
+    },
+    "moderno": {
+      "name": "Horno Vivo",
+      "tag": "Panadería de masa madre"
+    }
   },
   "common": {
     "skip": "Aller au contenu principal",
@@ -20,7 +29,8 @@
     "copy": "Copier",
     "copied": "Copié",
     "new": "Nouveau",
-    "demo": "Données de démo"
+    "demo": "Données de démo",
+    "demoNotice": "Modèle de démonstration — données et adresse de boulangerie fictives, pas la localisation du développeur. Aucune commande réelle."
   },
   "nav": {
     "menu": "Notre pain",
@@ -87,18 +97,54 @@
     "note": "Prix nets, taxes locales incluses. Dernier panier accepté 30 minutes avant la fermeture."
   },
   "product": {
-    "sourdough": { "name": "Miche au levain", "desc": "Blé & seigle, 1 kg, mouture sur meule" },
-    "tradition": { "name": "Baguette de tradition", "desc": "Croûte craquante, mie alvéolée, 400 g" },
-    "rye": { "name": "Tourteau de seigle", "desc": "Carvi, lin, 24 h de fermentation" },
-    "croissant": { "name": "Croissant au beurre", "desc": "27 couches, beurre de baratte" },
-    "chocolatine": { "name": "Pain au chocolat", "desc": "Deux barres de chocolat 66%" },
-    "cinnamon": { "name": "Vendange du matin", "desc": "Sucre cannelle, zeste d'orange" },
-    "fruitart": { "name": "Tarte vanille & fruits", "desc": "Crème légère, fruits du marché" },
-    "eclair": { "name": "Éclair praliné", "desc": "Crème noisette, glaçage caramel" },
-    "macaron": { "name": "Macaron", "desc": "Pistache, caramel beurré, framboise" },
-    "basque": { "name": "Cheesecake basque brûlé", "desc": "Pour 8, frais 12 h" },
-    "tropezien": { "name": "Saint-Honoré", "desc": "Pour 10, pâte à choux & caramel" },
-    "kingcake": { "name": "Galette des rois", "desc": "Frangipane amande, fève incluse" }
+    "sourdough": {
+      "name": "Miche au levain",
+      "desc": "Blé & seigle, 1 kg, mouture sur meule"
+    },
+    "tradition": {
+      "name": "Baguette de tradition",
+      "desc": "Croûte craquante, mie alvéolée, 400 g"
+    },
+    "rye": {
+      "name": "Tourteau de seigle",
+      "desc": "Carvi, lin, 24 h de fermentation"
+    },
+    "croissant": {
+      "name": "Croissant au beurre",
+      "desc": "27 couches, beurre de baratte"
+    },
+    "chocolatine": {
+      "name": "Pain au chocolat",
+      "desc": "Deux barres de chocolat 66%"
+    },
+    "cinnamon": {
+      "name": "Vendange du matin",
+      "desc": "Sucre cannelle, zeste d'orange"
+    },
+    "fruitart": {
+      "name": "Tarte vanille & fruits",
+      "desc": "Crème légère, fruits du marché"
+    },
+    "eclair": {
+      "name": "Éclair praliné",
+      "desc": "Crème noisette, glaçage caramel"
+    },
+    "macaron": {
+      "name": "Macaron",
+      "desc": "Pistache, caramel beurré, framboise"
+    },
+    "basque": {
+      "name": "Cheesecake basque brûlé",
+      "desc": "Pour 8, frais 12 h"
+    },
+    "tropezien": {
+      "name": "Saint-Honoré",
+      "desc": "Pour 10, pâte à choux & caramel"
+    },
+    "kingcake": {
+      "name": "Galette des rois",
+      "desc": "Frangipane amande, fève incluse"
+    }
   },
   "batch": {
     "title": "Sortie du four dans",
@@ -203,7 +249,7 @@
     "notesPh": "Allergies, anniversaire, laisser à la porte…",
     "submit": "Envoyer ma commande",
     "sending": "Envoi…",
-    "success": "Commande reçue. On vous envoie un SMS dès la sortie du four.",
+    "success": "Demande préparée, non reçue ni confirmée. Utilisez un lien de transmission pour un vrai déploiement ; la démo ne réserve pas et n’envoie pas de SMS.",
     "errorName": "Dites-nous à qui est le sac.",
     "errorPhone": "Il nous faut un numéro pour vous prévenir.",
     "errorDate": "Choisissez un jour à partir de demain.",
@@ -302,39 +348,39 @@
     "langLead": "Chaque texte, date, nombre, monnaie et sens de lecture vient du dictionnaire. Le choix est mémorisé par visiteur.",
     "langSample": "Croissant au beurre frais — 2,40 € — sortie du four à 6 h 30",
     "langNote": "Nombres et monnaies sont formatés via l'API Intl du navigateur : 2,40 € en français, €2.40 en anglais, 2,40 € en espagnol et ٢٫٤٠ € en arabe avec chiffres arabes.",
-    "calcTitle": "Chiffrez un site client en 20 secondes",
-    "calcLead": "Choisissez un modèle, une formule et les options. Le calcul suit la grille tarifaire de docs/PRICING.md.",
+    "calcTitle": "Préparer un petit projet de boulangerie",
+    "calcLead": "Choisissez un périmètre limité. Estimations de travail, pas des offres émises ni toutes les fonctions de la démo.",
     "calcTemplate": "Modèle",
     "calcPackage": "Formule",
-    "calcLangs": "Langues",
-    "calcOptions": "Options",
-    "calcTotal": "Total du projet",
+    "calcLangs": "Langues incluses",
+    "calcOptions": "Suivi facultatif uniquement",
+    "calcTotal": "Frais uniques estimatifs",
     "calcMonthly": "Forfait suivi",
-    "calcDays": "Délai",
+    "calcDays": "Délai estimé après validation",
     "calcDaysValue": "{{n}} jours ouvrés",
-    "calcWhats": "Ce que reçoit le client",
+    "calcWhats": "Périmètre convenu, pas toute la démo",
     "calcCopy": "Copier le récapitulatif",
     "calcCopied": "Devis copié dans le presse-papiers",
-    "calcNote": "Tarifs micro-entrepreneur, HT. Acompte 40% au démarrage, solde à la mise en ligne.",
-    "pkg.licence": "Licence modèle (DIY)",
-    "pkg.licence.d": "Le dépôt, les trois modèles, les quatre langues, sans accompagnement.",
-    "pkg.baguette": "Baguette — site de lancement",
-    "pkg.baguette.d": "Un modèle, une langue, textes et photos fournis, en ligne en 5 jours.",
-    "pkg.croissant": "Croissant — le repaire du quartier",
-    "pkg.croissant.d": "Deux langues, panier de précommande, compte à rebours, analytics, passage photo, formation.",
-    "pkg.patisserie": "Pâtisserie — vitrine flagship",
-    "pkg.patisserie.d": "Quatre langues dont l'arabe RTL, thème sur mesure, CMS carte, SEO local, 12 mois de suivi.",
+    "calcNote": "Brouillon. Fiscalité et faisabilité à confirmer avant accord. Une révision, contenus fournis par le client. Aucun abonnement obligatoire ; acompte de 40 % après validation écrite.",
+    "pkg.licence": "Fichiers du modèle DIY",
+    "pkg.licence.d": "Fichiers et dictionnaires exemples uniquement. Installation autonome ; aucune personnalisation, traduction ou prestation récurrente.",
+    "pkg.baguette": "Baguette — une page utile",
+    "pkg.baguette.d": "Une page responsive, une langue, contenus approuvés et lien de commande/contact existant. Une révision, sans nouvelle caisse.",
+    "pkg.croissant": "Croissant — deux pages claires",
+    "pkg.croissant.d": "Menu et visite/retrait : deux pages dans une langue. Caisse existante conservée ; contenus client et une révision.",
+    "pkg.patisserie": "Pâtisserie — trois pages de demandes",
+    "pkg.patisserie.d": "Jusqu’à trois pages issues du modèle, une langue et un formulaire simple. Paiements, stock, CMS sur mesure, photos, traduction et suivi non inclus.",
     "pkg.includes": "Comprend",
     "opt.language": "Langue supplémentaire",
-    "opt.language.d": "+220 € par langue, traduite par un humain, relue en page.",
+    "opt.language.d": "Non inclus dans ce petit périmètre ; examen et devis séparés nécessaires.",
     "opt.seo": "Pack SEO local",
-    "opt.seo.d": "+380 € — fiche Google Business, schema.org Bakery, mots-clés de la ville, 3 textes locaux.",
+    "opt.seo.d": "Aucune campagne marketing ni promesse de classement incluse.",
     "opt.photo": "Shooting photo (demi-journée)",
-    "opt.photo.d": "+320 € — 25 photos retouchées du comptoir, du fournil et de l'équipe.",
+    "opt.photo.d": "Photos non incluses ; utilisez les images approuvées fournies par le client.",
     "opt.preorder": "Commande avec acompte",
-    "opt.preorder.d": "+460 € — paiement Stripe ou SumUp, acompte anti no-show, configurateur de gâteaux.",
-    "opt.care": "Forfait suivi",
-    "opt.care.d": "+45 €/mois — mises à jour, supervision, corrections de texte sous 24 h.",
+    "opt.preorder.d": "Paiement, stock et commandes confirmées non inclus.",
+    "opt.care": "Suivi séparé facultatif",
+    "opt.care.d": "+25 EUR/mois si choisi : une petite modification de contenu par mois et entretien convenu. Domaine/hébergement payés par le client.",
     "devTitle": "Le lancer, le personnaliser, le livrer",
     "devLead": "Quatre commandes entre un clone et le nom de domaine du client. Que du HTML, CSS et JavaScript ESM.",
     "step1t": "Cloner",

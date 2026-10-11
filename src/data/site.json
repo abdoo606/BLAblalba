@@ -1,10 +1,10 @@
 {
   "studio": {
     "name": "Levain Kit",
-    "maker": "BLAblalba Studio",
-    "email": "hello@blablalba.dev",
-    "phone": "+33 6 00 00 00 00",
-    "whatsapp": "33600000000",
+    "maker": "Abdulrhman Thali",
+    "email": "abdulrhmant948@gmail.com",
+    "phone": "",
+    "whatsapp": "",
     "year": 2026,
     "currency": "EUR"
   },
@@ -373,7 +373,6 @@
         "BE",
         "CH",
         "UK",
-        "CA",
         "ES",
         "DE",
         "IT",
@@ -451,7 +450,6 @@
         "AR",
         "CL",
         "CO",
-        "US",
         "FR",
         "DE",
         "IT",
@@ -463,59 +461,40 @@
   "packages": [
     {
       "id": "licence",
-      "price": 149,
+      "price": 99,
       "recurring": 0,
       "days": 0,
       "languages": 4
     },
     {
       "id": "baguette",
-      "price": 750,
+      "price": 290,
+      "recurring": 0,
+      "days": 3,
+      "languages": 1
+    },
+    {
+      "id": "croissant",
+      "price": 490,
       "recurring": 0,
       "days": 5,
       "languages": 1
     },
     {
-      "id": "croissant",
-      "price": 1450,
+      "id": "patisserie",
+      "price": 790,
       "recurring": 0,
       "days": 7,
-      "languages": 2
-    },
-    {
-      "id": "patisserie",
-      "price": 2900,
-      "recurring": 0,
-      "days": 14,
-      "languages": 4
+      "languages": 1
     }
   ],
   "options": [
     {
-      "id": "language",
-      "price": 220,
-      "labelKey": "calc.opt.language"
-    },
-    {
-      "id": "seo",
-      "price": 380,
-      "labelKey": "calc.opt.seo"
-    },
-    {
-      "id": "photo",
-      "price": 320,
-      "labelKey": "calc.opt.photo"
-    },
-    {
-      "id": "preorder",
-      "price": 460,
-      "labelKey": "calc.opt.preorder"
-    },
-    {
       "id": "care",
-      "price": 45,
+      "price": 25,
       "labelKey": "calc.opt.care",
       "recurring": true
     }
-  ]
+  ],
+  "demo": true
 }
