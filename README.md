@@ -129,7 +129,7 @@ tools/           dev watcher, static server, validator, packager
 ## Sales
 
 - `docs/PRICING.md` — four packages, nine add-ons, quoting rules, margin check
-- `docs/PROSPECTS.md` / `sales/prospects-2026.csv` — 134 shops in the UK, FR, ES and US with a 2026 growth signal; 33 verified by opening their own site, 16 contacted (38,214 € quoted). Client contact data lives in `sales/`, never in the published docs.
+- `docs/PROSPECTS.md` / `sales/prospects-2026.csv` — 134 shops in the UK, FR, ES and US with a 2026 growth signal; 33 verified by opening their own site, 16 contacted (39,664 €€ quoted). Client contact data lives in `sales/`, never in the published docs.
   **These are commercially sensitive and this repo is public**: the built `dist/` deliberately excludes
   `PROSPECTS.md` (see the `PRIVATE` filter in `src/build.mjs`) so GitHub Pages can never serve the client list,
   but the files themselves are readable in this repository. Keep the working copy in Drive / a private repo.

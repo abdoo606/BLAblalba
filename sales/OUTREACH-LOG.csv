@@ -131,7 +131,7 @@ id,business,status,channel,contact_used,first_touch_date,reply_date,next_action,
 133,1900 Barker Bakery and Cafe,to-verify,unknown (site not opened yet),,,,"open their site, read the address they publish, fill audit_note, then it becomes pitchable",,1630,"Food Republic, 'best bakery in every US state', 2026-08-18",no,
 134,Root-A-Bakers Bakery and Cafe,to-verify,unknown (site not opened yet),,,,"open their site, read the address they publish, fill audit_note, then it becomes pitchable",,1830,"Food Republic, 'best bakery in every US state', 2026-08-18",no,
 135,Weber's Bakery,sent,email,info@webersbakery.com,2026-10-11,,await reply,2026-10-18,1450,"Food Republic, 'best bakery in every US state', 2026-08-18",no,
-136,Jaarsma Bakery,to-verify,unknown (site not opened yet),,,,"open their site, read the address they publish, fill audit_note, then it becomes pitchable",,1450,"Food Republic, 'best bakery in every US state', 2026-08-18",no,
+136,Jaarsma Bakery,sent,email,sales@jaarsmabakery.com,2026-10-11,,await reply,2026-10-18,1450,their own homepage,no,
 137,Carstens Bakery,to-verify,unknown (site not opened yet),,,,"open their site, read the address they publish, fill audit_note, then it becomes pitchable",,1450,"Food Republic, 'best bakery in every US state', 2026-08-18",no,
 138,DeLuxe Cakes,to-verify,unknown,,,,"open their own site, read the published email, write the date",,1450,Beard 2026 list (not verified),no,"added 2026-10-11, awaiting a site check"
 139,Librae,to-verify,unknown,,,,"open their own site, read the published email, write the date",,1130,Beard 2026 list (not verified),no,"added 2026-10-11, awaiting a site check"

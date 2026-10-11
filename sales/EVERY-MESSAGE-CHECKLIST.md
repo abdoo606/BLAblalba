@@ -34,6 +34,7 @@
 python3 tools/make-sheet.py
 python3 tools/make-register.py
 python3 tools/make-register-ar.py
+python3 tools/make-dossiers.py
 node tools/make-pitches.mjs
 node src/build.mjs && node tools/validate.mjs && node tools/progress.mjs
 ```
@@ -41,8 +42,15 @@ node src/build.mjs && node tools/validate.mjs && node tools/progress.mjs
 - الكاش: `cp -f sales/OUTREACH-REGISTER*.pdf /home/user/` حتى يبين بالعارض.
 - ثم `git add -A && git commit && git push origin arena/46df64dc-blablalba`.
 
+## 5.5) ملف لكل محل — كل مرة (قاعدة عبد الرحمن 2026-10-11)
+- بعد كل إرسال أو فحص: `python3 tools/make-dossiers.py` → `sales/SHOP-DOSSIERS.md`.
+- هذا الملف اللي بيفتحه من أي جلسة: لكل محل تحركنا فيه بلوك كامل (وين إحنا، شو لقينا بصفحته،
+  اتجاهنا، السعر، الخطوة الجاية، مصدر الاسم) - وبعده جدول باللي ما فتحنا موقعهن.
+- يرفع على الدرايف `08 · Shop dossiers` ويبدّل مكان القديم **كل مرة**، مو مرة وألّا.
+
 ## 6) الدرايف (بلا تكاوين)
-- النسخ الجديدة **بدّلها مكان القديمة** بأمر `update_file_content` على نفس الـfile id (01, 02, 03, 04) — ما بنرجع نرفع «v5, v6…» ونخلّي المجلد زبالة.
+- النسخ الجديدة **بدّلها مكان القديمة**: ارفع الجديد بنفس الاسم وارقدم للمهملات (01, 02, 03, 04, 07, 08).
+- ورقة `07 · TODO لكل رسالة` و`00 اقرأني أولاً` **يتحدّثوا هم كمان** مع كل دفعة - مو بس ملفات العملاء. — ما بنرجع نرفع «v5, v6…» ونخلّي المجلد زبالة.
 - لا تلمس ملفات Nabd وFormation Trading — مو تبعنا.
 
 ## 7) آخر كل رسالة: جدول الأسعار المتوقعة

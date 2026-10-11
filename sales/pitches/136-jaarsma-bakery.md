@@ -1,6 +1,6 @@
 # Jaarsma Bakery — design board & pitch
 
-Pella, IA, US · B · template **artisan** · baguette · 1450 €
+Pella, IA, US · A - hot · template **artisan** · baguette · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -15,9 +15,9 @@ Claimed earlier (press/aggregator): Tourism-driven town, national press, nothing
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
 - **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **gallery: 9 shots, client-shot, I direct remotely**
 - **Languages:** en
-- **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
+- **Menu to enter (their real items, from their own posts):** Morning Bun $3.20 · viennoiserie · Vanilla & Fruit Tart $4.50 · pastry · Burnt Basque Cheesecake $28.00 · celebration · Saint Honoré $32.00 · celebration · King Cake (Galette) $24.00 · celebration · Country Levain Loaf $5.80 · bread
 - **Hero line:** “Jaarsma Bakery — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
