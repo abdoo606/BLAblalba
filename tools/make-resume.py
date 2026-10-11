@@ -60,6 +60,9 @@ def main():
         if m:
             by_email[m.group(0).lower()] = r
     emailed = [by_email[s["to"].strip().lower()] for s in sent if s["to"].strip().lower() in by_email]
+    supp_ids = {i for i, r in log.items() if (r.get("suppression_list") or "").strip().lower() == "yes"}
+    opted = [r for r in emailed if r["id"] in supp_ids]
+    emailed = [r for r in emailed if r["id"] not in supp_ids]
     total_eur = sum(int(r["quote_eur"] or 0) for r in emailed)
     all_eur = sum(int(r["quote_eur"] or 0) for r in pros)
 
@@ -74,8 +77,10 @@ def main():
     opened = len(pros) - len(queue)
     bounce = st.get("bounced", 0)
     auto = st.get("sent (auto-reply)", 0)
-    live = st.get("sent", 0) + auto
-    emails = st.get("sent", 0) + auto + bounce
+    sentish = [r for r in log.values() if r["status"].strip().startswith("sent")]
+    declined = [r for r in sentish if "do not contact" in r["status"]]
+    live = len(sentish) - len(declined)
+    emails = len(sentish) + bounce
     deposit = round(total_eur * RATES["USD"] * 0.4)
 
     head = subprocess.run(["git", "-C", ROOT, "log", "-1", "--format=%h · %s"],
@@ -166,6 +171,8 @@ def main():
     with open(out, "w", encoding="utf-8") as fh:
         fh.write("\n".join(o) + "\n")
     print(f"wrote {out} ({os.path.getsize(out):,} bytes)")
+    if declined:
+        print(f"suppressed: {len(declined)} opted out for good: " + ", ".join(r["business"] for r in declined))
     print(f"numbers: {len(pros)} leads · {opened} opened · {emails} emails · {money(total_eur)} · {len(queue)} in queue")
 
 

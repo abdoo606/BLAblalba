@@ -81,3 +81,5 @@ python3 tools/make-resume.py     # -> sales/DRIVE-RESUME.md = ورقة «وين 
 - The Snapery East: نطاقّين ميتات، اتصال بشري.
 - `abdoo606/BLAblalba` لسا عام — مستودع القوالب النظيف جاهز بالـworkspace، والرفع والتحويل لخاص إلك.
 - اسم المرسل بالإيميلات (Gmail display name) ما في أداة بتعمله — من إعدادات Gmail عندك.
+
+**SUPPRESSION GATE**: if a shop ever writes "remove me" / "unsubscribe" / a clear no - do not answer it with an offer. Mark `suppression_list = yes` in OUTREACH-LOG, set status `sent (replied - declined, do not contact)`, confirm in one line, and never re-add the row.

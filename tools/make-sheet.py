@@ -50,7 +50,8 @@ def main():
     log = list(csv.DictReader(open("sales/OUTREACH-LOG.csv", newline="")))
     sent = [r for r in log if r["status"].startswith("sent")]
     auto = [r for r in log if "auto-reply" in r["status"]]
-    human = [r for r in log if r["status"].startswith(("replied", "quoted", "negotiated", "won"))]
+    human = [r for r in log if (("replied" in r["status"] and "auto-reply" not in r["status"]) or r["status"].startswith(("quoted", "negotiated", "won")))]
+    decline = [r for r in log if "do not contact" in r["status"]]
 
     with open(OUT, "w", newline="") as fp:
         w = csv.writer(fp)

@@ -58,3 +58,7 @@
 
 مولّد السجلات ما بيستعمل هذا الملف مباشرة؛ هو معيار الكتابة اليدوية للرسايل. أي جلسة
 جاية بتكتب إيميل: تقرأ هذا الملف أول، وبعدين `sales/EVERY-MESSAGE-CHECKLIST.md`.
+
+## The opt-out rule (added 2026-10-11, from the Artigrano reply)
+
+4. **A "remove me" is executed the same day, before anything else.** One line back: "you're removed, you won't hear from me again" - then no pitch, no "what if", no re-add. In the files: `OUTREACH-LOG.csv` status `sent (replied - declined, do not contact)`, `suppression_list = yes`, the row's `contact_channel` in `prospects-2026.csv` says SUPPRESSED, and `SENT-RECORD.csv` marks the pitch `withdrawn`. A quote must never read like a monthly wage: state it is a one-time payment in the same sentence, and put the optional monthly lines last.
