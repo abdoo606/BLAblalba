@@ -63,7 +63,7 @@
 **الخطوة الجاية:** Their own page says twice: "We do not have online ordering capabilities at this time" / "We do not accept special orders — 2026-11-01
 **مصدر الاسم:** cnn.com 16 Jun 2026
 
-### Two Magpies Bakery — Norfolk + Suffolk (11 shops), GB  ·  sent
+### Two Magpies Bakery — Norfolk + Suffolk (11 shops), GB  ·  sent (auto-reply)
 **وين إحنا:** VERIFIED 2026-10-11
 **الموقع:** twomagpiesbakery.co.uk
 **اللي نشروه عندهن:** info@twomagpiesbakery.co.uk - published on their own page (read 2026-10-11)
@@ -72,7 +72,7 @@
 **اتجاهنا:** Written per sales/PITCH-VOICE.md (value first, at most two verbatim quotes, deliverables list, two price options, one CTA). Subject: Eleven counters, one place for hours and links.
 **السعر:** 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · رعاية 45 €/شهر · السنة الأولى 3,530 €
 **المبعوث:** info@twomagpiesbakery.co.uk · 2026-10-11T13:34Z · “Eleven counters, one place for hours and links”
-**الخطوة الجاية:** one chase in-thread 2026-10-20, then close the file — 2026-10-20
+**الخطوة الجاية:** wait for a human reply (their auto-reply promises 2 working days); chase 2026-10-20 if silence — 2026-10-20
 **مصدر الاسم:** nosh.com press release 2026-04-28
 
 ### Niedlov's Bakery & Cafe — Chattanooga, TN, US  ·  sent
