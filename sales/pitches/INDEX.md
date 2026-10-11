@@ -152,7 +152,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [152-get-baked](./152-get-baked.md) | Get Baked | Manchester / London Covent Garden | n | artisan | 1450 | ⬜ | to be found during verification |
 | [153-bread-ahead-harpenden](./153-bread-ahead-harpenden.md) | Bread Ahead (Harpenden) | Harpenden, Herts | n | artisan | 2900 | ⬜ | to be found during verification |
 | [154-sourdough-sophia](./154-sourdough-sophia.md) | Sourdough Sophia | London (Crouch End / Islington / Primrose Hill / Covent Garden) | n | artisan | 2900 | ⬜ | to be found during verification |
-| [155-pinkmans-bakery](./155-pinkmans-bakery.md) | Pinkmans Bakery | Bristol (5 sites, new Wapping Wharf) | n | artisan | 1450 | ⬜ | to be found during verification |
+| [155-pinkmans-bakery](./155-pinkmans-bakery.md) | Pinkmans Bakery | Bristol (5 sites, new Wapping Wharf) | n | artisan | 2900 | ⬜ | to be found during verification |
 | [156-astrid-atelier](./156-astrid-atelier.md) | Astrid Atelier | London (Muswell Hill) | n | artisan | 1450 | ⬜ | to be found during verification |
 | [157-it-s-bagels](./157-it-s-bagels.md) | It's Bagels | London (Primrose Hill / new Hampstead) | n | artisan | 750 | ⬜ | to be found during verification |
 | [158-brooklyn-sour](./158-brooklyn-sour.md) | Brooklyn Sour | High Falls, NY | n | artisan | 1450 | ⬜ | to be found during verification |

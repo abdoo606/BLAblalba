@@ -1,6 +1,6 @@
 # CH Patisserie — design board & pitch
 
-Sioux Falls, SD, US · C - from a 2026 list · template **artisan** · Croissant · 1450 €
+Sioux Falls, SD, US · A - hot · template **artisan** · Croissant · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -17,12 +17,12 @@ Claimed earlier (press/aggregator): To characterise when opened.
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Macaron $2.20 · pastry · Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie
 - **Hero line:** “CH Patisserie — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
 > Hi CH Patisserie team — I looked at chpatisserie.com this morning. public notes say: “To characterise when opened.” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.
 >

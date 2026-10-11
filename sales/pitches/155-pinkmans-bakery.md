@@ -1,6 +1,6 @@
 # Pinkmans Bakery — design board & pitch
 
-Bristol (5 sites, new Wapping Wharf), GB · C - from a 2026 list · template **artisan** · Croissant · 1450 €
+Bristol (5 sites, new Wapping Wharf), GB · A - hot · template **artisan** · Pâtisserie · 2900 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -17,12 +17,12 @@ Claimed earlier (press/aggregator): to find
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
 - **Hero line:** “Pinkmans Bakery — the loaf people queue for” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
 > Hi Pinkmans Bakery team — I looked at pinkmans.co.uk (to verify) this morning. public notes say: “to find” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees.
+> That's exactly the part I build: hero, marquee, specialties, menu — 2495 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.
 >
