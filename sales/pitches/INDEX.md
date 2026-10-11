@@ -30,7 +30,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [22-novo-mundo](./22-novo-mundo.md) | Novo Mundo | Madrid (La Latina) | 2 | artisan | 2042 | ⬜ | to be found during verification |
 | [23-panadario](./23-panadario.md) | Panadario | Madrid (Salamanca) | 2 | moderno | 2176 | ⬜ | to be found during verification |
 | [24-panatika](./24-panatika.md) | Panátika | Madrid (Lista) | 2 | patisserie | 1017 | ⬜ | to be found during verification |
-| [25-handy-bakery](./25-handy-bakery.md) | Handy Bakery | Barcelona (Gràcia) — Carrer de Rabassa 5 | 2 | patisserie | 2830 | ✅ | email |
+| [25-handy-bakery](./25-handy-bakery.md) | Handy Bakery | Barcelona (Gràcia) — Carrer de Rabassa 5 | 2 | patisserie | 2830 | ✅ | phone / counter / DM (no public email) |
 | [26-wild-crumb](./26-wild-crumb.md) | Wild Crumb | Bozeman, MT | 1 | artisan | 4060 | ✅ | email |
 | [27-jinju-patisserie](./27-jinju-patisserie.md) | JinJu Patisserie | Portland, OR | 1 | patisserie | 3600 | ⬜ | to be found during verification |
 | [28-weltons-tiny-bakeshop](./28-weltons-tiny-bakeshop.md) | Weltons Tiny Bakeshop | Charleston, SC | 1 | patisserie | 1215 | ✅ | phone / counter / DM (no public email) |

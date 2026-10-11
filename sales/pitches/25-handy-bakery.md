@@ -21,7 +21,7 @@ Contact: Instagram @handybakery_ · Carrer de Rabassa 5, Gràcia (NOT Plaça de 
 - **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/patisserie/index.html?lang=es` (open it on your phone first — that's the only screen they will judge it on)
 
-## 4. What I would say (first touch, email)
+## 4. What I would say (first touch, phone / counter / DM (no public email))
 > Hi Handy Bakery team — I looked at handybakery.es — one sentence: “Contáctanos por Instagram” this morning. Opened ~Aug 2025, El Periódico feature, 70%→50% wholesale shift means they now need retail customers. Domain exists with zero content, no menu, no hours, no ordering.
 > That's exactly the part I build: hero, marquee, specialties, menu — 2830 € delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes photo + seo + preorder.
 > Billed without VAT under the reverse charge (art. 196 Directive 2006/112) — send me your VAT number. If you are not VAT-liable (franchise en base / módulos), you self-account 21 % you cannot recover, so budget about 3425 €.

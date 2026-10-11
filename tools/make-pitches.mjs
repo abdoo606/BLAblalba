@@ -82,7 +82,8 @@ for (const r of rows) {
   const demo = `dist/templates/${t.id}/index.html?lang=${langs[0]}`;
   const id = `${r.id}-${slug(r.business)}`;
   const verified = r.verification_2026_10_10?.startsWith('VERIFIED');
-  const channel = verified && /@/.test(r.contact_verified ?? '') ? 'email' : verified ? 'phone / counter / DM (no public email)' : 'to be found during verification';
+  const hasEmail = /\S+@\S+\.\w/.test((r.contact_verified ?? '').replace(/Instagram\s*@\S+/, ''));
+  const channel = verified && hasEmail ? 'email' : verified ? 'phone / counter / DM (no public email)' : 'to be found during verification';
   const md = `# ${r.business} — design board & pitch
 
 ${r.city}, ${r.country} · ${r.priority} · template **${t.id}** · ${r.package} · ${p.eur} €
