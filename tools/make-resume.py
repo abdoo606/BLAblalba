@@ -149,15 +149,11 @@ def main():
     A("   ج. محلات فرنسا واسبانيا بالقائمة ما بعتنالهن ولا صف — مستنين الإشارة منك لأنو فيهما TVA/autónomo (ورقة 06).")
     A("   د. أي محل يردّ علينا انسان: بنسأل عبد الرحمن قبل ما نبعتلو أي شي — القاعدة مكتوبة بـ 07.")
     A("")
-    A("8) خريطة الدرايف — نسخة حية وحدة لكل ملف (لا تكاوير)")
-    for num, label, fid, kind in DRIVE:
-        if num == "00":
-            A("   00 · ابدأ من هنا — هذا الملف نفسه، وأحدث نسخة إلو بمجلد Levain Kit (لا تبحث عن رابط قديم)")
-            continue
-        url = (f"https://docs.google.com/document/d/{fid}/edit" if kind == "doc"
-               else f"https://docs.google.com/spreadsheets/d/{fid}/edit" if kind == "sheet"
-               else f"https://drive.google.com/file/d/{fid}/view")
-        A(f"   {num} · {label}\n        {url}")
+    A("8) ملفات الدرايف — نسخة حية وحدة لكل رقم (00 ← 08)")
+    A("   لا تلصق روابط داخل الملفات: الـid بيتغيّر مع كل رفع جديد، والرقم والاسم ما بيتغيّروا. كل الملفات بنفس المجلد مرتّبة:")
+    for num, label, _fid, _kind in DRIVE:
+        A(f"   {num} · {label}")
+    A("   المجلد: https://drive.google.com/drive/folders/0ACdYKa5qpuxEUk9PVA")
     A("   المستودع: github.com/abdoo606/BLAblalba — الفرع " + branch)
     A("   الملفات المصدّرة: sales/prospects-2026.csv (القائمة) · sales/OUTREACH-LOG.csv (الحالة، السلطة للأرقام) · "
       "sales/SENT-RECORD.csv (مين انبعثلو) · sales/SHOP-DOSSIERS.md (08) · sales/EVERY-MESSAGE-CHECKLIST.md (07)")

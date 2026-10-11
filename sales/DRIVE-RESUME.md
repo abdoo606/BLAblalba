@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 12:22 · الفرع arena/46df64dc-blablalba · آخر commit: e17a306 · Noble Bread emailed (25th pitch, 2,290 EUR) after opening their own page; 4 more queue shops verified and filed as form/phone-only
+آخر توليد: 2026-10-11 12:23 · الفرع arena/46df64dc-blablalba · آخر commit: 8832370 · make-resume: the Drive map lists files by number, not by link — ids change every re-upload, names don't
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.
 
@@ -106,24 +106,18 @@
    ج. محلات فرنسا واسبانيا بالقائمة ما بعتنالهن ولا صف — مستنين الإشارة منك لأنو فيهما TVA/autónomo (ورقة 06).
    د. أي محل يردّ علينا انسان: بنسأل عبد الرحمن قبل ما نبعتلو أي شي — القاعدة مكتوبة بـ 07.
 
-8) خريطة الدرايف — نسخة حية وحدة لكل ملف (لا تكاوير)
-   00 · ابدأ من هنا — هذا الملف نفسه، وأحدث نسخة إلو بمجلد Levain Kit (لا تبحث عن رابط قديم)
+8) ملفات الدرايف — نسخة حية وحدة لكل رقم (00 ← 08)
+   لا تلصق روابط داخل الملفات: الـid بيتغيّر مع كل رفع جديد، والرقم والاسم ما بيتغيّروا. كل الملفات بنفس المجلد مرتّبة:
+   00 · ابدأ من هنا (هذا الملف)
    01 · Register EN — سجل الإرسال
-        https://drive.google.com/file/d/15HLKSl4-d6db9t64x2VPwLc_Hbo8gvBW/view
    02 · السجل بالعربي
-        https://drive.google.com/file/d/17ox4Ib0UvIUnQ_7k-sV-noyvBi6rcEB0/view
    03 · Pitch Boards (141) · zip
-        https://drive.google.com/file/d/1BxNVZJEWZ2UmjQR0cFAtkOjjzYWD8T6j/view
    04 · Clients & Pricing · جدول 141×26
-        https://docs.google.com/spreadsheets/d/1rHlCeF-in6d_OmDziplUVm8O-K0hMj_dquUgRB5DQ9I/edit
    05 · Sales pack — التسعير والقوالب
-        https://docs.google.com/document/d/1s5locBBaIyQmL-xylxESO_eTZ7bUva-14l8X3CY6txU/edit
    06 · Compliance — لماذا بلا ضريبة على الزبون
-        https://docs.google.com/document/d/1-cHQByvBH2V2uAlamMXRVKG5ERbw1ajXM6pfLbOtSJ0/edit
    07 · TODO لكل رسالة
-        https://docs.google.com/document/d/1goQ3qcHVfcrv9lrQlkngCaGMMNCHXJRZmFkYrexNlBM/edit
    08 · Shop dossiers — ملف لكل محل
-        https://docs.google.com/document/d/14_65Xl2k7nfIHnRy5jPmUdLTjfgZovsVP2YtymI9OuA/edit
+   المجلد: https://drive.google.com/drive/folders/0ACdYKa5qpuxEUk9PVA
    المستودع: github.com/abdoo606/BLAblalba — الفرع arena/46df64dc-blablalba
    الملفات المصدّرة: sales/prospects-2026.csv (القائمة) · sales/OUTREACH-LOG.csv (الحالة، السلطة للأرقام) · sales/SENT-RECORD.csv (مين انبعثلو) · sales/SHOP-DOSSIERS.md (08) · sales/EVERY-MESSAGE-CHECKLIST.md (07)
 
