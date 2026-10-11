@@ -1,6 +1,6 @@
 # Mercado Sin Nombre — design board & pitch
 
-Austin, TX, US · B — upgrade · template **moderno** · croissant · 1670 €
+Austin, TX, US · A - hot · template **artisan** · croissant · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -8,21 +8,21 @@ James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list publi
 Source on file: jamesbeard.org 2026 semifinalists (2026-08-19).
 
 ## 2. What their web presence actually is
-public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.
+public notes say: “Site read 2026-10-11: mercadosinnombre.com. Sent 1450 EUR pitch.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site read 2026-10-11: mercadosinnombre.com. Sent 1450 EUR pitch.
 
 ## 3. The design I'd ship
-- **Template:** moderno · **palette:** Concrete, ember, steel — `#101314 ink / #e2622a accent / #f4f5f4 paper / #40535c muted`
-- **Sections, in order:** hero → specialties → menu → batch → story → services → gallery → hours → testimonials → order → faq → footer
+- **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer
 - **Languages:** en, 1 more: ES · FR · ZH · KO
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
 - **Hero line:** “Mercado Sin Nombre — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
-- **Live preview:** `dist/templates/moderno/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
+- **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Mercado Sin Nombre team — I looked at your online presence this morning. public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence.
-> That's exactly the part I build: hero, specialties, menu, batch — 1820 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes language(ES).
+> Hi Mercado Sin Nombre team — I looked at mercadosinnombre.com this morning. public notes say: “Site read 2026-10-11: mercadosinnombre.com. Sent 1450 EUR pitch.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >

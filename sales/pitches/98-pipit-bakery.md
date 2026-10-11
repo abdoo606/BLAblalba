@@ -8,8 +8,8 @@ GFG 50 Best 2026
 Source on file: Good Food Guide, Britain's 50 Best Bakeries 2026 (published 2026-03-24; list as printed by the Evening Standard/Timeout).
 
 ## 2. What their web presence actually is
-public notes say: “Market town; sell-out mornings, no pre-order” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Market town; sell-out mornings, no pre-order
+public notes say: “Domain found by search; read pipitbakery.uk 2026-10-11: it is still the Squarespace parking page ('Coming Soon' over a stock background). So the shop” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Domain found by search; read pipitbakery.uk 2026-10-11: it is still the Squarespace parking page ('Coming Soon' over a stock background). So the shop
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Market town; sell-out mornings, no pre-order
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Pipit Bakery team — I looked at your online presence this morning. public notes say: “Market town; sell-out mornings, no pre-order” — open their site before you use this sentence.
+> Hi Pipit Bakery team — I looked at pipitbakery.uk this morning. public notes say: “Domain found by search; read pipitbakery.uk 2026-10-11: it is still the Squarespace parking page ('Coming Soon' over a stock background). So the shop” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

@@ -8,20 +8,20 @@ Recommended in the FT's current London bread and pastry guide — neighbourhood 
 Source on file: londonyaar.com citing the FT (2026-08-16).
 
 ## 2. What their web presence actually is
-public notes say: “Unaudited. Single-focus shop: menu + hours + a notify-me line is the whole job” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Unaudited. Single-focus shop: menu + hours + a notify-me line is the whole job
+public notes say: “Search 2026-10-11: no website of their own for Little Sourdough Kitchen (237 Munster Road, Fulham, 7:30am-3:30pm daily) - local guides and review site” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Search 2026-10-11: no website of their own for Little Sourdough Kitchen (237 Munster Road, Fulham, 7:30am-3:30pm daily) - local guides and review site
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
 - **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **pre-order basket → WhatsApp**
 - **Languages:** en
-- **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
+- **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Morning Bun £3.20 · viennoiserie · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie
 - **Hero line:** “Little Sourdough Kitchen — the loaf people queue for” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Little Sourdough Kitchen team — I looked at your online presence this morning. public notes say: “Unaudited. Single-focus shop: menu + hours + a notify-me line is the whole job” — open their site before you use this sentence.
+> Hi Little Sourdough Kitchen team — I looked at your online presence this morning. public notes say: “Search 2026-10-11: no website of their own for Little Sourdough Kitchen (237 Munster Road, Fulham, 7:30am-3:30pm daily) - local guides and review site” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1040 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes preorder.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

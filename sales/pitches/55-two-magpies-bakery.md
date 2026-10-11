@@ -8,8 +8,8 @@ Five medals at Britain's Best Loaf Awards 2026 (gold in Gluten Free) plus Britai
 Source on file: nosh.com press release 2026-04-28.
 
 ## 2. What their web presence actually is
-public notes say: “Site read 2026-10-11: twomagpiesbakery.co.uk. Sent 2900 EUR pitch.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Site read 2026-10-11: twomagpiesbakery.co.uk. Sent 2900 EUR pitch.
+public notes say: “Site read 2026-10-11: twomagpiesbakery.co.uk. Sent 2900 EUR pitch. Auto-reply received the same minute (4th auto-reply overall, still no human reply).” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site read 2026-10-11: twomagpiesbakery.co.uk. Sent 2900 EUR pitch. Auto-reply received the same minute (4th auto-reply overall, still no human reply).
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Site read 2026-10-11: twomagpiesbakery.co.uk
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Two Magpies Bakery team — I looked at twomagpiesbakery.co.uk this morning. public notes say: “Site read 2026-10-11: twomagpiesbakery.co.uk. Sent 2900 EUR pitch.” — open their site before you use this sentence.
+> Hi Two Magpies Bakery team — I looked at twomagpiesbakery.co.uk this morning. public notes say: “Site read 2026-10-11: twomagpiesbakery.co.uk. Sent 2900 EUR pitch. Auto-reply received the same minute (4th auto-reply overall, still no human reply).” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 2495 £ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

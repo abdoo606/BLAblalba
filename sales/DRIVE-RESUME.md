@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 14:08 · الفرع arena/46df64dc-blablalba · آخر commit: ee02f67 · Two Magpies auto-reply booked (4th auto-reply, still no human reply)
+آخر توليد: 2026-10-11 14:34 · الفرع arena/46df64dc-blablalba · آخر commit: 037fbbb · Re-sync local git with the pushed branch after the sandbox was rebuilt (dist/ regenerated, resume refreshed)
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.
 
@@ -40,9 +40,9 @@
 طلب واحد بالآخر (`Reply "plan"`)، وبلا سخرية من غلطة إملائية. وحجم الدفعة: **15 موقعاً مقروءاً و6 إرسالات على الأقل بالرسالة** — بلا تقطيع.
 
 1) وين نحنا (السلطة الوحيدة للأرقام: sales/OUTREACH-LOG.csv، أو node tools/progress.mjs)
-   175 محلاً بالقائمة · فتحنا موقعهن بأنفسنا: 107 · بعتنالهم إيميل: 50 (49 حيّة + 1 مرتد)
-   مجموع المعروض للمُرسل: 89,063 € = 97,079 $ · الدفعة الأولى 40% = 38,831 $
-   بالطابور (ما فتحنا موقعهن بعد): 68 · جاهزون للتحقق بهاتف/DM بس: 47 · لا نبعثلن (سبب مسجل): 6 · أسماء متنازع عليها: 2 · parked: 1 · موقعو مطفي: 1
+   175 محلاً بالقائمة · فتحنا موقعهن بأنفسنا: 116 · بعتنالهم إيميل: 55 (54 حيّة + 1 مرتد)
+   مجموع المعروض للمُرسل: 99,213 € = 108,142 $ · الدفعة الأولى 40% = 43,257 $
+   بالطابور (ما فتحنا موقعهن بعد): 59 · جاهزون للتحقق بهاتف/DM بس: 51 · لا نبعثلن (سبب مسجل): 6 · أسماء متنازع عليها: 2 · parked: 1 · موقعو مطفي: 1
    الردود البشرية: 0 · الردود الآلية (ما بتحسب رد): 4 — ARAN و Landrace، تذكير صباح الثلاثاء 13/10، وتاني 20/10، وبعدها بنتركهن.
 
 2) لو معك 60 بس: اعمل هيك
@@ -51,7 +51,7 @@
    ج. الإيميل بس للعنوان المنشور بصفحتهن. غير هيك: ما في إرسال، ولسا ما في عرض.
    د. أي شي بتغيّرو بيصير بملفات الـCSV بالمستودع وبعدها chain التوليد - ما بيصير بالدرايف.
 
-3) الطابور — أول 12 محلاً (من 68) · بالترتيب، وكلهن بلا تحقق
+3) الطابور — أول 12 محلاً (من 59) · بالترتيب، وكلهن بلا تحقق
    id 30 · Cultured — Sister Bay, WI, US · 2,176 € = 2,372 $ · مصدر الاسم: cnn.com 16 Jun 2026
    id 33 · Belle's Bread — Columbus, OH, US · 1,910 € = 2,082 $ · مصدر الاسم: eatthis.com 18 Mar 2025
    id 35 · Babettes Artisan Breads — Denver, CO, US · 1,282 € = 1,397 $ · مصدر الاسم: thrillist.com
@@ -60,10 +60,10 @@
    id 60 · The Burque Bakehouse — Albuquerque, NM, US · 1,830 € = 1,995 $ · مصدر الاسم: jamesbeard.org 2026 semifinalists (2026-08-19)
    id 62 · Dan The Baker — Columbus, OH, US · 1,830 € = 1,995 $ · مصدر الاسم: jamesbeard.org 2026 semifinalists (2026-08-19)
    id 64 · Librae Bakery — New York, NY, US · 2,900 € = 3,161 $ · مصدر الاسم: jamesbeard.org 2026 semifinalists (2026-08-19)
-   id 65 · Mercado Sin Nombre — Austin, TX, US · 1,670 € = 1,820 $ · مصدر الاسم: jamesbeard.org 2026 semifinalists (2026-08-19)
    id 138 · DeLuxe Cakes — Los Angeles, CA, US · 1,450 € = 1,581 $ · مصدر الاسم: James Beard Foundation 2026 - Outstanding Bakery / Outstandi
    id 139 · Librae — Seattle, WA, US · 1,130 € = 1,232 $ · مصدر الاسم: James Beard Foundation 2026 - Outstanding Bakery / Outstandi
    id 140 · Cultured Bakery — Sister Bay, WI, US · 1,450 € = 1,581 $ · مصدر الاسم: James Beard Foundation 2026 - Outstanding Bakery / Outstandi
+   id 158 · Brooklyn Sour — High Falls, NY, US · 1,450 € = 1,581 $ · مصدر الاسم: bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstime
 
 4) الحلقة اللي بتتكرر مع كل رسالة — الأوامر بالحرف
    python3 tools/make-sheet.py
@@ -91,7 +91,7 @@
    العناية الشهرية (للمرة): 45 € = 49 $
    الاستضافة بالسنة (للمرة): 90 € = 98 $
    £ = € × 0.86 · $ = € × 1.09 · الليرة السورية استرشادية 14,500/دولار · أعلى خصم 15% · استعجال +25% · دفعة أولى 40%
-   لو وافقوا كلن نظرياً (قياس فقط): 300,434 € = 327,473 $ — ما بنعرض هالرقم على أي زبون.
+   لو وافقوا كلن نظرياً (قياس فقط): 302,734 € = 329,980 $ — ما بنعرض هالرقم على أي زبون.
 
 6) موقوفون عن الإرسال — لا تنسى السبب، ما بنرجعلهن بالغلط
    id 53 · Poulette Bakeshop — no-pitch: Checked and the honest answer: their Square Online store already does dated pre-order pickup slots, per-day sold-out and low-stock states, explicit fine print on refunds, and a clear how-it-
@@ -106,7 +106,7 @@
    id 129 · Sea Wolf Bakers — no-pitch: NO PITCH. Verified their own pages: Squarespace + wholesale portal + portal guide + closure-dates page + gift cards + careers + donations. My first pass (from the magazine article alone) wro
 
 7) الشي اللي ما صار بعد (حتى ما ينحسب تمام)
-   أ. طابور التحقق (68 محلاً) لسا ما فتحنا موقعهن واحد واحد — هاي الشغلة الشغالة.
+   أ. طابور التحقق (59 محلاً) لسا ما فتحنا موقعهن واحد واحد — هاي الشغلة الشغالة.
    ب. وعد «قائمة 100 محل جديدة» لسا ما انسلم: آخر دفعة زادت 3 محلات بس. المصادر الجاهزة: Food Republic أجزاء 2-5 و Britain's Best Loaf 2026 أجزاء 1-3.
    ج. محلات فرنسا واسبانيا بالقائمة ما بعتنالهن ولا صف — مستنين الإشارة منك لأنو فيهما TVA/autónomo (ورقة 06).
    د. أي محل يردّ علينا انسان: بنسأل عبد الرحمن قبل ما نبعتلو أي شي — القاعدة مكتوبة بـ 07.

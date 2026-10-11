@@ -1,6 +1,6 @@
 # Farro — design board & pitch
 
-Bristol, GB · B · template **artisan** · baguette · 1450 €
+Bristol, GB · A - hot · template **artisan** · baguette · 2900 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -8,21 +8,21 @@ GFG 50 Best 2026
 Source on file: Good Food Guide, Britain's 50 Best Bakeries 2026 (published 2026-03-24; list as printed by the Evening Standard/Timeout).
 
 ## 2. What their web presence actually is
-public notes say: “Bristol entry; menu and hours live in different places” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Bristol entry; menu and hours live in different places
+public notes say: “Site read 2026-10-11: farro.co.uk. Sent 2900 EUR pitch.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site read 2026-10-11: farro.co.uk. Sent 2900 EUR pitch.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
-- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **gallery: 9 shots, client-shot, I direct remotely**
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Macaron £2.20 · pastry · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie
 - **Hero line:** “Farro — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Farro team — I looked at your online presence this morning. public notes say: “Bristol entry; menu and hours live in different places” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
+> Hi Farro team — I looked at farro.co.uk this morning. public notes say: “Site read 2026-10-11: farro.co.uk. Sent 2900 EUR pitch.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 2495 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >

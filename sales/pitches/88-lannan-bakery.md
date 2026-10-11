@@ -8,8 +8,8 @@ GFG 50 Best 2026
 Source on file: Good Food Guide, Britain's 50 Best Bakeries 2026 (published 2026-03-24; list as printed by the Evening Standard/Timeout).
 
 ## 2. What their web presence actually is
-public notes say: “Levain bakery in Edinburgh, no ordering system for the queue” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Levain bakery in Edinburgh, no ordering system for the queue
+public notes say: “Second attempt 2026-10-11: lannanbakery.co.uk still would not resolve from here, and searches return only press, Reddit threads (customers told to use” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Second attempt 2026-10-11: lannanbakery.co.uk still would not resolve from here, and searches return only press, Reddit threads (customers told to use
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Levain bakery in Edinburgh, no ordering syst
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Lannan Bakery team — I looked at your online presence this morning. public notes say: “Levain bakery in Edinburgh, no ordering system for the queue” — open their site before you use this sentence.
+> Hi Lannan Bakery team — I looked at your online presence this morning. public notes say: “Second attempt 2026-10-11: lannanbakery.co.uk still would not resolve from here, and searches return only press, Reddit threads (customers told to use” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
