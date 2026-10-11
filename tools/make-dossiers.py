@@ -8,12 +8,14 @@ here, so a dossier cannot stay friendly while the register moves on.
   python3 tools/make-dossiers.py        -> sales/SHOP-DOSSIERS.md
 """
 import csv, os, re, subprocess, datetime
+from suppression import check_sources
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RATES = {"USD": 1.09, "GBP": 0.86, "SYP": 1.09 * 14500}
 EM = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
 def main():
+    check_sources()
     rows = list(csv.DictReader(open(os.path.join(ROOT, "sales/prospects-2026.csv"), newline="", encoding="utf-8")))
     log = {r["id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "sales/OUTREACH-LOG.csv"), newline="", encoding="utf-8"))}
     sent_by_email = {}

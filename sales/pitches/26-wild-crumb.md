@@ -23,12 +23,12 @@ Contact: wildcrumb@gmail.com · +1 406-579-3454 · 600 N Wallace Ave #6, Bozeman
 
 ## 4. What I would say (first touch, email)
 > Hi Wild Crumb team — I looked at wildcrumb.com (Squarespace) this morning. Opened 2026-10-11: the site is an image wall + a supplier thank-you list. No menu, no prices, no opening hours, no ordering, and the photography is from 2013. A /cart exists and is empty. Meanwhile they are the 2026 James Beard Outstanding Bakery winner.
-> That's exactly the part I build: hero, marquee, specialties, menu — 4425 $ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo + photo + preorder.
+> That's exactly the part I build: hero, marquee, specialties, menu — a one-time project fee of 4425 $, delivered in 14 days. The files and repository are yours; optional ongoing services are separate. Includes seo + photo + preorder.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria
-> You're getting this because your contact details are published by you / in public listings. Reply “remove me” and I delete you from my list permanently.
+> You're getting this only if the address was verified on your own website. Reply “remove me” and I remove you from my active list and never contact you again.
 
 *(If the first sentence in that quote is not true today, do not send the quote. Fix it, then send.)*
 
@@ -38,7 +38,8 @@ Contact: wildcrumb@gmail.com · +1 406-579-3454 · 600 N Wallace Ave #6, Bozeman
 - [ ] Contact address is one *they* published (never guessed, never bought)
 - [ ] Package + price match `sales/drive-clients-pricing.csv` — nothing renegotiated in a cold email
 - [ ] Signature has the real name and a real postal address
-- [ ] Opt-out line present, and the reply goes straight into the suppression list
+- [ ] Permanent suppression check passed for the address, domain and business: `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`
+- [ ] Opt-out line present; any refusal triggers removal, not a follow-up
 - [ ] 1:1 send from a normal mailbox (no Mailchimp/Brevo broadcast, max 5–10/day)
 - [ ] Log updated in `sales/OUTREACH-LOG.csv` (status + date + source of address)
 

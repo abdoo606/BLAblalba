@@ -12,6 +12,7 @@ Everything is READ from the CSVs in sales/. Nothing is typed in here except the 
     python3 tools/make-register.py      ->  sales/OUTREACH-REGISTER.pdf
 """
 import csv, datetime, os, re, sys
+from suppression import check_sources
 
 try:
     from fpdf import FPDF
@@ -132,6 +133,7 @@ class PDF(FPDF):
 NOW = datetime.datetime.now(datetime.timezone.utc)
 TODAY = NOW.strftime("%Y-%m-%d %H:%MZ")
 
+SUPPRESSED_COUNT = check_sources()
 pros = {r["id"]: r for r in read(PROS)}
 log = {r["id"]: r for r in read(LOG)}
 sent = read(SENT)
@@ -187,9 +189,12 @@ def build():
 
     # ---------- KPI boxes ----------
     quoted = sum(int(r["log"].get("quoted_eur") or 0) for r in rows)
-    stats = [("leads in pipeline", len(pros)), ("verified by opening their site", sum(1 for p in pros.values() if p["verification"].startswith("VERIFIED"))),
-             ("emails sent", len(rows)), ("quoted", "%s EUR" % f"{quoted:,}"), ("human replies", 0),
-             ("auto-replies", 1), ("bounces", 0), ("suppressed", 0)]
+    human = sum(1 for r in log.values() if "replied" in r["status"] and "auto-reply" not in r["status"])
+    auto = sum(1 for r in log.values() if "auto-reply" in r["status"])
+    bounced = sum(1 for r in log.values() if r["status"].strip() == "bounced")
+    stats = [("active leads in pipeline", len(pros)), ("verified by opening their site", sum(1 for p in pros.values() if p["verification"].startswith("VERIFIED"))),
+             ("active-list pitches sent", len(pitched)), ("standing quotes (not revenue)", "%s EUR" % f"{quoted:,}"), ("human replies (active)", human),
+             ("auto-replies", auto), ("bounces", bounced), ("removed / blocked", SUPPRESSED_COUNT)]
     bw = W / len(stats)
     pdf.set_y(36)
     for i, (label, val) in enumerate(stats):
@@ -370,7 +375,7 @@ def build():
     section("5 · What happens the moment a real person replies",
             "No lead is waiting on me for anything except a decision from you. The sequence below is already scripted.")
     steps = [
-        ("1", "Same day, human replies → I answer in-thread with their board attached (single self-contained HTML file, opens in any browser, no demo account, no link that expires)."),
+        ("1", "Same day, human replies → notify Abdulrhman; no reply, board, quote or negotiation without his approval. Opt-outs are removed and blocked immediately, never re-pitched; if a confirmation was already sent, send nothing further."),
         ("2", "They like it → I send the scope as a one-page list: what's in the package, what isn't, the price in their currency, the timeline, the care option."),
         ("3", "They say yes → I draft the agreement + invoice with their name on it; you sign, you choose the payment rail (bank or USDT, their call, in writing)."),
         ("4", "Domain: registered in their name, not ours — I prepare the DNS records, you hand over the purchase link, ownership never touches us."),

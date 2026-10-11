@@ -23,12 +23,12 @@ Contact: tona@immabakery.com (owner, published on their contact page) - orders@i
 
 ## 4. What I would say (first touch, email)
 > Hi Imma The Bakery team — I looked at https://immabakery.com this morning. OPENED 2026-10-11 10:33Z - immabakery.com/policies/contact-information, read in full. Banner: 'Our counter is open Tuesday - Sunday 8am - 2pm'. Two mailto links do the work a page should do: 'Click Here to email us if you are looking for bulk ordering' -> orders@immabakery.com, and 'We have positions open in our team, click to apply' -> tona@immabakery.com. Contact block: phone 01491 756599, address 'Van Alloys Industrial Estate, Stoke Row, Henley-on-Thames RG9 5QW'. They are Britain's Best Loaf 2026 winners (Cantabric Ogi baguette, also International, plus the gluten-free Sesame Loaf medal and a bronze Cider & Potato) with Tona Erreguin reigning Baker of the Year - and none of that is on the site. Do NOT claim their shop is broken: the Shopify cart works and they sell online; the gap is the counter's information, not the checkout.
-> That's exactly the part I build: hero, marquee, specialties, menu — 970 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, preorder form.
+> That's exactly the part I build: hero, marquee, specialties, menu — a one-time project fee of 970 £, delivered in 5 days. The files and repository are yours; optional ongoing services are separate. Includes seo, preorder form.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria
-> You're getting this because your contact details are published by you / in public listings. Reply “remove me” and I delete you from my list permanently.
+> You're getting this only if the address was verified on your own website. Reply “remove me” and I remove you from my active list and never contact you again.
 
 *(If the first sentence in that quote is not true today, do not send the quote. Fix it, then send.)*
 
@@ -38,7 +38,8 @@ Contact: tona@immabakery.com (owner, published on their contact page) - orders@i
 - [ ] Contact address is one *they* published (never guessed, never bought)
 - [ ] Package + price match `sales/drive-clients-pricing.csv` — nothing renegotiated in a cold email
 - [ ] Signature has the real name and a real postal address
-- [ ] Opt-out line present, and the reply goes straight into the suppression list
+- [ ] Permanent suppression check passed for the address, domain and business: `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`
+- [ ] Opt-out line present; any refusal triggers removal, not a follow-up
 - [ ] 1:1 send from a normal mailbox (no Mailchimp/Brevo broadcast, max 5–10/day)
 - [ ] Log updated in `sales/OUTREACH-LOG.csv` (status + date + source of address)
 

@@ -23,12 +23,12 @@ Contact: info@subabakery.com (their own Contact page) · 372 Hoe Street E17 9AA 
 
 ## 4. What I would say (first touch, email)
 > Hi Suba Bakery team — I looked at https://www.subabakery.com (Squarespace) this morning. Opened both pages: the homepage shows a photo and a newsletter block that renders the builder error text for customers - 'This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab'. Two shops with different hours, no menu, no ordering, 50 Best Bakeries 2026 new entry.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo + photo.
+> That's exactly the part I build: hero, marquee, specialties, menu — a one-time project fee of 1245 £, delivered in 5 days. The files and repository are yours; optional ongoing services are separate. Includes seo + photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria
-> You're getting this because your contact details are published by you / in public listings. Reply “remove me” and I delete you from my list permanently.
+> You're getting this only if the address was verified on your own website. Reply “remove me” and I remove you from my active list and never contact you again.
 
 *(If the first sentence in that quote is not true today, do not send the quote. Fix it, then send.)*
 
@@ -38,7 +38,8 @@ Contact: info@subabakery.com (their own Contact page) · 372 Hoe Street E17 9AA 
 - [ ] Contact address is one *they* published (never guessed, never bought)
 - [ ] Package + price match `sales/drive-clients-pricing.csv` — nothing renegotiated in a cold email
 - [ ] Signature has the real name and a real postal address
-- [ ] Opt-out line present, and the reply goes straight into the suppression list
+- [ ] Permanent suppression check passed for the address, domain and business: `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`
+- [ ] Opt-out line present; any refusal triggers removal, not a follow-up
 - [ ] 1:1 send from a normal mailbox (no Mailchimp/Brevo broadcast, max 5–10/day)
 - [ ] Log updated in `sales/OUTREACH-LOG.csv` (status + date + source of address)
 

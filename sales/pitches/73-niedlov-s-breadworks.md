@@ -23,12 +23,12 @@ Contact: wholesale@niedlovs.com (wholesale only) · catering@niedlovs.com · 423
 
 ## 4. What I would say (first touch, email)
 > Hi Niedlov's Breadworks team — I looked at https://www.niedlovs.com this morning. OPENED 2026-10-11 10:05Z: /contact-us. Both published mailboxes are functional inboxes for wholesale and catering, general questions go through a reCAPTCHA form, hours and address are complete, and the Beard 2026 banner is already on the page. Their online setup is ahead of what this kit sells, so no pitch goes out; a cold email into wholesale@ would also be off-label, since that inbox takes bread orders from shops, not vendor proposals.
-> That's exactly the part I build: hero, marquee, specialties, menu — 160 $ delivered in 3 days, and the files and repository are yours, no subscription, no Shopify fees.
+> That's exactly the part I build: hero, marquee, specialties, menu — a one-time project fee of 160 $, delivered in 3 days. The files and repository are yours; optional ongoing services are separate.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria
-> You're getting this because your contact details are published by you / in public listings. Reply “remove me” and I delete you from my list permanently.
+> You're getting this only if the address was verified on your own website. Reply “remove me” and I remove you from my active list and never contact you again.
 
 *(If the first sentence in that quote is not true today, do not send the quote. Fix it, then send.)*
 
@@ -38,7 +38,8 @@ Contact: wholesale@niedlovs.com (wholesale only) · catering@niedlovs.com · 423
 - [ ] Contact address is one *they* published (never guessed, never bought)
 - [ ] Package + price match `sales/drive-clients-pricing.csv` — nothing renegotiated in a cold email
 - [ ] Signature has the real name and a real postal address
-- [ ] Opt-out line present, and the reply goes straight into the suppression list
+- [ ] Permanent suppression check passed for the address, domain and business: `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`
+- [ ] Opt-out line present; any refusal triggers removal, not a follow-up
 - [ ] 1:1 send from a normal mailbox (no Mailchimp/Brevo broadcast, max 5–10/day)
 - [ ] Log updated in `sales/OUTREACH-LOG.csv` (status + date + source of address)
 

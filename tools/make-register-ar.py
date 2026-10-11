@@ -12,6 +12,8 @@ shops still appear.
   python3 tools/make-register-ar.py
 """
 import csv, os, re, subprocess, sys, datetime
+from suppression import check_sources
+from outreach_data import contact_index
 from fpdf import FPDF
 import arabic_reshaper
 from bidi.algorithm import get_display
@@ -124,19 +126,21 @@ class Reg(FPDF):
 
 
 def main():
+    suppressed_count = check_sources()
     rows = list(csv.DictReader(open(os.path.join(ROOT, "sales/prospects-2026.csv"), newline="", encoding="utf-8")))
     by_id = {int(r["id"]): r for r in rows}
     import re
     EM = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
-    by_email = {}
-    for r in rows:
-        m = EM.search(r.get("contact_verified") or "")
-        if m:
-            by_email[m.group(0).lower()] = r
     rec = list(csv.DictReader(open(os.path.join(ROOT, "sales/SENT-RECORD.csv"), newline="", encoding="utf-8")))
     LGM = {}
     for lr in csv.DictReader(open(os.path.join(ROOT, "sales/OUTREACH-LOG.csv"), newline="", encoding="utf-8")):
         LGM[lr["id"]] = lr
+    by_email = contact_index(rows, LGM)
+    verified_count = sum(1 for r in rows if (r.get("verification") or "").startswith("VERIFIED"))
+    queue_count = sum(1 for r in LGM.values() if r["status"].strip() == "to-verify")
+    auto_count = sum(1 for r in LGM.values() if "auto-reply" in r["status"])
+    human_count = sum(1 for r in LGM.values() if "replied" in r["status"] and "auto-reply" not in r["status"])
+    bounce_count = sum(1 for r in LGM.values() if r["status"].strip() == "bounced")
     ARST = {"sent": "مبعوث · ما ردّ إنسان بعد",
             "sent (auto-reply)": "مبعوث · وصل رد آلي (ماكينة) مو رد شخص",
             "bounced": "الإيميل ارتد · النطاق اللي نشروه ما بيقبل البريد · لا نعيد الإرسال",
@@ -161,7 +165,9 @@ def main():
             counts[k.strip()] = v.strip()
     sent_eur = sum(int(x["row"]["quote_eur"] or 0) for x in sent)
     total_oneoff = sum(int(r["quote_eur"] or 0) for r in rows)
-    qs = [int(x["row"]["quote_eur"] or 0) for x in sent]
+    standing = [x for x in sent if LGM.get(x["row"]["id"], {}).get("status", "").strip() != "bounced"]
+    standing_eur = sum(int(x["row"]["quote_eur"] or 0) for x in standing)
+    qs = [int(x["row"]["quote_eur"] or 0) for x in standing]
 
     pdf = Reg()
     pdf.add_page()
@@ -173,9 +179,10 @@ def main():
     y = pdf.txt("الأرقام اليوم", y + 8, size=12, bold=True)
     facts = [
         f"القائمة كلها: {len(rows)} مخبزاً ومحل حلويات (أمريكا وبريطانيا وفرنسا وإسبانيا).",
-        f"متأكد منهم (فتحت موقعه بنفسي): {counts.get('VERIFIED', '26')} · لسه ما انفتح: {counts.get('to-verify', len(rows)-26)}",
-        f"إيميلات مبعوثة: {len(sent)} · مجموعها: {money(sent_eur,'EUR')} = {money(sent_eur,'USD')} = {money(sent_eur,'SYP')}",
-        f"الردود البشرية: {counts.get('replies', '0')} · رد آلي واحد (ARAN لندندير) · مرتدات: {counts.get('bounces', '0')}",
+        f"موسومون VERIFIED بالمصدر: {verified_count} · في طابور التحقق: {queue_count}",
+        f"رسائل العملاء بالقائمة الحالية: {len(sent)} (منها {bounce_count} مرتد) · قيمة ما كُتب: {money(sent_eur,'EUR')} = {money(sent_eur,'USD')}",
+        f"العروض القائمة: {len(standing)} · {money(standing_eur,'EUR')} = {money(standing_eur,'USD')} · ليست إيرادات أو عقوداً.",
+        f"ردود بشرية بالقائمة الحالية: {human_count} · ردود آلية: {auto_count} (ما بتثبت اهتماماً) · طلبات حذف منفّذة: {suppressed_count}",
         f"لو كل القائمة وافقت (وهذا مستحيل، بس للقياس): {money(total_oneoff,'EUR')} = {money(total_oneoff,'USD')}",
         f"أجرنا بالساعة: ما في - بنشتغل بالسعر الثابت، وكل سعر محسوب من كمية الشغل لا من حجم المحل.",
     ]
@@ -254,7 +261,7 @@ def main():
 
     y = pdf.head("لما يرد حدا - ست خطوات", y=y + 6, size=13.5)
     steps = [
-        "1. قرأت الرد كله، وبسجلّه بالإيميل المرسل + التاريخ بملف SENT-RECORD.csv.",
+        "1. أقرأ الرد وأبلّغ عبد الرحمن؛ ما في رد بشري أو بور أو تفاوض قبل موافقته. طلب الحذف يُنفَّذ فوراً، ولا نبعث تأكيداً ثانياً.",
         "2. إذا سؤال عن السعر: بجاوب بنفس السعر أو بخصم لحتى 15% - ومو قبل.",
         "3. إذا موافق: بجهّز مسودة العقد والفاتورة (التوقيع إلك) + بطلب موافقة مكتوبة على USDT.",
         "4. بشتغل: بختار قالب على مزاج محلهن، وبعبّي النصوص من موقعهن، وبصلّح الغلطات اللي سجلناها، وببني كلشي.",

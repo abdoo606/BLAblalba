@@ -59,6 +59,18 @@
 مولّد السجلات ما بيستعمل هذا الملف مباشرة؛ هو معيار الكتابة اليدوية للرسايل. أي جلسة
 جاية بتكتب إيميل: تقرأ هذا الملف أول، وبعدين `sales/EVERY-MESSAGE-CHECKLIST.md`.
 
-## The opt-out rule (added 2026-10-11, from the Artigrano reply)
+## Opt-out and full removal (updated 2026-10-11)
 
-4. **A "remove me" is executed the same day, before anything else.** One line back: "you're removed, you won't hear from me again" - then no pitch, no "what if", no re-add. In the files: `OUTREACH-LOG.csv` status `sent (replied - declined, do not contact)`, `suppression_list = yes`, the row's `contact_channel` in `prospects-2026.csv` says SUPPRESSED, and `SENT-RECORD.csv` marks the pitch `withdrawn`. A quote must never read like a monthly wage: state it is a one-time payment in the same sentence, and put the optional monthly lines last.
+- **A "remove me" is executed the same day, before anything else.** If a confirmation has already been sent, send nothing else: no clarification, no price defence, no re-pitch, no call.
+- Remove the lead from the active CSV/JSON, outreach log, sent-contact export, design boards and all regenerated deliverables. Keep only minimal pseudonymous fingerprints in `sales/SUPPRESSION-LIST.json` to prevent re-import, a different mailbox on the same domain, and further contact. These hashes are not encryption or anonymous data; never use them for marketing.
+- Command: `python3 tools/suppression.py remove ID --date YYYY-MM-DD --site OWN_SITE`. Then rebuild, commit/push, refresh Drive and trash the superseded copies. This does not erase Git history or Gmail/Drive trash: never promise an all-history erasure.
+- Before every import, board or send: run `python3 tools/suppression.py`, then `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`. A blocked result is an absolute stop, not a reason to find a different contact.
+- State a **one-time project fee** in the price sentence. Optional care and hosting are separate, explicitly optional, and last.
+- **Do not misread salary comparisons.** Saying "a month's wages" describes the size of an expense; it does not by itself mean the reader mistook the fee for a monthly subscription. Comparing it to years of salary in another country is the sender's unverified assertion, not a fact about either person's income.
+
+## Commercial qualification — not a guess about wealth
+
+- A dated award or a weak website proves neither an available budget nor ability to pay. Record budget as **unknown** until the business supplies it.
+- Prioritise evidence on the business's own pages of an investment-relevant need: branches, wholesale, catering, expansion, repeat pre-orders. These are operational signals, not income verification.
+- Match the scope to a measurable commercial outcome. A few small changes must not be sold as a full rebuild. Do not invent ROI, sales volumes or affordability, and do not price by a presumed wage in the developer's country.
+- After a refusal: stop. Explain it to Abdulrhman without labelling the business or its owner poor, rich, cheap or disrespectful.

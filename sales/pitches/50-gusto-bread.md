@@ -23,12 +23,12 @@ Contact: hola@gustobread.com · 2710 E 4th Street, Long Beach CA 90814 · 562-34
 
 ## 4. What I would say (first touch, email)
 > Hi Gusto Bread team — I looked at https://gustobread.com this morning. WordPress site with a real press page (NYT, Food & Wine, JB seals) and Toast ordering - but the MENU nav item links to a canva.link, so the menu is an image/PDF outside their domain: unsearchable, un-Googleable, no prices in schema, and their Spanish-language story has no Spanish site. Merch lives on Shopify, newsletter on Toast: five systems for one bakery.
-> That's exactly the part I build: hero, specialties, menu, batch — 2235 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes language(ES) + seo.
+> That's exactly the part I build: hero, specialties, menu, batch — a one-time project fee of 2235 $, delivered in 7 days. The files and repository are yours; optional ongoing services are separate. Includes language(ES) + seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria
-> You're getting this because your contact details are published by you / in public listings. Reply “remove me” and I delete you from my list permanently.
+> You're getting this only if the address was verified on your own website. Reply “remove me” and I remove you from my active list and never contact you again.
 
 *(If the first sentence in that quote is not true today, do not send the quote. Fix it, then send.)*
 
@@ -38,7 +38,8 @@ Contact: hola@gustobread.com · 2710 E 4th Street, Long Beach CA 90814 · 562-34
 - [ ] Contact address is one *they* published (never guessed, never bought)
 - [ ] Package + price match `sales/drive-clients-pricing.csv` — nothing renegotiated in a cold email
 - [ ] Signature has the real name and a real postal address
-- [ ] Opt-out line present, and the reply goes straight into the suppression list
+- [ ] Permanent suppression check passed for the address, domain and business: `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`
+- [ ] Opt-out line present; any refusal triggers removal, not a follow-up
 - [ ] 1:1 send from a normal mailbox (no Mailchimp/Brevo broadcast, max 5–10/day)
 - [ ] Log updated in `sales/OUTREACH-LOG.csv` (status + date + source of address)
 

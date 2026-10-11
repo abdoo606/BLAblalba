@@ -1,5 +1,7 @@
 # dependencies
 node_modules/
+__pycache__/
+*.py[cod]
 
 # local artefacts (the built site in dist/ IS committed on purpose: clients can open it without a build step)
 .cache/

@@ -23,12 +23,12 @@ Contact: hello@aran-bakery.com (pre-orders + cakes) · manager@aran-bakery.com �
 
 ## 4. What I would say (first touch, email)
 > Hi ARAN Bakery team — I looked at https://www.aran-bakery.com this morning. OPENED 2026-10-11 09:57Z, both pages read in full. Homepage: Tue 7-2, Wed 7-2, Thu 7-2, Fri 7-2, Sat 8AM-2PM; location block types the ZIP as 'Lakeland, FL 338o3' (letter o). /contactus: Wednesdays 7-2 and Saturdays 8AM-1PM only, address written correctly as 1113 S. Florida Ave 33803, phone 863.450.4513, 'Get In Touch' mailto = hello@bornandbreadbakehouse.com (so the address is confirmed on their own page, not just in a search index). Ordering DOES work: pre-orders on Toast (order.toasttab.com/online/born-and-bread-1113-florida-ave-s) with dated pickup slots and Saturday outside pick-up, merch on /shop. Correction sent in-thread: my first email said 'no way to reserve anything' - wrong, and said so.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1645 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes preorder.
+> That's exactly the part I build: hero, marquee, specialties, menu — a one-time project fee of 1645 £, delivered in 7 days. The files and repository are yours; optional ongoing services are separate. Includes preorder.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria
-> You're getting this because your contact details are published by you / in public listings. Reply “remove me” and I delete you from my list permanently.
+> You're getting this only if the address was verified on your own website. Reply “remove me” and I remove you from my active list and never contact you again.
 
 *(If the first sentence in that quote is not true today, do not send the quote. Fix it, then send.)*
 
@@ -38,7 +38,8 @@ Contact: hello@aran-bakery.com (pre-orders + cakes) · manager@aran-bakery.com �
 - [ ] Contact address is one *they* published (never guessed, never bought)
 - [ ] Package + price match `sales/drive-clients-pricing.csv` — nothing renegotiated in a cold email
 - [ ] Signature has the real name and a real postal address
-- [ ] Opt-out line present, and the reply goes straight into the suppression list
+- [ ] Permanent suppression check passed for the address, domain and business: `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`
+- [ ] Opt-out line present; any refusal triggers removal, not a follow-up
 - [ ] 1:1 send from a normal mailbox (no Mailchimp/Brevo broadcast, max 5–10/day)
 - [ ] Log updated in `sales/OUTREACH-LOG.csv` (status + date + source of address)
 

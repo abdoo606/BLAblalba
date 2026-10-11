@@ -36,7 +36,8 @@ console.log(`auto-replies       : ${rows.filter((r) => r.status.includes('auto-r
 console.log(`won                : ${won.length}${won.length ? ` · ${money(won).toLocaleString()} €` : ''}`);
 console.log(`needs verification : ${count['to-verify'] ?? 0}`);
 console.log(`disputed rows      : ${count['DISPUTED'] ?? 0}  ← fix or delete before anything else`);
-console.log(`do-not-contact     : ${count['do-not-contact'] ?? 0}  (suppression list — never re-add)`);
+const removed = JSON.parse(readFileSync(join(ROOT, 'sales', 'SUPPRESSION-LIST.json'), 'utf8')).entries.length;
+console.log(`do-not-contact     : ${count['do-not-contact'] ?? 0} active rows + ${removed} fully removed / fingerprint-blocked  (never re-add)`);
 
 if (PRO) {
   console.log(`\nNext 6 actions\n`);

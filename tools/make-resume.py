@@ -9,6 +9,8 @@ can never drift from the repository. Run it inside the same rebuild chain as the
 Then push that text into Drive doc `00` (update_file_content) and it is readable cold.
 """
 import csv, os, re, subprocess, datetime
+from suppression import check_sources
+from outreach_data import contact_index
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RATES = {"USD": 1.09, "GBP": 0.86, "SYP": 1.09 * 14500}
@@ -17,26 +19,26 @@ LADDER = [
     ("Baguette - موقع تعريف بسيط", 750),
     ("Croissant - موقع + قائمة + طلب مسبق", 1450),
     ("Patisserie - متجر كامل ولغات", 2900),
-    ("رخصة القالب للمحل", 149),
+    ("رخصة القالب للمحل", "149 $"),
     ("لغة إضافية", 220),
     ("تحسين الظهور بجوجل", 380),
     ("تصوير المنتجات", 320),
     ("فرع/موقع إضافي", 180),
     ("صفحة طلبات الجملة", 640),
-    ("العناية الشهرية (للمرة)", 45),
-    ("الاستضافة بالسنة (للمرة)", 90),
+    ("العناية الشهرية (اختيارية، كل شهر)", 45),
+    ("الاستضافة (اختيارية، كل سنة)", 90),
 ]
-# The live Drive ids, 00..08. Refresh this map whenever a file is re-uploaded, then re-run.
+# Stable Drive section names, not expiring file IDs. Read the folder listing before replacing copies.
 DRIVE = [
-    ("00", "ابدأ من هنا (هذا الملف)", "1ut9Ruyy2o7uYitZq-Cn8klfT5ZpZLYsqY5KiLPCqfZk", "doc"),
-    ("01", "Register EN — سجل الإرسال", "15HLKSl4-d6db9t64x2VPwLc_Hbo8gvBW", "file"),
-    ("02", "السجل بالعربي", "17ox4Ib0UvIUnQ_7k-sV-noyvBi6rcEB0", "file"),
-    ("03", "Pitch Boards (141) · zip", "1BxNVZJEWZ2UmjQR0cFAtkOjjzYWD8T6j", "file"),
-    ("04", "Clients & Pricing · جدول 141×26", "1rHlCeF-in6d_OmDziplUVm8O-K0hMj_dquUgRB5DQ9I", "sheet"),
-    ("05", "Sales pack — التسعير والقوالب", "1s5locBBaIyQmL-xylxESO_eTZ7bUva-14l8X3CY6txU", "doc"),
-    ("06", "Compliance — لماذا بلا ضريبة على الزبون", "1-cHQByvBH2V2uAlamMXRVKG5ERbw1ajXM6pfLbOtSJ0", "doc"),
-    ("07", "TODO لكل رسالة", "1goQ3qcHVfcrv9lrQlkngCaGMMNCHXJRZmFkYrexNlBM", "doc"),
-    ("08", "Shop dossiers — ملف لكل محل", "14_65Xl2k7nfIHnRy5jPmUdLTjfgZovsVP2YtymI9OuA", "doc"),
+    ("00", "ابدأ من هنا (هذا الملف)"),
+    ("01", "Register EN — سجل الإرسال"),
+    ("02", "السجل بالعربي"),
+    ("03", "Pitch Boards ({lead_count}) · zip"),
+    ("04", "Clients & Pricing · جدول {lead_count} محلاً"),
+    ("05", "Sales pack — التسعير والقوالب"),
+    ("06", "Compliance — ورقة الالتزام"),
+    ("07", "TODO لكل رسالة"),
+    ("08", "Shop dossiers — ملف لكل محل"),
 ]
 
 
@@ -50,19 +52,15 @@ def read(name):
 
 
 def main():
+    suppressed_count = check_sources()
     pros = read("sales/prospects-2026.csv")
     log = {r["id"]: r for r in read("sales/OUTREACH-LOG.csv")}
     sent = [r for r in read("sales/SENT-RECORD.csv") if r["kind"] == "cold pitch"]
 
-    by_email = {}
-    for r in pros:
-        m = EM.search(r.get("contact_verified") or "")
-        if m:
-            by_email[m.group(0).lower()] = r
+    by_email = contact_index(pros, log)
     emailed = [by_email[s["to"].strip().lower()] for s in sent if s["to"].strip().lower() in by_email]
     supp_ids = {i for i, r in log.items() if (r.get("suppression_list") or "").strip().lower() == "yes"}
-    opted = [r for r in emailed if r["id"] in supp_ids]
-    emailed = [r for r in emailed if r["id"] not in supp_ids]
+    emailed = [r for r in emailed if r["id"] not in supp_ids and log.get(r["id"], {}).get("status", "").strip() != "bounced"]
     total_eur = sum(int(r["quote_eur"] or 0) for r in emailed)
     all_eur = sum(int(r["quote_eur"] or 0) for r in pros)
 
@@ -83,7 +81,7 @@ def main():
     emails = len(sentish) + bounce
     deposit = round(total_eur * RATES["USD"] * 0.4)
 
-    head = subprocess.run(["git", "-C", ROOT, "log", "-1", "--format=%h · %s"],
+    head = subprocess.run(["git", "-C", ROOT, "log", "-1", "--format=%h"],
                           capture_output=True, text=True).stdout.strip() or "(git unavailable)"
     branch = subprocess.run(["git", "-C", ROOT, "rev-parse", "--abbrev-ref", "HEAD"],
                             capture_output=True, text=True).stdout.strip() or "?"
@@ -103,11 +101,13 @@ def main():
         A("")
     A("1) وين نحنا (السلطة الوحيدة للأرقام: sales/OUTREACH-LOG.csv، أو node tools/progress.mjs)")
     A(f"   {len(pros)} محلاً بالقائمة · فتحنا موقعهن بأنفسنا: {opened} · بعتنالهم إيميل: {emails} ({live} حيّة + {bounce} مرتد)")
-    A(f"   مجموع المعروض للمُرسل: {money(total_eur)} · الدفعة الأولى 40% = {deposit:,} $")
+    A(f"   العروض القائمة (ليست إيراداً؛ بلا المرتدات أو المحذوفين): {money(total_eur)} · دفعة 40% لو وافق الجميع = {deposit:,} $")
+    A(f"   طلبات حذف منفّذة: {suppressed_count} · بصمات منع فقط؛ لا أسماء أو عناوين للمحذوفين في القوائم الحالية. لم يُمحَ تاريخ Git أو مهملات البريد/الدرايف.")
     A(f"   بالطابور (ما فتحنا موقعهن بعد): {len(queue)} · جاهزون للتحقق بهاتف/DM بس: {st.get('verified-ready', 0)} · "
       f"لا نبعثلن (سبب مسجل): {st.get('no-pitch', 0)} · أسماء متنازع عليها: {st.get('DISPUTED', 0)} · "
       f"parked: {st.get('parked - no own site found', 0)} · موقعو مطفي: {st.get('not contacted - their site is offline', 0)}")
-    A("   الردود البشرية: 0 · الردود الآلية (ما بتحسب رد): " + str(auto) + " — ARAN و Landrace، تذكير صباح الثلاثاء 13/10، وتاني 20/10، وبعدها بنتركهن.")
+    human = sum(1 for r in log.values() if "replied" in r["status"] and "auto-reply" not in r["status"])
+    A(f"   الردود البشرية بالقائمة الحالية: {human} · الردود الآلية (ما بتحسب اهتمام): {auto}. المواعيد من OUTREACH-LOG، وليس من رد آلي.")
     A("")
     A("2) لو معك 60 بس: اعمل هيك")
     A("   أ. افتح 08 · Shop dossiers — القسم الأول فيه بلوک لكل محل تحركنا فيه، وآخر الملف جدول الطابور كله.")
@@ -122,6 +122,7 @@ def main():
           f"مصدر الاسم: {(r['source'] or '')[:60]}")
     A("")
     A("4) الحلقة اللي بتتكرر مع كل رسالة — الأوامر بالحرف")
+    A("   python3 tools/suppression.py   # بوابة المنع قبل الاستيراد والتوليد والإرسال")
     A("   python3 tools/make-sheet.py")
     A("   python3 tools/make-register.py")
     A("   python3 tools/make-register-ar.py")
@@ -136,7 +137,7 @@ def main():
     A("")
     A("5) جدول التسعير (كل عقد بيبدأ من هون)")
     for name, eur in LADDER:
-        A(f"   {name}: {money(eur)}")
+        A(f"   {name}: {money(eur) if isinstance(eur, int) else eur}")
     A("   £ = € × 0.86 · $ = € × 1.09 · الليرة السورية استرشادية 14,500/دولار · أعلى خصم 15% · استعجال +25% · دفعة أولى 40%")
     A(f"   لو وافقوا كلن نظرياً (قياس فقط): {money(all_eur)} — ما بنعرض هالرقم على أي زبون.")
     A("")
@@ -156,8 +157,8 @@ def main():
     A("")
     A("8) ملفات الدرايف — نسخة حية وحدة لكل رقم (00 ← 08)")
     A("   لا تلصق روابط داخل الملفات: الـid بيتغيّر مع كل رفع جديد، والرقم والاسم ما بيتغيّروا. كل الملفات بنفس المجلد مرتّبة:")
-    for num, label, _fid, _kind in DRIVE:
-        A(f"   {num} · {label}")
+    for num, label in DRIVE:
+        A(f"   {num} · {label.format(lead_count=len(pros))}")
     A("   المجلد: https://drive.google.com/drive/folders/0ACdYKa5qpuxEUk9PVA")
     A("   المستودع: github.com/abdoo606/BLAblalba — الفرع " + branch)
     A("   الملفات المصدّرة: sales/prospects-2026.csv (القائمة) · sales/OUTREACH-LOG.csv (الحالة، السلطة للأرقام) · "
@@ -171,8 +172,7 @@ def main():
     with open(out, "w", encoding="utf-8") as fh:
         fh.write("\n".join(o) + "\n")
     print(f"wrote {out} ({os.path.getsize(out):,} bytes)")
-    if declined:
-        print(f"suppressed: {len(declined)} opted out for good: " + ", ".join(r["business"] for r in declined))
+    print(f"suppressed: {suppressed_count} fingerprint-only opt-out(s); not in active exports")
     print(f"numbers: {len(pros)} leads · {opened} opened · {emails} emails · {money(total_eur)} · {len(queue)} in queue")
 
 

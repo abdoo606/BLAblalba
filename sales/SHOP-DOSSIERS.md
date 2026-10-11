@@ -4,7 +4,7 @@
 الملف مولّد من `sales/prospects-2026.csv` + `OUTREACH-LOG.csv` + `SENT-RECORD.csv` بـ `tools/make-dossiers.py`.
 لا تحرّروه بالدرايف — عدّل الـCSV وأعيدوا التوليد.
 
-## القسم الأول — محلات تحركنا فيها (116)
+## القسم الأول — محلات تحركنا فيها (115)
 
 ### Wild Crumb — Bozeman, MT, US  ·  sent
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -123,7 +123,7 @@
 **الخطوة الجاية:** one chase in-thread 2026-10-20, then close the file — 2026-10-20
 **مصدر الاسم:** Good Food Guide, Britain's 50 Best Bakeries 2026 (published 2026-03-24; list as printed by the Evening Standard/Timeout)
 
-### White Horse Bakery — Holme-next-the-Sea, GB  ·  sent
+### White Horse Bakery — Holme-next-the-Sea, GB  ·  sent (auto-reply)
 **وين إحنا:** VERIFIED 2026-10-11
 **الموقع:** whitehorseholme.co.uk
 **اللي نشروه عندهن:** info@whitehorseholme.co.uk - published on their own page (read 2026-10-11)
@@ -1155,18 +1155,6 @@
 **المبعوث:** sharn@markscotswoldbakery.co.uk · 2026-10-11T10:43Z · “Five required fields before anyone can order your bread”
 **الخطوة الجاية:** await reply
 **مصدر الاسم:** Britain's Best Loaf 2026 medal winners, britainsbestloaf.co.uk 2026-04-26 + bakeryinfo.co.uk 2026-04-17
-
-### Artigrano — (GB - town from their site), GB  ·  sent (replied - declined, do not contact)
-**وين إحنا:** VERIFIED 2026-10-11 (I opened artigranobakery.co.uk myself - the front page in full)
-**اللي نشروه عندهن:** info@artigrano.co.uk (the mailto on their own front page - note the mail domain artigrano.co.uk differs from the site domain artigranobakery.co.uk; also NOT to be confused with an unrelated Artigrano Padaria Artesanal in Rio de Janeiro on artigrano.com)
-**شو لقينا بصفحتهم (حرفاً):** Added 2026-10-11 in the doubling batch from a dated 2026 award/press list. Nothing here is verified: no page of theirs has been opened, no email was read. Whoever picks this up must open the site and paste what they saw into this column before any email goes out. | OPENED 2026-10-11T10:58Z - artigranobakery.co.uk front page, read in full. The whole 'buy bread' flow is a mailto button whose PRE-FILLED BODY carries the operational information: menu link, 'collection time from 10am till 4pm from Tue till Saturday', four collection points with postcodes and days (Stokeley Farm Shop Tue-Sat, Springfield Farm Shop Wed+Sat, Challices Wed+Fri, Mangetout Delicatessen Wed+Sat) and 'Home delivery option available (12 loaves min order, TQ6-TQ7-TQ8-TQ9)'. Checkout runs on artigranobakery.sumupstore.com (works, not touching it). Site built by an agency ('web design by Float Studio' in the footer). Hours stated twice in two different wordings. Nothing on the front page mentions the Britain's Best Loaf 2026 medal for the South Hams Rye. | REPLIED 2026-10-11T15:15Z (human, the first one) - Omar Mazza: "Thank you for looking so closely into my website and report what's in your opinion can be improved. However at this moment in time I'm not ready to commit to pay a hard earn monthly wage £900 into a currency that equals two years and half worth of a normal person salary. I wish you all the best in your future endeavors, Omar" - then a second message: "Remove me". SUPPRESSED THE SAME DAY: permanent do-not-contact, offer withdrawn, confirmed by email. LESSON for every future pitch: he read the quote as a MONTHLY wage - a price must always be written as a one-time figure in the same sentence, and the monthly care/hosting lines go at the end labelled optional.
-**ليش هلأ:** BBL 2026 wholegrain medal (South Hams Rye)
-**اتجاهنا:** Devon-scale grain project; needs the story on a page
-**السعر:** 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · رعاية 45 €/شهر · السنة الأولى 1,670 €
-**المبعوث:** info@artigrano.co.uk · 2026-10-11T10:58Z · “Your collection points are written inside an email button”
-**الخطوة الجاية:** suppressed forever - never contact, never re-add
-**مصدر الاسم:** Britain's Best Loaf 2026 medal winners, britainsbestloaf.co.uk 2026-04-26 + bakeryinfo.co.uk 2026-04-17
-**على قائمة الحذف:** لا يُراسَل مجدداً أبداً.
 
 ### Evergreen Butcher + Baker — Atlanta, GA, US  ·  sent
 **وين إحنا:** VERIFIED 2026-10-11 (I opened evergreenbutcherandbaker.com/contact myself)

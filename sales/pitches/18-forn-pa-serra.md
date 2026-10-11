@@ -23,12 +23,12 @@ Contact: +34 934 242 541 · Carrer de l'Olivera 31, 08004 BCN
 
 ## 4. What I would say (first touch, phone / counter / DM (no public email))
 > Hi Pa Serra team — I looked at NONE — only Yelp/Tripadvisor/aggregators + a junk auto-generated page 'pa-serra.weeblyte.com' with WRONG opening hours this morning. Confirmed: no website, no social media. Third-party pages publish incorrect hours, and a scraper site ranks for their name.
-> That's exactly the part I build: hero, specialties, menu, batch — 1150 € delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
+> That's exactly the part I build: hero, specialties, menu, batch — a one-time project fee of 1150 €, delivered in 5 days. The files and repository are yours; optional ongoing services are separate. Includes seo.
 > Billed without VAT under the reverse charge (art. 196 Directive 2006/112) — send me your VAT number. If you are not VAT-liable (franchise en base / módulos), you self-account 21 % you cannot recover, so budget about 1390 €.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria
-> You're getting this because your contact details are published by you / in public listings. Reply “remove me” and I delete you from my list permanently.
+> You're getting this only if the address was verified on your own website. Reply “remove me” and I remove you from my active list and never contact you again.
 
 *(If the first sentence in that quote is not true today, do not send the quote. Fix it, then send.)*
 
@@ -38,7 +38,8 @@ Contact: +34 934 242 541 · Carrer de l'Olivera 31, 08004 BCN
 - [ ] Contact address is one *they* published (never guessed, never bought)
 - [ ] Package + price match `sales/drive-clients-pricing.csv` — nothing renegotiated in a cold email
 - [ ] Signature has the real name and a real postal address
-- [ ] Opt-out line present, and the reply goes straight into the suppression list
+- [ ] Permanent suppression check passed for the address, domain and business: `python3 tools/suppression.py check --email ADDRESS --site OWN_SITE --business NAME`
+- [ ] Opt-out line present; any refusal triggers removal, not a follow-up
 - [ ] 1:1 send from a normal mailbox (no Mailchimp/Brevo broadcast, max 5–10/day)
 - [ ] Log updated in `sales/OUTREACH-LOG.csv` (status + date + source of address)
 

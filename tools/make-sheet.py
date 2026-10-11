@@ -6,9 +6,11 @@ only thing that should write drive-clients-pricing.csv. Run with `npm run sheet`
 Sort order: VERIFIED first, then tax wave, then price - the order you actually work down the list.
 """
 import csv
+import json
 import re
 import sys
 import unicodedata
+from suppression import check_sources
 
 SRC = "sales/prospects-2026.csv"
 OUT = "sales/drive-clients-pricing.csv"
@@ -23,6 +25,7 @@ def slug(name):
 
 
 def main():
+    check_sources()
     rows = list(csv.DictReader(open(SRC, newline="")))
     names = [r["business"].strip().lower() for r in rows]
     dups = {n for n in names if names.count(n) > 1}
@@ -70,6 +73,10 @@ def main():
                     "%d €/mo if all take care" % (45 * len(out)),
                     "SENT: %d leads · %s € quoted" % (len(sent), format(sum(int(r["quoted_eur"] or 0) for r in sent), ",")),
                     "", "sales/pitches/"])
+    # JSON is a generated mirror, never a second (stale) source of contacts.
+    with open("sales/prospects-2026.json", "w", encoding="utf-8") as fp:
+        json.dump(rows, fp, indent=1, ensure_ascii=False)
+        fp.write("\n")
     print("%d rows · %d verified · total %d EUR · %d sent · %d human replies · %d auto-replies (not replies)" % (
         len(out), sum(1 for r in out if r["st"] == "VERIFIED"), sum(r["eur"] for r in out),
         len(sent), len(human), len(auto)))
