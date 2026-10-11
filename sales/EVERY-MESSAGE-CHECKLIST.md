@@ -35,6 +35,7 @@ python3 tools/make-sheet.py
 python3 tools/make-register.py
 python3 tools/make-register-ar.py
 python3 tools/make-dossiers.py
+python3 tools/make-resume.py     # -> sales/DRIVE-RESUME.md = ورقة «وين نحنا» (تُرفع على الدرايف 00)
 node tools/make-pitches.mjs
 node src/build.mjs && node tools/validate.mjs && node tools/progress.mjs
 ```
@@ -43,10 +44,15 @@ node src/build.mjs && node tools/validate.mjs && node tools/progress.mjs
 - ثم `git add -A && git commit && git push origin arena/46df64dc-blablalba`.
 
 ## 5.5) ملف لكل محل — كل مرة (قاعدة عبد الرحمن 2026-10-11)
-- بعد كل إرسال أو فحص: `python3 tools/make-dossiers.py` → `sales/SHOP-DOSSIERS.md`.
+- بعد كل إرسال أو فحص: `python3 tools/make-dossiers.py
+python3 tools/make-resume.py     # -> sales/DRIVE-RESUME.md = ورقة «وين نحنا» (تُرفع على الدرايف 00)` → `sales/SHOP-DOSSIERS.md`.
 - هذا الملف اللي بيفتحه من أي جلسة: لكل محل تحركنا فيه بلوك كامل (وين إحنا، شو لقينا بصفحته،
   اتجاهنا، السعر، الخطوة الجاية، مصدر الاسم) - وبعده جدول باللي ما فتحنا موقعهن.
 - يرفع على الدرايف `08 · Shop dossiers` ويبدّل مكان القديم **كل مرة**، مو مرة وألّا.
+
+## 5.6) ورقة «وين نحنا» على الدرايف — كل رسالة (قاعدة 2026-10-11)
+- الجلسة الجديدة لازم تفتح **00** وتعرف كل شي بلا أسئلة: الأرقام، أول 12 بالطابور، الأوامر، التسعير، الموقوفين، والروابط.
+- `sales/DRIVE-RESUME.md` مولّد من الـCSV: لا يعدَّل بالإيد. بعد كل دفعة ارفعو على الدرايف باسم `00 · ابدأ من هنا…` وارمِ النسخة القديمة بالمهملات، وحدّث خريطة الـids داخل `tools/make-resume.py` (قسم DRIVE) عشان الروابط تضل صح.
 
 ## 6) الدرايف (بلا تكاوين)
 - النسخ الجديدة **بدّلها مكان القديمة**: ارفع الجديد بنفس الاسم وارقدم للمهملات (01, 02, 03, 04, 07, 08).
