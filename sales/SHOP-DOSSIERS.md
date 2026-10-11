@@ -95,7 +95,7 @@
 **الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
 **مصدر الاسم:** bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstimes.co.uk 2026
 
-### Pinkmans Bakery — Bristol (5 sites, new Wapping Wharf), GB  ·  sent
+### Pinkmans Bakery — Bristol (5 sites, new Wapping Wharf), GB  ·  sent (auto-reply)
 **وين إحنا:** VERIFIED 2026-10-11
 **الموقع:** pinkmans.co.uk (to verify)
 **اللي نشروه عندهن:** hello@pinkmans.co.uk - published on their own page (read 2026-10-11)
