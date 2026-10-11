@@ -76,10 +76,10 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [71-mabel-the-bakery](./71-mabel-the-bakery.md) | Mabel the Bakery | Downham Market, Norfolk | 1 | artisan | 1450 | ✅ | phone / counter / DM (no public email) |
 | [72-gorse-bakery](./72-gorse-bakery.md) | Gorse Bakery | Zelah / Newquay, Cornwall | 1 | artisan | 1070 | ✅ | phone / counter / DM (no public email) |
 | [73-niedlov-s-breadworks](./73-niedlov-s-breadworks.md) | Niedlov's Breadworks | Chattanooga, TN | 1 | artisan | 149 | ✅ | email |
-| [70-arome-bakery](./70-arome-bakery.md) | Arôme Bakery | Covent Garden, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
-| [71-bakers-yard-bakery](./71-bakers-yard-bakery.md) | Bakers Yard Bakery | Sheffield | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [72-bandit-bakery](./72-bandit-bakery.md) | Bandit Bakery | Aberdeen | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [73-breadmill-bakery](./73-breadmill-bakery.md) | Breadmill Bakery | Nottingham | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [142-arome-bakery](./142-arome-bakery.md) | Arôme Bakery | Covent Garden, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [143-bakers-yard-bakery](./143-bakers-yard-bakery.md) | Bakers Yard Bakery | Sheffield | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [144-bandit-bakery](./144-bandit-bakery.md) | Bandit Bakery | Aberdeen | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [145-breadmill-bakery](./145-breadmill-bakery.md) | Breadmill Bakery | Nottingham | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [74-don-t-tell-dad](./74-don-t-tell-dad.md) | Don't Tell Dad | Queen's Park, London | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [75-e5-bakehouse](./75-e5-bakehouse.md) | E5 Bakehouse | Hackney, London | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [76-eric-s](./76-eric-s.md) | Eric's | East Dulwich, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
@@ -144,9 +144,9 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [139-librae](./139-librae.md) | Librae | Seattle, WA | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [140-cultured-bakery](./140-cultured-bakery.md) | Cultured Bakery | Sister Bay, WI | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [141-harry-gow](./141-harry-gow.md) | Harry Gow | Glasgow, GB | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [142-kuma-san-bakehouse](./142-kuma-san-bakehouse.md) | Kuma-San Bakehouse | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [143-peter-cooks-bread](./143-peter-cooks-bread.md) | Peter Cooks Bread | (GB - town from their site) | 1 | artisan | 1130 | ⬜ | to be found during verification |
-| [144-4eyes-bakery-patisserie](./144-4eyes-bakery-patisserie.md) | 4Eyes Bakery & Patisserie | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [146-kuma-san-bakehouse](./146-kuma-san-bakehouse.md) | Kuma-San Bakehouse | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [147-peter-cooks-bread](./147-peter-cooks-bread.md) | Peter Cooks Bread | (GB - town from their site) | 1 | artisan | 1130 | ⬜ | to be found during verification |
+| [148-4eyes-bakery-patisserie](./148-4eyes-bakery-patisserie.md) | 4Eyes Bakery & Patisserie | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
 so the message stays undelivered until someone opens their site. 26 of 141 are ✅.

@@ -4,7 +4,7 @@
 الملف مولّد من `sales/prospects-2026.csv` + `OUTREACH-LOG.csv` + `SENT-RECORD.csv` بـ `tools/make-dossiers.py`.
 لا تحرّروه بالدرايف — عدّل الـCSV وأعيدوا التوليد.
 
-## القسم الأول — محلات تحركنا فيها (38)
+## القسم الأول — محلات تحركنا فيها (42)
 
 ### Wild Crumb — Bozeman, MT, US  ·  sent
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -100,6 +100,17 @@
 **المبعوث:** hola@gustobread.com · 2026-10-11T09:54Z · “your Menu button goes to Canva, not to gustobread.com”
 **الخطوة الجاية:** follow-up day 5 (16 Oct) if silent; once more at day 14; then stop
 **مصدر الاسم:** gustobread.com/contact + jamesbeard.org 2026 semifinalists
+
+### Café Dear Leon — Canton + Remington, Baltimore, MD, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 (I opened their own site and read the page the facts come from)
+**الموقع:** https://cafedearleon.com
+**اللي نشروه عندهن:** (667) 335-9160 · 2929 O'Donnell St (Canton) + 2600 N Howard St (Remington) · NO email published; /contact/ returns a 404
+**شو لقينا بصفحتهم (حرفاً):** OPENED 2026-10-11 10:05Z: homepage + /contact/. Homepage renders the opening hours as vertically split characters ('T u e - S u n 6 a m - 3 p m' / 'E V E R Y D A Y 7 : 3 0 a m - 3 p m') - the text is inside a styled component, so screen readers and search engines get letter soup; it also says 'Thank you for your understading' (typo, live on the homepage right now) and explains that once the day's quantity is reached they are sold out. /contact/ = 404 'Whoops, that page is gone'. No email published anywhere. Two locations, two bake schedules, no way to order or reserve online.
+**ليش هلأ:** James Beard 2026 Outstanding Bakery semifinalist; second location (La Maison, Remington) opened for 2026; the viral crab-dip bagel queue is covered in BmoreArt (Jan 2026).
+**اتجاهنا:** Baltimore's busiest pastry counter has a 404 where its contact page should be and hours that a screen reader reads one letter at a time. Two locations on one board with real text hours, today's bake schedule per shop, a sold-out state the team can flip, and a press line for the Beard listing. Ordering can start as a Google-Form-style request page; the point is the customer gets an answer without walking to Canton and back.
+**السعر:** 2,010 €  ·  ≈ 2,191 $  ·  ≈ 1,729 £ · رعاية 45 €/شهر · السنة الأولى 2,550 €
+**الخطوة الجاية:** NOT sendable by email - no address published on their own site. l St (Canton) + 2600 N Howard St (Remington) · NO email published; /contact/ returns a 404 — 2026-10-13
+**مصدر الاسم:** cafedearleon.com (own site) + BmoreArt 2026-01-13 + jamesbeard.org 2026 semifinalists | merged with the older to-verify row for the same shop (duplicate removed 2026-10-11, one row per shop)
 
 ### ARAN Bakery — Dunkeld, Perthshire, GB  ·  sent (auto-reply)
 **وين إحنا:** VERIFIED 2026-10-11 (I opened the 
@@ -201,6 +212,17 @@
 **المبعوث:** info@subabakery.com · 2026-10-11T09:30Z · “the newsletter block on your homepage is showing its own error text”
 **الخطوة الجاية:** follow-up day 5 (16 Oct) if silent; once more at day 14; then stop
 **مصدر الاسم:** thegoodfoodguide.co.uk — Britain's 50 Best Bakeries 2026 (2026-06-08)
+
+### Mabel the Bakery — Downham Market, Norfolk, GB  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 (I opened their own site and read the page the facts come from)
+**الموقع:** https://www.mabelthebakery.com
+**اللي نشروه عندهن:** Instagram @mabelthebakery · 11 Market Place, Downham Market PE38 9DF · NO email on their own site (form only)
+**شو لقينا بصفحتهم (حرفاً):** OPENED 2026-10-11 10:05Z: / and /contact. Contact page = Wix form + hours Fri/Sat/Sun 8-2 + Instagram strip, and it explicitly warns '(Please don't use this form to place orders)' - so there is a demand to order and no way to do it. Homepage: the 'Our menu' section contains no menu, only the line 'WHAT'S FRESH TODAY? HEAD OVER TO OUR INSTAGRAM.'; the Upcoming Events list is stale (Dec/May entries) and every event card's image is duplicated in the DOM. hello@mabelthebakery.com appears in a search snippet of that contact page and in their Open Food Network listing but is NOT visible in the rendered page we read - so we do not cold-email it; call or DM first.
+**ليش هلأ:** Good Food Guide Britain's 50 Best Bakeries 2026 (new entry) - for a bakery open three days a week in a market town; flour from Shipton Mill and wildfarmed grain, produce swapped with customers.
+**اتجاهنا:** Three open days, a national top-50 listing, and a website that sends people to Instagram for the menu and away from its own form for orders. A real menu page with prices, a weekend pre-order with a cut-off (Friday 4pm for Sunday), structured hours so 'opens 8am' shows on Google the day it changes, and an events block that stops showing last Christmas.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 1,990 €
+**الخطوة الجاية:** NOT sendable by email - no address published on their own site. bakery · 11 Market Place, Downham Market PE38 9DF · NO email on their own site (form only) — 2026-10-13
+**مصدر الاسم:** mabelthebakery.com + /contact (own site) + GFG 50 Best Bakeries 2026 (2026-03-24)
 
 ### 31 Mallory Bakery — (GB - town from their site), GB  ·  parked - no own site found
 **وين إحنا:** CHECKED 2026-10-11 - no website of their own found (only the Great Food Club listing, the Guild of Fine Food directory entry, and the council food-hygiene record, which carries the COUNCIL email esadmin@hinckley-bosworth.gov.uk, not theirs)
@@ -405,6 +427,17 @@
 **الخطوة الجاية:** follow-up day 5 (16 Oct) if silent; once more day 14; then stop
 **مصدر الاسم:** heritagerisesourdough.com (opened 2026-10-11) (2026-10-11)
 
+### Gorse Bakery — Zelah / Newquay, Cornwall, GB  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 (I opened their own site and read the page the facts come from)
+**الموقع:** facebook.com/people/Gorse-Bakery (no own domain)
+**اللي نشروه عندهن:** 07983 723132 · 7-8 Lanteague, Scotland Road, Zelah TR4 9JG · no website: their only web presence is a Facebook page
+**شو لقينا بصفحتهم (حرفاً):** OPENED 2026-10-11 10:05Z via search: no own domain found. foodfromcornwall.co.uk lists info@gorsecornwall.com and their Facebook bio shows Nat@gorsecornwall.com; because neither is published on a site we opened as theirs, no cold email goes out - the pitch is a phone call or a Facebook message, and the product is their first real website (currently anyone searching Gorse Bakery lands on a directory page or Facebook).
+**ليش هلأ:** Good Food Guide Britain's 50 Best Bakeries 2026 - one of only two Cornish entries, 9 reviews at 100% on Facebook, small-batch sourdough plus a brunch counter.
+**اتجاهنا:** You are on Britain's 50 Best Bakeries 2026 and a stranger searching your name finds a Facebook page and a directory listing. A one-page site with today's bakes, the brunch menu, the market days and the phone number - built in five days, priced once, files yours.
+**السعر:** 1,070 €  ·  ≈ 1,166 $  ·  ≈ 920 £ · رعاية 45 €/شهر · السنة الأولى 1,610 €
+**الخطوة الجاية:** NOT sendable by email - no address published on their own site. gue, Scotland Road, Zelah TR4 9JG · no website: their only web presence is a Facebook page — 2026-10-13
+**مصدر الاسم:** GFG 50 Best Bakeries 2026 (Standard/Express lists 2026-03-24) + foodfromcornwall.co.uk + Facebook page
+
 ### Poulette Bakeshop — Parker, CO, US  ·  no-pitch
 **وين إحنا:** VERIFIED 2026-10-11 (I opened the 
 **الموقع:** https://www.poulettebakeshop.com
@@ -425,7 +458,18 @@
 **الخطوة الجاية:** do not pitch - recorded so the list shows we looked
 **مصدر الاسم:** bakeryinfo.co.uk 2026-04-14 + site opened 2026-10-11
 
-## القسم الثاني — 103 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
+### Niedlov's Breadworks — Chattanooga, TN, US  ·  no-pitch
+**وين إحنا:** VERIFIED 2026-10-11 (I opened their own site and read the page the facts come from)
+**الموقع:** https://www.niedlovs.com
+**اللي نشروه عندهن:** wholesale@niedlovs.com (wholesale only) · catering@niedlovs.com · 423.756.0303 · 215 E. Main St, Chattanooga TN 37408
+**شو لقينا بصفحتهم (حرفاً):** OPENED 2026-10-11 10:05Z: /contact-us. Both published mailboxes are functional inboxes for wholesale and catering, general questions go through a reCAPTCHA form, hours and address are complete, and the Beard 2026 banner is already on the page. Their online setup is ahead of what this kit sells, so no pitch goes out; a cold email into wholesale@ would also be off-label, since that inbox takes bread orders from shops, not vendor proposals.
+**ليش هلأ:** 2026 James Beard Outstanding Bakery semifinalist (the banner is on their own contact page); wholesale delivery to Chattanooga, Cleveland, Birmingham and North Georgia.
+**اتجاهنا:** no pitch - recorded so nobody re-sells them the same thing in six months
+**السعر:** 149 €  ·  ≈ 162 $  ·  ≈ 128 £ · رعاية 0 €/شهر · السنة الأولى 149 €
+**الخطوة الجاية:** no pitch - their stack is ahead of the kit; revisit in 6 months — 2027-04-01
+**مصدر الاسم:** niedlovs.com/contact-us (own site, opened 2026-10-11)
+
+## القسم الثاني — 99 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
 كل سطر هنا اسمه من مصدر 2026 موثّق، بس ما قرينا صفحة ولا واحد منهن: لا إيميل، لا عرض، لا وعد. الطابور يمشي محل-بمحل.
 
 سطر لكل محل: الاسم · المدينة · السعر · الإشارة. ما في إيميل ولا عرض مفصّل - لأنو ما قرينا صفحة ولا واحد منهن.
@@ -460,7 +504,6 @@
 - **Fitzbillies Ltd** — Cambridge, GB · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · BBL 2026 medals x2 (Cambridge Seeded Sourdough, White Sourdough Loaf)
 - **Fred Bakery** — Oxford Circus, London, GB · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · GFG 50 Best 2026 new entry; 10:30 sell-outs
 - **Gail's** — London (multiple), GB · 1,630 €  ·  ≈ 1,777 $  ·  ≈ 1,402 £ · BBL 2026 medals x2 (House Sourdough, Bruern Farms) + GFG-list regular
-- **Gorse Bakery** — Zelah / Newquay, Cornwall, GB · 1,070 €  ·  ≈ 1,166 $  ·  ≈ 920 £ · Good Food Guide Britain's 50 Best Bakeries 2026 - one of only two Cornish entries, 9 revie
 - **Grain & Hearth** — Whitstable, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026
 - **Hamblin Bread** — Oxford, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026; organic, stone-milled, sells at farmers markets
 - **Harry Gow** — Glasgow, GB, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 name from the same list; Scottish bakes, wholesale ambitions
@@ -479,7 +522,6 @@
 - **Lovingly Artisan** — Kendal / Burneside, GB · 3,740 €  ·  ≈ 4,077 $  ·  ≈ 3,216 £ · Best artisan bakery 3 years running, new Burneside site, Baker of the Year 2024
 - **Luke's Bakery** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 medals x2 (Seeded + White Sourdough)
 - **MOST Bakery** — Altrincham, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Multiseed Sourdough = Britain's Best Seeded Sourdough 2026 (Britain's Best Loaf awards)
-- **Mabel the Bakery** — Downham Market, Norfolk, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Good Food Guide Britain's 50 Best Bakeries 2026 (new entry) - for a bakery open three days
 - **Masa Bakery** — Prestwich, Manchester, GB · 1,089 €  ·  ≈ 1,187 $  ·  ≈ 937 £ · Started in a garage 2020, award-winning sourdough, now wholesale + market stall
 - **Native Grain** — Truro, GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · GFG 50 Best 2026 new entry
 - **Natural Bread** — (GB - town from their site), GB · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · BBL 2026 medals x2 (Oxford Sourdough, Three Seed)
@@ -511,7 +553,6 @@
 - **Belle's Bread** — Columbus, OH, US · 1,910 €  ·  ≈ 2,082 $  ·  ≈ 1,643 £ · Multiple locations, growing bakery group + catering
 - **Bing's Bakery** — Newark, DE, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Food Republic's best bakery in Delaware 2026; founded 2014, 'thriving ever since'
 - **Bánh by Lauren** — New York, NY, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **Café Dear Leon** — Canton + Remington, Baltimore, MD, US · 2,010 €  ·  ≈ 2,191 $  ·  ≈ 1,729 £ · James Beard 2026 Outstanding Bakery semifinalist; second location (La Maison, Remington) o
 - **Carstens Bakery** — Idaho Falls, ID, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Food Republic's best bakery in Idaho 2026; German-founded 1955 family shop
 - **Cultured** — Sister Bay, WI, US · 2,176 €  ·  ≈ 2,372 $  ·  ≈ 1,871 £ · JB 2026 finalist on the Door County peninsula - tourist season rush
 - **Cultured Bakery** — Sister Bay, WI, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 name from the same list; neighbourhood sourdough + pastry
@@ -524,7 +565,6 @@
 - **Librae Bakery** — New York, NY, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **Mercado Sin Nombre** — Austin, TX, US · 1,670 €  ·  ≈ 1,820 $  ·  ≈ 1,436 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **Niedlov's Bakery & Cafe** — Chattanooga, TN, US · 149 €  ·  ≈ 162 $  ·  ≈ 128 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **Niedlov's Breadworks** — Chattanooga, TN, US · 149 €  ·  ≈ 162 $  ·  ≈ 128 £ · 2026 James Beard Outstanding Bakery semifinalist (the banner is on their own contact page)
 - **Noble Bread** — Phoenix, AZ, US · 2,290 €  ·  ≈ 2,496 $  ·  ≈ 1,969 £ · Home launch 2012 → city-wide staple, sells to restaurants across town
 - **Pancho Anaya** — Tulsa, OK, US · 3,600 €  ·  ≈ 3,924 $  ·  ≈ 3,096 £ · Century-old panadería (Michoacán roots), expanding family business
 - **Poupart Beacon Bakery** — Lafayette, LA, US · 2,252 €  ·  ≈ 2,455 $  ·  ≈ 1,937 £ · James Beard America's Classic 2025 buzz, French market café + wholesale bread

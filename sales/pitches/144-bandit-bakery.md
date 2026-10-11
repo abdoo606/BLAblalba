@@ -1,28 +1,28 @@
-# Arôme Bakery — design board & pitch
+# Bandit Bakery — design board & pitch
 
-Covent Garden, London, GB · B · template **patisserie** · croissant · 1830 €
+Aberdeen, GB · B · template **artisan** · baguette · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-GFG 50 Best 2026 new entry; French-Asian pastries, queues at the market counter
+GFG 50 Best 2026 new entry
 Source on file: Good Food Guide, Britain's 50 Best Bakeries 2026 (published 2026-03-24; list as printed by the Evening Standard/Timeout).
 
 ## 2. What their web presence actually is
-public notes say: “One location, no online menu prices, no way to pre-order a box before the 8am rush” — open their site before you use this sentence
-Claimed earlier (press/aggregator): One location, no online menu prices, no way to pre-order a box before the 8am rush
+public notes say: “Scotland's north-east entry; no way to find today's bakes before driving” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Scotland's north-east entry; no way to find today's bakes before driving
 
 ## 3. The design I'd ship
-- **Template:** patisserie · **palette:** Plum, meringue, lilac — `#1c1a24 ink / #b4708c accent / #f8f2f4 paper / #6d5a7a muted`
-- **Sections, in order:** hero → marquee → specialties → menu → story → services → gallery → testimonials → batch → hours → order → faq → footer
+- **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **gallery: 9 shots, client-shot, I direct remotely**
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Macaron £2.20 · pastry · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie
-- **Hero line:** “Arôme Bakery — what the whole street talks about” — one language, so it stays human.
+- **Hero line:** “Bandit Bakery — what the whole street talks about” — one language, so it stays human.
 - **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
-- **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
+- **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Arôme Bakery team — I looked at your online presence this morning. public notes say: “One location, no online menu prices, no way to pre-order a box before the 8am rush” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1575 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
+> Hi Bandit Bakery team — I looked at your online presence this morning. public notes say: “Scotland's north-east entry; no way to find today's bakes before driving” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
@@ -45,6 +45,6 @@ Claimed earlier (press/aggregator): One location, no online menu prices, no way 
 1. 12 scoping questions on one 10-min call (`sales/REPLY-PLAYBOOK.md` §4)
 2. Quote from §3 + the 40 % deposit invoice (payment route agreed **first** — see the note at the bottom of `sales/PROGRESS-CHECKLIST.md`)
 3. Domain **in their name**, on their email, their 2FA (RDAP check first: `curl https://rdap.org/domain/<name>`)
-4. Content deadline 7 days · build in this kit on branch `client/70-arome-bakery` · staging link · 2 revision rounds
+4. Content deadline 7 days · build in this kit on branch `client/144-bandit-bakery` · staging link · 2 revision rounds
 5. Go-live: DNS + HTTPS + Google listing hours fixed + printed counter sheet
 6. Handover doc + care plan signed the same week

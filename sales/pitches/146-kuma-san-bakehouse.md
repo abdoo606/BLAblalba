@@ -45,6 +45,6 @@ Claimed earlier (press/aggregator):
 1. 12 scoping questions on one 10-min call (`sales/REPLY-PLAYBOOK.md` §4)
 2. Quote from §3 + the 40 % deposit invoice (payment route agreed **first** — see the note at the bottom of `sales/PROGRESS-CHECKLIST.md`)
 3. Domain **in their name**, on their email, their 2FA (RDAP check first: `curl https://rdap.org/domain/<name>`)
-4. Content deadline 7 days · build in this kit on branch `client/142-kuma-san-bakehouse` · staging link · 2 revision rounds
+4. Content deadline 7 days · build in this kit on branch `client/146-kuma-san-bakehouse` · staging link · 2 revision rounds
 5. Go-live: DNS + HTTPS + Google listing hours fixed + printed counter sheet
 6. Handover doc + care plan signed the same week
