@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 13:29 · الفرع arena/46df64dc-blablalba · آخر commit: c1fa195 · Discovery pass on the no-website rows: 24 shops' sites found and read, 10 new pitches sent, 14 filed as phone/DM
+آخر توليد: 2026-10-11 14:08 · الفرع arena/46df64dc-blablalba · آخر commit: ee02f67 · Two Magpies auto-reply booked (4th auto-reply, still no human reply)
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.
 
