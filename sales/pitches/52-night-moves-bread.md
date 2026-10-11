@@ -8,8 +8,8 @@ James Beard 2026 Outstanding Bakery semifinalist; 13 stockists from Portland Foo
 Source on file: jamesbeard.org 2026 semifinalists + nightmovesbread.com/contact (opened 2026-10-11).
 
 ## 2. What their web presence actually is
-public notes say: “Squarespace: homepage is ~28 photos. Contact page = hours (Wed-Thu 8-5, Fri 8-8, Sat 8-4, Sun 8-2), address, phone, a 13-name stockist list and a contact FORM - no email published. Bread cannot be ordered online at all (pizza goes to a separate night-moves.square.site), though their FAQ admits people want to know where the bread is 'near me'.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Squarespace: homepage is ~28 photos. Contact page = hours (Wed-Thu 8-5, Fri 8-8, Sat 8-4, Sun 8-2), address, phone, a 13-name stockist list and a contact FORM - no email published. Bread cannot be ordered online at all (pizza goes to a separate night-moves.square.site), though their FAQ admits people want to know where the bread is 'near me'.
+public notes say: “No email published (form + phone). The exposed Google Maps API key is worth a DM today - it is a security issue, not a design opinion.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): No email published (form + phone). The exposed Google Maps API key is worth a DM today - it is a security issue, not a design opinion.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
@@ -17,11 +17,11 @@ Claimed earlier (press/aggregator): Squarespace: homepage is ~28 photos. Contact
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
 - **Hero line:** “Night Moves Bread — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Night Moves Bread team — I looked at https://nightmovesbread.com this morning. public notes say: “Squarespace: homepage is ~28 photos. Contact page = hours (Wed-Thu 8-5, Fri 8-8, Sat 8-4, Sun 8-2), address, phone, a 13-name stockist list and a contact FORM - no email published. Bread cannot be ordered online at all (pizza goes to a separate night-moves.square.site), though their FAQ admits people want to know where the bread is 'near me'.” — open their site before you use this sentence.
+> Hi Night Moves Bread team — I looked at https://nightmovesbread.com this morning. public notes say: “No email published (form + phone). The exposed Google Maps API key is worth a DM today - it is a security issue, not a design opinion.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 2080 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes preorder.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

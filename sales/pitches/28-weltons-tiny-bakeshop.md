@@ -8,7 +8,7 @@ James Beard 2026 Outstanding Bakery finalist, one-room shop
 Source on file: cnn.com 16 Jun 2026.
 
 ## 2. What their web presence actually is
-Real domain, info pages. No email published → phone or their contact form is the only channel.
+Read 2026-10-11: /contact on weltonstinybakeshop.com is not a contact page at all - it is the recruiting page ("JOIN THE WTB TEAM / POSITIONS AVAILABLE / summer & fall 2026", bartender, counter server, line cook, "$15 - with tips avg $25-$35/hour", a resume-upload form). A customer looking for the shop, the honey pie, or how to order a cake lands on job openings. One typo in the requirements: "AFTERNOON/EVENING AVAILABILITY ON IS A PLUS!"
 Found live: weltonstinybakeshop.com
 Contact: +1 843-666-7277 (no public email found)
 
@@ -22,7 +22,7 @@ Contact: +1 843-666-7277 (no public email found)
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, phone / counter / DM (no public email))
-> Hi Weltons Tiny Bakeshop team — I looked at weltonstinybakeshop.com this morning. Real domain, info pages. No email published → phone or their contact form is the only channel.
+> Hi Weltons Tiny Bakeshop team — I looked at weltonstinybakeshop.com this morning. Read 2026-10-11: /contact on weltonstinybakeshop.com is not a contact page at all - it is the recruiting page ("JOIN THE WTB TEAM / POSITIONS AVAILABLE / summer & fall 2026", bartender, counter server, line cook, "$15 - with tips avg $25-$35/hour", a resume-upload form). A customer looking for the shop, the honey pie, or how to order a cake lands on job openings. One typo in the requirements: "AFTERNOON/EVENING AVAILABILITY ON IS A PLUS!".
 > That's exactly the part I build: hero, marquee, specialties, menu — 1325 $ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

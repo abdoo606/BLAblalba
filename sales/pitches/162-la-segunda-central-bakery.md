@@ -1,6 +1,6 @@
 # La Segunda Central Bakery — design board & pitch
 
-Tampa, FL, US · C - from a 2026 list · template **artisan** · Pâtisserie · 2900 €
+Tampa, FL, US · A - hot · template **artisan** · Pâtisserie · 2900 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -8,8 +8,8 @@ Best bakery in Florida (Food Republic, 18/08/2026); "the world's largest produce
 Source on file: foodrepublic.com/2234748 (18 Aug 2026).
 
 ## 2. What their web presence actually is
-public notes say: “to find” — open their site before you use this sentence
-Claimed earlier (press/aggregator): to find
+public notes say: “SENT 2,900 EUR (1,450 EUR catering-only offered). Address is the sales manager direct - high reply chance.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): SENT 2,900 EUR (1,450 EUR catering-only offered). Address is the sales manager direct - high reply chance.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
@@ -21,8 +21,8 @@ Claimed earlier (press/aggregator): to find
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Segunda Central Bakery team — I looked at lasegundabakery.com this morning. public notes say: “to find” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 3160 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees.
+> Hi Segunda Central Bakery team — I looked at lasegundabakery.com this morning. public notes say: “SENT 2,900 EUR (1,450 EUR catering-only offered). Address is the sales manager direct - high reply chance.” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 3160 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.
 >

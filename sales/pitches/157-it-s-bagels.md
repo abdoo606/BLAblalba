@@ -8,8 +8,8 @@ Second site on Hampstead High Street at the end of summer 2026, three years afte
 Source on file: bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstimes.co.uk 2026.
 
 ## 2. What their web presence actually is
-public notes say: “to find” — open their site before you use this sentence
-Claimed earlier (press/aggregator): to find
+public notes say: “No contact page at all - find their Instagram; the merch-only checkout is the pitch.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): No contact page at all - find their Instagram; the merch-only checkout is the pitch.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): to find
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi It's Bagels team — I looked at itsbagels.com (to verify) this morning. public notes say: “to find” — open their site before you use this sentence.
+> Hi It's Bagels team — I looked at itsbagels.com (to verify) this morning. public notes say: “No contact page at all - find their Instagram; the merch-only checkout is the pitch.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 645 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees.
 > VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.

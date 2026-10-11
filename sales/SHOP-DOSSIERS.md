@@ -4,7 +4,7 @@
 الملف مولّد من `sales/prospects-2026.csv` + `OUTREACH-LOG.csv` + `SENT-RECORD.csv` بـ `tools/make-dossiers.py`.
 لا تحرّروه بالدرايف — عدّل الـCSV وأعيدوا التوليد.
 
-## القسم الأول — محلات تحركنا فيها (82)
+## القسم الأول — محلات تحركنا فيها (83)
 
 ### Wild Crumb — Bozeman, MT, US  ·  sent
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -107,14 +107,16 @@
 **الخطوة الجاية:** one chase in-thread (60 words, value-led), then close the file — 2026-10-20
 **مصدر الاسم:** bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstimes.co.uk 2026
 
-### La Segunda Central Bakery — Tampa, FL, US  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
+### La Segunda Central Bakery — Tampa, FL, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
 **الموقع:** lasegundabakery.com
-**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage). Est. 1915, 18,000+ loaves a day, 3 locations, Goldbelly nationwide. Four gaps: (1) "WholeSale Info" (capital S) sends restaurants to a different domain, cubanbread.com; (2) catering menu is a PDF last updated Aug 2024 ("LAS-2403-0032-Catering-Menu-Update-Aug-2024"); (3) the online-order link is a lunch-only page (/kennedy-lunch), and a second bare "»" links to lasegunda.revelup.com/weborder - the real ordering system is hidden as a character; (4) a hero photo is uploaded as "712_La_Segunda_Bakery_by_brianadamsphoto.com.jpg.jpg". No email published on the page; /pages/contact 404s.
+**اللي نشروه عندهن:** giuseppe@cubanbread.com - published on their own page (read 2026-10-11)
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (lasegundabakery.com + cubanbread.com/contact). Their wholesale site is excellent - "7 fields, 60 seconds, no price list, no portal, just Giuseppe", an FAQ written by a person, minimum 10 loaves per Tampa delivery, 46 distributor locations, Sysco/US Foods routing - and it publishes giuseppe@cubanbread.com. The retail site is a decade behind: catering = a PDF "LAS-2403-0032-Catering-Menu-Update-Aug-2024", consumer ordering = a Revel lunch page hidden behind a "»", shipping only via Goldbelly (their cut), nav typo "WholeSale Info", hero photo "...brianadamsphoto.com.jpg.jpg". Sent 2,900 EUR: live catering menu + enquiry form, consumer pre-order with Ybor City pickup, own-site shipping, retail<->wholesale linked.
 **ليش هلأ:** Best bakery in Florida (Food Republic, 18/08/2026); "the world's largest producer of authentic, Cuban-style bread baked from scratch", Ybor City plus three more doors, founded to honour the Spanish, Cuban and Italian heritage of the neighbourhood.
-**اتجاهنا:** Big client - pitch = ordering unified + catering PDF replaced by a live page.
+**اتجاهنا:** Written per sales/PITCH-VOICE.md (value first, two verbatim facts, deliverables list, two price options, one CTA). Subject: «Your wholesale page is stronger than the retail one — a fix for the consumer side».
 **السعر:** 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · رعاية 45 €/شهر · السنة الأولى 3,530 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**المبعوث:** giuseppe@cubanbread.com · 2026-10-11T13:14Z · “Your wholesale page is stronger than the retail one — a fix for the consumer side”
+**الخطوة الجاية:** one chase in-thread 2026-10-20, then close the file — 2026-10-20
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026)
 
 ### Ovenbird Bakery — Baltimore, MD, US  ·  verified-ready
@@ -128,34 +130,34 @@
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Comadre Panaderia — Austin, TX, US  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** comadrepanaderia.com
-**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/ and /pages/contact, which 404s). The site is one page. Banner: "BREAKFAST TACOS ARE AVAILABLE DAILY TIL ABOUT 11:30 (UNLESS THEY SELL OUT EARLY). MAKE A PLAN TO GET HERE EARLY IF YOU'RE HUNGRY! :)". Hours as "WEDS: 8A-2P ... MON: CLOSED TUES: CLOSED"; location as "IN THE BIG PINK BUILDING BEHIND NIXTA TAQUERIA" (a goo.gl short link to the map). The MENU is two PDFs (COMADRE-BEBIDAS-275.pdf, COMADRE-EXTRAS-MENU-25.pdf) and the note says "menu changes weekly (sometimes daily) & is for reference only, usually updated by Thursday morning" - so the prices a customer needs live in a document that is 2025-branded. There is a price manifesto ("A NOTE ON OUR PRICES") and no way to order, no email, no wholesale, and no Spanish on a Mexican-American panaderia in Austin. Highest-fit bilingual client on the list.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (/chef, both chunks - their About/press page). A stunning press wall: Food & Wine Best New Chef 2025, two Beard semifinals, NYT "22 of the Best Bakeries Across the U.S.", Bon Appétit "Conchas Are the New Croissants", Austin American-Statesman "We were ranked #1!!!", three YouTube features embedded (Austin PBS, Claire Saffitz, Texas Country Reporter), King Arthur and Thrillist recipe links. And on this page, the only instructions to a customer are: "For current hours of operation, check the main page" and "Follow us on Instagram for daily updates!" - no email, no phone, no order, no wholesale, no Spanish.
 **ليش هلأ:** Mariela Camacho - two-time Beard semifinalist and a Food & Wine 2025 Best New Chef; pan dulce, conchas, the blue-cornflake Pink Cake.
 **اتجاهنا:** See audit_note.
 **السعر:** 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · رعاية 45 €/شهر · السنة الأولى 3,530 €
-**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Bova's Bakery — Boston, MA, US  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** bovabakeryboston.net
-**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage + /contact). "Family-owned and operated since 1926 ... For over eighty years Bova's Bakery has been committed to..." - the copy was never updated even though the site's own hero is the centenary ("Bova's Bakery is turning a century old", anniversary tees $25, snapbacks $20). Product images for Bread/Cakes/Pies/Cookies/Pastries are hotlinked over plain http from their agency's staging host (http://sentient.project-sites.com/bova/wp-content/uploads/...) - they break on https pages and die if the agency drops the box. Seasonal tiles (Pumpkin Pie, Pumpkin Cannoli...) link to the raw PNG files, not to product pages. Carousel arrows are "#". /contact: "To contact Bova's Bakery please call, visit, or use the form on this page" - Open 24 Hours, 134 Salem Street, 617.523.5601, a fax number, and no email.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage chunk 1 + /contact). Centenary everywhere - "Bova's Bakery is turning a century old", anniversary tees $25, snapbacks $20 - yet the Welcome copy still says "For over eighty years Bova's Bakery has been committed to..." The Bakery category tiles (Bread, Cakes & Pies, Cookies, Pastries, Prepared Food) load their images from http://sentient.project-sites.com/bova/wp-content/... - the developer's staging server, over plain http; if that box is switched off, the shop's product pictures disappear. Seasonal tiles link to the raw .png files (Pumpkin Pie opens an image, not a product). /contact: "please call, visit, or use the form on this page" - Open 24 Hours, 134 Salem Street, 617.523.5601, a fax number, and no email.
 **ليش هلأ:** Ninety-plus years old and still open 24 hours a day in the North End; voted best late-night spot by Boston Magazine readers; lobster-tail pastries and tiramisu.
 **اتجاهنا:** Century-old brand, staging-hosted images - pitch reliability + merch ordering (2,900 EUR).
 **السعر:** 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · رعاية 45 €/شهر · السنة الأولى 3,530 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Handy Bakery — Barcelona (Gràcia) — Carrer de Rabassa 5, ES  ·  verified-ready
-**وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** handybakery.es — one sentence: “Contáctanos por Instagram”
 **اللي نشروه عندهن:** Instagram @handybakery_ · Carrer de Rabassa 5, Gràcia (NOT Plaça de la Vila)
-**شو لقينا بصفحتهم (حرفاً):** Opened ~Aug 2025, El Periódico feature, 70%→50% wholesale shift means they now need retail customers. Domain exists with zero content, no menu, no hours, no ordering.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11: handybakery.es returns its hosting provider's page - "Account Suspended. This Account has been suspended. Contact your hosting provider" (the mailto on that page is webmaster@handybakery.es, the host's generic address - not a contact we may use). No live site at all.
 **ليش هلأ:** New 2025 opening (bakery + patisserie + specialty coffee) - greenfield, needs everything
 **اتجاهنا:** You already have the press and the room. The domain is empty — a menu with hours and pre-orders converts the walk-by traffic.
 **السعر:** 2,830 €  ·  ≈ 3,085 $  ·  ≈ 2,434 £ · رعاية 45 €/شهر · السنة الأولى 3,370 €
-**الخطوة الجاية:** DM on Instagram or a visit to Carrer de Rabassa 5, Gracia - do NOT invent an address
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** inandoutbarcelona.net 14 Nov 2025
 
 ### Wild Hearth Bakery — Comrie, Perthshire, GB  ·  sent
@@ -231,14 +233,14 @@
 **مصدر الاسم:** gustobread.com/contact + jamesbeard.org 2026 semifinalists
 
 ### Café Dear Leon — Canton + Remington, Baltimore, MD, US  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 (I opened their own site and read the page the facts come from)
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** https://cafedearleon.com
 **اللي نشروه عندهن:** (667) 335-9160 · 2929 O'Donnell St (Canton) + 2600 N Howard St (Remington) · NO email published; /contact/ returns a 404
-**شو لقينا بصفحتهم (حرفاً):** OPENED 2026-10-11 10:05Z: homepage + /contact/. Homepage renders the opening hours as vertically split characters ('T u e - S u n 6 a m - 3 p m' / 'E V E R Y D A Y 7 : 3 0 a m - 3 p m') - the text is inside a styled component, so screen readers and search engines get letter soup; it also says 'Thank you for your understading' (typo, live on the homepage right now) and explains that once the day's quantity is reached they are sold out. /contact/ = 404 'Whoops, that page is gone'. No email published anywhere. Two locations, two bake schedules, no way to order or reserve online.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11: /contact on cafedearleon.com returns the WordPress "Page not found - Whoops, that page is gone" (Bricks builder: "Skip to main content / Skip to footer"). The site's own contact page is gone; no menu, hours, or email readable on it.
 **ليش هلأ:** James Beard 2026 Outstanding Bakery semifinalist; second location (La Maison, Remington) opened for 2026; the viral crab-dip bagel queue is covered in BmoreArt (Jan 2026).
 **اتجاهنا:** Baltimore's busiest pastry counter has a 404 where its contact page should be and hours that a screen reader reads one letter at a time. Two locations on one board with real text hours, today's bake schedule per shop, a sold-out state the team can flip, and a press line for the Beard listing. Ordering can start as a Google-Form-style request page; the point is the customer gets an answer without walking to Canton and back.
 **السعر:** 2,010 €  ·  ≈ 2,191 $  ·  ≈ 1,729 £ · رعاية 45 €/شهر · السنة الأولى 2,550 €
-**الخطوة الجاية:** NOT sendable by email - no address published on their own site. l St (Canton) + 2600 N Howard St (Remington) · NO email published; /contact/ returns a 404 — 2026-10-13
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** cafedearleon.com (own site) + BmoreArt 2026-01-13 + jamesbeard.org 2026 semifinalists | merged with the older to-verify row for the same shop (duplicate removed 2026-10-11, one row per shop)
 
 ### ARAN Bakery — Dunkeld, Perthshire, GB  ·  sent (auto-reply)
@@ -254,13 +256,13 @@
 **مصدر الاسم:** aran-bakery.com/contact-1 + Daily Record GFG 2026 Scotland list (2026-03-24)
 
 ### Night Moves Bread — South Portland, ME, US  ·  verified-ready
-**وين إحنا:** PARTIAL 2026-10-11 (site opened; n
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** https://nightmovesbread.com
-**شو لقينا بصفحتهم (حرفاً):** Squarespace: homepage is ~28 photos. Contact page = hours (Wed-Thu 8-5, Fri 8-8, Sat 8-4, Sun 8-2), address, phone, a 13-name stockist list and a contact FORM - no email published. Bread cannot be ordered online at all (pizza goes to a separate night-moves.square.site), though their FAQ admits people want to know where the bread is 'near me'.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (/contact). Squarespace page titled "CONTACT + FAQ'S". Everything a customer needs is in the banner line: "PIZZA NIGHT! FRIDAYS 4:30PM-8PM / CALL WED-FRI OR WALK IN FRIDAY 207-805-1011 <3<3<3" - phone only, no email, no order form. The static map is built from a Google Static Maps URL with the API key printed in the page source (key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y) - that key is exposed to every visitor and any abuse lands on their bill. Thirteen stockists are listed in an FAQ, with no wholesale enquiry page, and they own a /shop that ships brownies and cookies but not bread ("We do not ship our bread at this time").
 **ليش هلأ:** James Beard 2026 Outstanding Bakery semifinalist; 13 stockists from Portland Food Co-op to Belfast Co-op
 **اتجاهنا:** They publish a bread schedule; I would turn that schedule into reservations
 **السعر:** 1,910 €  ·  ≈ 2,082 $  ·  ≈ 1,643 £ · رعاية 45 €/شهر · السنة الأولى 2,450 €
-**الخطوة الجاية:** SEND NOW - sales/pitches/52-*.md section 4
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** jamesbeard.org 2026 semifinalists + nightmovesbread.com/contact (opened 2026-10-11)
 
 ### Layla Bakery — London (Ladbroke Grove), GB  ·  sent
@@ -310,14 +312,14 @@
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18
 
 ### Toad Bakery — London (Camberwell + Deptford), GB  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 - no readable site
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** https://www.toadbakery.com (Square Online)
 **اللي نشروه عندهن:** NO address we could read: https://www.toadbakery.com renders only an empty Square basket modal ("Back to Basket / You do not have any items in your cart / Secure checkout by Square"); /contact and /policies/privacy-policy both return "404 - Page Not Found" (tried 2026-10-11 12:33).
-**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: the whole domain returns a single Square basket modal and two 404s (/contact, /policies/privacy-policy). No menu, no location page, no order link, no email anywhere we could read - the strongest "your site is worse than your Instagram" case on the list, but it needs a human browser check or an Instagram DM, not an email.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11: / and /contact-us both render the same empty Square basket - "Back to Basket / TOAD Bakery / Secure checkout by Square" and five payment icons, nothing else. The whole web presence of a bakery that opened in Frome in January 2026 and got national press is an empty shopping cart.
 **ليش هلأ:** London Bakery of the Year 2025 (National Bakery Awards); a third site in Deptford announced for summer 2026 (Hot Dinners, 06/07/2026, updated with the opening date).
 **اتجاهنا:** Three sites (Broadway Market, Columbia Road, new Deptford) and no location page: build the page that shows where and when, takes pre-orders and lists the collab bakes. 1,450 EUR.
 **السعر:** 1,630 €  ·  ≈ 1,777 $  ·  ≈ 1,402 £ · رعاية 45 €/شهر · السنة الأولى 2,170 €
-**الخطوة الجاية:** Abdulrhman: DM @toadbakery; browser-check toadbakery.com (renders an empty basket; /contact and /policies/privacy-policy are 404) — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** londonyaar.com — 15 best bakeries in London to visit in 2026 (2026-08-16)
 
 ### 1900 Barker Bakery and Cafe — Lawrence, KS, US  ·  sent
@@ -332,13 +334,13 @@
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18
 
 ### Peak and Stone Bakery — Chesterfield, GB  ·  verified-ready
-**وين إحنا:** PARTIAL 2026-10-11 (site opened; n
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** https://www.peakandstonebakery.co.uk
-**شو لقينا بصفحتهم (حرفاً):** Squarespace site = a welcome paragraph, three product PNGs and a 'Follow Us' strip repeated eight times. /contact returns 'We couldn't find the page you are looking for'. No menu, no prices, no market schedule on the site - the press piece tells customers to follow Instagram to find out where they stand on Saturday.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11: /contact = their own Squarespace 404 ("We couldn't find the page you were looking for... has been moved or deleted"), an empty cart ("0") and nothing else. No hours, no address, no email, no ordering on the page we could reach.
 **ليش هلأ:** Won BOTH Britain's Best Plain Sourdough 2026 and Britain's Best Flavoured Sourdough 2026 (British Baker, NEC, 13 Apr 2026), beating far larger bakeries as a husband-and-wife microbakery
 **اتجاهنا:** Two national trophies and the only place to find the bread is an Instagram post
 **السعر:** 1,530 €  ·  ≈ 1,668 $  ·  ≈ 1,316 £ · رعاية 45 €/شهر · السنة الأولى 2,070 €
-**الخطوة الجاية:** SEND NOW - sales/pitches/51-*.md section 4
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** chesterfield.co.uk 2026-04-21 + bakeryinfo.co.uk Britain's Best Loaf 2026 + site opened 2026-10-11
 
 ### Lovingly Artisan — Kendal / Burneside, GB  ·  sent
@@ -378,14 +380,14 @@
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + foodrepublic.com/2234748 (18 Aug 2026), merged 2026-10-11 12:45
 
 ### Mabel the Bakery — Downham Market, Norfolk, GB  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 (I opened their own site and read the page the facts come from)
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** https://www.mabelthebakery.com
 **اللي نشروه عندهن:** Instagram @mabelthebakery · 11 Market Place, Downham Market PE38 9DF · NO email on their own site (form only)
-**شو لقينا بصفحتهم (حرفاً):** OPENED 2026-10-11 10:05Z: / and /contact. Contact page = Wix form + hours Fri/Sat/Sun 8-2 + Instagram strip, and it explicitly warns '(Please don't use this form to place orders)' - so there is a demand to order and no way to do it. Homepage: the 'Our menu' section contains no menu, only the line 'WHAT'S FRESH TODAY? HEAD OVER TO OUR INSTAGRAM.'; the Upcoming Events list is stale (Dec/May entries) and every event card's image is duplicated in the DOM. hello@mabelthebakery.com appears in a search snippet of that contact page and in their Open Food Network listing but is NOT visible in the rendered page we read - so we do not cold-email it; call or DM first.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (/contact, Wix). The form carries an explicit warning in its own headline: "Got a question? Get in touch! (Please don't use this form to place orders)". Hours for Fri/Sat/Sun are all "8:00 am - 2:00 pm" typed on three lines; the Instagram embed below says "Load More" and never loads; no phone, no email, no ordering page, no address on the page.
 **ليش هلأ:** Good Food Guide Britain's 50 Best Bakeries 2026 (new entry) - for a bakery open three days a week in a market town; flour from Shipton Mill and wildfarmed grain, produce swapped with customers.
 **اتجاهنا:** Three open days, a national top-50 listing, and a website that sends people to Instagram for the menu and away from its own form for orders. A real menu page with prices, a weekend pre-order with a cut-off (Friday 4pm for Sunday), structured hours so 'opens 8am' shows on Google the day it changes, and an events block that stops showing last Christmas.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 1,990 €
-**الخطوة الجاية:** NOT sendable by email - no address published on their own site. bakery · 11 Market Place, Downham Market PE38 9DF · NO email on their own site (form only) — 2026-10-13
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** mabelthebakery.com + /contact (own site) + GFG 50 Best Bakeries 2026 (2026-03-24)
 
 ### 31 Mallory Bakery — (GB - town from their site), GB  ·  parked - no own site found
@@ -454,6 +456,18 @@
 **الخطوة الجاية:** none - they already have a developer; recorded so the next batch does not re-pitch them — 2027-04-01
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18 | own site opened 2026-10-11 (contact + wholesale)
 
+### Bing's Bakery — Newark, DE, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** bingsbakery.com
+**اللي نشروه عندهن:** bings@bingsbakery.com - published on their own page (read 2026-10-11)
+**شو لقينا بصفحتهم (حرفاً):** Read again 2026-10-11 (homepage chunks 1-3, WooCommerce). Footer publishes bings@bingsbakery.com, 302-737-5310 and "253 East Main St. Newark, DE 19711" with hours "Monday - Friday 7:00 A.M. - 6:00 P.M. / Saturday 7:00 A.M. - 5:00 P.M. / Closed Sunday" (all one glued line). Store is real and priced. Sent 1,450 EUR pitch: (a) remove the spam link inside their own "Our History" copy ("360 lace wig stores near me" -> babwigs.org), harden WordPress; (b) build the /contact page that currently 404s + a wedding/corporate form; (c) seasonal rotation with an end date ("Eagles Cupcakes - post season" is still first in October).
+**ليش هلأ:** Named the best bakery in Delaware by Food Republic (18/08/2026); 253 E Main St, Newark, (302) 737-5310.
+**اتجاهنا:** Written per sales/PITCH-VOICE.md (value first, two verbatim facts, deliverables list, two price options, one CTA). Subject: «Two things on bingsbakery.com worth fixing this week».
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** bings@bingsbakery.com · 2026-10-11T13:14Z · “Two things on bingsbakery.com worth fixing this week”
+**الخطوة الجاية:** one chase in-thread 2026-10-20, then close the file — 2026-10-20
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + foodrepublic.com/2234748 (18 Aug 2026), merged 2026-10-11 12:45
+
 ### Weber's Bakery — Chicago, IL, US  ·  sent
 **وين إحنا:** VERIFIED 2026-10-11 (I opened webersbakery.com/contact myself)
 **اللي نشروه عندهن:** info@webersbakery.com (published on their own contact page) - 773-586-1234 - 7055 W. Archer Ave, Chicago, IL 60638
@@ -499,13 +513,13 @@
 **مصدر الاسم:** swellssourdough.com + sandiegouniontribune.com 01 Oct 2026
 
 ### Astrid Atelier — London (Muswell Hill), GB  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** astridbakery.co.uk (to verify)
-**شو لقينا بصفحتهم (حرفاً):** /pages/contact = "404 - Page Not Found / Back to home page". Nothing else read. New 900 sq ft atelier opening 2026 a few doors from the original Muswell Hill shop.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage, Square/Weebly). Both shops are listed with hours (Astrid 118a Alexandra Park Rd 07.30-15:00 Mon-Sat, 09:00-15:00 Sun; Atelier 114 Alexandra Park Rd 08:00-15:00 / 09:00-15:00) and the copy is warm and clear. But the map on their own page prints the literal words "Google Maps Output" (the third bakery we found today with that exact Weebly placeholder - Fariner, The Local General Store, Astrid), the logo image is still named "11.28.2024_6748e7b5c26da7.77417162 (1) copy_1772296190.png", and "Helpful Information" contains a single bare link "Shipping Policy". /pages/contact 404s; no email or phone published.
 **ليش هلأ:** New 900 sq ft "atelier" opened 2026 a few doors from the original Muswell Hill bakery (launched 2024): production kitchen turned retail, dedicated pastry team, soft-serve sundaes, Breakfast Boxes, pizza romana (bakeryinfo, 08/05/2026).
 **اتجاهنا:** Needs a browser pass: find the real contact path.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstimes.co.uk 2026
 
 ### Long's Bakery — Indianapolis, IN, US  ·  verified-ready
@@ -591,23 +605,23 @@
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Black Walnut Bakery — Minneapolis, MN, US  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** blackwalnutbakery.com
-**شو لقينا بصفحتهم (حرفاً):** Read again 2026-10-11: /contact-us also 404s - and the 404 page shows the same broken components as the homepage ("Summary Block / This block is invalid. Please check the block settings and try again.", the Squarespace placeholder image, and a "Read more" link that points at the 404 URL itself). That proves the invalid block is in a site-wide section, so it is visible on every page of the site, including error pages. Still no menu, no hours, no address, no email.
+**شو لقينا بصفحتهم (حرفاً):** Third page read 2026-10-11 (/contact-us): also a 404 - and it renders the same broken "Summary Block / This block is invalid. Please check the block settings and try again." plus the Squarespace placeholder image and a "Read more" that links back to the 404 URL. Confirms the defect lives in a site-wide section, so it appears on every page of blackwalnutbakery.com.
 **ليش هلأ:** Food Republic: stellar reviews for a shop founded 2019 by CIA-trained Sarah Botcher; the laminated pastry room of Minneapolis.
 **اتجاهنا:** The defect is site-wide, not page-level - one fix repairs every page.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Desert Bread — Las Vegas, NV, US  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** desertbreadlv.com
-**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/contact; / pages not needed). The contact page prints the site's own builder error to customers: "Newsletter Block - This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab." - so the newsletter nobody can subscribe to sits above the sign-up button. The address is repeated twice on one page ("6290 McLeod Dr Suite 110"), there is no menu, no prices, no ordering, and no email we could read. Phone (702) 706-6955 per the directory listing, not their page.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage, Squarespace). A beautiful story (two husbands, 50 sq ft Oakland kitchen, Sunset Park pop-ups) and two press badges, but the page has no menu, no prices, no hours, no address, no phone and no email - it sends people to "the contact link" (which shows the broken newsletter block: "This newsletter signup form needs a storage option"). Verbatim on the live page: an image captioned "Brett & Brendon on a farm sleepover in Sonoma 2014", and the brand mark is a file named "Desert Dunes Planet World Logo  BrandCrowd Logo Maker.jpg" - the logo-maker's own placeholder, still carrying its generator name. Their newest award is "Best Vegas Bakery, 2021".
 **ليش هلأ:** Voted Las Vegas's best bakery by Las Vegas Weekly readers; sourdough built on desert-grown local grain.
 **اتجاهنا:** See audit_note.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### On the Rise Artisan Breads — Cleveland Heights, OH, US  ·  verified-ready
@@ -621,33 +635,33 @@
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Country Bird Bakery — Tulsa, OK, US  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** countrybirdbakery.com
-**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: /contact is their own Squarespace 404 ("We couldn't find the page you were looking for... has been moved or deleted"). The article prints countrybirdbakerytulsa@gmail.com, but it is not on their page, so it is not ours to write to. Homepage still to read.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage, Squarespace). The substance is excellent - terroir mission, workshop program, "Menu Staples" list (Fruit Focaccia, Rye Sourdough Brownie, Mom's Butterscotch Brownies, Porridge Loaves), testimonials, and an order-ahead program. Five things cost it: (1) one heading is printed five times in a row on the live page: "Scones, Sourdoughs, Cookies - Oh Pie!" x5 (a marquee block left unstyled); (2) an image whose alt text is "A plain, solid light blue background with no distinct objects or features." - a blank blue square published as a graphic; (3) a photo on the page is captioned "Brett & Brendon on a farm sleepover in Sonoma 2014" (a private caption on a business site - wrong shop's story, likely a template leftover from Desert Bread); (4) the image files are camera names (IMG_4617.jpg, 0C0A1511.jpg) with no alt text; (5) /contact 404s, so the article's gmail is not on their page and not ours to use.
 **ليش هلأ:** Owner Cat Cox won the 2025 James Beard Outstanding Pastry Chef award; French onion soup danishes, porridge loaves.
 **اتجاهنا:** See audit_note.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Sugaree's Bakery — New Albany, MS, US  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** sugarees.com
-**شو لقينا بصفحتهم (حرفاً):** /contact-us = "404 Not Found - Something went wrong." Homepage not read yet. Mail-order pound cakes with a mix-and-match sampler - shipping flow is the pitch when we get in.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage, Shopify, 4 chunks + /contact-us 404 + /contact 404). A genuinely good commercial site: pickup and shipping per cake, corporate gifting, fundraising, wholesale - prices live (Cream Cheese Pound Cake $49, Caramel $84, Italian Cream $89). One real bug and it is on the first screen: on the Caramel Cake slide, "Pickup In Store" and "Ship It" both link to /products/caramel-cake-pickup - the ship button does not ship (Italian Cream has the correct -shipping URL, so it is a copy-paste). The "Best Selling Cakes" grid renders twice in a row; every product shows "Sale price $49.00" with no regular price, so "Sale" means nothing; and /contact-us and /contact both 404 - the only contact route on the site is an Instagram embed whose caption pastes a raw product URL (sugarees.com/products/red-velvet-shipping). No email published on any page we read.
 **ليش هلأ:** Best-in-state mention from Food Republic for Southern pound cakes with a nationwide mail-order system and a mix-and-match sampler.
 **اتجاهنا:** Needs the homepage + a phone/DM first.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Pastiche Fine Desserts — Providence, RI, US  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** pastichefinedesserts.com
-**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11: /contact is a custom 404 with on-brand copy ("Oh crumbs! Looks like this page has crumbled away! But don't worry, we've got fresh content baking.") - nice. The footer, however, carries TWO different hours blocks on the same page: "Tuesday - Saturday 9am to 10pm / Sunday 9am to 8pm / Closed Monday" and "Tuesday - Thursday 9am to 10pm / Friday & Saturday 9am to 10:30pm / Sunday 10am to 10pm / Closed Monday" - and the second block's "Order Now" button points at https://pastichefinedesserts.com/contact# (this 404 page), while the first goes to the real toast.site ordering. Same address and phone in both. No email published.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 again: /about is also gone - it returns the same custom 404 as /contact ("Oh crumbs! Looks like this page has crumbled away!"). So two of the site's main pages (About, Contact) are 404s, and the duplicated footer that appears on both error pages shows the same contradiction on the live site: block one "Tuesday - Saturday 9am to 10pm / Sunday 9am to 8pm", block two "Tuesday - Thursday 9am to 10pm / Friday & Saturday 9am to 10:30pm / Sunday 10am to 10pm" - same address, same phone, different week. Second block's "Order Now" points at the current page ("/about/#"), i.e. the button is the 404.
 **ليش هلأ:** Running since 1983 on Federal Hill; the fresh fruit tart that redefined Providence pastry; updated cannolis.
 **اتجاهنا:** Contradictory hours + an Order Now button that leads to a 404 = today's easiest yes.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### CH Patisserie — Sioux Falls, SD, US  ·  sent
@@ -663,23 +677,35 @@
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Nichole's Fine Pastry — Fargo, ND, US  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** nicholesfinepastry.com
-**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage, WordPress/Beaver Builder by an agency). Strong site: menus, catering, custom cakes, holiday pre-orders, weddings. But the press wall is the same seven logos rendered three times over, and the "Diners, Drive-Ins and Dives" tile links to a bing.com videos search URL - not to the episode; alt texts are written as stock-photo captions ("Retro sign with Diners, Drive-Ins, Dives logo - perfect for catering or event space themes"); one heading is duplicated ("Events That Taste As Good As They Look" twice); the James Beard, People, Food Network and inForum tiles all open external links, so the page sends traffic away and gets nothing back. /contact/ = "Page not found".
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage all 4 chunks + /contact/ which 404s). The site is agency-built and rich - brunch/dinner/beverage menus, catering, custom cakes, weddings, holiday pre-orders - and the testimonial wall is real (Google reviews, wedding couples, "Gone from Fargo for six years, but I still dream of this place"). What is broken: /contact and /contact-us both return "Page not found" with nothing but a logo, so the only way to reach them from the site is by phone; the press carousel repeats the same seven logos three times over; the Diners tile links to a bing.com videos search URL, not the episode; the alt texts are stock captions ("Retro sign with Diners, Drive-Ins, Dives logo - perfect for catering or event space themes"); and a "Vote for Nichole's" local-favorites banner (image uploaded 2026/10) sends people to an outside voting site.
 **ليش هلأ:** "Bringing a bit of Paris to the Prairie"; 2024 Beard Outstanding Bakery semifinalist; feuilletine towers and macarons.
 **اتجاهنا:** Agency-built but leaking - pitch as a conversion audit, not a rebuild (2,900 EUR tier).
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Zingerman's Bakehouse — Ann Arbor, MI, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** zingermansbakehouse.com
+**اللي نشروه عندهن:** bhweb@zingermans.com - published on their own page (read 2026-10-11)
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (/contact). They publish bhweb@zingermans.com, "3711 Plaza Drive, Ann Arbor, MI 48108", 734-761-2095, "OPEN 7AM-7PM DAILY", a wholesale office line 734-761-7255 - and the form shows its own scaffolding to visitors: "This field is for validation purposes and should be left unchanged." Two destinations only ("Become a wholesale customer" / "General question"), while the same page links out to Candy, Coffee, BAKE!, Mail Order, ZingTrain. "VIEW OUR HOLIDAY HOURS" is an Elementor popup triggered by a base64 action string, and the real hours are plain text in the footer - two places to update. Sent 1,450 EUR: hide the honeypot, add cake + press/jobs desks with the right fields, one source of truth for hours and holiday closures, an editable "today at the Bakehouse" line.
+**ليش هلأ:** Founded 1992 with the mission "the relentless pursuit of being the best bakery we can imagine"; a world-class cake studio, Chocolate Cherry Bread and the 'Better than San Francisco' sourdough.
+**اتجاهنا:** Written per sales/PITCH-VOICE.md (value first, two verbatim facts, deliverables list, two price options, one CTA). Subject: «Three small things on /contact at the Bakehouse».
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** bhweb@zingermans.com · 2026-10-11T13:14Z · “Three small things on /contact at the Bakehouse”
+**الخطوة الجاية:** one chase in-thread 2026-10-20, then close the file — 2026-10-20
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Golden Crown Panaderia — Albuquerque, NM, US  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** goldencrown.biz
-**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (Shopify, both chunks). Everything worth knowing is real: Toast pickup ordering (order.toasttab.com/online/golden-crown-panaderia-2025-1103-mountain-rd-nw), a Cookie ATM open 24/7, Guy Fieri and Food Network features, a roastery since March 2016 ("Golden Crown Roastology started March 2016" - Roastery/Roastology mixed). The shop is messy: every product title ends in "click here" ("Shipping Golden Crown Biscochitos traditional click here"), product URLs are "copy-of-golden-crown-biscochitos-original" (duplicate products from the editor), each card renders twice, the price line prints "Regular price~~~~Sale price $40.90 USD" with empty compare-at fields, the grid ends with "NaN / of-Infinity", and inside the Empanadas copy a link still points at the old WordPress path http://goldencrown.biz/wp/. No email published on the page.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (/pages/contact - it does exist): "Location & Contact", address "1103 Mountain Rd NW, Albuquerque NM 87102", hours ("Lobby hours Wed-Sat: 7am to 8pm / Lobby hours Sunday: 10am-8pm / lobby Closed Mondays and Tuesdays"), "Cooke ATM Available 24/7" (the Cookie ATM misspelt, in the page's own heading), Telephone 505-243-2424, and a Name/Email/Phone/Comment form. No email published on the page; /contact-us 404s.
 **ليش هلأ:** The state cookie (biscochito) made famous; guava empanadas and green chili bread; best in New Mexico per Food Republic.
 **اتجاهنا:** Highest revenue risk per hour: broken price fields and "click here" product names on a national shipper.
 **السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Super Secret Ice Cream — Bethlehem, NH, US  ·  verified-ready
@@ -694,14 +720,14 @@
 **مصدر الاسم:** cnn.com 16 Jun 2026
 
 ### Weltons Tiny Bakeshop — Charleston, SC, US  ·  verified-ready
-**وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** weltonstinybakeshop.com
 **اللي نشروه عندهن:** +1 843-666-7277 (no public email found)
-**شو لقينا بصفحتهم (حرفاً):** Real domain, info pages. No email published → phone or their contact form is the only channel.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11: /contact on weltonstinybakeshop.com is not a contact page at all - it is the recruiting page ("JOIN THE WTB TEAM / POSITIONS AVAILABLE / summer & fall 2026", bartender, counter server, line cook, "$15 - with tips avg $25-$35/hour", a resume-upload form). A customer looking for the shop, the honey pie, or how to order a cake lands on job openings. One typo in the requirements: "AFTERNOON/EVENING AVAILABILITY ON IS A PLUS!"
 **ليش هلأ:** James Beard 2026 Outstanding Bakery finalist, one-room shop
 **اتجاهنا:** Call at closing (1pm). James Beard finalist with no way to reserve — that is the whole pitch.
 **السعر:** 1,215 €  ·  ≈ 1,324 $  ·  ≈ 1,045 £ · رعاية 45 €/شهر · السنة الأولى 1,755 €
-**الخطوة الجاية:** 4-min verification (search name+city, open IG bio, open Google Business, WHOIS any claimed domain), then a personalised draft
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** cnn.com 16 Jun 2026
 
 ### Forn Pa Serra — Barcelona, ES  ·  verified-ready
@@ -819,34 +845,24 @@
 **الخطوة الجاية:** NOT sendable by email - no address published on their own site. gue, Scotland Road, Zelah TR4 9JG · no website: their only web presence is a Facebook page — 2026-10-13
 **مصدر الاسم:** GFG 50 Best Bakeries 2026 (Standard/Express lists 2026-03-24) + foodfromcornwall.co.uk + Facebook page
 
-### Bing's Bakery — Newark, DE, US  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
-**الموقع:** bingsbakery.com
-**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage chunk 1 + /contact). Real WooCommerce store with prices (Pumpkin Pie $17.95, Tomato Pie $24-45 "Fridays and Saturdays only", Tiramisu Cake $50) and Order Now buttons. Three problems: (1) the shop's carousel repeats the same seven products three times on one page and the "Products" nav item links to "#"; (2) inside "Our History" there is a line that has nothing to do with them - "360 lace wig stores near me ... sheerlace aroundthe wholehairline..." hyperlinked to an outside site (babwigs.org) - that is spam content sitting in their own page copy; (3) seasonal merch from Super Bowl ("Eagles Cupcakes - Make this post season sweeter") is still the first product in October. /contact = "It looks like nothing was found at this location." No email published anywhere readable.
-**ليش هلأ:** Named the best bakery in Delaware by Food Republic (18/08/2026); 253 E Main St, Newark, (302) 737-5310.
-**اتجاهنا:** Security/spam cleanup angle - not a redesign pitch. WordPress/WooCommerce.
-**السعر:** 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · رعاية 45 €/شهر · السنة الأولى 1,380 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
-**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + foodrepublic.com/2234748 (18 Aug 2026), merged 2026-10-11 12:45
-
 ### It's Bagels — London (Primrose Hill / new Hampstead), GB  ·  verified-ready
-**وين إحنا:** NOT OPENED YET
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** itsbagels.com (to verify)
-**شو لقينا بصفحتهم (حرفاً):** Their 404 page (for /pages/contact) exposes the cart: "Your cart is empty / Add some merch to get started! / Browse Merch" - the only thing the site sells is merchandise, and the location picker (Primrose, Notting Hill, Soho) is a delivery panel, not an ordering flow. Second site opening on Hampstead High Street end of summer 2026.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (/pages/contact and /pages/contact-us): both return "Page Not Found | It's Bagels - Oops! The page you're looking for doesn't exist or has been moved." with the site's cart panel exposed underneath: "Your cart is empty / Add some merch to get started! / Browse Merch / Subtotal £0.00". A bagel bar opening a second site with no contact page and a checkout that only sells merch.
 **ليش هلأ:** Second site on Hampstead High Street at the end of summer 2026, three years after Primrose Hill; the new shop "takes inspiration from the neighbourhood bakeries found throughout Hong Kong public housing estates" (Hot Dinners, 11/09/2026).
 **اتجاهنا:** Shopify/Astro build; merch-only checkout is the gap.
 **السعر:** 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · رعاية 45 €/شهر · السنة الأولى 1,380 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstimes.co.uk 2026
 
 ### Mystic Sugar Bakery — North Conway, NH, US  ·  verified-ready
-**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**وين إحنا:** VERIFIED 2026-10-11 - no email published
 **الموقع:** mysticsugarbakery.com
-**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (homepage, Wix). "NEW HAMPSHIRE'S BEST BOUTIQUE BAKERY", four menu buttons (Cupcake / Breakfast / Lunch / Macaron) that all link to the same /store page, custom-cakes CTA that jumps to an anchor on the same page ("#contact"), and the footer social icons point to facebook.com/wix and instagram.com/wix/ - the template defaults, never set to the shop. Contact = address + phone + a form with no email. /contact 404s.
+**شو لقينا بصفحتهم (حرفاً):** Read 2026-10-11 (/contact-us as well as / and /contact): all three are Wix "ERROR: PAGE NOT FOUND / This page isn't available / Go to Homepage". The homepage contact block is address + phone + a form only, and the two social icons point to facebook.com/wix and instagram.com/wix/.
 **ليش هلأ:** NH Magazine's best boutique bakery; fantasy-themed baked goods, started as a pandemic food truck.
 **اتجاهنا:** Their Instagram/Facebook links go to Wix itself - quick, embarrassing win.
 **السعر:** 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · رعاية 45 €/شهر · السنة الأولى 1,380 €
-**الخطوة الجاية:** Abdulrhman: phone / Instagram DM - the audit note has everything we read — 2026-11-01
+**الخطوة الجاية:** Abdulrhman: phone / Instagram DM (details in the audit note) — 2026-11-01
 **مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Tellico Grains Bakery — Tellico Plains, TN, US  ·  verified-ready
@@ -900,7 +916,7 @@
 **الخطوة الجاية:** no pitch - their stack is ahead of the kit; revisit in 6 months — 2027-04-01
 **مصدر الاسم:** niedlovs.com/contact-us (own site, opened 2026-10-11)
 
-## القسم الثاني — 93 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
+## القسم الثاني — 92 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
 كل سطر هنا اسمه من مصدر 2026 موثّق، بس ما قرينا صفحة ولا واحد منهن: لا إيميل، لا عرض، لا وعد. الطابور يمشي محل-بمحل.
 
 سطر لكل محل: الاسم · المدينة · السعر · الإشارة. ما في إيميل ولا عرض مفصّل - لأنو ما قرينا صفحة ولا واحد منهن.
@@ -996,4 +1012,3 @@
 - **Rye (Martin Auer)** — New York (Soho), US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Opened September 2026 on the eastern edge of Soho: one Austrian rye sourdough from a 57-ye
 - **Starship Bagel** — Dallas, TX, US · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **The Burque Bakehouse** — Albuquerque, NM, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **Zingerman's Bakehouse** — Ann Arbor, MI, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · Founded 1992 with the mission "the relentless pursuit of being the best bakery we can imag

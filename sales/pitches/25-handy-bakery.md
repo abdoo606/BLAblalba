@@ -8,7 +8,7 @@ New 2025 opening (bakery + patisserie + specialty coffee) - greenfield, needs ev
 Source on file: inandoutbarcelona.net 14 Nov 2025.
 
 ## 2. What their web presence actually is
-Opened ~Aug 2025, El Periódico feature, 70%→50% wholesale shift means they now need retail customers. Domain exists with zero content, no menu, no hours, no ordering.
+Read 2026-10-11: handybakery.es returns its hosting provider's page - "Account Suspended. This Account has been suspended. Contact your hosting provider" (the mailto on that page is webmaster@handybakery.es, the host's generic address - not a contact we may use). No live site at all.
 Found live: handybakery.es — one sentence: “Contáctanos por Instagram”
 Contact: Instagram @handybakery_ · Carrer de Rabassa 5, Gràcia (NOT Plaça de la Vila)
 
@@ -18,11 +18,11 @@ Contact: Instagram @handybakery_ · Carrer de Rabassa 5, Gràcia (NOT Plaça de 
 - **Languages:** es, 2 more: EN · FR · DE (plus Catalan/Valencian where it is the street language)
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf €5.80 · bread · Baguette De Tradition €1.60 · bread · Seeded Rye Brick €6.40 · bread · Butter Croissant €2.40 · viennoiserie · Pain Au Chocolat €2.70 · viennoiserie · Morning Bun €3.20 · viennoiserie
 - **Hero line:** “Handy Bakery — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
 - **Live preview:** `dist/templates/patisserie/index.html?lang=es` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, phone / counter / DM (no public email))
-> Hi Handy Bakery team — I looked at handybakery.es — one sentence: “Contáctanos por Instagram” this morning. Opened ~Aug 2025, El Periódico feature, 70%→50% wholesale shift means they now need retail customers. Domain exists with zero content, no menu, no hours, no ordering.
+> Hi Handy Bakery team — I looked at handybakery.es — one sentence: “Contáctanos por Instagram” this morning. Read 2026-10-11: handybakery.es returns its hosting provider's page - "Account Suspended. This Account has been suspended. Contact your hosting provider" (the mailto on that page is webmaster@handybakery.es, the host's generic address - not a contact we may use). No live site at all.
 > That's exactly the part I build: hero, marquee, specialties, menu — 2830 € delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes photo + seo + preorder.
 > Billed without VAT under the reverse charge (art. 196 Directive 2006/112) — send me your VAT number. If you are not VAT-liable (franchise en base / módulos), you self-account 21 % you cannot recover, so budget about 3425 €.
 > If this isn't the right conversation, say so once and I won't write again.

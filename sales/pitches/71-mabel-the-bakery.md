@@ -8,7 +8,7 @@ Good Food Guide Britain's 50 Best Bakeries 2026 (new entry) - for a bakery open 
 Source on file: mabelthebakery.com + /contact (own site) + GFG 50 Best Bakeries 2026 (2026-03-24).
 
 ## 2. What their web presence actually is
-OPENED 2026-10-11 10:05Z: / and /contact. Contact page = Wix form + hours Fri/Sat/Sun 8-2 + Instagram strip, and it explicitly warns '(Please don't use this form to place orders)' - so there is a demand to order and no way to do it. Homepage: the 'Our menu' section contains no menu, only the line 'WHAT'S FRESH TODAY? HEAD OVER TO OUR INSTAGRAM.'; the Upcoming Events list is stale (Dec/May entries) and every event card's image is duplicated in the DOM. hello@mabelthebakery.com appears in a search snippet of that contact page and in their Open Food Network listing but is NOT visible in the rendered page we read - so we do not cold-email it; call or DM first.
+Read 2026-10-11 (/contact, Wix). The form carries an explicit warning in its own headline: "Got a question? Get in touch! (Please don't use this form to place orders)". Hours for Fri/Sat/Sun are all "8:00 am - 2:00 pm" typed on three lines; the Instagram embed below says "Load More" and never loads; no phone, no email, no ordering page, no address on the page.
 Found live: https://www.mabelthebakery.com
 Contact: Instagram @mabelthebakery · 11 Market Place, Downham Market PE38 9DF · NO email on their own site (form only)
 
@@ -22,7 +22,7 @@ Contact: Instagram @mabelthebakery · 11 Market Place, Downham Market PE38 9DF �
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, phone / counter / DM (no public email))
-> Hi Mabel the Bakery team — I looked at https://www.mabelthebakery.com this morning. OPENED 2026-10-11 10:05Z: / and /contact. Contact page = Wix form + hours Fri/Sat/Sun 8-2 + Instagram strip, and it explicitly warns '(Please don't use this form to place orders)' - so there is a demand to order and no way to do it. Homepage: the 'Our menu' section contains no menu, only the line 'WHAT'S FRESH TODAY? HEAD OVER TO OUR INSTAGRAM.'; the Upcoming Events list is stale (Dec/May entries) and every event card's image is duplicated in the DOM. hello@mabelthebakery.com appears in a search snippet of that contact page and in their Open Food Network listing but is NOT visible in the rendered page we read - so we do not cold-email it; call or DM first.
+> Hi Mabel the Bakery team — I looked at https://www.mabelthebakery.com this morning. Read 2026-10-11 (/contact, Wix). The form carries an explicit warning in its own headline: "Got a question? Get in touch! (Please don't use this form to place orders)". Hours for Fri/Sat/Sun are all "8:00 am - 2:00 pm" typed on three lines; the Instagram embed below says "Load More" and never loads; no phone, no email, no ordering page, no address on the page.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes photo, seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

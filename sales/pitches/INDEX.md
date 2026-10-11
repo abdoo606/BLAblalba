@@ -134,7 +134,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [128-barrio-bread](./128-barrio-bread.md) | Barrio Bread | Tucson, AZ | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ✅ | email |
 | [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1130 | ⬜ | to be found during verification |
-| [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | n | artisan | 750 | ⬜ | to be found during verification |
+| [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | n | artisan | 1450 | ⬜ | to be found during verification |
 | [133-1900-barker-bakery-and-cafe](./133-1900-barker-bakery-and-cafe.md) | 1900 Barker Bakery and Cafe | Lawrence, KS | U | artisan | 1630 | ⬜ | to be found during verification |
 | [134-root-a-bakers-bakery-and-cafe](./134-root-a-bakers-bakery-and-cafe.md) | Root-A-Bakers Bakery and Cafe | Morehead, KY | U | patisserie | 1830 | ⬜ | to be found during verification |
 | [135-weber-s-bakery](./135-weber-s-bakery.md) | Weber's Bakery | Chicago, IL | 1 | patisserie | 1450 | ⬜ | to be found during verification |
@@ -179,7 +179,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [188-sweet-life-bakeshop](./188-sweet-life-bakeshop.md) | Sweet Life Bakeshop | Philadelphia, PA | U | artisan | 750 | ⬜ | to be found during verification |
 | [189-nichole-s-fine-pastry](./189-nichole-s-fine-pastry.md) | Nichole's Fine Pastry | Fargo, ND | U | artisan | 1450 | ⬜ | to be found during verification |
 | [190-bova-s-bakery](./190-bova-s-bakery.md) | Bova's Bakery | Boston, MA | U | artisan | 2900 | ⬜ | to be found during verification |
-| [191-zingerman-s-bakehouse](./191-zingerman-s-bakehouse.md) | Zingerman's Bakehouse | Ann Arbor, MI | U | artisan | 2900 | ⬜ | to be found during verification |
+| [191-zingerman-s-bakehouse](./191-zingerman-s-bakehouse.md) | Zingerman's Bakehouse | Ann Arbor, MI | U | artisan | 1450 | ⬜ | to be found during verification |
 | [192-golden-crown-panaderia](./192-golden-crown-panaderia.md) | Golden Crown Panaderia | Albuquerque, NM | U | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,

@@ -8,8 +8,8 @@ Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 Source on file: foodrepublic.com/2234748 (18 Aug 2026) + their own site.
 
 ## 2. What their web presence actually is
-public notes say: “To characterise when opened.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): To characterise when opened.
+public notes say: “No email on the site. High-value client (Beard semifinalist + full restaurant) - pitch a conversion audit, 2,900 EUR, by phone.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): No email on the site. High-value client (Beard semifinalist + full restaurant) - pitch a conversion audit, 2,900 EUR, by phone.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): To characterise when opened.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Nichole's Fine Pastry team — I looked at nicholesfinepastry.com this morning. public notes say: “To characterise when opened.” — open their site before you use this sentence.
+> Hi Nichole's Fine Pastry team — I looked at nicholesfinepastry.com this morning. public notes say: “No email on the site. High-value client (Beard semifinalist + full restaurant) - pitch a conversion audit, 2,900 EUR, by phone.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees.
 > VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.

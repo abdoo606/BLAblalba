@@ -8,8 +8,8 @@ Ninety-plus years old and still open 24 hours a day in the North End; voted best
 Source on file: foodrepublic.com/2234748 (18 Aug 2026) + their own site.
 
 ## 2. What their web presence actually is
-public notes say: “To characterise when opened.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): To characterise when opened.
+public notes say: “No email published. The staging-host images are a real outage risk - a phone conversation opener.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): No email published. The staging-host images are a real outage risk - a phone conversation opener.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): To characterise when opened.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Bova's Bakery team — I looked at bovabakeryboston.net this morning. public notes say: “To characterise when opened.” — open their site before you use this sentence.
+> Hi Bova's Bakery team — I looked at bovabakeryboston.net this morning. public notes say: “No email published. The staging-host images are a real outage risk - a phone conversation opener.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 3160 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees.
 > VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.

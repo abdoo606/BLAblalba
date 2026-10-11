@@ -8,20 +8,20 @@ Owner Cat Cox won the 2025 James Beard Outstanding Pastry Chef award; French oni
 Source on file: foodrepublic.com/2234748 (18 Aug 2026) + their own site.
 
 ## 2. What their web presence actually is
-public notes say: “To characterise when opened.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): To characterise when opened.
+public notes say: “No email published; order-ahead exists but is a "Learn More" text link - pitch: a real ordering flow + the five-times heading fix.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): No email published; order-ahead exists but is a "Learn More" text link - pitch: a real ordering flow + the five-times heading fix.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
 - **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer
 - **Languages:** en
-- **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
+- **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Seeded Rye Brick $6.40 · bread · Burnt Basque Cheesecake $28.00 · celebration · Saint Honoré $32.00 · celebration · Baguette De Tradition $1.60 · bread · Butter Croissant $2.40 · viennoiserie
 - **Hero line:** “Country Bird Bakery — what the whole street talks about” — one language, so it stays human.
 - **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Country Bird Bakery team — I looked at countrybirdbakery.com this morning. public notes say: “To characterise when opened.” — open their site before you use this sentence.
+> Hi Country Bird Bakery team — I looked at countrybirdbakery.com this morning. public notes say: “No email published; order-ahead exists but is a "Learn More" text link - pitch: a real ordering flow + the five-times heading fix.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees.
 > VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.

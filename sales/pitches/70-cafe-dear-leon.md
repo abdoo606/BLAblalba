@@ -8,7 +8,7 @@ James Beard 2026 Outstanding Bakery semifinalist; second location (La Maison, Re
 Source on file: cafedearleon.com (own site) + BmoreArt 2026-01-13 + jamesbeard.org 2026 semifinalists | merged with the older to-verify row for the same shop (duplicate removed 2026-10-11, one row per shop).
 
 ## 2. What their web presence actually is
-OPENED 2026-10-11 10:05Z: homepage + /contact/. Homepage renders the opening hours as vertically split characters ('T u e - S u n 6 a m - 3 p m' / 'E V E R Y D A Y 7 : 3 0 a m - 3 p m') - the text is inside a styled component, so screen readers and search engines get letter soup; it also says 'Thank you for your understading' (typo, live on the homepage right now) and explains that once the day's quantity is reached they are sold out. /contact/ = 404 'Whoops, that page is gone'. No email published anywhere. Two locations, two bake schedules, no way to order or reserve online.
+Read 2026-10-11: /contact on cafedearleon.com returns the WordPress "Page not found - Whoops, that page is gone" (Bricks builder: "Skip to main content / Skip to footer"). The site's own contact page is gone; no menu, hours, or email readable on it.
 Found live: https://cafedearleon.com
 Contact: (667) 335-9160 · 2929 O'Donnell St (Canton) + 2600 N Howard St (Remington) · NO email published; /contact/ returns a 404
 
@@ -22,7 +22,7 @@ Contact: (667) 335-9160 · 2929 O'Donnell St (Canton) + 2600 N Howard St (Reming
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, phone / counter / DM (no public email))
-> Hi Café Dear Leon team — I looked at https://cafedearleon.com this morning. OPENED 2026-10-11 10:05Z: homepage + /contact/. Homepage renders the opening hours as vertically split characters ('T u e - S u n 6 a m - 3 p m' / 'E V E R Y D A Y 7 : 3 0 a m - 3 p m') - the text is inside a styled component, so screen readers and search engines get letter soup; it also says 'Thank you for your understading' (typo, live on the homepage right now) and explains that once the day's quantity is reached they are sold out. /contact/ = 404 'Whoops, that page is gone'. No email published anywhere. Two locations, two bake schedules, no way to order or reserve online.
+> Hi Café Dear Leon team — I looked at https://cafedearleon.com this morning. Read 2026-10-11: /contact on cafedearleon.com returns the WordPress "Page not found - Whoops, that page is gone" (Bricks builder: "Skip to main content / Skip to footer"). The site's own contact page is gone; no menu, hours, or email readable on it.
 > That's exactly the part I build: hero, marquee, specialties, menu — 2190 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes extra location, seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

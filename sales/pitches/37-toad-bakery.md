@@ -8,8 +8,8 @@ London Bakery of the Year 2025 (National Bakery Awards); a third site in Deptfor
 Source on file: londonyaar.com — 15 best bakeries in London to visit in 2026 (2026-08-16).
 
 ## 2. What their web presence actually is
-public notes say: “Square Online storefront; Good Food Guide 2026 'Britain's Best Bakeries'. Three rooms to run, one empty checkout page.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Square Online storefront; Good Food Guide 2026 'Britain's Best Bakeries'. Three rooms to run, one empty checkout page.
+public notes say: “Site effectively offline - phone/DM, or offer to switch their Square store on (their storefront page never published).” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Site effectively offline - phone/DM, or offer to switch their Square store on (their storefront page never published).
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Square Online storefront; Good Food Guide 20
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Toad Bakery team — I looked at https://www.toadbakery.com (Square Online) this morning. public notes say: “Square Online storefront; Good Food Guide 2026 'Britain's Best Bakeries'. Three rooms to run, one empty checkout page.” — open their site before you use this sentence.
+> Hi Toad Bakery team — I looked at https://www.toadbakery.com (Square Online) this morning. public notes say: “Site effectively offline - phone/DM, or offer to switch their Square store on (their storefront page never published).” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1400 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes extra-location + photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
