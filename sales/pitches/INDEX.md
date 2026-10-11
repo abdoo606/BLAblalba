@@ -144,6 +144,9 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [139-librae](./139-librae.md) | Librae | Seattle, WA | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [140-cultured-bakery](./140-cultured-bakery.md) | Cultured Bakery | Sister Bay, WI | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [141-harry-gow](./141-harry-gow.md) | Harry Gow | Glasgow, GB | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [142-kuma-san-bakehouse](./142-kuma-san-bakehouse.md) | Kuma-San Bakehouse | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [143-peter-cooks-bread](./143-peter-cooks-bread.md) | Peter Cooks Bread | (GB - town from their site) | 1 | artisan | 1130 | ⬜ | to be found during verification |
+| [144-4eyes-bakery-patisserie](./144-4eyes-bakery-patisserie.md) | 4Eyes Bakery & Patisserie | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 26 of 138 are ✅.
+so the message stays undelivered until someone opens their site. 26 of 141 are ✅.
