@@ -4,12 +4,12 @@ Lawrence, KS, US · A - hot · template **artisan** · baguette · 1630 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-Food Republic's best bakery in Kansas 2026; baker named a Beard Outstanding Baker semifinalist three times
+Two rooms, own brand, a weekly Friday-night pizza event - and a four-page site that does nothing with it. Business is running; the web presence is not.
 Source on file: Food Republic, 'best bakery in every US state', 2026-08-18.
 
 ## 2. What their web presence actually is
-public notes say: “Multiple locations, a Beard-named baker, and a site that can't show per-shop stock” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Multiple locations, a Beard-named baker, and a site that can't show per-shop stock
+public notes say: “Squarespace, near-empty: homepage = "ORDER FRIDAY NIGHT PIZZA HERE!" banner + two mug images. /contact 404s. Each location page: heading "Hours of Operation:" then a phone, then the address, then days. Pizza pickup window (4:30-5:30PM) only on the 19th St page. /downtown tab title reads "816 Massachussets St" - misspelled. One Yelp pull-quote, one page only.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Squarespace, near-empty: homepage = "ORDER FRIDAY NIGHT PIZZA HERE!" banner + two mug images. /contact 404s. Each location page: heading "Hours of Operation:" then a phone, then the address, then days. Pizza pickup window (4:30-5:30PM) only on the 19th St page. /downtown tab title reads "816 Massachussets St" - misspelled. One Yelp pull-quote, one page only.
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
@@ -21,9 +21,9 @@ Claimed earlier (press/aggregator): Multiple locations, a Beard-named baker, and
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi 1900 Barker Bakery and Cafe team — I looked at your online presence this morning. public notes say: “Multiple locations, a Beard-named baker, and a site that can't show per-shop stock” — open their site before you use this sentence.
+> Hi 1900 Barker Bakery and Cafe team — I looked at your online presence this morning. public notes say: “Squarespace, near-empty: homepage = "ORDER FRIDAY NIGHT PIZZA HERE!" banner + two mug images. /contact 404s. Each location page: heading "Hours of Operation:" then a phone, then the address, then days. Pizza pickup window (4:30-5:30PM) only on the 19th St page. /downtown tab title reads "816 Massachussets St" - misspelled. One Yelp pull-quote, one page only.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1775 $ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo, extra location.
-> No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
+> VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria

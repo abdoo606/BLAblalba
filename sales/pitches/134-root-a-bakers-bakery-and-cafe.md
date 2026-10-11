@@ -1,15 +1,15 @@
 # Root-A-Bakers Bakery and Cafe — design board & pitch
 
-Morehead, KY, US · B · template **patisserie** · croissant · 1830 €
+Morehead, KY, US · A - hot · template **patisserie** · croissant · 1830 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-Food Republic's best bakery in Kentucky 2026; Appalachian craft, free cookie for first-timers
+Not a growth signal - an abandonment signal: WordPress media dated 2020-12/2021-02, the homepage still leads with a 2020 "PANDEMIC UPDATE" block, and /contact/ renders a PHP fatal error below the details.
 Source on file: Food Republic, 'best bakery in every US state', 2026-08-18.
 
 ## 2. What their web presence actually is
-public notes say: “A shop with a genuine local ritual and no page that tells a visitor about it” — open their site before you use this sentence
-Claimed earlier (press/aggregator): A shop with a genuine local ritual and no page that tells a visitor about it
+public notes say: “WordPress theme "rab". Menu lives off-site on Square (root-a-bakers-bakery-caf.square.site). "Recipes Coming Soon!" is href="#". Newsletter block shows reCAPTCHA/quota error text on the page. Same three reviews cycle back to back. Contact page ends "There has been a critical error on this website."” — open their site before you use this sentence
+Claimed earlier (press/aggregator): WordPress theme "rab". Menu lives off-site on Square (root-a-bakers-bakery-caf.square.site). "Recipes Coming Soon!" is href="#". Newsletter block shows reCAPTCHA/quota error text on the page. Same three reviews cycle back to back. Contact page ends "There has been a critical error on this website."
 
 ## 3. The design I'd ship
 - **Template:** patisserie · **palette:** Raspberry, buttercream — `#20141c ink / #c2496b accent / #fdf4f6 paper / #7a4256 muted`
@@ -21,9 +21,9 @@ Claimed earlier (press/aggregator): A shop with a genuine local ritual and no pa
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Root-A-Bakers Bakery and Cafe team — I looked at your online presence this morning. public notes say: “A shop with a genuine local ritual and no page that tells a visitor about it” — open their site before you use this sentence.
+> Hi Root-A-Bakers Bakery and Cafe team — I looked at your online presence this morning. public notes say: “WordPress theme "rab". Menu lives off-site on Square (root-a-bakers-bakery-caf.square.site). "Recipes Coming Soon!" is href="#". Newsletter block shows reCAPTCHA/quota error text on the page. Same three reviews cycle back to back. Contact page ends "There has been a critical error on this website."” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1995 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
-> No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
+> VAT treatment to be confirmed — I invoice from outside the EU.
 > If this isn't the right conversation, say so once and I won't write again.
 >
 > Abdulrhman Thali · freelance web developer · Karm El-Zeitoun, Homs, Syria

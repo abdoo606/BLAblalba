@@ -8,7 +8,7 @@ Three rules before anything else:
 4. **Payment talk comes third, not first.** No crypto word in a cold email; USDT appears on the *quote*, as an
    alternative the client agrees to, with the amount still written in euros. Full rule: `sales/PAYMENTS-USDT.md`.
 
-> **Status 2026-10-11 (six batches incl. two verification batches):** **22 emails sent, 39,664 € quoted (1 bounced back: I Loaf), 0 human replies, 1 auto-reply, 1 bounce (I Loaf - the address on their own site has no mail server).**
+> **Status 2026-10-11 (six batches incl. two verification batches):** **24 emails sent, 43,124 € quoted (1 bounced back: I Loaf), 0 human replies, 1 auto-reply, 1 bounce (I Loaf - the address on their own site has no mail server).**
 > August, Northern Rye and Wild Crumb first; then Suba, Chatsworth Bakehouse, Layla, Wild Hearth, The Bakery House,
 > Wild Yeast, Heritage Rise and Daily Bread; then Born & Bread, ARAN and Gusto Bread; then I Loaf Sourdough. Every
 > one of them went to an address read off that shop's own site the same morning, and the observation the email opens

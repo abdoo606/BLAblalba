@@ -295,13 +295,15 @@
 **الخطوة الجاية:** open their site, read the address they publish, fill audit_note, then it becomes pitchable
 **مصدر الاسم:** Britain's Best Loaf 2026 medal winners, britainsbestloaf.co.uk 2026-04-26 + bakeryinfo.co.uk 2026-04-17
 
-### Root-A-Bakers Bakery and Cafe — Morehead, KY, US  ·  to-verify
-**وين إحنا:** to-verify (2026 award-list entry: their own site has NOT been opened by us yet - not pitchable)
-**شو لقينا بصفحتهم (حرفاً):** Added 2026-10-11 in the doubling batch from a dated 2026 award/press list. Nothing here is verified: no page of theirs has been opened, no email was read. Whoever picks this up must open the site and paste what they saw into this column before any email goes out.
-**ليش هلأ:** Food Republic's best bakery in Kentucky 2026; Appalachian craft, free cookie for first-timers
-**اتجاهنا:** A shop with a genuine local ritual and no page that tells a visitor about it
+### Root-A-Bakers Bakery and Cafe — Morehead, KY, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**اللي نشروه عندهن:** admin@rootabakers.com - mailto link on https://www.rootabakers.com/contact/ (whole page opened 2026-10-11 11:52)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: homepage + /contact/. Contact page prints 313 Flemingsburg Rd, Morehead KY 40351, 606-780-4282, Tue-Fri 8-5 / Sat 8-4 / closed Sun-Mon, admin@rootabakers.com - then dies with a WordPress critical error. Homepage "PANDEMIC UPDATE" from 2020 still first block. Ten Google StaticMap/vt image requests and a recaptcha that is over quota are what slow it down. Ordering and gift cards already on Square - so the checkout is NOT the gap; the site around it is.
+**ليش هلأ:** Not a growth signal - an abandonment signal: WordPress media dated 2020-12/2021-02, the homepage still leads with a 2020 "PANDEMIC UPDATE" block, and /contact/ renders a PHP fatal error below the details.
+**اتجاهنا:** Fix the broken contact page + kill the 2020 pandemic notice + mirror the Square menu; keep Square as checkout. One-off 1,830 EUR.
 **السعر:** 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · رعاية 45 €/شهر · السنة الأولى 2,370 €
-**الخطوة الجاية:** open their site, read the address they publish, fill audit_note, then it becomes pitchable
+**المبعوث:** admin@rootabakers.com · 2026-10-11T11:53Z · “Your contact page dies with a WordPress error”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18
 
 ### Mercado Sin Nombre — Austin, TX, US  ·  to-verify
@@ -333,13 +335,15 @@
 **الخطوة الجاية:** open their site, read the address they publish, fill audit_note, then it becomes pitchable
 **مصدر الاسم:** Britain's Best Loaf 2026 medal winners, britainsbestloaf.co.uk 2026-04-26 + bakeryinfo.co.uk 2026-04-17
 
-### 1900 Barker Bakery and Cafe — Lawrence, KS, US  ·  to-verify
-**وين إحنا:** to-verify (2026 award-list entry: their own site has NOT been opened by us yet - not pitchable)
-**شو لقينا بصفحتهم (حرفاً):** Added 2026-10-11 in the doubling batch from a dated 2026 award/press list. Nothing here is verified: no page of theirs has been opened, no email was read. Whoever picks this up must open the site and paste what they saw into this column before any email goes out.
-**ليش هلأ:** Food Republic's best bakery in Kansas 2026; baker named a Beard Outstanding Baker semifinalist three times
-**اتجاهنا:** Multiple locations, a Beard-named baker, and a site that can't show per-shop stock
+### 1900 Barker Bakery and Cafe — Lawrence, KS, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**اللي نشروه عندهن:** hello@1900barker.com - mailto "Get in Touch" on BOTH https://www.1900barker.com/19th-street and https://www.1900barker.com/downtown (opened 2026-10-11 11:53). /contact itself is a 404.
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: homepage, /contact (404), /19th-street, /downtown. Phones 785.424.7609 (1900 Barker Ave) and 785.764.6612 (816 Massachusetts St) - area code 785 is Kansas, so do NOT describe this shop as NYC in correspondence even though the 2026 press list we took it from implied it. Ordering on 1900barker.square.site, gift cards on Square. Published email is only reachable via mailto at the bottom of the two location pages.
+**ليش هلأ:** Two rooms, own brand, a weekly Friday-night pizza event - and a four-page site that does nothing with it. Business is running; the web presence is not.
+**اتجاهنا:** Contact page that works, both locations on one fast site with correct hours + pizza window, fix the misspelled title, keep Square checkout. One-off 1,630 EUR for both locations.
 **السعر:** 1,630 €  ·  ≈ 1,777 $  ·  ≈ 1,402 £ · رعاية 45 €/شهر · السنة الأولى 2,170 €
-**الخطوة الجاية:** open their site, read the address they publish, fill audit_note, then it becomes pitchable
+**المبعوث:** hello@1900barker.com · 2026-10-11T11:53Z · “Your Contact link goes to a 404”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18
 
 ### Peak and Stone Bakery — Chesterfield, GB  ·  verified-ready

@@ -135,8 +135,8 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ✅ | email |
 | [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [133-1900-barker-bakery-and-cafe](./133-1900-barker-bakery-and-cafe.md) | 1900 Barker Bakery and Cafe | Lawrence, KS | 1 | artisan | 1630 | ⬜ | to be found during verification |
-| [134-root-a-bakers-bakery-and-cafe](./134-root-a-bakers-bakery-and-cafe.md) | Root-A-Bakers Bakery and Cafe | Morehead, KY | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [133-1900-barker-bakery-and-cafe](./133-1900-barker-bakery-and-cafe.md) | 1900 Barker Bakery and Cafe | Lawrence, KS | U | artisan | 1630 | ⬜ | to be found during verification |
+| [134-root-a-bakers-bakery-and-cafe](./134-root-a-bakers-bakery-and-cafe.md) | Root-A-Bakers Bakery and Cafe | Morehead, KY | U | patisserie | 1830 | ⬜ | to be found during verification |
 | [135-weber-s-bakery](./135-weber-s-bakery.md) | Weber's Bakery | Chicago, IL | 1 | patisserie | 1450 | ⬜ | to be found during verification |
 | [136-jaarsma-bakery](./136-jaarsma-bakery.md) | Jaarsma Bakery | Pella, IA | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [137-carstens-bakery](./137-carstens-bakery.md) | Carstens Bakery | Idaho Falls, ID | 1 | artisan | 1450 | ⬜ | to be found during verification |
