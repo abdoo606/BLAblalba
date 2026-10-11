@@ -59,12 +59,12 @@ call, then I retouch"). No on-site work = no permanent establishment = no foreig
 | **BTW position** | If your turnover stays ≤ €20,000/yr you can apply for the **KOR** (kleineondernemersregeling): no BTW charged, no BTW returns, no reclaim of input BTW, note on every invoice *"Vrijgesteld van btw op grond van de kleineondernemersregeling"*. Since 2025 you can leave the KOR at any time. Since 2025 there is also an **EU-KOR** up to €100,000 EU-wide. Decide with the boekhouder *before* the first invoice, because it changes the invoice text. |
 | **ICP listing** (only for EU sales) | B2B services to a business in another EU country must be reported on the *opgaaf intracommunautaire prestaties* (ICP). It's a nil-tax listing of amounts and the customer's VAT number — not a payment. UK/US/CA sales are **not** in the ICP. |
 
-## Per-country verdict for the 134 leads (26 verified, 16 emailed 2026-10-11)
+## Per-country verdict for the 134 leads (31 verified, 18 emailed 2026-10-11)
 
 | Wave | Countries | Verdict for you | What the invoice says |
 |---|---|---|---|
-| **1 — send freely** | **US** (16) + **GB** (15) = **31 leads, 68,488 €** | No VAT in scope, no registration, no filing abroad. US: services performed abroad are foreign-source → no withholding (send a W-8BEN if their AP asks; never sign a W-9). UK: HMRC's own manual says the overseas supplier has **no liability to register in the UK** and the customer accounts for VAT under the reverse charge, whether or not they are VAT-registered. Canada: a non-resident **not carrying on business in Canada** does not register for GST/HST, and services performed wholly outside Canada are generally outside GST/HST. | *"Place of supply: [customer's country]. No VAT charged — reverse charge / outside the scope of Dutch BTW."* Bill in EUR, or in £/$ at the rate in the quote. |
-| **2 — fine, needs their VAT number** | **FR** (7) + **ES** (8) = **15 leads, 30,689 €** | EU B2B → **btw verlegd / reverse charge**: the client accounts for local VAT in their own return; in most cases they reclaim it, so it costs them nothing. You charge no Dutch BTW, but you must list it in the ICP and put **their VAT number** on the invoice (verify in VIES). | *"BTW verlegd — VAT reverse charge, art. 196 Directive 2006/112/EG. Klant-Id: [their VAT number]."* |
+| **1 — send freely** | **US** + **GB** = **119 leads, 203,104 €** | No VAT in scope, no registration, no filing abroad. US: services performed abroad are foreign-source → no withholding (send a W-8BEN if their AP asks; never sign a W-9). UK: HMRC's own manual says the overseas supplier has **no liability to register in the UK** and the customer accounts for VAT under the reverse charge, whether or not they are VAT-registered. Canada: a non-resident **not carrying on business in Canada** does not register for GST/HST, and services performed wholly outside Canada are generally outside GST/HST. | *"Place of supply: [customer's country]. No VAT charged — reverse charge / outside the scope of Dutch BTW."* Bill in EUR, or in £/$ at the rate in the quote. |
+| **2 — fine, needs their VAT number** | **FR** + **ES** = **15 leads, 30,689 €** | EU B2B → **btw verlegd / reverse charge**: the client accounts for local VAT in their own return; in most cases they reclaim it, so it costs them nothing. You charge no Dutch BTW, but you must list it in the ICP and put **their VAT number** on the invoice (verify in VIES). | *"BTW verlegd — VAT reverse charge, art. 196 Directive 2006/112/EG. Klant-Id: [their VAT number]."* |
 | **3 — hold, ask first** | *not present in this list* (would be French **DOM**: Réunion, Guadeloupe, Martinique — and CH/NO if we widen it) | The DOM are inside the EU customs union but **outside the EU VAT territory** (art. 6 Directive 2006/112), with their own TVA (8.5 % / 2.1 %) under art. 294 CGI, and DOM businesses have **no intracommunity VAT number**, so the clean EU mechanics don't line up. | Don't invoice until the boekhouder answers. Contacting them is harmless — just no quote yet. Same care for Canada (a non-resident **not carrying on business in Canada** need not register for GST/HST, and services performed wholly outside Canada are generally outside it) and for Switzerland/Norway (own VAT regimes, thresholds there). |
 
 ### The trap in wave 2 that will actually cost a client money
@@ -81,12 +81,12 @@ That single disclosure is worth more than a discount: nobody else selling to vil
 
 ## Order of work, rewritten around tax (this is what I applied to the Drive sheet)
 
-1. **Wave 1 first — US + UK: 55 of 70 leads, 107,164 € of the one-off pipeline (137,853 € total), zero foreign administration.** No VAT
+1. **Wave 1 first — US + UK: 119 of 134 leads, 203,104 € of the one-off pipeline, zero foreign administration.** No VAT
    in scope for you, no ICP, no return to file anywhere but the Netherlands. **And the two verified email
    addresses we have (August Bakery, Northern Rye) are both UK** — so the only two cold emails that can go out
    today are also the two cleanest ones tax-wise. Weltons (US, James Beard finalist, phone only) belongs to this
    wave too: it's a call at 13:30, not an email.
-2. **Wave 2 next — FR (7) + ES (8): 30,689 €, legal and duty-free, but needs two things.** Their VAT number
+2. **Wave 2 next — FR + ES: 15 leads, 30,689 €, legal and duty-free, but needs two things.** Their VAT number
    before invoicing (ask in the *second* reply, not the first — asking for a fiscal number in a cold email reads
    like a scam), and your ICP listing in the Netherlands. *"Pour la facture, envoyez-moi votre numéro de TVA
    (ou dites-moi si vous êtes en franchise en base)."*

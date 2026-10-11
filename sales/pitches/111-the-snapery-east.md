@@ -1,10 +1,10 @@
 # The Snapery East — design board & pitch
 
-London, GB · B · template **artisan** · baguette · 1450 €
+London, GB · A+ - site DOWN, human contact only · template **artisan** · baguette · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-BBL 2026 wholegrain medal (Wholemeal Boule) + seeded silver
+BBL 2026 wholegrain medal (Wholemeal Boule) + seeded silver | and their own sites are currently offline (verified by us 2026-10-11)
 Source on file: Britain's Best Loaf 2026 medal winners, britainsbestloaf.co.uk 2026-04-26 + bakeryinfo.co.uk 2026-04-17.
 
 ## 2. What their web presence actually is
@@ -15,13 +15,13 @@ Claimed earlier (press/aggregator): East London bakery with a sold-out culture a
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
 - **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **gallery: 9 shots, client-shot, I direct remotely**
 - **Languages:** en
-- **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
+- **Menu to enter (their real items, from their own posts):** Seeded Rye Brick £6.40 · bread · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
 - **Hero line:** “The Snapery East — what the whole street talks about” — one language, so it stays human.
 - **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi The Snapery East team — I looked at your online presence this morning. public notes say: “East London bakery with a sold-out culture and no online list” — open their site before you use this sentence.
+> Hi The Snapery East team — I looked at thesnaperyeast.com (WordPress.com - domain connection inactive) + thesnaperybakery.com (Squarespace - account expired) this morning. public notes say: “East London bakery with a sold-out culture and no online list” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

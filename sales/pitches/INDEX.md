@@ -93,7 +93,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [84-hilda-bakery](./84-hilda-bakery.md) | Hilda Bakery | Bristol | 1 | patisserie | 1830 | ⬜ | to be found during verification |
 | [85-imma-the-bakery](./85-imma-the-bakery.md) | Imma The Bakery | Stoke Row, near Henley-on-Thames | 1 | artisan | 1130 | ✅ | email |
 | [86-kanto](./86-kanto.md) | Kanto | Cambridge | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [87-landrace-bakery](./87-landrace-bakery.md) | Landrace Bakery | Bath | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [87-landrace-bakery](./87-landrace-bakery.md) | Landrace Bakery | Bath | 1 | artisan | 1830 | ⬜ | to be found during verification |
 | [88-lannan-bakery](./88-lannan-bakery.md) | Lannan Bakery | Edinburgh | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [89-levain-cherry](./89-levain-cherry.md) | Levain & Cherry | Birmingham | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [90-little-valley-bakery](./90-little-valley-bakery.md) | Little Valley Bakery | Swansea | 1 | artisan | 1450 | ⬜ | to be found during verification |
@@ -126,7 +126,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [120-bread-and-loaf](./120-bread-and-loaf.md) | Bread and Loaf | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [121-baked-by-the-varga](./121-baked-by-the-varga.md) | Baked by The Varga | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [122-natural-bread](./122-natural-bread.md) | Natural Bread | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [123-mark-s-cotswold-bakery](./123-mark-s-cotswold-bakery.md) | Mark's Cotswold Bakery | Cotswolds | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [123-mark-s-cotswold-bakery](./123-mark-s-cotswold-bakery.md) | Mark's Cotswold Bakery | Cotswolds | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [124-luke-s-bakery](./124-luke-s-bakery.md) | Luke's Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [125-welch-bakes](./125-welch-bakes.md) | Welch Bakes | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [126-bale-artisano](./126-bale-artisano.md) | Balé Artisano | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
