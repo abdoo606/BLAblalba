@@ -20,7 +20,7 @@
 **Rules:** ex-VAT · 40 % deposit to start, balance at go-live · max discount 15 % and only against a case study, a hard deadline, or 3 months of care prepaid · EU in €, UK in £, North America in $ (≈1.09).
 
 ## 2. Clients — أسماء العملاء والسعر اللي بنأخذه من كل واحد
-70 businesses in the UK, France, Spain and the US that are objectively doing well right now (2026 James Beard semifinalists, Britain's Best Loaf 2026, GFG 50 Best 2026, 2025–2026 openings, regional press). 24 VERIFIED by opening their own site; 15 have a real email and were contacted on 2026-10-11 (**30,414 € quoted**, 0 human replies, 1 auto-reply so far). Full sheet: “Bakery Clients & Pricing 2026 — v9”. **Pipeline: 137,853 € one-off, 169,713 € first-year.** Three rows are recorded as **no-pitch** on purpose (Poulette, Hobbs House, Niedlov's): their own stack is ahead of what we sell, and telling a prospect that is worth more than a pitch.
+134 businesses in the UK, France, Spain and the US that are objectively doing well right now (2026 James Beard semifinalists, Britain's Best Loaf 2026, GFG 50 Best 2026, 2025–2026 openings, regional press). 24 VERIFIED by opening their own site; 15 have a real email and were contacted on 2026-10-11 (**30,414 € quoted**, 0 human replies, 1 auto-reply so far). Full sheet: “Bakery Clients & Pricing 2026 — v9”. **Pipeline: 234,053 € one-off (134 leads), of which 203,364 € sits in wave 1 (US + GB, no foreign administration).** Three rows are recorded as **no-pitch** on purpose (Poulette, Hobbs House, Niedlov's): their own stack is ahead of what we sell, and telling a prospect that is worth more than a pitch.
 | # | Client | City | We take | Priority |
 |---|---|---|---|---|
 | 1 | August Bakery | London | **3,857 €** + 45/mo care | B — upgrade |

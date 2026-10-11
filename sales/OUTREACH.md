@@ -19,8 +19,8 @@ Three rules before anything else:
 > That is the whole sendable list. Eight verified shops publish a phone number or a form and no email (Pa Serra,
 > Handy, Weltons, Peak and Stone, Night Moves, Café Dear Leon, Mabel, Gorse) — those get a call, a DM or a form,
 > never an invented address; three shops were looked at and recorded as no-pitch (Poulette, Hobbs House, Niedlov's)
-> because their own stack is ahead of what we sell. The remaining 44 of 70 rows are press-list entries with no
-> verified address: they get verified or dropped, not emailed.
+> because their own stack is ahead of what we sell. The remaining 108 of 134 rows are press-list entries with no
+> verified address (64 were added on 2026-10-11 in the doubling batch, all of them from dated 2026 award lists): they get verified or dropped, not emailed.
 > Full machine-readable version: **`sales/OUTREACH-REGISTER.pdf`** (`python3 tools/make-register.py`) — one row per
 > shop with the address, its source, the subject line, the offer, the price and what only Abdulrhman can unblock.
 

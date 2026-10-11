@@ -43,8 +43,9 @@ def read(path):
 # One place, all conversions. EUR/GBP/USD are the rates the whole pipeline already quotes with
 # (GBP x0.86, USD x1.09). TRY and AED are here so the number makes sense in the currency people
 # around us actually hold - they are INDICATIVE ONLY: refresh them in this file before any invoice.
-RATES = {"EUR": 1.0, "GBP": 0.86, "USD": 1.09, "TRY": 52.0, "AED": 4.0}
-RATE_DATE = "rates fixed 2026-10-11 - refresh RATES in tools/make-register.py before invoicing"
+RATES = {"EUR": 1.0, "USD": 1.09, "SYP": 1.09 * 14500}
+GBP_RATE = 0.86  # kept out of the table on purpose - see the footnote
+RATE_DATE = "USD x1.09 (the kit's standing quote rate) - SYP shown at 14,500 per USD, indicative only"
 
 
 def money(r, plain=False):
@@ -53,9 +54,9 @@ def money(r, plain=False):
         return "-"
     if plain:
         return "%s EUR" % f"{eur:,}"
-    billed = "USD" if r.get("country") == "US" else ("GBP" if r.get("country") == "GB" else "EUR")
+    billed = "USD" if r.get("country") == "US" else "EUR"
     out = []
-    for c in ("EUR", "GBP", "USD", "TRY", "AED"):
+    for c in ("USD", "EUR", "SYP"):
         v = round(eur * RATES[c])
         out.append("%s %s%s" % (c, f"{v:,}", "   <- billed" if c == billed else ""))
     return "\n".join(out)
@@ -280,7 +281,7 @@ def build():
             "One row per shop. The address column is the point: every line is an address published on that shop's own site, "
             "read by us on the day we wrote. Nothing here was bought, scraped from a list, or guessed.")
     cols = [("#", 6), ("Shop · where", 32), ("Who we wrote to + where we got the address", 46), ("What we said first (the subject line)", 48),
-            ("What they get, and how we work", 56), ("Price in 5 currencies", 34), ("Where it stands now", 52.6)]
+            ("What they get, and how we work", 56), ("Price: USD / EUR / SYP", 32), ("Where it stands now", 52.6)]
     data = []
     for r in rows:
         p = r["p"]
@@ -292,9 +293,12 @@ def build():
                      "%s\n%s\nquoted %s EUR\n%s" % (r["log"]["status"], r["when"], f"{int(r['log'].get('quoted_eur') or 0):,}", ("next: " + (r["log"].get("next_action") or "")[:110]))])
     table(cols, data, mono_cols=(2,))
     pdf.set_font("DV", "", 6.8); pdf.set_text_color(*MUTED)
-    pdf.multi_cell(0, 3.4, "Prices: %s. The line marked 'billed' is the currency the client is actually invoiced in; "
-                           "the others are for reading the size of the job, not for quoting. Discounts max 15%%, "
-                           "40%% deposit, care 45 EUR/month extra if they want it." % RATE_DATE,
+    pdf.multi_cell(0, 3.4, "Prices: %s. 'billed' = the currency the client is invoiced in. UK clients are quoted in "
+                           "EUR and may ask to pay GBP - multiply the EUR by %s in your head, or 0.86 at today's rate; it is not a column here "
+                           "because the quote they receive is the one we wrote. Syrian pounds are shown so the size of a job is legible at home, "
+                           "not for quoting anyone: refresh the SYP figure before an invoice, and remember payment in SYP never happens - "
+                           "money arrives by transfer or USDT, with the client's written agreement. Max 15%% discount, 40%% deposit, "
+                           "care 45 EUR/month if they want it." % (RATE_DATE, GBP_RATE),
                    new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
     # ---------- table 2: autonomy ----------

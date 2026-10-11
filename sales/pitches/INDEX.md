@@ -76,6 +76,70 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [71-mabel-the-bakery](./71-mabel-the-bakery.md) | Mabel the Bakery | Downham Market, Norfolk | 1 | artisan | 1450 | ✅ | phone / counter / DM (no public email) |
 | [72-gorse-bakery](./72-gorse-bakery.md) | Gorse Bakery | Zelah / Newquay, Cornwall | 1 | artisan | 1070 | ✅ | phone / counter / DM (no public email) |
 | [73-niedlov-s-breadworks](./73-niedlov-s-breadworks.md) | Niedlov's Breadworks | Chattanooga, TN | 1 | artisan | 149 | ✅ | email |
+| [70-arome-bakery](./70-arome-bakery.md) | Arôme Bakery | Covent Garden, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [71-bakers-yard-bakery](./71-bakers-yard-bakery.md) | Bakers Yard Bakery | Sheffield | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [72-bandit-bakery](./72-bandit-bakery.md) | Bandit Bakery | Aberdeen | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [73-breadmill-bakery](./73-breadmill-bakery.md) | Breadmill Bakery | Nottingham | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [74-don-t-tell-dad](./74-don-t-tell-dad.md) | Don't Tell Dad | Queen's Park, London | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [75-e5-bakehouse](./75-e5-bakehouse.md) | E5 Bakehouse | Hackney, London | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [76-eric-s](./76-eric-s.md) | Eric's | East Dulwich, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [77-farro](./77-farro.md) | Farro | Bristol | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [78-field-bakery](./78-field-bakery.md) | Field Bakery | Bridgwater | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [79-fred-bakery](./79-fred-bakery.md) | Fred Bakery | Oxford Circus, London | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [80-grain-hearth](./80-grain-hearth.md) | Grain & Hearth | Whitstable | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [81-hamblin-bread](./81-hamblin-bread.md) | Hamblin Bread | Oxford | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [82-hart-s-bakery](./82-hart-s-bakery.md) | Hart's Bakery | Bristol | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [83-haxby-bakehouse](./83-haxby-bakehouse.md) | Haxby Bakehouse | York | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [84-hilda-bakery](./84-hilda-bakery.md) | Hilda Bakery | Bristol | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [85-imma-the-bakery](./85-imma-the-bakery.md) | Imma The Bakery | Stoke Row, near Henley-on-Thames | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [86-kanto](./86-kanto.md) | Kanto | Cambridge | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [87-landrace-bakery](./87-landrace-bakery.md) | Landrace Bakery | Bath | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [88-lannan-bakery](./88-lannan-bakery.md) | Lannan Bakery | Edinburgh | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [89-levain-cherry](./89-levain-cherry.md) | Levain & Cherry | Birmingham | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [90-little-valley-bakery](./90-little-valley-bakery.md) | Little Valley Bakery | Swansea | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [92-longstraw-bakery](./92-longstraw-bakery.md) | Longstraw Bakery | Wiveliscombe | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [94-native-grain](./94-native-grain.md) | Native Grain | Truro | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [95-nourish-bakery](./95-nourish-bakery.md) | Nourish Bakery | Fishguard | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [96-nova-bakehouse](./96-nova-bakehouse.md) | Nova Bakehouse | Leeds | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [97-pastille-bakery](./97-pastille-bakery.md) | Pastille Bakery | Liverpool | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [98-pipit-bakery](./98-pipit-bakery.md) | Pipit Bakery | Bradford on Avon | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [99-pollen-bakery](./99-pollen-bakery.md) | Pollen Bakery | Manchester | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [100-rye-bakery-pizzeria](./100-rye-bakery-pizzeria.md) | Rye Bakery & Pizzeria | Frome | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [101-small-food-bakery](./101-small-food-bakery.md) | Small Food Bakery | Nottingham | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [102-solo-bread](./102-solo-bread.md) | Solo Bread | Birkenhead | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [103-the-garage-bakehouse](./103-the-garage-bakehouse.md) | The Garage Bakehouse | Market Harborough | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [104-the-lost-mill-bakery](./104-the-lost-mill-bakery.md) | The Lost Mill Bakery | Cowes, Isle of Wight | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [105-the-wild-loaf](./105-the-wild-loaf.md) | The Wild Loaf | Liverpool | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [106-white-horse-bakery](./106-white-horse-bakery.md) | White Horse Bakery | Holme-next-the-Sea | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [107-wooster-s-bakery](./107-wooster-s-bakery.md) | Wooster's Bakery | Bury St Edmunds | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [109-31-mallory-bakery](./109-31-mallory-bakery.md) | 31 Mallory Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [110-artichoke-bake-more](./110-artichoke-bake-more.md) | Artichoke Bake & More | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [111-the-snapery-east](./111-the-snapery-east.md) | The Snapery East | London | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [112-outpost-bakery](./112-outpost-bakery.md) | Outpost Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [113-wild-breads-bakery](./113-wild-breads-bakery.md) | Wild Breads Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [114-the-revel-bakery](./114-the-revel-bakery.md) | The Revel Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [115-basil-s-bakery](./115-basil-s-bakery.md) | Basil's Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [116-the-danish-bakery-ltd](./116-the-danish-bakery-ltd.md) | The Danish Bakery Ltd | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [117-sage-bakery](./117-sage-bakery.md) | Sage Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [118-fitzbillies-ltd](./118-fitzbillies-ltd.md) | Fitzbillies Ltd | Cambridge | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [119-gail-s](./119-gail-s.md) | Gail's | London (multiple) | 1 | artisan | 1630 | ⬜ | to be found during verification |
+| [120-bread-and-loaf](./120-bread-and-loaf.md) | Bread and Loaf | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [121-baked-by-the-varga](./121-baked-by-the-varga.md) | Baked by The Varga | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [122-natural-bread](./122-natural-bread.md) | Natural Bread | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [123-mark-s-cotswold-bakery](./123-mark-s-cotswold-bakery.md) | Mark's Cotswold Bakery | Cotswolds | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [124-luke-s-bakery](./124-luke-s-bakery.md) | Luke's Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [125-welch-bakes](./125-welch-bakes.md) | Welch Bakes | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [126-bale-artisano](./126-bale-artisano.md) | Balé Artisano | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [127-artigrano](./127-artigrano.md) | Artigrano | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [128-barrio-bread](./128-barrio-bread.md) | Barrio Bread | Tucson, AZ | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [133-1900-barker-bakery-and-cafe](./133-1900-barker-bakery-and-cafe.md) | 1900 Barker Bakery and Cafe | Lawrence, KS | 1 | artisan | 1630 | ⬜ | to be found during verification |
+| [134-root-a-bakers-bakery-and-cafe](./134-root-a-bakers-bakery-and-cafe.md) | Root-A-Bakers Bakery and Cafe | Morehead, KY | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [135-weber-s-bakery](./135-weber-s-bakery.md) | Weber's Bakery | Chicago, IL | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [136-jaarsma-bakery](./136-jaarsma-bakery.md) | Jaarsma Bakery | Pella, IA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [137-carstens-bakery](./137-carstens-bakery.md) | Carstens Bakery | Idaho Falls, ID | 1 | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 24 of 70 are ✅.
+so the message stays undelivered until someone opens their site. 24 of 134 are ✅.
