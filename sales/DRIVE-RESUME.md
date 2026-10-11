@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 14:34 · الفرع arena/46df64dc-blablalba · آخر commit: 037fbbb · Re-sync local git with the pushed branch after the sandbox was rebuilt (dist/ regenerated, resume refreshed)
+آخر توليد: 2026-10-11 14:35 · الفرع arena/46df64dc-blablalba · آخر commit: 5546c02 · Discovery wave 2: 12 more shops' sites found and read, 5 more pitches sent (Hamblin, White Horse, Farro, Eric's, Mercado Sin Nombre)
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.
 
