@@ -40,13 +40,25 @@ def read(path):
         return list(csv.DictReader(fh))
 
 
-def money(r):
-    cur = r.get("quote_usd") or ""
-    if r["country"] == "US" and cur.strip():
-        return "%s USD" % f"{int(cur):,}"
-    if r["country"] == "GB":
-        return "%s EUR  (~%s GBP)" % (f"{int(r['quote_eur']):,}", f"{round(int(r['quote_eur']) * 0.86):,}")
-    return "%s EUR" % f"{int(r['quote_eur']):,}"
+# One place, all conversions. EUR/GBP/USD are the rates the whole pipeline already quotes with
+# (GBP x0.86, USD x1.09). TRY and AED are here so the number makes sense in the currency people
+# around us actually hold - they are INDICATIVE ONLY: refresh them in this file before any invoice.
+RATES = {"EUR": 1.0, "GBP": 0.86, "USD": 1.09, "TRY": 52.0, "AED": 4.0}
+RATE_DATE = "rates fixed 2026-10-11 - refresh RATES in tools/make-register.py before invoicing"
+
+
+def money(r, plain=False):
+    eur = int(r.get("quote_eur") or 0)
+    if not eur:
+        return "-"
+    if plain:
+        return "%s EUR" % f"{eur:,}"
+    billed = "USD" if r.get("country") == "US" else ("GBP" if r.get("country") == "GB" else "EUR")
+    out = []
+    for c in ("EUR", "GBP", "USD", "TRY", "AED"):
+        v = round(eur * RATES[c])
+        out.append("%s %s%s" % (c, f"{v:,}", "   <- billed" if c == billed else ""))
+    return "\n".join(out)
 
 
 def offer(p):
@@ -264,11 +276,11 @@ def build():
         pdf.ln(1.5)
 
     # ---------- table 1: what was sent ----------
-    section("1 · What went out, to whom, and what it said",
+    section("1 · Every email we sent: to whom, what we said, what it costs",
             "One row per shop. The address column is the point: every line is an address published on that shop's own site, "
             "read by us on the day we wrote. Nothing here was bought, scraped from a list, or guessed.")
-    cols = [("#", 6), ("Shop · where", 33), ("Address used + where it came from", 47), ("What we opened with (subject line)", 55),
-            ("The offer on the table", 57), ("Price", 20), ("Status now", 42.6)]
+    cols = [("#", 6), ("Shop · where", 32), ("Who we wrote to + where we got the address", 46), ("What we said first (the subject line)", 48),
+            ("What they get, and how we work", 56), ("Price in 5 currencies", 34), ("Where it stands now", 52.6)]
     data = []
     for r in rows:
         p = r["p"]
@@ -277,15 +289,20 @@ def build():
                      "%s\nfrom: %s" % (r["to"], src[:150]),
                      "%s\n%s" % (r["subject"], ("+ in-thread correction %s" % r["corr"][0]["sent_utc"]) if r["corr"] else ""),
                      offer(p), money(p),
-                     "%s · %s\nquoted %s\n%s" % (r["log"]["status"], r["when"], money(p), ("next: " + (r["log"].get("next_action") or "")[:110]))])
+                     "%s\n%s\nquoted %s EUR\n%s" % (r["log"]["status"], r["when"], f"{int(r['log'].get('quoted_eur') or 0):,}", ("next: " + (r["log"].get("next_action") or "")[:110]))])
     table(cols, data, mono_cols=(2,))
+    pdf.set_font("DV", "", 6.8); pdf.set_text_color(*MUTED)
+    pdf.multi_cell(0, 3.4, "Prices: %s. The line marked 'billed' is the currency the client is actually invoiced in; "
+                           "the others are for reading the size of the job, not for quoting. Discounts max 15%%, "
+                           "40%% deposit, care 45 EUR/month extra if they want it." % RATE_DATE,
+                   new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
     # ---------- table 2: autonomy ----------
-    section("2 · Can I take each of these to done without you?",
+    section("2 · Can I finish this job without you?",
             "Honest answer for every lead: everything up to a signature is mine; money, legal identity and the domain are not. "
             "If a client says yes tonight, the blockers below are the list of things only you can unblock, and they are the same three "
             "for all 15 shops — which is why the process is worth pre-building once.")
-    acols = [("#", 6), ("Shop", 33), ("Mine to do alone (no question asked)", 88), ("Only Abdulrhman, always", 88), ("What to watch in their reply", 62)]
+    acols = [("#", 6), ("Shop", 33), ("I do this alone - no need to ask you", 88), ("Only Abdulrhman can do this", 88), ("What to watch for when they answer", 62)]
     ad = []
     for r in rows:
         p = r["p"]
@@ -297,22 +314,22 @@ def build():
     table(acols, ad)
 
     # ---------- table 3: looked at, not sent ----------
-    section("3 · Checked and deliberately NOT emailed",
+    section("3 · Shops we checked on purpose and did not email",
             "These are the ones a careless pipeline would have blasted. Either no address is published on their own site (so there is "
             "nothing to write to that we can defend), or their own stack is already better than what we sell — saying so is the deal.")
-    ncols = [("#", 6), ("Shop · where", 40), ("Why nothing was sent", 88), ("What is on the table if they call us", 76), ("Next action / when", 68)]
+    ncols = [("#", 6), ("Shop · where", 40), ("Why we sent nothing", 88), ("What we would offer if they call us", 76), ("Next step + date", 68)]
     nd = []
     for r in sorted(un_sent, key=lambda x: x["id"]):
         p = pros.get(r["id"], {})
         nd.append([r["id"], "%s\n%s · %s" % (p.get("business", "?"), p.get("city", ""), p.get("country", "")),
                    (p.get("web_presence_note") or "")[:300],
-                   "%s · %s" % (offer(p), money(p)),
+                   "%s\n%s" % (offer(p), money(p)),
                    "%s\n%s" % ((r.get("next_action") or "")[:180], ("due " + r["next_action_date"]) if r["next_action_date"] else "")])
     table(ncols, nd)
 
     # ---------- page: how to run it ----------
     pdf.add_page()
-    section("4 · The rules this register is built on",
+    section("4 · The rules this list runs on",
             "Written down so the pipeline survives being handed to anyone else, and so no future batch quietly lowers the bar.")
     rules = [
         ("Gate", "A lead is pitchable only after someone opens the shop's own site and reads the address off it. Search snippets, "
@@ -346,7 +363,7 @@ def build():
         pdf.multi_cell(0, 4.2, txt, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(1.1)
 
-    section("5 · What happens the moment a human answers",
+    section("5 · What happens the moment a real person replies",
             "No lead is waiting on me for anything except a decision from you. The sequence below is already scripted.")
     steps = [
         ("1", "Same day, human replies → I answer in-thread with their board attached (single self-contained HTML file, opens in any browser, no demo account, no link that expires)."),
