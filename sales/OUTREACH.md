@@ -8,13 +8,21 @@ Three rules before anything else:
 4. **Payment talk comes third, not first.** No crypto word in a cold email; USDT appears on the *quote*, as an
    alternative the client agrees to, with the amount still written in euros. Full rule: `sales/PAYMENTS-USDT.md`.
 
-> **Status 2026-10-11 (two batches, 11 emails):** August, Northern Rye, Wild Crumb in the morning; Suba,
-> Chatsworth Bakehouse, Layla, Wild Hearth, The Bakery House, Wild Yeast, Heritage Rise and Daily Bread an hour
-> later — **29,284 € quoted** across 14 leads, 0 replies and 0 bounces as of 09:56Z. Every one of them went to an
-> address I read off that shop's own site the same day.
-> That is the whole sendable list: 3 verified shops publish only a phone number (Pa Serra, Handy, Weltons) and
-> 46 of 67 rows are still press-list entries with no verified address — those get verified, or a call, not a
-> guessed email.
+> **Status 2026-10-11 10:14Z (four batches):** **15 emails sent, 30,414 € quoted, 0 human replies, 1 auto-reply, 0 bounces.**
+> August, Northern Rye and Wild Crumb first; then Suba, Chatsworth Bakehouse, Layla, Wild Hearth, The Bakery House,
+> Wild Yeast, Heritage Rise and Daily Bread; then Born & Bread, ARAN and Gusto Bread; then I Loaf Sourdough. Every
+> one of them went to an address read off that shop's own site the same morning, and the observation the email opens
+> with is written in `sales/pitches/<id>-*/` next to it.
+> **ARAN Bakery answered after 2 minutes — automatically** (out-of-office: 9:30–3:30, phone 01350 727029, "our main
+> admin days are Tuesdays-Fridays", no bookings, 6 seats). Logged as `sent (auto-reply)`: a machine replying is not
+> interest, and it moves our follow-up to a Tuesday morning instead of a calendar day-5.
+> That is the whole sendable list. Eight verified shops publish a phone number or a form and no email (Pa Serra,
+> Handy, Weltons, Peak and Stone, Night Moves, Café Dear Leon, Mabel, Gorse) — those get a call, a DM or a form,
+> never an invented address; three shops were looked at and recorded as no-pitch (Poulette, Hobbs House, Niedlov's)
+> because their own stack is ahead of what we sell. The remaining 44 of 70 rows are press-list entries with no
+> verified address: they get verified or dropped, not emailed.
+> Full machine-readable version: **`sales/OUTREACH-REGISTER.pdf`** (`python3 tools/make-register.py`) — one row per
+> shop with the address, its source, the subject line, the offer, the price and what only Abdulrhman can unblock.
 
 Legal note (EU/UK): B2B cold email is allowed with soft opt-out in most cases, but keep an unsubscribe line,
 store who you contacted, and delete details on request. France specifically: DGCCRF frowns on unsolicited

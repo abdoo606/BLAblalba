@@ -35,7 +35,7 @@ def main():
         v = r.get("verification_2026_10_10", "")
         st = "VERIFIED" if v.startswith("VERIFIED") else ("PARTIAL" if v.startswith("PARTIAL") else "to verify")
         w = WAVE.get(r["country"], 2)
-        eur, usd = int(r["quote_eur"]), int(r["quote_usd"])
+        eur, usd = int(r["quote_eur"] or 0), int(r["quote_usd"] or 0)
         out.append(dict(
             id=r["id"], b=r["business"], city=r["city"], c=r["country"], w=w, st=st,
             contact=(r.get("contact_verified") or "to be found") if st != "to verify" else "to be found",

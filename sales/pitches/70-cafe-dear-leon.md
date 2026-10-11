@@ -1,15 +1,16 @@
 # Café Dear Leon — design board & pitch
 
-Baltimore, MD, US · B — upgrade · template **patisserie** · patisserie · 2900 €
-Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
+Canton + Remington, Baltimore, MD, US · A — hot · template **patisserie** · croissant · 2010 €
+Verified 2026-10-11: **YES**
 
 ## 1. Why them, now
-James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2026)
-Source on file: jamesbeard.org 2026 semifinalists (2026-08-19).
+James Beard 2026 Outstanding Bakery semifinalist; second location (La Maison, Remington) opened for 2026; the viral crab-dip bagel queue is covered in BmoreArt (Jan 2026).
+Source on file: cafedearleon.com (own site) + BmoreArt 2026-01-13 + jamesbeard.org 2026 semifinalists | merged with the older to-verify row for the same shop (duplicate removed 2026-10-11, one row per shop).
 
 ## 2. What their web presence actually is
-public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.
+OPENED 2026-10-11 10:05Z: homepage + /contact/. Homepage renders the opening hours as vertically split characters ('T u e - S u n 6 a m - 3 p m' / 'E V E R Y D A Y 7 : 3 0 a m - 3 p m') - the text is inside a styled component, so screen readers and search engines get letter soup; it also says 'Thank you for your understading' (typo, live on the homepage right now) and explains that once the day's quantity is reached they are sold out. /contact/ = 404 'Whoops, that page is gone'. No email published anywhere. Two locations, two bake schedules, no way to order or reserve online.
+Found live: https://cafedearleon.com
+Contact: (667) 335-9160 · 2929 O'Donnell St (Canton) + 2600 N Howard St (Remington) · NO email published; /contact/ returns a 404
 
 ## 3. The design I'd ship
 - **Template:** patisserie · **palette:** Plum, meringue, lilac — `#1c1a24 ink / #b4708c accent / #f8f2f4 paper / #6d5a7a muted`
@@ -17,12 +18,12 @@ Claimed earlier (press/aggregator): Not audited. On the same shortlist that prod
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
 - **Hero line:** “Café Dear Leon — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
-## 4. What I would say (first touch, to be found during verification)
-> Hi Café Dear Leon team — I looked at your online presence this morning. public notes say: “Not audited. On the same shortlist that produced Wild Crumb - a bakery small enough that a Beard semifinalist slot changes their year and their website is usually the weakest part of it.” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 3160 $ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees.
+## 4. What I would say (first touch, phone / counter / DM (no public email))
+> Hi Café Dear Leon team — I looked at https://cafedearleon.com this morning. OPENED 2026-10-11 10:05Z: homepage + /contact/. Homepage renders the opening hours as vertically split characters ('T u e - S u n 6 a m - 3 p m' / 'E V E R Y D A Y 7 : 3 0 a m - 3 p m') - the text is inside a styled component, so screen readers and search engines get letter soup; it also says 'Thank you for your understading' (typo, live on the homepage right now) and explains that once the day's quantity is reached they are sold out. /contact/ = 404 'Whoops, that page is gone'. No email published anywhere. Two locations, two bake schedules, no way to order or reserve online.
+> That's exactly the part I build: hero, marquee, specialties, menu — 2190 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes extra location, seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
@@ -45,6 +46,6 @@ Claimed earlier (press/aggregator): Not audited. On the same shortlist that prod
 1. 12 scoping questions on one 10-min call (`sales/REPLY-PLAYBOOK.md` §4)
 2. Quote from §3 + the 40 % deposit invoice (payment route agreed **first** — see the note at the bottom of `sales/PROGRESS-CHECKLIST.md`)
 3. Domain **in their name**, on their email, their 2FA (RDAP check first: `curl https://rdap.org/domain/<name>`)
-4. Content deadline 7 days · build in this kit on branch `client/61-cafe-dear-leon` · staging link · 2 revision rounds
+4. Content deadline 7 days · build in this kit on branch `client/70-cafe-dear-leon` · staging link · 2 revision rounds
 5. Go-live: DNS + HTTPS + Google listing hours fixed + printed counter sheet
 6. Handover doc + care plan signed the same week

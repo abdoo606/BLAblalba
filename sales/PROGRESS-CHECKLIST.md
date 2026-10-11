@@ -7,8 +7,8 @@ to say. Nothing here is manual bookkeeping except the one column that changes wh
 
 ## 0. The gate that comes before every other line (read this first)
 
-> **Where we are (2026-10-11, after batch 3):** 67 leads · **19 VERIFIED** · 14 with a real email ·
-> **14 SENT** (29,284 € quoted) · 0 replies so far · 3 verified leads reachable only by phone/DM (Pa Serra, Handy,
+> **Where we are (2026-10-11, after batch 4):** 70 leads · **24 VERIFIED** · 16 with a real email ·
+> **15 SENT** (30,414 € quoted) · 0 human replies · 1 auto-reply (ARAN) · 0 bounces · 3 verified leads reachable only by phone/DM (Pa Serra, Handy,
 > Weltons) · 32 rows still unverified. One duplicate caught and merged (Chatsworth Bakehouse was on the original
 > list *and* re-added as new) — `tools/make-sheet.py` now refuses to build a sheet with duplicate shop names.
 > `npm run progress` regenerates this picture; `npm run sheet` rebuilds the Drive CSV from the prospects file.
