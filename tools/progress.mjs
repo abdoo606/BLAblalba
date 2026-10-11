@@ -11,8 +11,9 @@ const PRO = process.argv.includes('--prose');
 const rows = parseCSV(readFileSync(LOG, 'utf8'));
 const order = ['to-verify', 'DISPUTED', 'verified-ready', 'draft-in-gmail', 'sent', 'replied-interested',
   'call-booked', 'scoped', 'quoted', 'negotiated', 'won', 'parked', 'lost', 'do-not-contact'];
+const bucket = (st) => order.find((o) => st === o || st.startsWith(o + ' ')) || st;
 const count = {};
-for (const r of rows) count[r.status] = (count[r.status] ?? 0) + 1;
+for (const r of rows) { const k = bucket(r.status); count[k] = (count[k] ?? 0) + 1; }
 
 const money = (rs) => rs.reduce((n, r) => n + (+r.quoted_eur || 0), 0);
 const sent = rows.filter((r) => /sent|replied|call|scoped|quoted|negotiated|won/.test(r.status));
@@ -31,6 +32,7 @@ console.log(`\nready to send now  : ${emailReady.map((r) => r.business).join(', 
 console.log(`call / DM today    : ${callOnly.map((r) => r.business).join(', ') || '—'}`);
 console.log(`looked, no pitch   : ${noPitch.length ? noPitch.map((r) => r.business).join(', ') : '—'}`);
 console.log(`sent               : ${sent.length} leads${money(sent) ? ` · ${money(sent).toLocaleString()} € quoted` : ''}`);
+console.log(`auto-replies       : ${rows.filter((r) => r.status.includes('auto-reply')).map((r) => r.business).join(', ') || '—'}  ← a machine answered, not interest`);
 console.log(`won                : ${won.length}${won.length ? ` · ${money(won).toLocaleString()} €` : ''}`);
 console.log(`needs verification : ${count['to-verify'] ?? 0}`);
 console.log(`disputed rows      : ${count['DISPUTED'] ?? 0}  ← fix or delete before anything else`);
