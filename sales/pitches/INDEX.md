@@ -159,6 +159,28 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [159-rye-martin-auer](./159-rye-martin-auer.md) | Rye (Martin Auer) | New York (Soho) | n | artisan | 1450 | ⬜ | to be found during verification |
 | [161-long-s-bakery](./161-long-s-bakery.md) | Long's Bakery | Indianapolis, IN | n | artisan | 1450 | ⬜ | to be found during verification |
 | [162-la-segunda-central-bakery](./162-la-segunda-central-bakery.md) | La Segunda Central Bakery | Tampa, FL | n | artisan | 2900 | ⬜ | to be found during verification |
+| [170-lagniappe-bakehouse](./170-lagniappe-bakehouse.md) | Lagniappe Bakehouse | New Orleans, LA | U | artisan | 1450 | ⬜ | to be found during verification |
+| [171-scratch-baking-co](./171-scratch-baking-co.md) | Scratch Baking Co. | South Portland, ME | U | artisan | 1450 | ⬜ | to be found during verification |
+| [172-fariner-bakery](./172-fariner-bakery.md) | Fariner Bakery | Ashland, NE | U | artisan | 1450 | ⬜ | to be found during verification |
+| [173-mel-the-bakery](./173-mel-the-bakery.md) | Mel the Bakery | Hudson, NY | U | artisan | 1450 | ⬜ | to be found during verification |
+| [174-boulted-bread](./174-boulted-bread.md) | Boulted Bread | Raleigh, NC | U | artisan | 1450 | ⬜ | to be found during verification |
+| [175-nathaniel-reid-bakery](./175-nathaniel-reid-bakery.md) | Nathaniel Reid Bakery | Kirkwood / St. Louis, MO | U | artisan | 1450 | ⬜ | to be found during verification |
+| [176-ovenbird-bakery](./176-ovenbird-bakery.md) | Ovenbird Bakery | Baltimore, MD | U | artisan | 2900 | ⬜ | to be found during verification |
+| [177-black-walnut-bakery](./177-black-walnut-bakery.md) | Black Walnut Bakery | Minneapolis, MN | U | artisan | 1450 | ⬜ | to be found during verification |
+| [178-desert-bread](./178-desert-bread.md) | Desert Bread | Las Vegas, NV | U | artisan | 1450 | ⬜ | to be found during verification |
+| [179-mystic-sugar-bakery](./179-mystic-sugar-bakery.md) | Mystic Sugar Bakery | North Conway, NH | U | artisan | 750 | ⬜ | to be found during verification |
+| [180-on-the-rise-artisan-breads](./180-on-the-rise-artisan-breads.md) | On the Rise Artisan Breads | Cleveland Heights, OH | U | artisan | 1450 | ⬜ | to be found during verification |
+| [181-country-bird-bakery](./181-country-bird-bakery.md) | Country Bird Bakery | Tulsa, OK | U | artisan | 1450 | ⬜ | to be found during verification |
+| [182-comadre-panaderia](./182-comadre-panaderia.md) | Comadre Panaderia | Austin, TX | U | artisan | 2900 | ⬜ | to be found during verification |
+| [183-tellico-grains-bakery](./183-tellico-grains-bakery.md) | Tellico Grains Bakery | Tellico Plains, TN | U | artisan | 750 | ⬜ | to be found during verification |
+| [184-sugaree-s-bakery](./184-sugaree-s-bakery.md) | Sugaree's Bakery | New Albany, MS | U | artisan | 1450 | ⬜ | to be found during verification |
+| [185-pastiche-fine-desserts](./185-pastiche-fine-desserts.md) | Pastiche Fine Desserts | Providence, RI | U | artisan | 1450 | ⬜ | to be found during verification |
+| [187-ch-patisserie](./187-ch-patisserie.md) | CH Patisserie | Sioux Falls, SD | U | artisan | 1450 | ⬜ | to be found during verification |
+| [188-sweet-life-bakeshop](./188-sweet-life-bakeshop.md) | Sweet Life Bakeshop | Philadelphia, PA | U | artisan | 750 | ⬜ | to be found during verification |
+| [189-nichole-s-fine-pastry](./189-nichole-s-fine-pastry.md) | Nichole's Fine Pastry | Fargo, ND | U | artisan | 1450 | ⬜ | to be found during verification |
+| [190-bova-s-bakery](./190-bova-s-bakery.md) | Bova's Bakery | Boston, MA | U | artisan | 2900 | ⬜ | to be found during verification |
+| [191-zingerman-s-bakehouse](./191-zingerman-s-bakehouse.md) | Zingerman's Bakehouse | Ann Arbor, MI | U | artisan | 2900 | ⬜ | to be found during verification |
+| [192-golden-crown-panaderia](./192-golden-crown-panaderia.md) | Golden Crown Panaderia | Albuquerque, NM | U | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 26 of 153 are ✅.
+so the message stays undelivered until someone opens their site. 26 of 175 are ✅.

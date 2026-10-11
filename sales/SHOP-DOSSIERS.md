@@ -4,7 +4,7 @@
 الملف مولّد من `sales/prospects-2026.csv` + `OUTREACH-LOG.csv` + `SENT-RECORD.csv` بـ `tools/make-dossiers.py`.
 لا تحرّروه بالدرايف — عدّل الـCSV وأعيدوا التوليد.
 
-## القسم الأول — محلات تحركنا فيها (52)
+## القسم الأول — محلات تحركنا فيها (66)
 
 ### Wild Crumb — Bozeman, MT, US  ·  sent
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -74,6 +74,26 @@
 **المبعوث:** charly.young@thedustyknuckle.com · 2026-10-11T12:41Z · “Your homepage today is hoodies, not bread - and /contact is a 404”
 **الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
 **مصدر الاسم:** bakeryinfo.co.uk / hot-dinners.com / timeout.com / leedstimes.co.uk 2026
+
+### Ovenbird Bakery — Baltimore, MD, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** ovenbirdbread.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/ and /wholesale, /contact 404). The site is brand new (assets from Aug-Sep 2026) and the hero and service images are literally named "ChatGPT Image Aug 17, 2026, 08_12_19 PM.jpg" and "ChatGPT Image Sep 1, 2026, 03_52_18 PM.jpg", mixed with "Screenshot 2026-09-01 at 3.16.23 PM.png". The whole "At Your Service" block (Dining/Catering/Wholesale/Private Events) is duplicated twice on the same page, and the /wholesale hero image repeats twice as well. Three locations with hours typed as text; "The rotunda" lower-case, and the rotunda address is "West 40th Street" with no number. No email anywhere on the pages we read - form only.
+**ليش هلأ:** Best in Maryland (Food Republic, 18/08/2026); founded by a wildlife biologist for his Turkish-immigrant wife; three rooms - Little Italy, Highlandtown, The rotunda; serves cocktails and does wholesale, catering and private events.
+**اتجاهنا:** See audit_note.
+**السعر:** 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · رعاية 45 €/شهر · السنة الأولى 3,530 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Comadre Panaderia — Austin, TX, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** comadrepanaderia.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/ and /pages/contact, which 404s). The site is one page. Banner: "BREAKFAST TACOS ARE AVAILABLE DAILY TIL ABOUT 11:30 (UNLESS THEY SELL OUT EARLY). MAKE A PLAN TO GET HERE EARLY IF YOU'RE HUNGRY! :)". Hours as "WEDS: 8A-2P ... MON: CLOSED TUES: CLOSED"; location as "IN THE BIG PINK BUILDING BEHIND NIXTA TAQUERIA" (a goo.gl short link to the map). The MENU is two PDFs (COMADRE-BEBIDAS-275.pdf, COMADRE-EXTRAS-MENU-25.pdf) and the note says "menu changes weekly (sometimes daily) & is for reference only, usually updated by Thursday morning" - so the prices a customer needs live in a document that is 2025-branded. There is a price manifesto ("A NOTE ON OUR PRICES") and no way to order, no email, no wholesale, and no Spanish on a Mexican-American panaderia in Austin. Highest-fit bilingual client on the list.
+**ليش هلأ:** Mariela Camacho - two-time Beard semifinalist and a Food & Wine 2025 Best New Chef; pan dulce, conchas, the blue-cornflake Pink Cake.
+**اتجاهنا:** See audit_note.
+**السعر:** 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · رعاية 45 €/شهر · السنة الأولى 3,530 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
 
 ### Handy Bakery — Barcelona (Gràcia) — Carrer de Rabassa 5, ES  ·  verified-ready
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -414,6 +434,118 @@
 **الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
 **مصدر الاسم:** swellssourdough.com + sandiegouniontribune.com 01 Oct 2026
 
+### Lagniappe Bakehouse — New Orleans, LA, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** lagniappebaking.com
+**اللي نشروه عندهن:** hello@lagniappebaking.com - published on their own page (read 2026-10-11 12:47)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/contact + /). Verbatim: "Just a Quick Note: At this time, we're unable to accommodate any custom orders or wholesale requests." and "Pre-orders are available exclusively only for seasonal holiday items through Hotplate. Everything else we bake is offered fresh daily at the bakehouse, first-come, first-served." The contact form's only "Interested in" options are Hiring / Press Inquiry / General Questions. No menu, no hours on the page, a cart that reads "0". Email hello@lagniappebaking.com is published on their own contact page.
+**ليش هلأ:** Black-owned bakery named best in Louisiana by Food Republic (18/08/2026); chef Kaitlin Guerin was a 2025 James Beard Emerging Chef semifinalist.
+**اتجاهنا:** Menu with prices + pre-order/pickup + the missing contact or wholesale path, on the platform they already pay for. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** hello@lagniappebaking.com · 2026-10-11T12:47Z · “Your "no wholesale" sentence could be a waiting list instead”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Scratch Baking Co. — South Portland, ME, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** scratchbakingco.com
+**اللي نشروه عندهن:** sonja@scratchbakingco.com - published on their own page (read 2026-10-11 12:47)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/contact = an FAQ page). Verbatim: "Other than large bagel orders(see below) we do not offer online orering." - typo live on the site; "All orders MUST be placed AT LEAST 48 hours in advance over the phone or in person during business hours (Wed-Sat 7 am - 1 pm; Sun 7 am - noon)... We do not take orders through email."; "please call the bakery... Please note we DO NOT deliver/cater."; bagel orders sent to https://scratch-baking-co.square.site/. and classes to https://www.scratchbakingco.com/scratch-bagel-baking-class. - both links end inside a full stop so the click 404s; gift cards are a third service (squareup.com/gift/MLNBEKVNBSQP6/order); the page ends with the raw string "#%-&GgWwOoqQLlAaSs680" which visitors see. Hiring address sonja@scratchbakingco.com is published on the same page.
+**ليش هلأ:** Food Republic's "Southern Maine's best kept secret" - sourdough bagels with a 6 a.m. line; also runs baking classes and limited weddings.
+**اتجاهنا:** Menu with prices + pre-order/pickup + the missing contact or wholesale path, on the platform they already pay for. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** sonja@scratchbakingco.com · 2026-10-11T12:47Z · “Your FAQ page has "we do not offer online orering" - literally”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Fariner Bakery — Ashland, NE, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** farinerbakery.com
+**اللي نشروه عندهن:** farinerbakery@gmail.com - published on their own page (read 2026-10-11 12:49)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/ and /contact). /contact is "404 - Page Not Found / Back to homepage". The home page renders the literal words "Google Maps Output" where the map is, seven photos whose file names are timestamps (2023-04-03_12-45-44_1680543952.jpg), a Square cart with payment icons (Cash App to JCB) and no products, hours as one typed line, and the whole written content is the name joke "fariner (French) 1. 'to flour'. (fa-ri-né)". Contact = farinerbakery@gmail.com in the footer of their own page.
+**ليش هلأ:** Food Republic: "a diamond in the rough", pastry buffs drive from all over for cardamom buns and Pina Colada scones; small output means people must arrive early.
+**اتجاهنا:** Menu with prices + pre-order/pickup + the missing contact or wholesale path, on the platform they already pay for. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** farinerbakery@gmail.com · 2026-10-11T12:49Z · “Your homepage shows the words "Google Maps Output"”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Mel the Bakery — Hudson, NY, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** melthebakery.com
+**اللي نشروه عندهن:** hi@melthebakery.com - published on their own page (read 2026-10-11 12:49)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/). The home page is six images (file names MEL-SITE-4_1770258848.jpg etc.) and nothing else: no menu, no prices, no list of breads, no story. Hours typed "WEDNESDAY - SUNDAY 9AM - 3PM"; the only thing purchasable online is a gift card at /s/gift-cards. hi@melthebakery.com and the address are in the footer text; no /contact page. Site is on a Weebly asset host (cdn6.editmysite.com) with a Square cart.
+**ليش هلأ:** Food Republic's best bakery in New York; master baker Nora Allen moved from a tiny NYC storefront to a 3,200 sq ft room at 324 Warren St in 2023.
+**اتجاهنا:** Menu with prices + pre-order/pickup + the missing contact or wholesale path, on the platform they already pay for. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** hi@melthebakery.com · 2026-10-11T12:49Z · “Your site is six photos - the 3,200 sq ft move isn't told in words”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Boulted Bread — Raleigh, NC, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** boultedbread.com
+**اللي نشروه عندهن:** boultedbread@gmail.com - published on their own page (read 2026-10-11 12:49)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/contact). The page publishes the template's filler in public: "Summary Block - This block is invalid. Please check the block settings and try again." followed by "Elit Condimentum / Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper." The browser tab for it is "328 Dupont Circle, Raleigh, NC - BOULTED BREAD". The form is Name/Email/Subject/Message; no menu, no prices, no ordering, no wholesale line. Their own sentence: "If you prefer email, our address is boultedbread@gmail.com".
+**ليش هلأ:** Food Republic: the most beloved bakery in the Triangle; stone-mills its own flour; grits bread, tomato tartine, pasteis de nata.
+**اتجاهنا:** Menu with prices + pre-order/pickup + the missing contact or wholesale path, on the platform they already pay for. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** boultedbread@gmail.com · 2026-10-11T12:49Z · “Your contact page still carries the Squarespace sample text”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Nathaniel Reid Bakery — Kirkwood / St. Louis, MO, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** nrbakery.com
+**اللي نشروه عندهن:** contact@nrbakery.com - published on their own page (read 2026-10-11 12:51)
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/contact). Everything is there except ordering: Menu, Catering, Employment Application, Donation Request Form - and no cake order form, no date picker, no deposit, no shipping. The map on the contact page loads Squarespace placeholder art (cover-pages-map-marker-pin-dark-2x.png + maps.gstatic.com/transparent.png) and the page ends with a leftover bot-check string "BESbswy". One generic Name/Email/Phone/Message box for wedding, catering and press alike. contact@nrbakery.com published on the page.
+**ليش هلأ:** Food Republic: one of the best-known bakeries in Missouri, a 2025 James Beard semifinalist for Best Bakery and the highest-rated on Yelp in the state.
+**اتجاهنا:** Menu with prices + pre-order/pickup + the missing contact or wholesale path, on the platform they already pay for. 1,450 EUR.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**المبعوث:** contact@nrbakery.com · 2026-10-11T12:51Z · “Your donation form is easier to fill in than your cake order - there's no cake order”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Black Walnut Bakery — Minneapolis, MN, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** blackwalnutbakery.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/ and /contact - both the same page). The live home page shows the unfinished editor state in public: "Summary Block - This block is invalid. Please check the block settings and try again." plus the placeholder image from assets.squarespace.com and the filler headline "Aenean eu leo Quam / Quisque iaculis facilisis lacinia. Mauris euismod pellentesque tellus sit amet mollis. Read more ->". Above it: "BAKE /Verb /BAKING /ACTION Verb - Movement, motion, notion to bake, baking, baked, baker, bakery." and "0 items $0". No menu, no hours, no address, no email on the page we could read. A real site to rescue, not to rebuild.
+**ليش هلأ:** Food Republic: stellar reviews for a shop founded 2019 by CIA-trained Sarah Botcher; the laminated pastry room of Minneapolis.
+**اتجاهنا:** See audit_note.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Desert Bread — Las Vegas, NV, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** desertbreadlv.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (/contact; / pages not needed). The contact page prints the site's own builder error to customers: "Newsletter Block - This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab." - so the newsletter nobody can subscribe to sits above the sign-up button. The address is repeated twice on one page ("6290 McLeod Dr Suite 110"), there is no menu, no prices, no ordering, and no email we could read. Phone (702) 706-6955 per the directory listing, not their page.
+**ليش هلأ:** Voted Las Vegas's best bakery by Las Vegas Weekly readers; sourdough built on desert-grown local grain.
+**اتجاهنا:** See audit_note.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Country Bird Bakery — Tulsa, OK, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** countrybirdbakery.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: /contact is their own Squarespace 404 ("We couldn't find the page you were looking for... has been moved or deleted"). The article prints countrybirdbakerytulsa@gmail.com, but it is not on their page, so it is not ours to write to. Homepage still to read.
+**ليش هلأ:** Owner Cat Cox won the 2025 James Beard Outstanding Pastry Chef award; French onion soup danishes, porridge loaves.
+**اتجاهنا:** See audit_note.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Sugaree's Bakery — New Albany, MS, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** sugarees.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: /contact-us returns a bare "404 Not Found - Something went wrong. What can I do? Return to the previous page." No email readable. Homepage to read next.
+**ليش هلأ:** Best-in-state mention from Food Republic for Southern pound cakes with a nationwide mail-order system and a mix-and-match sampler.
+**اتجاهنا:** See audit_note.
+**السعر:** 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · رعاية 45 €/شهر · السنة الأولى 2,080 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
 ### Super Secret Ice Cream — Bethlehem, NH, US  ·  verified-ready
 **وين إحنا:** VERIFIED 2026-10-11 — footer not readable by us
 **الموقع:** ?
@@ -551,6 +683,26 @@
 **الخطوة الجاية:** NOT sendable by email - no address published on their own site. gue, Scotland Road, Zelah TR4 9JG · no website: their only web presence is a Facebook page — 2026-10-13
 **مصدر الاسم:** GFG 50 Best Bakeries 2026 (Standard/Express lists 2026-03-24) + foodfromcornwall.co.uk + Facebook page
 
+### Mystic Sugar Bakery — North Conway, NH, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** mysticsugarbakery.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: /contact returns "ERROR: PAGE NOT FOUND - This page isn't available." with only a "Go to Homepage" link. No email readable. Needs the homepage read before any decision.
+**ليش هلأ:** NH Magazine's best boutique bakery; fantasy-themed baked goods, started as a pandemic food truck.
+**اتجاهنا:** See audit_note.
+**السعر:** 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · رعاية 45 €/شهر · السنة الأولى 1,380 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
+### Tellico Grains Bakery — Tellico Plains, TN, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 - no email readable
+**الموقع:** tellico-grains-bakery.com
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: the ENTIRE home page is two lines - a row of literal asterisks ("\*\*\*\*\*\*\*") and "Normal business hours resume Tuesday, March 3rd, 2026. Open Tuesday-Saturday 8:00 a.m.-4:00 p.m." - a notice seven months out of date, with the markdown left visible. The tab title doubles as the address. /contact and /contact-us both return an Apache 404 that leaks its own internals ("Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request."). No menu, no hours page, no email we could read, no ordering. The most fixable site on the list.
+**ليش هلأ:** 4.8 stars with 1,000+ Google reviews; a wood-fired brick oven in a converted old bank, the anchor of the Tellico valley food scene.
+**اتجاهنا:** See audit_note.
+**السعر:** 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · رعاية 45 €/شهر · السنة الأولى 1,380 €
+**الخطوة الجاية:** Abdulrhman: phone/DM - details in the audit note — 2026-11-01
+**مصدر الاسم:** foodrepublic.com/2234748 (18 Aug 2026) + their own site
+
 ### Poulette Bakeshop — Parker, CO, US  ·  no-pitch
 **وين إحنا:** VERIFIED 2026-10-11 (I opened the 
 **الموقع:** https://www.poulettebakeshop.com
@@ -582,7 +734,7 @@
 **الخطوة الجاية:** no pitch - their stack is ahead of the kit; revisit in 6 months — 2027-04-01
 **مصدر الاسم:** niedlovs.com/contact-us (own site, opened 2026-10-11)
 
-## القسم الثاني — 101 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
+## القسم الثاني — 109 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
 كل سطر هنا اسمه من مصدر 2026 موثّق، بس ما قرينا صفحة ولا واحد منهن: لا إيميل، لا عرض، لا وعد. الطابور يمشي محل-بمحل.
 
 سطر لكل محل: الاسم · المدينة · السعر · الإشارة. ما في إيميل ولا عرض مفصّل - لأنو ما قرينا صفحة ولا واحد منهن.
@@ -669,21 +821,29 @@
 - **Barrio Bread** — Tucson, AZ, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Food Republic's best bakery in Arizona 2026; Don Guerra is a James Beard Outstanding Baker
 - **Belle's Bread** — Columbus, OH, US · 1,910 €  ·  ≈ 2,082 $  ·  ≈ 1,643 £ · Multiple locations, growing bakery group + catering
 - **Bing's Bakery** — Newark, DE, US · 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · Named the best bakery in Delaware by Food Republic (18/08/2026); 253 E Main St, Newark, (3
+- **Bova's Bakery** — Boston, MA, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · Ninety-plus years old and still open 24 hours a day in the North End; voted best late-nigh
 - **Brooklyn Sour** — High Falls, NY, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · First brick-and-mortar opened the first weekend of May 2026 at 1219 Route 213 in the forme
 - **Bánh by Lauren** — New York, NY, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **CH Patisserie** — Sioux Falls, SD, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Chris Hanmer won Season 2 of Top Chef: Just Desserts and was a 2025 Beard semifinalist; ma
 - **Cultured** — Sister Bay, WI, US · 2,176 €  ·  ≈ 2,372 $  ·  ≈ 1,871 £ · JB 2026 finalist on the Door County peninsula - tourist season rush
 - **Cultured Bakery** — Sister Bay, WI, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 name from the same list; neighbourhood sourdough + pastry
 - **Dan The Baker** — Columbus, OH, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **DeLuxe Cakes** — Los Angeles, CA, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 semifinalist; LA storefront with a cult order book
 - **DeLuxe Cakes and Pastries** — Iowa City, IA, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **Golden Crown Panaderia** — Albuquerque, NM, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · The state cookie (biscochito) made famous; guava empanadas and green chili bread; best in 
 - **La Segunda Central Bakery** — Tampa, FL, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · Best bakery in Florida (Food Republic, 18/08/2026); "the world's largest producer of authe
 - **Librae** — Seattle, WA, US · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · Beard 2026 semifinalist; single-line pastry counter
 - **Librae Bakery** — New York, NY, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **Long's Bakery** — Indianapolis, IN, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Named the best bakery in Indiana by Food Republic; open since 1955, multiple locations, an
 - **Mercado Sin Nombre** — Austin, TX, US · 1,670 €  ·  ≈ 1,820 $  ·  ≈ 1,436 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **Nichole's Fine Pastry** — Fargo, ND, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · "Bringing a bit of Paris to the Prairie"; 2024 Beard Outstanding Bakery semifinalist; feui
 - **Niedlov's Bakery & Cafe** — Chattanooga, TN, US · 149 €  ·  ≈ 162 $  ·  ≈ 128 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **On the Rise Artisan Breads** — Cleveland Heights, OH, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Best in Ohio per Food Republic; two of its bakers were chosen to represent the US at the 2
+- **Pastiche Fine Desserts** — Providence, RI, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Running since 1983 on Federal Hill; the fresh fruit tart that redefined Providence pastry;
 - **Poupart Beacon Bakery** — Lafayette, LA, US · 2,252 €  ·  ≈ 2,455 $  ·  ≈ 1,937 £ · James Beard America's Classic 2025 buzz, French market café + wholesale bread
 - **Rye (Martin Auer)** — New York (Soho), US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Opened September 2026 on the eastern edge of Soho: one Austrian rye sourdough from a 57-ye
 - **Starship Bagel** — Dallas, TX, US · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
+- **Sweet Life Bakeshop** — Philadelphia, PA, US · 750 €  ·  ≈ 818 $  ·  ≈ 645 £ · Sweet-potato and banana pudding classics with some of the best review scores in Philly.
 - **The Burque Bakehouse** — Albuquerque, NM, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **The Local General Store** — Honolulu, HI, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Best bakery in Hawaii (Food Republic, 18/08/2026); bakery/butchery hybrid born of Hawaii's
+- **Zingerman's Bakehouse** — Ann Arbor, MI, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · Founded 1992 with the mission "the relentless pursuit of being the best bakery we can imag
