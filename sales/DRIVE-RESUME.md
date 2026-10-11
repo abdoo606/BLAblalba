@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 12:23 · الفرع arena/46df64dc-blablalba · آخر commit: 8832370 · make-resume: the Drive map lists files by number, not by link — ids change every re-upload, names don't
+آخر توليد: 2026-10-11 12:24 · الفرع arena/46df64dc-blablalba · آخر commit: 8d63170 · Handover/checklist: no Drive ids inside Drive files — the map lists numbers and names, which survive a re-upload
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.
 
