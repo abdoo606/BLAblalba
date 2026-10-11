@@ -20,7 +20,7 @@
 **Rules:** ex-VAT · 40 % deposit to start, balance at go-live · max discount 15 % and only against a case study, a hard deadline, or 3 months of care prepaid · EU in €, UK in £, North America in $ (≈1.09).
 
 ## 2. Clients — أسماء العملاء والسعر اللي بنأخذه من كل واحد
-43 businesses in the UK, France, Spain and the US that are objectively doing well right now (award shortlists, 2025–2026 openings, regional press). 6 of them VERIFIED by opening their own site; 3 have a real email and were contacted on 2026-10-11 (10,302 € quoted). Full sheet: “Levain Kit — Prospects & Prices per client (Oct 2026)”. **Pipeline: 95,435 € one-off, 113,255 € first year if every lead took the care plan.**
+46 businesses in the UK, France, Spain and the US that are objectively doing well right now (award shortlists, 2025–2026 openings, regional press). 14 VERIFIED by opening their own site; 11 have a real email and were contacted on 2026-10-11 (**24,194 € quoted**). Full sheet: “Levain Kit — Prospects & Prices per client (Oct 2026)”. **Pipeline: 99,177 € one-off.**
 | # | Client | City | We take | Priority |
 |---|---|---|---|---|
 | 1 | August Bakery | London | **3,857 €** + 45/mo care | B — upgrade |
@@ -83,4 +83,4 @@
 **Follow-up (day 5, then silence):** “No reply needed — if it's a *not now*, tell me the month and I'll write on the 1st.”
 
 ## 4. Realistic forecast / التوقّع
-43 cold leads ≈ 2 replies (5 %) → 11 calls/quotes (30 %) → **4 signed jobs ≈ 6,900 € + ~180 €/month**. The number that matters is not 43 rows, it is 3 real addresses — volume without verification is zero. To fill a quarter properly we need a second list of ~100 rows built from directories (Yellow Pages / Pages Jaunes / Pages d'Or / Yelp / The Guild of Fine Food), not from award lists — awards are the easiest pitch but the smallest pond. Also worth adding: 48 leads I skipped in the Gulf and Levant (Dubai, Abu Dhabi, Beirut, Amman) because you asked for Europe + North America — say the word and I'll price that market too (packages at 60–70 % of EU rates, but far more openings per month).
+46 cold leads, 11 of them real emailed addresses → at 10 % reply (personalised, verified, one-per-shop) expect 1 reply this week; 5 % of a *verified* 11 is worth more than 5 % of a scraped 500. The number that mattered on day one was not 43 rows, it was 3 real addresses; verification is the whole growth lever here. To fill a quarter properly we need a second list of ~100 rows built from directories (Yellow Pages / Pages Jaunes / Pages d'Or / Yelp / The Guild of Fine Food), not from award lists — awards are the easiest pitch but the smallest pond. Also worth adding: 48 leads I skipped in the Gulf and Levant (Dubai, Abu Dhabi, Beirut, Amman) because you asked for Europe + North America — say the word and I'll price that market too (packages at 60–70 % of EU rates, but far more openings per month).

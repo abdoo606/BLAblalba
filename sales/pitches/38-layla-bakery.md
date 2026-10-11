@@ -1,27 +1,28 @@
 # Layla Bakery — design board & pitch
 
 London (Ladbroke Grove), GB · A — hot · template **patisserie** · croissant · 1830 €
-Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
+Verified 2026-10-11: **YES**
 
 ## 1. Why them, now
 Named the Good Food Guide's best bakery in London for 2026 — a moment the whole street will search for
 Source on file: londonyaar.com — 15 best bakeries in London to visit in 2026 (2026-08-16).
 
 ## 2. What their web presence actually is
-public notes say: “Unaudited. Award press vs what their own site says is the gap” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Unaudited. Award press vs what their own site says is the gap
+Info page = plain text hours for TWO shops (Ladbroke Grove Mon-Sat 8-4 / Sun 8-3, Acton Wed-Sun 7.30-3) and one shared press inbox. No per-shop menu, no stock, no reservation. GFG best bakery in London 2026 + a second shop in Acton.
+Found live: https://laylabakery.com (pages/info)
+Contact: aniek@laylabakery.com (published on their own Info page as General & Press) · 332 Portobello Rd W10 5PQ + 53 Churchfield Rd W3 6AY
 
 ## 3. The design I'd ship
 - **Template:** patisserie · **palette:** Pistachio, cream, mint — `#141b1a ink / #3f8f7a accent / #f2f7f4 paper / #4a6b62 muted`
 - **Sections, in order:** hero → marquee → specialties → menu → story → services → gallery → testimonials → batch → hours → order → faq → footer
 - **Languages:** en, 1 more: FR · PL · RO · ES — pick the one your street actually speaks
-- **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
+- **Menu to enter (their real items, from their own posts):** Macaron £2.20 · pastry · Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie
 - **Hero line:** “Layla Bakery — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
-## 4. What I would say (first touch, to be found during verification)
-> Hi Layla Bakery team — I looked at your online presence this morning. public notes say: “Unaudited. Award press vs what their own site says is the gap” — open their site before you use this sentence.
+## 4. What I would say (first touch, email)
+> Hi Layla Bakery team — I looked at https://laylabakery.com (pages/info) this morning. Info page = plain text hours for TWO shops (Ladbroke Grove Mon-Sat 8-4 / Sun 8-3, Acton Wed-Sun 7.30-3) and one shared press inbox. No per-shop menu, no stock, no reservation. GFG best bakery in London 2026 + a second shop in Acton.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1575 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

@@ -1,28 +1,29 @@
 # Wild Hearth Bakery — design board & pitch
 
-Comrie, Perthshire, GB · B — upgrade · template **artisan** · baguette · 1210 €
-Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
+Comrie, Perthshire, GB · A — hot · template **artisan** · croissant · 2410 €
+Verified 2026-10-11: **YES**
 
 ## 1. Why them, now
 NEW ENTRY in Britain's 50 Best Bakeries 2026; one baker (John Castley), mill-to-oven range from sourdough bomboloni to German schrotbrot
 Source on file: thegoodfoodguide.co.uk — Britain's 50 Best Bakeries 2026 (2026-06-08).
 
 ## 2. What their web presence actually is
-public notes say: “Unaudited. Hamlet bakery — a paper order book is the norm; sell the order book, not a “website”” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Unaudited. Hamlet bakery — a paper order book is the norm; sell the order book, not a “website”
+Wood-fired, one baker, wholesale across the central belt + a new Drummond Street shop (8-2pm Wed-Sat) - but the product images in the shop are the theme's own placeholder-*.png files, the catalogue asks trade buyers to register before they can see prices, and the two addresses/hours are scattered across Home and Contact. Scottish Bread Championships 2023 medals.
+Found live: https://www.wildhearthbakery.com (WordPress/WooCommerce)
+Contact: orders@wildhearthbakery.com (on their own site, delivery enquiries) · 15a Cultybraggan Camp, Comrie PH6 2AB + new shop on Drummond Street PH6 2DS · 03330 151304
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
-- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **pre-order basket → WhatsApp**
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **wholesale order page** → **gallery: 9 shots, client-shot, I direct remotely**
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
 - **Hero line:** “Wild Hearth Bakery — the loaf people queue for” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
-## 4. What I would say (first touch, to be found during verification)
-> Hi Wild Hearth Bakery team — I looked at your online presence this morning. public notes say: “Unaudited. Hamlet bakery — a paper order book is the norm; sell the order book, not a “website”” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1040 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes preorder.
+## 4. What I would say (first touch, email)
+> Hi Wild Hearth Bakery team — I looked at https://www.wildhearthbakery.com (WordPress/WooCommerce) this morning. Wood-fired, one baker, wholesale across the central belt + a new Drummond Street shop (8-2pm Wed-Sat) - but the product images in the shop are the theme's own placeholder-*.png files, the catalogue asks trade buyers to register before they can see prices, and the two addresses/hours are scattered across Home and Contact. Scottish Bread Championships 2023 medals.
+> That's exactly the part I build: hero, marquee, specialties, menu — 2075 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes wholesale + photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >

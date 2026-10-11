@@ -7,7 +7,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | Lead | Business | City | Wave | Template | € | Verified | Channel |
 |---|---|---|---|---|---|---|---|
 | [1-august-bakery](./1-august-bakery.md) | August Bakery | London | 1 | artisan | 3857 | ✅ | email |
-| [2-chatsworth-bakehouse](./2-chatsworth-bakehouse.md) | Chatsworth Bakehouse | London | 1 | artisan | 2230 | ⬜ | to be found during verification |
+| [2-chatsworth-bakehouse](./2-chatsworth-bakehouse.md) | Chatsworth Bakehouse | London (Crystal Palace) | 1 | moderno | 2090 | ✅ | email |
 | [3-lovingly-artisan](./3-lovingly-artisan.md) | Lovingly Artisan | Kendal / Burneside | 1 | artisan | 3740 | ⬜ | to be found during verification |
 | [4-bread-source](./4-bread-source.md) | Bread Source | Norwich / Norfolk | 1 | artisan | 4060 | ⬜ | to be found during verification |
 | [5-the-tiny-bakery](./5-the-tiny-bakery.md) | The Tiny Bakery | Leicester | 1 | artisan | 1935 | ⬜ | to be found during verification |
@@ -42,13 +42,16 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [34-noble-bread](./34-noble-bread.md) | Noble Bread | Phoenix, AZ | 1 | artisan | 2290 | ⬜ | to be found during verification |
 | [35-babettes-artisan-breads](./35-babettes-artisan-breads.md) | Babettes Artisan Breads | Denver, CO | 1 | artisan | 1282 | ⬜ | to be found during verification |
 | [36-poupart-beacon-bakery](./36-poupart-beacon-bakery.md) | Poupart Beacon Bakery | Lafayette, LA | 1 | patisserie | 2252 | ⬜ | to be found during verification |
-| [37-toad-bakery](./37-toad-bakery.md) | Toad Bakery | London (Camberwell + Deptford) | 1 | artisan | 2010 | ⬜ | to be found during verification |
-| [38-layla-bakery](./38-layla-bakery.md) | Layla Bakery | London (Ladbroke Grove) | 1 | patisserie | 1830 | ⬜ | to be found during verification |
-| [39-chatsworth-bakehouse](./39-chatsworth-bakehouse.md) | Chatsworth Bakehouse | London (Crystal Palace) | 1 | moderno | 2090 | ⬜ | to be found during verification |
-| [40-suba-bakery](./40-suba-bakery.md) | Suba Bakery | London (Walthamstow) | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [41-wild-hearth-bakery](./41-wild-hearth-bakery.md) | Wild Hearth Bakery | Comrie, Perthshire | 1 | artisan | 1210 | ⬜ | to be found during verification |
+| [37-toad-bakery](./37-toad-bakery.md) | Toad Bakery | London (Camberwell + Deptford) | 1 | artisan | 1630 | ⬜ | to be found during verification |
+| [38-layla-bakery](./38-layla-bakery.md) | Layla Bakery | London (Ladbroke Grove) | 1 | patisserie | 1830 | ✅ | email |
+| [40-suba-bakery](./40-suba-bakery.md) | Suba Bakery | London (Walthamstow) | 1 | artisan | 1450 | ✅ | email |
+| [41-wild-hearth-bakery](./41-wild-hearth-bakery.md) | Wild Hearth Bakery | Comrie, Perthshire | 1 | artisan | 2410 | ✅ | email |
 | [42-little-sourdough-kitchen](./42-little-sourdough-kitchen.md) | Little Sourdough Kitchen | London (Fulham) | 1 | artisan | 1210 | ⬜ | to be found during verification |
-| [43-the-bakery-house](./43-the-bakery-house.md) | The Bakery House | Bryn Mawr / Paoli, PA | 1 | moderno | 2090 | ⬜ | to be found during verification |
+| [43-the-bakery-house](./43-the-bakery-house.md) | The Bakery House | Bryn Mawr / Paoli, PA | 1 | moderno | 2082 | ✅ | email |
+| [44-wild-yeast-bakehouse](./44-wild-yeast-bakehouse.md) | Wild Yeast Bakehouse | Wayne, PA | 1 | artisan | 1830 | ✅ | email |
+| [45-heritage-rise-sourdough](./45-heritage-rise-sourdough.md) | Heritage Rise Sourdough | Elk Grove, CA | 1 | artisan | 1070 | ✅ | email |
+| [46-daily-bread-sourdough-bakery](./46-daily-bread-sourdough-bakery.md) | Daily Bread Sourdough Bakery | Madison, OH | 1 | artisan | 1130 | ✅ | email |
+| [47-i-loaf-sourdough](./47-i-loaf-sourdough.md) | I Loaf Sourdough | Fort Lauderdale, FL | 1 | moderno | 1130 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 6 of 43 are ✅.
+so the message stays undelivered until someone opens their site. 14 of 46 are ✅.

@@ -16,7 +16,8 @@
     "test": "node tools/smoke.mjs",
     "smoke": "node tools/smoke.mjs",
     "progress": "node tools/progress.mjs",
-    "pitches": "node tools/make-pitches.mjs"
+    "pitches": "node tools/make-pitches.mjs",
+    "sheet": "python3 tools/make-sheet.py"
   },
   "keywords": [
     "bakery",
@@ -28,7 +29,5 @@
     "responsive",
     "accessible"
   ],
-  "license": "UNLICENSED",
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "UNLICENSED"
 }

@@ -1,28 +1,28 @@
-# Chatsworth Bakehouse — design board & pitch
+# I Loaf Sourdough — design board & pitch
 
-London (Crystal Palace), GB · A — hot · template **moderno** · croissant · 2090 €
+Fort Lauderdale, FL, US · C — later · template **moderno** · baguette · 1130 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-Destination bakery people cross London for; Good Food Guide 2026 list; sandwiches and pastries sell out daily
-Source on file: londonyaar.com — 15 best bakeries in London to visit in 2026 (2026-08-16).
+Ste Location / artisan bakery in a Fort Lauderdale strip plaza; gallery-heavy site, phone as the only contact
+Source on file: sourdoughbreadfortlauderdale.com (search extract 2026-10-11) (2026-10-11).
 
 ## 2. What their web presence actually is
-public notes say: “Unaudited. Sold-out handling and a queue-busting pre-order are the two things to check” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Unaudited. Sold-out handling and a queue-busting pre-order are the two things to check
+public notes say: “Email on their own page is behind a 'Show email' toggle (masked in directories); site is GoDaddy-style with no ordering at all” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Email on their own page is behind a 'Show email' toggle (masked in directories); site is GoDaddy-style with no ordering at all
 
 ## 3. The design I'd ship
 - **Template:** moderno · **palette:** Concrete, ember, steel — `#101314 ink / #e2622a accent / #f4f5f4 paper / #40535c muted`
-- **Sections, in order:** hero → specialties → menu → batch → story → services → gallery → hours → testimonials → order → faq → footer → **pre-order basket → WhatsApp** → **per-location hours & stock**
-- **Languages:** en, 1 more: FR · PL · RO · ES — pick the one your street actually speaks
-- **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
-- **Hero line:** “Chatsworth Bakehouse — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
+- **Sections, in order:** hero → specialties → menu → batch → story → services → gallery → hours → testimonials → order → faq → footer
+- **Languages:** en
+- **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
+- **Hero line:** “I Loaf Sourdough — the loaf people queue for” — one language, so it stays human.
 - **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
 - **Live preview:** `dist/templates/moderno/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Chatsworth Bakehouse team — I looked at your online presence this morning. public notes say: “Unaudited. Sold-out handling and a queue-busting pre-order are the two things to check” — open their site before you use this sentence.
-> That's exactly the part I build: hero, specialties, menu, batch — 1795 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes preorder + multi-location.
+> Hi I Loaf Sourdough team — I looked at sourdoughbreadfortlauderdale.com this morning. public notes say: “Email on their own page is behind a 'Show email' toggle (masked in directories); site is GoDaddy-style with no ordering at all” — open their site before you use this sentence.
+> That's exactly the part I build: hero, specialties, menu, batch — 1230 $ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
@@ -45,6 +45,6 @@ Claimed earlier (press/aggregator): Unaudited. Sold-out handling and a queue-bus
 1. 12 scoping questions on one 10-min call (`sales/REPLY-PLAYBOOK.md` §4)
 2. Quote from §3 + the 40 % deposit invoice (payment route agreed **first** — see the note at the bottom of `sales/PROGRESS-CHECKLIST.md`)
 3. Domain **in their name**, on their email, their 2FA (RDAP check first: `curl https://rdap.org/domain/<name>`)
-4. Content deadline 7 days · build in this kit on branch `client/39-chatsworth-bakehouse` · staging link · 2 revision rounds
+4. Content deadline 7 days · build in this kit on branch `client/47-i-loaf-sourdough` · staging link · 2 revision rounds
 5. Go-live: DNS + HTTPS + Google listing hours fixed + printed counter sheet
 6. Handover doc + care plan signed the same week

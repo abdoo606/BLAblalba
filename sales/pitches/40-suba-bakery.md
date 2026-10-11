@@ -1,15 +1,16 @@
 # Suba Bakery — design board & pitch
 
 London (Walthamstow), GB · B — upgrade · template **artisan** · baguette · 1450 €
-Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
+Verified 2026-10-11: **YES**
 
 ## 1. Why them, now
 NEW ENTRY in Britain's 50 Best Bakeries 2026; one-owner shop (Pa Modou, from Gambia by way of Hackney) with African- and Asian-inflected bakes
 Source on file: thegoodfoodguide.co.uk — Britain's 50 Best Bakeries 2026 (2026-06-08).
 
 ## 2. What their web presence actually is
-public notes say: “Unaudited. Micro-bakery, probably Instagram-run — sole trader, so a visit or a DM beats a cold email” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Unaudited. Micro-bakery, probably Instagram-run — sole trader, so a visit or a DM beats a cold email
+Opened both pages: the homepage shows a photo and a newsletter block that renders the builder error text for customers - 'This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab'. Two shops with different hours, no menu, no ordering, 50 Best Bakeries 2026 new entry.
+Found live: https://www.subabakery.com (Squarespace)
+Contact: info@subabakery.com (their own Contact page) · 372 Hoe Street E17 9AA + 1 Station Parade, Upper Clapton E5 8BD
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
@@ -17,11 +18,11 @@ Claimed earlier (press/aggregator): Unaudited. Micro-bakery, probably Instagram-
 - **Languages:** en, 1 more: FR · PL · RO · ES — pick the one your street actually speaks
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
 - **Hero line:** “Suba Bakery — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
-## 4. What I would say (first touch, to be found during verification)
-> Hi Suba Bakery team — I looked at your online presence this morning. public notes say: “Unaudited. Micro-bakery, probably Instagram-run — sole trader, so a visit or a DM beats a cold email” — open their site before you use this sentence.
+## 4. What I would say (first touch, email)
+> Hi Suba Bakery team — I looked at https://www.subabakery.com (Squarespace) this morning. Opened both pages: the homepage shows a photo and a newsletter block that renders the builder error text for customers - 'This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab'. Two shops with different hours, no menu, no ordering, 50 Best Bakeries 2026 new entry.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 5 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo + photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

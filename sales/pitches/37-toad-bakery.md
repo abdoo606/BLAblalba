@@ -1,6 +1,6 @@
 # Toad Bakery — design board & pitch
 
-London (Camberwell + Deptford), GB · A — hot · template **artisan** · croissant · 2010 €
+London (Camberwell + Deptford), GB · A — hot (needs judgement: they are tech-forward) · template **artisan** · croissant · 1630 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -13,7 +13,7 @@ Claimed earlier (press/aggregator): Unaudited. Camberwell bakery with a second s
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Rye, linen, walnut — `#22201c ink / #8a6d3b accent / #f3efe6 paper / #5d5340 muted`
-- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **per-location hours & stock**
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **gallery: 9 shots, client-shot, I direct remotely**
 - **Languages:** en, 1 more: FR · PL · RO · ES — pick the one your street actually speaks
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
 - **Hero line:** “Toad Bakery — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
@@ -21,8 +21,8 @@ Claimed earlier (press/aggregator): Unaudited. Camberwell bakery with a second s
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi Toad Bakery team — I looked at your online presence this morning. public notes say: “Unaudited. Camberwell bakery with a second site since 2026 — check whether one page serves both and whether either shows today's bakes” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1730 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo + multi-location.
+> Hi Toad Bakery team — I looked at https://www.toadbakery.com (Square Online) this morning. public notes say: “Unaudited. Camberwell bakery with a second site since 2026 — check whether one page serves both and whether either shows today's bakes” — open their site before you use this sentence.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1400 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes extra-location + photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
