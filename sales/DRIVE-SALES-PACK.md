@@ -20,7 +20,7 @@
 **Rules:** ex-VAT · 40 % deposit to start, balance at go-live · max discount 15 % and only against a case study, a hard deadline, or 3 months of care prepaid · EU in €, UK in £, North America in $ (≈1.09).
 
 ## 2. Clients — أسماء العملاء والسعر اللي بنأخذه من كل واحد
-46 businesses in the UK, France, Spain and the US that are objectively doing well right now (award shortlists, 2025–2026 openings, regional press). 14 VERIFIED by opening their own site; 11 have a real email and were contacted on 2026-10-11 (**24,194 € quoted**). Full sheet: “Levain Kit — Prospects & Prices per client (Oct 2026)”. **Pipeline: 99,177 € one-off.**
+67 businesses in the UK, France, Spain and the US that are objectively doing well right now (2026 James Beard semifinalists, Britain's Best Loaf 2026, GFG 50 Best 2026, 2025–2026 openings, regional press). 19 VERIFIED by opening their own site; 14 have a real email and were contacted on 2026-10-11 (**29,284 € quoted**, 0 replies so far). Full sheet: “Bakery Clients & Pricing 2026 — v7”. **Pipeline: 136,074 € one-off, 166,854 € first-year.** Two rows are recorded as **no-pitch** on purpose (Poulette, Hobbs House): their own stack is ahead of what we sell, and telling a prospect that is worth more than a pitch.
 | # | Client | City | We take | Priority |
 |---|---|---|---|---|
 | 1 | August Bakery | London | **3,857 €** + 45/mo care | B — upgrade |

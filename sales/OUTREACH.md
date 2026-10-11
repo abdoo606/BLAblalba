@@ -10,9 +10,10 @@ Three rules before anything else:
 
 > **Status 2026-10-11 (two batches, 11 emails):** August, Northern Rye, Wild Crumb in the morning; Suba,
 > Chatsworth Bakehouse, Layla, Wild Hearth, The Bakery House, Wild Yeast, Heritage Rise and Daily Bread an hour
-> later — **24,194 € quoted**. Every one of them went to an address I read off that shop's own site the same day.
+> later — **29,284 € quoted** across 14 leads, 0 replies and 0 bounces as of 09:56Z. Every one of them went to an
+> address I read off that shop's own site the same day.
 > That is the whole sendable list: 3 verified shops publish only a phone number (Pa Serra, Handy, Weltons) and
-> 32 of 46 rows are still press-list entries with no verified address — those get verified, or a call, not a
+> 46 of 67 rows are still press-list entries with no verified address — those get verified, or a call, not a
 > guessed email.
 
 Legal note (EU/UK): B2B cold email is allowed with soft opt-out in most cases, but keep an unsubscribe line,
