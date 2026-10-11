@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 12:21 · الفرع arena/46df64dc-blablalba · آخر commit: 524d5c5 · make-resume: point the Drive map at the re-uploaded 05 and 07
+آخر توليد: 2026-10-11 12:22 · الفرع arena/46df64dc-blablalba · آخر commit: e17a306 · Noble Bread emailed (25th pitch, 2,290 EUR) after opening their own page; 4 more queue shops verified and filed as form/phone-only
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.
 
