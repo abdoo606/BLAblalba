@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 12:06 · الفرع arena/46df64dc-blablalba · آخر commit: d13879f · Fix duplicate row ids inherited from the doubling batches (70-73 collided; Arome/Bakers Yard/Bandit/Breadmill moved to 142-145, Kuma-San/Peter Cooks/4Eyes to 146-148) and purge 40 stale board files
+آخر توليد: 2026-10-11 12:06 · الفرع arena/46df64dc-blablalba · آخر commit: f202f6f · tools/make-resume.py -> sales/DRIVE-RESUME.md: the one page a fresh session reads (live counts, first 12 of the queue US/GB first, exact commands, price ladder, every suppressed row with its reason, Drive map) — and it can never drift because it is computed from the CSVs
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 
 1) وين نحنا (السلطة الوحيدة للأرقام: sales/OUTREACH-LOG.csv، أو node tools/progress.mjs)
@@ -75,8 +75,7 @@
    د. أي محل يردّ علينا انسان: بنسأل عبد الرحمن قبل ما نبعتلو أي شي — القاعدة مكتوبة بـ 07.
 
 8) خريطة الدرايف — نسخة حية وحدة لكل ملف (لا تكاوير)
-   00 · ابدأ من هنا (هذا الملف)
-        https://docs.google.com/document/d/1ut9Ruyy2o7uYitZq-Cn8klfT5ZpZLYsqY5KiLPCqfZk/edit
+   00 · ابدأ من هنا — هذا الملف نفسه، وأحدث نسخة إلو بمجلد Levain Kit (لا تبحث عن رابط قديم)
    01 · Register EN — سجل الإرسال
         https://drive.google.com/file/d/15HLKSl4-d6db9t64x2VPwLc_Hbo8gvBW/view
    02 · السجل بالعربي
@@ -86,11 +85,11 @@
    04 · Clients & Pricing · جدول 141×26
         https://docs.google.com/spreadsheets/d/1rHlCeF-in6d_OmDziplUVm8O-K0hMj_dquUgRB5DQ9I/edit
    05 · Sales pack — التسعير والقوالب
-        https://docs.google.com/document/d/1iRpMELM5Py6dytj4-OmaGKPCIJ0-9OdcQECTDITx2_A/edit
+        https://docs.google.com/document/d/1s5locBBaIyQmL-xylxESO_eTZ7bUva-14l8X3CY6txU/edit
    06 · Compliance — لماذا بلا ضريبة على الزبون
         https://docs.google.com/document/d/1-cHQByvBH2V2uAlamMXRVKG5ERbw1ajXM6pfLbOtSJ0/edit
    07 · TODO لكل رسالة
-        https://docs.google.com/document/d/1cVpQbbZ0IW8nCf4swL1I8CBdyuD9oHmCOUYFhALbU2I/edit
+        https://docs.google.com/document/d/1goQ3qcHVfcrv9lrQlkngCaGMMNCHXJRZmFkYrexNlBM/edit
    08 · Shop dossiers — ملف لكل محل
         https://docs.google.com/document/d/14_65Xl2k7nfIHnRy5jPmUdLTjfgZovsVP2YtymI9OuA/edit
    المستودع: github.com/abdoo606/BLAblalba — الفرع arena/46df64dc-blablalba

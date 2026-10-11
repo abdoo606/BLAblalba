@@ -33,9 +33,9 @@ DRIVE = [
     ("02", "السجل بالعربي", "17ox4Ib0UvIUnQ_7k-sV-noyvBi6rcEB0", "file"),
     ("03", "Pitch Boards (141) · zip", "1BxNVZJEWZ2UmjQR0cFAtkOjjzYWD8T6j", "file"),
     ("04", "Clients & Pricing · جدول 141×26", "1rHlCeF-in6d_OmDziplUVm8O-K0hMj_dquUgRB5DQ9I", "sheet"),
-    ("05", "Sales pack — التسعير والقوالب", "1iRpMELM5Py6dytj4-OmaGKPCIJ0-9OdcQECTDITx2_A", "doc"),
+    ("05", "Sales pack — التسعير والقوالب", "1s5locBBaIyQmL-xylxESO_eTZ7bUva-14l8X3CY6txU", "doc"),
     ("06", "Compliance — لماذا بلا ضريبة على الزبون", "1-cHQByvBH2V2uAlamMXRVKG5ERbw1ajXM6pfLbOtSJ0", "doc"),
-    ("07", "TODO لكل رسالة", "1cVpQbbZ0IW8nCf4swL1I8CBdyuD9oHmCOUYFhALbU2I", "doc"),
+    ("07", "TODO لكل رسالة", "1goQ3qcHVfcrv9lrQlkngCaGMMNCHXJRZmFkYrexNlBM", "doc"),
     ("08", "Shop dossiers — ملف لكل محل", "14_65Xl2k7nfIHnRy5jPmUdLTjfgZovsVP2YtymI9OuA", "doc"),
 ]
 
