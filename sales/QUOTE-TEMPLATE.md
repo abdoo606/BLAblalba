@@ -23,7 +23,9 @@ One page. No logo wall, no "about us" — a baker reads this between two bakes.
 > **Price: [X,XXX] € — VAT:** [if you are VAT-registered this is invoiced without VAT under the reverse charge
 > and you declare it in your own return | if you are under franchise en base / módulos you will self-account
 > [20 %] TVA and cannot recover it, so budget [X,XXX × 1.2]]
-> **Payment:** 40 % to book the slot, 60 % at go-live. IBAN on the invoice.
+> **Payment:** 40 % to book the slot, 60 % at go-live. Bank transfer in EUR (IBAN on the invoice) — or, if
+> that is easier for you, **USDT (TRC-20 / BEP-20 / ERC-20)** at the exact euro amount on the invoice, sent to
+> my address. Same number either way, no surcharge, no discount. Whichever your accountant is happier booking.
 > **Care (optional):** 45 €/month — prices, hours, seasonal menu, holiday closures, and the site stays patched.
 >
 > Two revision rounds are inside the price. After that it's 90 €/round, so it stays honest for both of us.

@@ -42,6 +42,13 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [34-noble-bread](./34-noble-bread.md) | Noble Bread | Phoenix, AZ | 1 | artisan | 2290 | ⬜ | to be found during verification |
 | [35-babettes-artisan-breads](./35-babettes-artisan-breads.md) | Babettes Artisan Breads | Denver, CO | 1 | artisan | 1282 | ⬜ | to be found during verification |
 | [36-poupart-beacon-bakery](./36-poupart-beacon-bakery.md) | Poupart Beacon Bakery | Lafayette, LA | 1 | patisserie | 2252 | ⬜ | to be found during verification |
+| [37-toad-bakery](./37-toad-bakery.md) | Toad Bakery | London (Camberwell + Deptford) | 1 | artisan | 2010 | ⬜ | to be found during verification |
+| [38-layla-bakery](./38-layla-bakery.md) | Layla Bakery | London (Ladbroke Grove) | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [39-chatsworth-bakehouse](./39-chatsworth-bakehouse.md) | Chatsworth Bakehouse | London (Crystal Palace) | 1 | moderno | 2090 | ⬜ | to be found during verification |
+| [40-suba-bakery](./40-suba-bakery.md) | Suba Bakery | London (Walthamstow) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [41-wild-hearth-bakery](./41-wild-hearth-bakery.md) | Wild Hearth Bakery | Comrie, Perthshire | 1 | artisan | 1210 | ⬜ | to be found during verification |
+| [42-little-sourdough-kitchen](./42-little-sourdough-kitchen.md) | Little Sourdough Kitchen | London (Fulham) | 1 | artisan | 1210 | ⬜ | to be found during verification |
+| [43-the-bakery-house](./43-the-bakery-house.md) | The Bakery House | Bryn Mawr / Paoli, PA | 1 | moderno | 2090 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 6 of 36 are ✅.
+so the message stays undelivered until someone opens their site. 6 of 43 are ✅.

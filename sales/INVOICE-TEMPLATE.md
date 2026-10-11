@@ -23,6 +23,8 @@ Care plan, 12 months prepaid                                       540,00
                                                           Due            X.XXX,00
 
 Payment : within 14 days. 40% deposit received on [date] : [amount].
+Settled in : bank transfer in EUR  /  USDT on [date], tx [hash], 1:1 against the EUR amount above
+              (whichever the client agreed to on the quote - see sales/PAYMENTS-USDT.md)
 ```
 
 ## Pick exactly one VAT block

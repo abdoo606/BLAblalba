@@ -5,6 +5,12 @@ Three rules before anything else:
 1. **One personalised message per shop**, sent by a human, from a real address. No bcc blasts, no scraped forms.
 2. **Reference something true** (the award, the new address, the Saturday-only loaf). If you can't, you're not ready to email them.
 3. **Never say their site is bad.** Say what is checkable: *single language*, *no online ordering*, *menu only on a chalkboard*. Cold mail that insults the previous designer loses the client and the referral.
+4. **Payment talk comes third, not first.** No crypto word in a cold email; USDT appears on the *quote*, as an
+   alternative the client agrees to, with the amount still written in euros. Full rule: `sales/PAYMENTS-USDT.md`.
+
+> **Status 2026-10-11:** three emails sent — `#1 August Bakery`, `#6 Northern Rye`, `#26 Wild Crumb`
+> (10,302 € quoted). They are the only three whose address was verified by opening the site themselves.
+> Nothing else goes out until its lead is verified; 37 of 43 rows are still press-list material.
 
 Legal note (EU/UK): B2B cold email is allowed with soft opt-out in most cases, but keep an unsubscribe line,
 store who you contacted, and delete details on request. France specifically: DGCCRF frowns on unsolicited
@@ -35,7 +41,8 @@ I build sites for bakeries only. This is what yours would do on day one:
 Three numbers: **€750** one language, **€1,450** two languages + pre-orders, **€2,900** four languages,
 your own theme and a year of care. 40% to start, balance when it's live.
 
-Here's a working demo with your kind of menu in it — no login, poke at it: **[demo link]**
+The kit is open source, so you can read exactly what you'd be buying: **github.com/abdoo606/BLAblalba** —
+and if you reply *board*, I send a one-page design for [Business] with your own menu in it inside ten minutes.
 
 If the third option is more than a bakery your size wants, the middle one is where most of my clients land.
 Want me to send a one-page quote for [Business]? Reply *quote* and you'll have it tonight.

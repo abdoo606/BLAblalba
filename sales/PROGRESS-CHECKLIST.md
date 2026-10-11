@@ -7,20 +7,23 @@ to say. Nothing here is manual bookkeeping except the one column that changes wh
 
 ## 0. The gate that comes before every other line (read this first)
 
+> **Where we are (2026-10-11):** 43 leads · 6 VERIFIED · 3 with a real address · **3 SENT** (August, Northern Rye, Wild
+> Crumb — 10,302 € quoted) · 0 replies yet. Next gate is not sending more, it is verifying: 37 rows came from
+> press lists and nobody has opened their site yet. `npm run progress` regenerates this picture at any time.
+
 Three things must exist **before the first email leaves**, and none of them is technical:
 
-1. **A payment route that actually works from where you live.** You are in Homs. Stripe / PayPal / Wise /
-   Revolut do not serve Syrian residents, and a wire from a US/UK/EU bakery to a Syrian bank is very likely to
-   be rejected by the correspondent bank even though nothing about your service is prohibited. Until a client
-   can pay you, outreach is practice. Realistic options, in order of how clean they are:
-   - a registered company or sole proprietorship in a country where you can lawfully bank and invoice (this is
-     the standard route for Syrian freelancers; do it with an accountant who has done it before, not DIY);
-   - a payment platform that covers your situation (some work via a foreign entity + local payout rules);
-   - an EU/UK-based partner who invoices on a real contract with you underneath.
-   What I will not do: put a Dutch address or a Dutch company on the paperwork to make the invoice look
-   easier — that's the kind of shortcut that turns a €2,000 website into a frozen account and a fraud question.
-   And I won't tell you how to route around sanctions; that's a one-hour paid conversation with a sanctions-aware
-   accountant (search "Syria freelancer payments OFAC" and you'll see why they'll want details).
+1. **A payment route that actually lands.** *Settled on 2026-10-11:* the client pays by **bank transfer in EUR
+   by default**, or by **USDT at the euro amount written on the invoice — only when that client has agreed to
+   it**, asked at quote stage and never in a cold email. Full rule-sheet in `sales/PAYMENTS-USDT.md` (fix the
+   rate on the invoice date, write the tx hash on the receipt, TRC-20/BEP-20 before ERC-20, declare it as
+   ordinary income, screen your own address, and if their accountant says no you take the transfer without
+   argument). Stripe / PayPal / Wise do not serve Syrian residents and a wire to a Syrian bank can die at the
+   correspondent bank — which is precisely why the crypto option is offered *as an alternative*, not as the
+   only door. What has **not** changed: no fake EU entity, no borrowed IBAN, no hiding Homs on the paperwork.
+   If the first real payment cannot be received, the honest move is to pause outreach and fix the rails.
+   **One-time task before the next quote goes out:** 30-60 minutes with a sanctions-aware accountant, and one
+   test transfer of ~20 € between your own wallets so you know the fee and the arrival time in advance.
 2. **A mailbox with your real name.** `abdulrhmant948@gmail.com` currently has no display name → set it to
    `Abdulrhman Thali` in Gmail → Accounts → "When sending a message" (5 minutes, non-optional).
 3. **One honest sentence about who you are** in the signature: freelance web developer, Homs, Syria. Small
