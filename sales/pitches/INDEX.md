@@ -31,7 +31,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [23-panadario](./23-panadario.md) | Panadario | Madrid (Salamanca) | 2 | moderno | 2176 | ⬜ | to be found during verification |
 | [24-panatika](./24-panatika.md) | Panátika | Madrid (Lista) | 2 | patisserie | 1017 | ⬜ | to be found during verification |
 | [25-handy-bakery](./25-handy-bakery.md) | Handy Bakery | Barcelona (Gràcia) — Carrer de Rabassa 5 | 2 | patisserie | 2830 | ✅ | email |
-| [26-wild-crumb](./26-wild-crumb.md) | Wild Crumb | Bozeman, MT | 1 | artisan | 4060 | ⬜ | to be found during verification |
+| [26-wild-crumb](./26-wild-crumb.md) | Wild Crumb | Bozeman, MT | 1 | artisan | 4060 | ✅ | email |
 | [27-jinju-patisserie](./27-jinju-patisserie.md) | JinJu Patisserie | Portland, OR | 1 | patisserie | 3600 | ⬜ | to be found during verification |
 | [28-weltons-tiny-bakeshop](./28-weltons-tiny-bakeshop.md) | Weltons Tiny Bakeshop | Charleston, SC | 1 | patisserie | 1215 | ✅ | phone / counter / DM (no public email) |
 | [29-super-secret-ice-cream](./29-super-secret-ice-cream.md) | Super Secret Ice Cream | Bethlehem, NH | 1 | moderno | 1305 | ⬜ | to be found during verification |
@@ -44,4 +44,4 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [36-poupart-beacon-bakery](./36-poupart-beacon-bakery.md) | Poupart Beacon Bakery | Lafayette, LA | 1 | patisserie | 2252 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 5 of 36 are ✅.
+so the message stays undelivered until someone opens their site. 6 of 36 are ✅.

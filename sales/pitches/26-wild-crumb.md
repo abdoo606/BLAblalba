@@ -1,15 +1,16 @@
 # Wild Crumb — design board & pitch
 
 Bozeman, MT, US · A — hot · template **artisan** · patisserie · 4060 €
-Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
+Verified 2026-10-11: **YES**
 
 ## 1. Why them, now
 James Beard 2026 Outstanding Bakery WINNER in a 55k-person mountain town
 Source on file: eater.com / cnn.com 16 Jun 2026.
 
 ## 2. What their web presence actually is
-public notes say: “Has a site; no ordering, no bilingual” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Has a site; no ordering, no bilingual
+Opened 2026-10-11: the site is an image wall + a supplier thank-you list. No menu, no prices, no opening hours, no ordering, and the photography is from 2013. A /cart exists and is empty. Meanwhile they are the 2026 James Beard Outstanding Bakery winner.
+Found live: wildcrumb.com (Squarespace)
+Contact: wildcrumb@gmail.com · +1 406-579-3454 · 600 N Wallace Ave #6, Bozeman MT 59715 (as listed in Bozeman Magazine)
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Cocoa nib, ember, cream — `#2a1f1a ink / #a8562a accent / #f7ece1 paper / #6b4b36 muted`
@@ -17,11 +18,11 @@ Claimed earlier (press/aggregator): Has a site; no ordering, no bilingual
 - **Languages:** en, 1 more: ES · FR · ZH · KO
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread · Butter Croissant $2.40 · viennoiserie · Pain Au Chocolat $2.70 · viennoiserie · Morning Bun $3.20 · viennoiserie
 - **Hero line:** “Wild Crumb — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
-## 4. What I would say (first touch, to be found during verification)
-> Hi Wild Crumb team — I looked at ? this morning. public notes say: “Has a site; no ordering, no bilingual” — open their site before you use this sentence.
+## 4. What I would say (first touch, email)
+> Hi Wild Crumb team — I looked at wildcrumb.com (Squarespace) this morning. Opened 2026-10-11: the site is an image wall + a supplier thank-you list. No menu, no prices, no opening hours, no ordering, and the photography is from 2013. A /cart exists and is empty. Meanwhile they are the 2026 James Beard Outstanding Bakery winner.
 > That's exactly the part I build: hero, marquee, specialties, menu — 4425 $ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo + photo + preorder.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
