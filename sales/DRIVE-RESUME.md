@@ -1,5 +1,5 @@
 ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية
-آخر توليد: 2026-10-11 12:38 · الفرع arena/46df64dc-blablalba · آخر commit: 2cb99d3 · Refresh handover page after the Drive-map change (HEAD line now matches)
+آخر توليد: 2026-10-11 12:39 · الفرع arena/46df64dc-blablalba · آخر commit: 99629d9 · 28 emails: +3 new pitches, +12 new 2026 leads (openings-first), queue de-duplicated
 الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.
 نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.
 

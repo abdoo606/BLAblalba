@@ -1,6 +1,6 @@
 # Lovingly Artisan — design board & pitch
 
-Kendal / Burneside, GB · A - hot · template **artisan** · patisserie · 3740 €
+Kendal / Burneside, GB · A - hot · template **artisan** · Croissant · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -13,7 +13,7 @@ Claimed earlier (press/aggregator): WordPress + WooCommerce built by an agency (
 
 ## 3. The design I'd ship
 - **Template:** artisan · **palette:** Flour, crust, burnt sugar — `#2f1c12 ink / #b4530a accent / #f6ece0 paper / #7d5a3c muted`
-- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer → **pre-order basket → WhatsApp**
+- **Sections, in order:** hero → marquee → specialties → menu → batch → story → services → gallery → testimonials → hours → order → faq → footer
 - **Languages:** en, 1 more: FR · PL · RO · ES — pick the one your street actually speaks
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
 - **Hero line:** “Lovingly Artisan — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
@@ -22,7 +22,7 @@ Claimed earlier (press/aggregator): WordPress + WooCommerce built by an agency (
 
 ## 4. What I would say (first touch, to be found during verification)
 > Hi Lovingly Artisan team — I looked at ? this morning. public notes say: “WordPress + WooCommerce built by an agency (footer "Site by Scratch"): weekly/fortnightly/monthly subscriptions, national overnight delivery, OpenStreetMap embed, Mailchimp 10%-off popup (code WELCOME10).” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 3215 £ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo + preorder.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1245 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes care 45 EUR/mo, 30 days of free fixes.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >

@@ -8,7 +8,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 |---|---|---|---|---|---|---|---|
 | [1-august-bakery](./1-august-bakery.md) | August Bakery | London | 1 | artisan | 3857 | ✅ | email |
 | [2-chatsworth-bakehouse](./2-chatsworth-bakehouse.md) | Chatsworth Bakehouse | London (Crystal Palace) | 1 | moderno | 2090 | ✅ | email |
-| [3-lovingly-artisan](./3-lovingly-artisan.md) | Lovingly Artisan | Kendal / Burneside | 1 | artisan | 3740 | ⬜ | to be found during verification |
+| [3-lovingly-artisan](./3-lovingly-artisan.md) | Lovingly Artisan | Kendal / Burneside | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [4-bread-source](./4-bread-source.md) | Bread Source | Norwich / Norfolk | 1 | artisan | 4060 | ⬜ | to be found during verification |
 | [5-the-tiny-bakery](./5-the-tiny-bakery.md) | The Tiny Bakery | Leicester | 1 | artisan | 1935 | ⬜ | to be found during verification |
 | [6-northern-rye](./6-northern-rye.md) | Northern Rye | Newcastle / Tyneside | 1 | moderno | 2385 | ✅ | email |
