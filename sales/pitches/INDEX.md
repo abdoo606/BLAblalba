@@ -133,13 +133,17 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [127-artigrano](./127-artigrano.md) | Artigrano | (GB - town from their site) | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [128-barrio-bread](./128-barrio-bread.md) | Barrio Bread | Tucson, AZ | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ✅ | email |
-| [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [132-bing-s-bakery](./132-bing-s-bakery.md) | Bing's Bakery | Newark, DE | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [133-1900-barker-bakery-and-cafe](./133-1900-barker-bakery-and-cafe.md) | 1900 Barker Bakery and Cafe | Lawrence, KS | 1 | artisan | 1630 | ⬜ | to be found during verification |
 | [134-root-a-bakers-bakery-and-cafe](./134-root-a-bakers-bakery-and-cafe.md) | Root-A-Bakers Bakery and Cafe | Morehead, KY | 1 | patisserie | 1830 | ⬜ | to be found during verification |
-| [135-weber-s-bakery](./135-weber-s-bakery.md) | Weber's Bakery | Chicago, IL | 1 | patisserie | 1830 | ⬜ | to be found during verification |
+| [135-weber-s-bakery](./135-weber-s-bakery.md) | Weber's Bakery | Chicago, IL | 1 | patisserie | 1450 | ⬜ | to be found during verification |
 | [136-jaarsma-bakery](./136-jaarsma-bakery.md) | Jaarsma Bakery | Pella, IA | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [137-carstens-bakery](./137-carstens-bakery.md) | Carstens Bakery | Idaho Falls, ID | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [138-bakery-small-counter](./138-bakery-small-counter.md) | bakery / small counter | Los Angeles, CA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [139-bakery-small-counter](./139-bakery-small-counter.md) | bakery / small counter | Seattle, WA | 1 | artisan | 1130 | ⬜ | to be found during verification |
+| [140-bakery-small-counter](./140-bakery-small-counter.md) | bakery / small counter | Seattle, WA | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [141-bakery-small-counter](./141-bakery-small-counter.md) | bakery / small counter | Glasgow, GB | 1 | artisan | 1450 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 26 of 134 are ✅.
+so the message stays undelivered until someone opens their site. 26 of 138 are ✅.

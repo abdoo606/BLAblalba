@@ -1,6 +1,6 @@
 # Sage Bakery — design board & pitch
 
-(GB - town from their site), GB · B · template **artisan** · baguette · 1450 €
+(GB - town from their site), GB · DISPUTED - resolve before any contact · template **artisan** · baguette · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now

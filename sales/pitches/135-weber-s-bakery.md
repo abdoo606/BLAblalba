@@ -1,6 +1,6 @@
 # Weber's Bakery — design board & pitch
 
-Chicago, IL, US · B · template **patisserie** · croissant · 1830 €
+Chicago, IL, US · A - hot · template **patisserie** · croissant · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
@@ -17,12 +17,12 @@ Claimed earlier (press/aggregator): Ninety years of history on a page with no on
 - **Languages:** en
 - **Menu to enter (their real items, from their own posts):** Morning Bun $3.20 · viennoiserie · Vanilla & Fruit Tart $4.50 · pastry · King Cake (Galette) $24.00 · celebration · Country Levain Loaf $5.80 · bread · Baguette De Tradition $1.60 · bread · Seeded Rye Brick $6.40 · bread
 - **Hero line:** “Weber's Bakery — what the whole street talks about” — one language, so it stays human.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
 > Hi Weber's Bakery team — I looked at your online presence this morning. public notes say: “Ninety years of history on a page with no online order and no seasonal calendar” — open their site before you use this sentence.
-> That's exactly the part I build: hero, marquee, specialties, menu — 1995 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo.
+> That's exactly the part I build: hero, marquee, specialties, menu — 1580 $ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo, order form, hours data file.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
 >
