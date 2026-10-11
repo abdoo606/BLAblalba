@@ -118,7 +118,11 @@ Netlify / Cloudflare Pages / Vercel / GitHub Pages / the client's own Apache box
 dist/            built site, committed so it can be opened without a build
 src/             data, locales, styles, runtime, generator
 docs/            PRICING.md · PROSPECTS.md · HANDOVER.md
-sales/           prospects-2026.csv + OUTREACH.md (the pitch, in 3 languages)
+sales/           the pipeline: prospects-2026.csv/.json · drive-clients-pricing.csv (Drive) ·
+                 OUTREACH.md (pitch in 3 languages) · OUTREACH-LOG.csv (per-lead audit trail) ·
+                 COMPLIANCE.md (prospecting law) · TAX-SCOPE.md (which countries cost nothing) ·
+                 REPLY-PLAYBOOK.md (replies, scoping, domain procedure) · QUOTE-TEMPLATE.md ·
+                 INVOICE-TEMPLATE.md · TERMS.md · PRIVACY-NOTICE.md · DRIVE-SALES-PACK.md
 tools/           dev watcher, static server, validator, packager
 ```
 
@@ -128,6 +132,9 @@ tools/           dev watcher, static server, validator, packager
 - `docs/PROSPECTS.md` / `sales/prospects-2026.csv` — 36 real, recently-thriving shops in the UK, FR, ES and US
   with the price proposed for each (≈ 82,000 € one-off, ≈ 96,000 € first year)
 - `sales/OUTREACH.md` — first email, WhatsApp DM, follow-up and objection answers in EN/FR/ES
+- `sales/COMPLIANCE.md` — what is legal in a B2B cold email (FR/UK/US), records to keep, what we refuse to do
+- `sales/TAX-SCOPE.md` — why no client country can make you register or pay VAT, and the one rule that keeps it true
+- `sales/QUOTE-TEMPLATE.md` · `sales/INVOICE-TEMPLATE.md` · `sales/TERMS.md` · `sales/PRIVACY-NOTICE.md` — the four documents every job needs
 
 ## License
 

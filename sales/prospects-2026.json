@@ -23,7 +23,9 @@
   "site_found": "august-bakery.com (Squarespace)",
   "contact_verified": "hello@august-bakery.com · +44 7707 038794",
   "audit_note": "Contact form only. No prices, no menu, single language, no pre-order. Hours on Google differ from the site.",
-  "pitch_angle": "Keep Squarespace if you like it; bolt on a bilingual menu+pre-order page (we host it, links from your nav)."
+  "pitch_angle": "Keep Squarespace if you like it; bolt on a bilingual menu+pre-order page (we host it, links from your nav).",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "2",
@@ -49,7 +51,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "3",
@@ -75,7 +79,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "4",
@@ -101,7 +107,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "5",
@@ -127,7 +135,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "6",
@@ -153,7 +163,9 @@
   "site_found": "northern-rye.co.uk",
   "contact_verified": "shop@northern-rye.co.uk · +44 191 250 9716",
   "audit_note": "Site exists; two sites (Ouseburn shop + North Shields trade counter) + new larger bakehouse since 2024. Wholesale and 'sold out' handling is the gap, not the design.",
-  "pitch_angle": "Trade/wholesale ordering page + per-location hours + a notify-me for the country sourdough."
+  "pitch_angle": "Trade/wholesale ordering page + per-location hours + a notify-me for the country sourdough.",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "7",
@@ -179,7 +191,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "8",
@@ -205,7 +219,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "9",
@@ -231,7 +247,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "10",
@@ -257,7 +275,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "11",
@@ -283,7 +303,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "12",
@@ -309,7 +331,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "13",
@@ -335,7 +359,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "14",
@@ -361,7 +387,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "15",
@@ -387,7 +415,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "16",
@@ -413,7 +443,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "17",
@@ -439,7 +471,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "18",
@@ -465,7 +499,9 @@
   "site_found": "NONE — only Yelp/Tripadvisor/aggregators + a junk auto-generated page 'pa-serra.weeblyte.com' with WRONG opening hours",
   "contact_verified": "+34 934 242 541 · Carrer de l'Olivera 31, 08004 BCN",
   "audit_note": "Confirmed: no website, no social media. Third-party pages publish incorrect hours, and a scraper site ranks for their name.",
-  "pitch_angle": "You are losing people who read wrong hours online. One page, Catalan/Spanish/English, correct hours, reserve by WhatsApp."
+  "pitch_angle": "You are losing people who read wrong hours online. One page, Catalan/Spanish/English, correct hours, reserve by WhatsApp.",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "19",
@@ -491,7 +527,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "20",
@@ -517,7 +555,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "21",
@@ -543,7 +583,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "22",
@@ -569,7 +611,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "23",
@@ -595,7 +639,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "24",
@@ -621,7 +667,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "25",
@@ -647,7 +695,9 @@
   "site_found": "handybakery.es — one sentence: “Contáctanos por Instagram”",
   "contact_verified": "Instagram @handybakery_ · Carrer de Rabassa 5, Gràcia (NOT Plaça de la Vila)",
   "audit_note": "Opened ~Aug 2025, El Periódico feature, 70%→50% wholesale shift means they now need retail customers. Domain exists with zero content, no menu, no hours, no ordering.",
-  "pitch_angle": "You already have the press and the room. The domain is empty — a menu with hours and pre-orders converts the walk-by traffic."
+  "pitch_angle": "You already have the press and the room. The domain is empty — a menu with hours and pre-orders converts the walk-by traffic.",
+  "tax_wave": "2 - reverse charge + their VAT number",
+  "vat_note": "btw verlegd / autoliquidation: need their VAT number (check VIES) + file the Dutch ICP listing. If they are franchise en base or modulos they cannot reclaim = +20% for them, say it in the quote."
  },
  {
   "id": "26",
@@ -673,7 +723,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "27",
@@ -699,7 +751,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "28",
@@ -725,7 +779,9 @@
   "site_found": "weltonstinybakeshop.com",
   "contact_verified": "+1 843-666-7277 (no public email found)",
   "audit_note": "Real domain, info pages. No email published → phone or their contact form is the only channel.",
-  "pitch_angle": "Call at closing (1pm). James Beard finalist with no way to reserve — that is the whole pitch."
+  "pitch_angle": "Call at closing (1pm). James Beard finalist with no way to reserve — that is the whole pitch.",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "29",
@@ -751,7 +807,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "30",
@@ -777,7 +835,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "31",
@@ -803,7 +863,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "32",
@@ -829,7 +891,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "33",
@@ -855,7 +919,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "34",
@@ -881,7 +947,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "35",
@@ -907,7 +975,9 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  },
  {
   "id": "36",
@@ -933,6 +1003,8 @@
   "site_found": "?",
   "contact_verified": "check Google Business profile / their IG bio",
   "audit_note": "",
-  "pitch_angle": ""
+  "pitch_angle": "",
+  "tax_wave": "1 - no VAT anywhere",
+  "vat_note": "No VAT in scope - clean export. US: W-8BEN if asked, never sign a W-9. UK: customer reverse-charges, no UK registration for us (VATPOSS14700). CA: non-resident not carrying on business in Canada = no GST/HST."
  }
 ]

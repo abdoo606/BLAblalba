@@ -94,3 +94,19 @@ at a lower price.
 
 **Do not send:** anyone whose only “signal” is a two-year-old list, and any lead whose address came from a
 personal Instagram DM — sole traders are closer to the B2C rule, so call or visit them instead.
+
+## Send order by tax exposure (see `sales/TAX-SCOPE.md`)
+
+| Wave | Countries | Leads | Value | Already verified | Your duty |
+|---|---|---|---|---|---|
+| **1 — send freely** | US, GB | 21 | 52,856 € | 3 | none — no VAT in scope, no foreign filing, no ICP |
+| **2 — reverse charge** | FR, ES | 15 | 30,689 € | 2 | their VAT number on the invoice + Dutch ICP listing (nil tax) |
+| **3 — hold** | — (none in this list) | 0 | 0 € | 0 | only if we add DOM / CH / NO leads later |
+
+Both verified email addresses in the whole list (August Bakery, Northern Rye) are UK → **wave 1 → the two
+emails that can go out today are also the two that cost nothing in tax terms.** The absolute rule that keeps
+all of this clean: **the work is done from the Netherlands** — no on-site build weeks, no photo trips abroad,
+or that portion becomes local-source income and a foreign filing appears.
+
+The full per-lead `tax_wave` + `vat_note` now live in `sales/prospects-2026.csv` (26 columns) and in the Drive
+sheet, so nobody quotes a French micro-entreprise without the +20 % TVA warning.

@@ -1,0 +1,78 @@
+# Tax scope — where this business is allowed to bill you, and what "no extra tax" really means
+
+Subject: **Abdulrhman Thali, freelance web developer, Naaldwijk, The Netherlands** (sole proprietor / eenmanszaak).
+Checked 2026-10-10 against HMRC's own manual, CRA guidance, Belastingdienst/impots.gouv.fr and Dutch invoicing
+guides. This is a working rule-sheet, not a tax opinion: one 45-minute call with a boekhouder (~€120) confirms
+it against your actual KOR/btw status. **The whole point below: as long as you work from the Netherlands, no
+country in our 36-lead list can make you register for tax, file a return, or pay VAT there.** Three real
+duties exist — and two of them are paperwork, not money.
+
+## The one rule that keeps all of this true
+
+> **Do the work from the Netherlands. Do not perform the service on the client's premises.**
+
+Income from services is sourced where the *work is done*. A non-resident performing services entirely outside
+the US owes no US federal tax and no US withholding (IRS general rule; foreign-source under IRC §861) — but
+the moment part of the service is performed inside that country, *that part* becomes local-source and can be
+taxed there. Same logic in the UK, Canada and France.
+
+So the things that would create foreign tax are exactly the things that feel "nice": flying to Charleston for
+a photo shoot, two weeks on site in Newcastle, renting a desk at the client's bakery, hiring a local
+subcontractor who bills you. **Decline them politely and sell the photo pass as a client-shot kit** (we already
+have a €320 "photo pass" — reframe it as "you photograph, I direct: shot list + lighting notes over a 20-minute
+call, then I retouch"). No on-site work = no permanent establishment = no foreign filing.
+
+## What you DO owe (all of it in the Netherlands)
+
+| Duty | What it is |
+|---|---|
+| **Inkomstenbelasting** | Box 1 income tax on profit, in NL, on all of it — whoever the client was. No way around it and nothing foreign about it. Self-employed deductions (zelfstandigenaftrek €1,200 in 2026, urencriterium 1,225 h) are on the table if you qualify. |
+| **BTW position** | If your turnover stays ≤ €20,000/yr you can apply for the **KOR** (kleineondernemersregeling): no BTW charged, no BTW returns, no reclaim of input BTW, note on every invoice *"Vrijgesteld van btw op grond van de kleineondernemersregeling"*. Since 2025 you can leave the KOR at any time. Since 2025 there is also an **EU-KOR** up to €100,000 EU-wide. Decide with the boekhouder *before* the first invoice, because it changes the invoice text. |
+| **ICP listing** (only for EU sales) | B2B services to a business in another EU country must be reported on the *opgaaf intracommunautaire prestaties* (ICP). It's a nil-tax listing of amounts and the customer's VAT number — not a payment. UK/US/CA sales are **not** in the ICP. |
+
+## Per-country verdict for the 36 leads
+
+| Wave | Countries | Verdict for you | What the invoice says |
+|---|---|---|---|
+| **1 — send freely** | **US** (11) + **GB** (10) = **21 leads, 52,856 €** | No VAT in scope, no registration, no filing abroad. US: services performed abroad are foreign-source → no withholding (send a W-8BEN if their AP asks; never sign a W-9). UK: HMRC's own manual says the overseas supplier has **no liability to register in the UK** and the customer accounts for VAT under the reverse charge, whether or not they are VAT-registered. Canada: a non-resident **not carrying on business in Canada** does not register for GST/HST, and services performed wholly outside Canada are generally outside GST/HST. | *"Place of supply: [customer's country]. No VAT charged — reverse charge / outside the scope of Dutch BTW."* Bill in EUR, or in £/$ at the rate in the quote. |
+| **2 — fine, needs their VAT number** | **FR** (7) + **ES** (8) = **15 leads, 30,689 €** | EU B2B → **btw verlegd / reverse charge**: the client accounts for local VAT in their own return; in most cases they reclaim it, so it costs them nothing. You charge no Dutch BTW, but you must list it in the ICP and put **their VAT number** on the invoice (verify in VIES). | *"BTW verlegd — VAT reverse charge, art. 196 Directive 2006/112/EG. Klant-Id: [their VAT number]."* |
+| **3 — hold, ask first** | *not present in this list* (would be French **DOM**: Réunion, Guadeloupe, Martinique — and CH/NO if we widen it) | The DOM are inside the EU customs union but **outside the EU VAT territory** (art. 6 Directive 2006/112), with their own TVA (8.5 % / 2.1 %) under art. 294 CGI, and DOM businesses have **no intracommunity VAT number**, so the clean EU mechanics don't line up. | Don't invoice until the boekhouder answers. Contacting them is harmless — just no quote yet. Same care for Canada (a non-resident **not carrying on business in Canada** need not register for GST/HST, and services performed wholly outside Canada are generally outside it) and for Switzerland/Norway (own VAT regimes, thresholds there). |
+
+### The trap in wave 2 that will actually cost a client money
+
+A lot of these bakeries are *not* VAT-liable: French `micro-entrepreneur` under *franchise en base*, Spanish
+autónomo in *módulos*, Greek small regime. Reverse charge still applies (they are businesses), but **they
+cannot reclaim the VAT** — so a €1,450 site really costs them €1,450 + €290 out of pocket, and they will feel
+tricked if they learn that at invoice time. Handle it in the quote, in one line:
+
+> *If you are not VAT-registered (franchise en base / módulos), you will self-account 20 % TVA on this invoice
+> and cannot recover it — so budget 1,740 € rather than 1,450 €. Tell me and I'll note it on the quote.*
+
+That single disclosure is worth more than a discount: nobody else selling to village bakeries mentions it.
+
+## Order of work, rewritten around tax (this is what I applied to the Drive sheet)
+
+1. **Wave 1 first — US + UK: 21 of 36 leads, 52,856 € of the pipeline, zero foreign administration.** No VAT
+   in scope for you, no ICP, no return to file anywhere but the Netherlands. **And the two verified email
+   addresses we have (August Bakery, Northern Rye) are both UK** — so the only two cold emails that can go out
+   today are also the two cleanest ones tax-wise. Weltons (US, James Beard finalist, phone only) belongs to this
+   wave too: it's a call at 13:30, not an email.
+2. **Wave 2 next — FR (7) + ES (8): 30,689 €, legal and duty-free, but needs two things.** Their VAT number
+   before invoicing (ask in the *second* reply, not the first — asking for a fiscal number in a cold email reads
+   like a scam), and your ICP listing in the Netherlands. *"Pour la facture, envoyez-moi votre numéro de TVA
+   (ou dites-moi si vous êtes en franchise en base)."*
+3. **Wave 3 — nobody in today's list is here.** Keep the rule for when the list grows (DOM, CH, NO, and CA
+   if we ever chase Montréal).
+
+## Five habits that keep the file boring
+
+1. **Number invoices sequentially with no gaps**, forever (Dutch requirement, and the one auditors check first).
+2. Never put your `omzetbelastingnummer` (it contains your BSN) on an invoice — only the **btw-id**
+   `NL123456789B01` plus your KVK number.
+3. Keep the client's country, their address and their VAT ID on every cross-border invoice; without them the
+   reverse charge can be reversed *onto you* with Dutch BTW added retroactively.
+4. Invoice in EUR where possible. £ and $ are fine, but fix the rate in the quote and on the invoice, or a
+   "€1,450 site" becomes a negotiation.
+5. Say **no to marketplace/PayPal-goods invoicing** ("just bill it as a product so it's easier"): that is how a
+   service export becomes a taxable goods sale with customs, octroi de mer, and a VAT number you don't have.
+   One service invoice, one line item, always.
