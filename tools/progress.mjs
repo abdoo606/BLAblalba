@@ -23,7 +23,13 @@ for (const s of order.filter((k) => count[k])) {
   const bar = '█'.repeat(Math.max(1, Math.round(count[s] / 2)));
   console.log(`${s.padEnd(19)} ${String(count[s]).padStart(3)}  ${bar}`);
 }
-console.log(`\nready to send now  : ${rows.filter((r) => r.status === 'verified-ready' || r.status === 'draft-in-gmail').map((r) => r.business).join(', ') || '—'}`);
+const hasEmail = (r) => /^\s*email\b/i.test(r.channel || '') && !/NOT an email/i.test(r.channel || '');
+const emailReady = rows.filter((r) => (r.status === 'verified-ready' || r.status === 'draft-in-gmail') && hasEmail(r));
+const callOnly = rows.filter((r) => r.status === 'verified-ready' && !hasEmail(r));
+const noPitch = rows.filter((r) => r.status === 'no-pitch');
+console.log(`\nready to send now  : ${emailReady.map((r) => r.business).join(', ') || '— (no verified email address left unsent)'}`);
+console.log(`call / DM today    : ${callOnly.map((r) => r.business).join(', ') || '—'}`);
+console.log(`looked, no pitch   : ${noPitch.length ? noPitch.map((r) => r.business).join(', ') : '—'}`);
 console.log(`sent               : ${sent.length} leads${money(sent) ? ` · ${money(sent).toLocaleString()} € quoted` : ''}`);
 console.log(`won                : ${won.length}${won.length ? ` · ${money(won).toLocaleString()} €` : ''}`);
 console.log(`needs verification : ${count['to-verify'] ?? 0}`);

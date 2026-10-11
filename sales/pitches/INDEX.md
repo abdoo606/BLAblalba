@@ -52,6 +52,27 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [45-heritage-rise-sourdough](./45-heritage-rise-sourdough.md) | Heritage Rise Sourdough | Elk Grove, CA | 1 | artisan | 1070 | ✅ | email |
 | [46-daily-bread-sourdough-bakery](./46-daily-bread-sourdough-bakery.md) | Daily Bread Sourdough Bakery | Madison, OH | 1 | artisan | 1130 | ✅ | email |
 | [47-i-loaf-sourdough](./47-i-loaf-sourdough.md) | I Loaf Sourdough | Fort Lauderdale, FL | 1 | moderno | 1130 | ⬜ | to be found during verification |
+| [48-born-bread-bakehouse](./48-born-bread-bakehouse.md) | Born & Bread Bakehouse | Lakeland, FL | 1 | artisan | 1130 | ✅ | email |
+| [49-aran-bakery](./49-aran-bakery.md) | ARAN Bakery | Dunkeld, Perthshire | 1 | artisan | 1910 | ✅ | email |
+| [50-gusto-bread](./50-gusto-bread.md) | Gusto Bread | Long Beach, CA | 1 | moderno | 2050 | ✅ | email |
+| [51-peak-and-stone-bakery](./51-peak-and-stone-bakery.md) | Peak and Stone Bakery | Chesterfield | 1 | artisan | 1530 | ⬜ | to be found during verification |
+| [52-night-moves-bread](./52-night-moves-bread.md) | Night Moves Bread | South Portland, ME | 1 | artisan | 1910 | ⬜ | to be found during verification |
+| [53-poulette-bakeshop](./53-poulette-bakeshop.md) | Poulette Bakeshop | Parker, CO | 1 | artisan | 149 | ✅ | phone / counter / DM (no public email) |
+| [54-damsel-bakery](./54-damsel-bakery.md) | Damsel Bakery | Crieff, Perthshire | 1 | artisan | 1130 | ⬜ | to be found during verification |
+| [55-two-magpies-bakery](./55-two-magpies-bakery.md) | Two Magpies Bakery | Norfolk + Suffolk (11 shops) | 1 | artisan | 3620 | ⬜ | to be found during verification |
+| [56-hobbs-house-bakery](./56-hobbs-house-bakery.md) | Hobbs House Bakery | Sherston / Malmesbury, Wiltshire | 1 | artisan | 149 | ✅ | phone / counter / DM (no public email) |
+| [57-most-bakery](./57-most-bakery.md) | MOST Bakery | Altrincham | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [58-harry-gow-bakery](./58-harry-gow-bakery.md) | Harry Gow Bakery | Inverness | 1 | artisan | 1830 | ⬜ | to be found during verification |
+| [59-banh-by-lauren](./59-banh-by-lauren.md) | Bánh by Lauren | New York, NY | 1 | patisserie | 2900 | ⬜ | to be found during verification |
+| [60-the-burque-bakehouse](./60-the-burque-bakehouse.md) | The Burque Bakehouse | Albuquerque, NM | 1 | artisan | 1830 | ⬜ | to be found during verification |
+| [61-cafe-dear-leon](./61-cafe-dear-leon.md) | Café Dear Leon | Baltimore, MD | 1 | patisserie | 2900 | ⬜ | to be found during verification |
+| [62-dan-the-baker](./62-dan-the-baker.md) | Dan The Baker | Columbus, OH | 1 | artisan | 1830 | ⬜ | to be found during verification |
+| [63-deluxe-cakes-and-pastries](./63-deluxe-cakes-and-pastries.md) | DeLuxe Cakes and Pastries | Iowa City, IA | 1 | patisserie | 2900 | ⬜ | to be found during verification |
+| [64-librae-bakery](./64-librae-bakery.md) | Librae Bakery | New York, NY | 1 | patisserie | 2900 | ⬜ | to be found during verification |
+| [65-mercado-sin-nombre](./65-mercado-sin-nombre.md) | Mercado Sin Nombre | Austin, TX | 1 | moderno | 1670 | ⬜ | to be found during verification |
+| [66-niedlov-s-bakery-cafe](./66-niedlov-s-bakery-cafe.md) | Niedlov's Bakery & Cafe | Chattanooga, TN | 1 | artisan | 149 | ⬜ | to be found during verification |
+| [67-starship-bagel](./67-starship-bagel.md) | Starship Bagel | Dallas, TX | 1 | moderno | 1130 | ⬜ | to be found during verification |
+| [68-the-local-general-store](./68-the-local-general-store.md) | The Local General Store | Honolulu, HI | 1 | artisan | 1830 | ⬜ | to be found during verification |
 
 **Reading the ⬜**: the design is real and shippable; the *reason* in §4 of that file is not yet confirmed,
-so the message stays undelivered until someone opens their site. 14 of 46 are ✅.
+so the message stays undelivered until someone opens their site. 19 of 67 are ✅.
