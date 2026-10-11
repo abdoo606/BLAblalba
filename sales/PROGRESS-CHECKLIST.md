@@ -7,9 +7,9 @@ to say. Nothing here is manual bookkeeping except the one column that changes wh
 
 ## 0. The gate that comes before every other line (read this first)
 
-> **Where we are (2026-10-11, after verification batch 2):** 134 leads · **31 looked at by us (site opened)** · 18 with a real email - all of them sent ·
-> **18 SENT** (34,504 € quoted) · 0 human replies · 1 auto-reply (ARAN) · 0 bounces · 3 verified leads reachable only by phone/DM (Pa Serra, Handy,
-> Weltons) · 59 rows still unverified. One duplicate caught and merged (Chatsworth Bakehouse was on the original
+> **Where we are (2026-10-11, after verification batch 2):** 134 leads · **33 looked at by us (site opened)** · 19 with a real email - all of them written to ·
+> **19 SENT** (35,634 € quoted) · 0 human replies · 2 auto-replies (ARAN, Landrace) · 1 bounce (I Loaf - the address on their own site has no mail server) · 3 verified leads reachable only by phone/DM (Pa Serra, Handy,
+> Weltons) · 101 rows still unverified. One duplicate caught and merged (Chatsworth Bakehouse was on the original
 > list *and* re-added as new) — `tools/make-sheet.py` now refuses to build a sheet with duplicate shop names.
 > `npm run progress` regenerates this picture; `npm run sheet` rebuilds the Drive CSV from the prospects file.
 
@@ -82,7 +82,7 @@ Mass-send from your Gmail without a per-lead read; invent or scrape emails; quot
 `sales/drive-clients-pricing.csv`; register a domain in your name; sign anything; take a call; sit between
 turns watching your inbox (ping me with “check replies” and I do it in the same minute).
 
-## The 103 to-verify queue — how it is being worked (started 2026-10-11)
+## The 101 to-verify queue — how it is being worked (started 2026-10-11)
 Verification is the bottleneck, not writing. One unit of work = one shop: open their own site, paste what the
 page says into `audit_note`, record the published email in `contact_verified`, set `verification` to
 `VERIFIED 2026-10-11`, then `node tools/make-pitches.mjs` + `python3 tools/make-sheet.py`. If an address was

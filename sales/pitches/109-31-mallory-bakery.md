@@ -1,6 +1,6 @@
 # 31 Mallory Bakery — design board & pitch
 
-(GB - town from their site), GB · B · template **artisan** · baguette · 1450 €
+(GB - town from their site), GB · D - no own site, Instagram only · template **artisan** · baguette · 1450 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now

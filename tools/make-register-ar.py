@@ -70,6 +70,10 @@ NOTES = {
      "ساعات الطاحونة، وملاحظة إنو المطعم عإعلى درج (لا كرسي متحرك). اللي غمّني: «Sample food menu» و«Sample drinks "
      "list» كلنتين بيودّوا على figma.com/proto - ملف تصميم لا صفحة موقع، وفوقهن «القائمة بتتغير كل يوم». "
      "وعبارة «طلبات الجملة للطاحونة على orders@، ولزبائن المخبز استعملوا shop@» مكتوبة عشان اللخبطة تحصل."),
+ 127: ("Artigrano", "ساوث هامز، ديفون",
+     "صفحتهم الرئيسية: زر «EMAIL» بيفتح إيميل مكتوب جواته كلشي - الوقت «10-4 من الثلاثاء للسبت»، أربعة نقاط استلام "
+     "بعناوينها وأيامها، وقاعدة التوصيل «12 رغيف كحد أدنا للتوصيل المجاني TQ6-TQ9». يعني الزبون اللي بدّه يعرف "
+     "بس وين يستلم السبت لازم يبلّك يكتب إيميل. الدفع على SumUp شغّال وما بنلمسه، واللي عمل الموقع ستوديو «Float»."),
  123: ("Marks Cotswold Bakery", "الكوتسوولدز",
      "صفحة التواصل عندهن كلها: «CALL SHARN ON - 07818 428 457» و«or email us AT sharn@...» وفورم بخمس خانات إجبارية "
      "(اسم، اسم عائلة، إيميل، موضوع، رسالة) وزر مكتوب «SubmitSubmit». يعني اللي بدّو يشتري رغيفين لازم يلفّت "
@@ -170,6 +174,15 @@ def main():
         if m:
             by_email[m.group(0).lower()] = r
     rec = list(csv.DictReader(open(os.path.join(ROOT, "sales/SENT-RECORD.csv"), newline="", encoding="utf-8")))
+    LGM = {}
+    for lr in csv.DictReader(open(os.path.join(ROOT, "sales/OUTREACH-LOG.csv"), newline="", encoding="utf-8")):
+        LGM[lr["id"]] = lr
+    ARST = {"sent": "مبعوث · ما ردّ إنسان بعد",
+            "sent (auto-reply)": "مبعوث · وصل رد آلي (ماكينة) مو رد شخص",
+            "bounced": "الإيميل ارتد · النطاق اللي نشروه ما بيقبل البريد · لا نعيد الإرسال",
+            "no-pitch": "فتحنا الموقع وما بنبعت (السبب تحت)",
+            "parked - no own site found": "ما طلع عندهن موقع أصلاً · ما في عنوان نكتب عليه",
+            "not contacted - their site is offline": "موقعهم مطفيّ · ما في عنوان ننشره · اتصال بشري"}
     # one row per shop we wrote to; the in-thread correction (kind='retraction') is not a pitch
     sent = []
     for r in rec:
@@ -231,7 +244,10 @@ def main():
         y = pdf.txt(OFFER.format(langs=langs, days=5), y + 0.2, size=9.1)
         y = pdf.txt(f"السعر: {money(q,'EUR')}  ·  {money(q,'USD')}  ·  {money(q,'SYP')}  ·  حوالي {round(q*GBP):,} £",
                      y + 0.2, size=9.4, bold=True)
-        y = pdf.txt(f"الحالة: مبعوث 11/10 الساعة {r.get('sent_utc','').split('T')[-1]} · ما وصلنا رد بعد", y + 0.2, size=8.7, color=(110, 110, 120))
+        lg = LGM.get(row["id"], {})
+        st = ARST.get(lg.get("status", "sent"), "مبعوث 11/10 الساعة " + r.get("sent_utc", "").split("T")[-1])
+        nxt = (" · الخطوة الجاية: " + lg["next_action"] + (" (" + lg["next_action_date"] + ")" if lg.get("next_action_date") else "")) if lg.get("next_action") else ""
+        y = pdf.txt(f"الحالة: {st}{nxt}", y + 0.2, size=8.7, color=(110, 110, 120))
         y += 0.5
     # ---- totals
     pdf.add_page()

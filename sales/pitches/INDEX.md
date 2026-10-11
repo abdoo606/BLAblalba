@@ -130,7 +130,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [124-luke-s-bakery](./124-luke-s-bakery.md) | Luke's Bakery | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [125-welch-bakes](./125-welch-bakes.md) | Welch Bakes | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [126-bale-artisano](./126-bale-artisano.md) | Balé Artisano | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
-| [127-artigrano](./127-artigrano.md) | Artigrano | (GB - town from their site) | 1 | artisan | 1450 | ⬜ | to be found during verification |
+| [127-artigrano](./127-artigrano.md) | Artigrano | (GB - town from their site) | 1 | artisan | 1130 | ⬜ | to be found during verification |
 | [128-barrio-bread](./128-barrio-bread.md) | Barrio Bread | Tucson, AZ | 1 | artisan | 1450 | ⬜ | to be found during verification |
 | [129-sea-wolf-bakers](./129-sea-wolf-bakers.md) | Sea Wolf Bakers | Seattle, WA | 1 | artisan | 1450 | ✅ | email |
 | [131-evergreen-butcher-baker](./131-evergreen-butcher-baker.md) | Evergreen Butcher + Baker | Atlanta, GA | 1 | artisan | 1450 | ⬜ | to be found during verification |
