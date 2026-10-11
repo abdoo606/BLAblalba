@@ -1,7 +1,7 @@
 # Terms for every Levain Kit project — 1 page, attach to the deposit invoice
 
-Drafted 2026-10-10 for **Abdulrhman Thali, freelance web developer, Naaldwijk, NL**. Written to be readable by a
-baker: 8 clauses, no small print games. Not a substitute for a lawyer if a job goes above ~€5,000.
+Drafted 2026-10-11 for **Abdulrhman Thali, freelance web developer, Homs, Syria** (a sole independent with no EU
+establishment). Written to be readable by a baker: 8 clauses, no small print games. Not a substitute for a lawyer if a job goes above ~€5,000.
 
 **1. What I do.** I design, build and publish a website for [BUSINESS] using my own Levain Kit, in the languages
 and with the options listed in quote [YYYY-00X]. Content (texts, prices, photos, opening hours) is provided by
@@ -26,7 +26,7 @@ More rounds: 90 € each. Content you send late pushes the deadline by the same 
 the schedule that ever moves.
 
 **6. Data about your customers.** If pre-orders run through the site, orders are delivered straight to your
-WhatsApp/email; I don't keep an order database, I don't add tracking pixels, and I don't put analytics cookies
+WhatsApp/email; I keep no order database, I don't add tracking pixels, and I don't put analytics cookies
 up without a consent banner. When I need access to your Google/business accounts to publish, I use the least
 access possible and I hand back the password after go-live. If a legal request for the personal data of your
 customers ever lands on me, I forward it to you and do nothing else.
@@ -44,5 +44,6 @@ any public reference. If I stop: you get a full refund of what you paid minus th
 hourly, plus every file. No hostage-taking — that's the whole difference between a freelancer and a lock-in.
 
 *Confidentiality:* what I learn about your volumes, your supplier prices and your margin never leaves this
-project. *Contact:* abdulrhmant948@gmail.com · [phone]. *Disputes:* Dutch courts (Rotterdam), after a good-faith attempt to sort
-it out by phone. *Governing law:* Netherlands.
+project. *Contact:* abdulrhmant948@gmail.com · [phone]. *Disputes:* the courts of the defendant's place of residence, after one honest phone call. *Governing law:*
+Syrian law (or the law of the entity that signs, if that changes). Realistically: with a 40–50 % deposit and
+two revisions written down, nobody sues over a €1,450 bakery site — the deposit is the enforcement, not the clause.

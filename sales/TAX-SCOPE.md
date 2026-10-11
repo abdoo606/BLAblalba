@@ -1,5 +1,34 @@
 # Tax scope — where this business is allowed to bill you, and what "no extra tax" really means
 
+> ## ⚠️ Status override, 2026-10-11
+> You told me you live in **Homs (Syria), Karm El-Zeitoun** — not in the Netherlands. If that is your tax
+> residence, then **everything below under “What you DO owe (all of it in the Netherlands)” does not apply to
+> you**: no Dutch BTW, no KOR, and no ICP listing, because those are obligations of an entrepreneur
+> *established in the Netherlands*. What applies instead is the simpler shape:
+>
+> | Buyer | Your duty as a Syria-based independent |
+> |---|---|
+> | EU business (FR, ES) | **None in their country.** Place of supply = the customer's country, so *they* self-account VAT (art. 44 + art. 196 Directive 2006/112). You never register, never file, never charge VAT. If they are not VAT-liable (franchise en base / módulos) they still owe it and cannot reclaim — say so in the quote. |
+> | UK business (GB) | Same mechanics: the UK customer reverse-charges; HMRC's manual VATPOSS14700 confirms an overseas supplier with no UK establishment has **no liability to register in the UK**. |
+> | US business | No VAT exists. Services performed wholly outside the US are foreign-source for the customer's side; they may ask for a **W-8BEN** (never sign a W-9). |
+> | Your own income tax | Whatever Syria requires of you. That's the one return in this whole pipeline — and the only place your numbers actually go. |
+>
+> **Two things this does not solve, and I won't paper over:**
+> 1. **Getting paid.** Stripe/PayPal/Wise/Revolut don't serve Syrian residents, and correspondent banks
+>    routinely reject transfers to Syrian banks even for lawful services (web design for a bakery is not a
+>    sanctioned supply under EU Reg. 36/2012 or the US Syrian Sanctions Regulations — the friction is bank
+>    over-compliance and the absence of rails, not a prohibition on your work). Some EU/US buyers' own
+>    compliance policy will still refuse to contract with a Syria-based vendor. Fix: talk to an accountant who
+>    has actually set up payment + entity structures for Syria-based freelancers **before** promising a client
+>    "I'll invoice you next week". I won't invent a Dutch entity or a Dutch address to make it look easier, and
+>    I won't help route around sanctions — those two shortcuts cost more than every €1,450 site in this list.
+> 2. **Never claim to be somewhere you aren't.** Your signature must say Homs, Syria (or an entity you really
+>    own). Misstating the sender's identity is exactly the thing that makes B2B cold email illegal in France
+>    (L.34-5 requires clear identification) and unprofessional everywhere else.
+>
+> *If you do in fact hold Dutch residency and a KVK registration and the Homs address is family*, tell me and I
+> will flip this file back to the NL version below (which is written out in full for exactly that case).
+
 Subject: **Abdulrhman Thali, freelance web developer, Naaldwijk, The Netherlands** (sole proprietor / eenmanszaak).
 Checked 2026-10-10 against HMRC's own manual, CRA guidance, Belastingdienst/impots.gouv.fr and Dutch invoicing
 guides. This is a working rule-sheet, not a tax opinion: one 45-minute call with a boekhouder (~€120) confirms

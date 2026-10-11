@@ -2,7 +2,7 @@
   "name": "levain-kit",
   "version": "1.0.0",
   "private": true,
-  "description": "Levain Kit \u2014 interactive, responsive, multilingual (EN/FR/ES/AR) website templates for bakeries and patisseries.",
+  "description": "Levain Kit — interactive, responsive, multilingual (EN/FR/ES/AR) website templates for bakeries and patisseries.",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -14,7 +14,9 @@
     "validate": "node tools/validate.mjs",
     "package": "node tools/package.mjs",
     "test": "node tools/smoke.mjs",
-    "smoke": "node tools/smoke.mjs"
+    "smoke": "node tools/smoke.mjs",
+    "progress": "node tools/progress.mjs",
+    "pitches": "node tools/make-pitches.mjs"
   },
   "keywords": [
     "bakery",

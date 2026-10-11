@@ -7,7 +7,7 @@ and paste the URL in your email signature. It takes ten minutes and it's what ma
 
 ## EN — Privacy notice (business contacts)
 
-I'm **Abdulrhman Thali**, freelance web developer, Naaldwijk, the Netherlands.
+I'm **Abdulrhman Thali**, freelance web developer, Homs, Syria (working remotely; no EU establishment).
 
 **What I collect:** business name, city, professional contact details (public email, phone, address), and notes
 about a shop's public web presence — menu, opening hours, languages, whether pre-orders exist.
@@ -26,7 +26,7 @@ recipient's professional activity, the sender is clearly identified and objectin
 If you object, your address goes on a permanent suppression list — kept only so I don't contact you again.
 
 **Your rights:** access, correction, deletion, objection, and a complaint to your supervisory authority
-(Netherlands: Autoriteit Persoonsgegevens — France: CNIL — Spain: AEPD — UK: ICO). Write to abdulrhmant948@gmail.com and I
+(France: CNIL — Spain: AEPD — UK: ICO; I have no EU establishment, so I answer directly rather than through a representative). Write to abdulrhmant948@gmail.com and I
 act within 30 days.
 
 **If you become a client:** the data I hold about your customers (pre-order names and phone numbers) is passed
@@ -35,7 +35,7 @@ needs it.
 
 ## FR — Information relative aux prospects (art. 13-14 RGPD)
 
-Responsable : **Abdulrhman Thali**, développeur web indépendant, Naaldwijk (Pays-Bas) — contact : abdulrhmant948@gmail.com.
+Responsable : **Abdulrhman Thali**, développeur web indépendant, Homs (Syrie) — contact : abdulrhmant948@gmail.com.
 Données traitées : nom de l'établissement, coordonnées professionnelles publiées (e-mail générique, téléphone,
 adresse), notes objectives sur la présence en ligne (carte, horaires, langues, précommandes). Source : sites des
 établissements, fiches Google Business, comptes publics, presse — aucune liste achetée. Finalité : prospection
@@ -49,7 +49,7 @@ de vos propres clients (précommandes) me transitent sans être conservées.
 
 ## ES — Aviso de privacidad (prospects)
 
-Responsable: **Abdulrhman Thali**, desarrollador web autónomo, Naaldwijk (Países Bajos) — abdulrhmant948@gmail.com. Datos:
+Responsable: **Abdulrhman Thali**, desarrollador web autónomo, Homs, Siria — abdulrhmant948@gmail.com. Datos:
 nombre del negocio, datos de contacto profesionales publicados (email genérico, teléfono, dirección) y notas
 objetivas sobre la presencia online (carta, horarios, idiomas, pedidos anticipados). Origen: fuentes públicas
 (web del local, ficha de Google, prensa, premios); no compro listas. Finalidad y base jurídica: interés
