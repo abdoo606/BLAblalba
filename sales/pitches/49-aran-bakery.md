@@ -8,7 +8,7 @@ Good Food Guide Britain's 50 Best Bakeries 2026; 200-year-old building in Dunkel
 Source on file: aran-bakery.com/contact-1 + Daily Record GFG 2026 Scotland list (2026-03-24).
 
 ## 2. What their web presence actually is
-Their own contact page: hello@ for 'menu, pre-orders and celebration cakes', manager@ for everything else, and two near-identical warnings that 'we will close when we sell out'. Opening hours Mon-Sat 9.30-3.30 / Sun 10-3.30 with no live sold-out state - so every pre-order is an email exchange and every sale after noon is luck.
+OPENED 2026-10-11 09:57Z, both pages read in full. Homepage: Tue 7-2, Wed 7-2, Thu 7-2, Fri 7-2, Sat 8AM-2PM; location block types the ZIP as 'Lakeland, FL 338o3' (letter o). /contactus: Wednesdays 7-2 and Saturdays 8AM-1PM only, address written correctly as 1113 S. Florida Ave 33803, phone 863.450.4513, 'Get In Touch' mailto = hello@bornandbreadbakehouse.com (so the address is confirmed on their own page, not just in a search index). Ordering DOES work: pre-orders on Toast (order.toasttab.com/online/born-and-bread-1113-florida-ave-s) with dated pickup slots and Saturday outside pick-up, merch on /shop. Correction sent in-thread: my first email said 'no way to reserve anything' - wrong, and said so.
 Found live: https://www.aran-bakery.com
 Contact: hello@aran-bakery.com (pre-orders + cakes) · manager@aran-bakery.com · 2 Atholl Street, Dunkeld PH8 0AR · 01350 727 029
 
@@ -18,11 +18,11 @@ Contact: hello@aran-bakery.com (pre-orders + cakes) · manager@aran-bakery.com �
 - **Languages:** en, 1 more: FR · PL · RO · ES — pick the one your street actually speaks
 - **Menu to enter (their real items, from their own posts):** Country Levain Loaf £5.80 · bread · Baguette De Tradition £1.60 · bread · Seeded Rye Brick £6.40 · bread · Butter Croissant £2.40 · viennoiserie · Pain Au Chocolat £2.70 · viennoiserie · Morning Bun £3.20 · viennoiserie
 - **Hero line:** “ARAN Bakery — what the whole street talks about” — written once, mirrored in the second language, never machine-translated.
-- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why this is clause 1 of this project.
+- **Hours block:** as published by *them*, not as on Google — and we fix the Google listing in the SEO pass so the two agree. That single mismatch is why we check it on day 1.
 - **Live preview:** `dist/templates/artisan/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, email)
-> Hi ARAN Bakery team — I looked at https://www.aran-bakery.com this morning. Their own contact page: hello@ for 'menu, pre-orders and celebration cakes', manager@ for everything else, and two near-identical warnings that 'we will close when we sell out'. Opening hours Mon-Sat 9.30-3.30 / Sun 10-3.30 with no live sold-out state - so every pre-order is an email exchange and every sale after noon is luck.
+> Hi ARAN Bakery team — I looked at https://www.aran-bakery.com this morning. OPENED 2026-10-11 09:57Z, both pages read in full. Homepage: Tue 7-2, Wed 7-2, Thu 7-2, Fri 7-2, Sat 8AM-2PM; location block types the ZIP as 'Lakeland, FL 338o3' (letter o). /contactus: Wednesdays 7-2 and Saturdays 8AM-1PM only, address written correctly as 1113 S. Florida Ave 33803, phone 863.450.4513, 'Get In Touch' mailto = hello@bornandbreadbakehouse.com (so the address is confirmed on their own page, not just in a search index). Ordering DOES work: pre-orders on Toast (order.toasttab.com/online/born-and-bread-1113-florida-ave-s) with dated pickup slots and Saturday outside pick-up, merch on /shop. Correction sent in-thread: my first email said 'no way to reserve anything' - wrong, and said so.
 > That's exactly the part I build: hero, marquee, specialties, menu — 1645 £ delivered in 7 days, and the files and repository are yours, no subscription, no Shopify fees. Includes preorder.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.
