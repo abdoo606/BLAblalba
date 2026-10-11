@@ -32,7 +32,9 @@ def main():
 
     def worked(r):
         st = (log.get(r["id"], {}).get("status") or "")
-        return not (st == "to-verify" and not r.get("audit_note"))
+        # a shop counts as "worked" only when the LOG says we did something with it.
+        # A placeholder audit_note (added with the row, before anyone opened the site) is NOT work.
+        return st != "to-verify"
     done = [r for r in rows if worked(r)]
     wait = [r for r in rows if not worked(r)]
 
@@ -71,6 +73,7 @@ def main():
 
     A("")
     A(f"## القسم الثاني — {len(wait)} محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)")
+    A("كل سطر هنا اسمه من مصدر 2026 موثّق، بس ما قرينا صفحة ولا واحد منهن: لا إيميل، لا عرض، لا وعد. الطابور يمشي محل-بمحل.")
     A("")
     A("سطر لكل محل: الاسم · المدينة · السعر · الإشارة. ما في إيميل ولا عرض مفصّل - لأنو ما قرينا صفحة ولا واحد منهن.")
     for r in sorted(wait, key=lambda r: (r["country"], r["business"])):
