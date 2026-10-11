@@ -44,5 +44,5 @@ any public reference. If I stop: you get a full refund of what you paid minus th
 hourly, plus every file. No hostage-taking — that's the whole difference between a freelancer and a lock-in.
 
 *Confidentiality:* what I learn about your volumes, your supplier prices and your margin never leaves this
-project. *Contact:* [email] · [phone]. *Disputes:* Dutch courts (Rotterdam), after a good-faith attempt to sort
+project. *Contact:* abdulrhmant948@gmail.com · [phone]. *Disputes:* Dutch courts (Rotterdam), after a good-faith attempt to sort
 it out by phone. *Governing law:* Netherlands.
