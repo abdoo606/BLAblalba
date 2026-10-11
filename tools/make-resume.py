@@ -83,13 +83,19 @@ def main():
     branch = subprocess.run(["git", "-C", ROOT, "rev-parse", "--abbrev-ref", "HEAD"],
                             capture_output=True, text=True).stdout.strip() or "?"
     handover = open(os.path.join(ROOT, "sales/DRIVE-HANDOVER.txt"), encoding="utf-8").read().strip()
+    pre_path = os.path.join(ROOT, "sales/RESUME-PREAMBLE.md")
+    preamble = open(pre_path, encoding="utf-8").read().strip() if os.path.exists(pre_path) else ""
 
     o = []
     A = o.append
     A("ابدأ من هنا — وين وصلنا بالضبط، وشو الخطوة الجاية")
     A(f"آخر توليد: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')} · الفرع {branch} · آخر commit: {head}")
     A("الملف مولّد بـ `python3 tools/make-resume.py` من ملفات الـCSV. لا تعدّله بالإيد لا هنا ولا بالمستودع — عدّل المصدر وأعد التوليد.")
+    A("نفس هذا النص موجود بالمستودع: sales/DRIVE-RESUME.md (هالورقة) + sales/RESUME-PREAMBLE.md (قسم 0) + README.md.")
     A("")
+    if preamble:
+        A(preamble)
+        A("")
     A("1) وين نحنا (السلطة الوحيدة للأرقام: sales/OUTREACH-LOG.csv، أو node tools/progress.mjs)")
     A(f"   {len(pros)} محلاً بالقائمة · فتحنا موقعهن بأنفسنا: {opened} · بعتنالهم إيميل: {emails} ({live} حيّة + {bounce} مرتد)")
     A(f"   مجموع المعروض للمُرسل: {money(total_eur)} · الدفعة الأولى 40% = {deposit:,} $")

@@ -4,7 +4,7 @@
 الملف مولّد من `sales/prospects-2026.csv` + `OUTREACH-LOG.csv` + `SENT-RECORD.csv` بـ `tools/make-dossiers.py`.
 لا تحرّروه بالدرايف — عدّل الـCSV وأعيدوا التوليد.
 
-## القسم الأول — محلات تحركنا فيها (42)
+## القسم الأول — محلات تحركنا فيها (47)
 
 ### Wild Crumb — Bozeman, MT, US  ·  sent
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -29,6 +29,39 @@
 **المبعوث:** hello@august-bakery.com · 2026-10-11T09:15Z · “Your site doesn't yet do what the queue on Battersea Rise does”
 **الخطوة الجاية:** follow-up day 5 if silent, once more at day 14, then stop
 **مصدر الاسم:** shortlist.com 06 Feb 2026
+
+### JinJu Patisserie — Portland, OR, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 — no email published
+**الموقع:** ?
+**اللي نشروه عندهن:** NO published address: jinjupatisserie.com is a Square Online storefront shell (gift cards, cart, payment icons). jinjupatisserie@gmail.com appears in Eater/press, not on their own page.
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: the whole homepage renders as a checkout shell - "GIFT CARDS", "Shopping Cart / You do not have any items in your cart / Secure checkout by Square", one banner image with the Beard award text, and an image uploaded 2026-08-14. Yelp (search, not their page) lists them as temporarily closed at the old 4063 N Williams address with a new one at 3494 N Williams; Eater (Dec 2025) reported the closure while they look for a second space. So: real business, real award, no site and no published address.
+**ليش هلأ:** 2025 James Beard "Outstanding Bakery" WINNER - the award is the first thing on their site - and they are between spaces, which is precisely when a new site gets built.
+**اتجاهنا:** Wait for the reopening, then: a site that opens with the Beard award, tells the two-chef story, and takes pre-orders for the reopening. 3,600 EUR.
+**السعر:** 3,600 €  ·  ≈ 3,924 $  ·  ≈ 3,096 £ · رعاية 45 €/شهر · السنة الأولى 4,140 €
+**الخطوة الجاية:** Site is a Square storefront shell (gift cards, cart, award banner). No email on their own page; the gmail address is fro — 2026-11-01
+**مصدر الاسم:** travelportland.com 08 Jul 2026
+
+### Pancho Anaya — Tulsa, OK, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 — no usable address
+**الموقع:** ?
+**اللي نشروه عندهن:** NO address readable on the rendered pages: /locations and / show phones only (tel links). Search engines index an email from their JSON-LD block (s.anaya@panchoanaya.com, legalName "Mexican Bakery of Tulsa") but we could not read it on the page itself - check in a browser before writing.
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: /locations + / (whole). Verbatim: the site is titled "Pancho Anaya Products" and its only product push is "CAFÉ DE OLLA by PANCHO ANAYA - SHOP NOW"; nav = OUR PRODUCTS (PAN DULCE / MEXICAN COOKIES / PAN BLANCO / DESSERTS / SEASONAL) + OUR STORY / VALUES / LOCATIONS. No Spanish anywhere on an audience that is entirely Spanish-speaking, no wholesale account page (they co-pack nationally!), no online ordering for the 3 shops, hours typed as plain text per location, and a Google My Maps embed whose only visible affordance is "Learn how to create your own".
+**ليش هلأ:** Panadería founded 1912 in Michoacán, four generations, three retail locations + a manufacturing plant co-packing nationally since 2020.
+**اتجاهنا:** Bilingual EN/ES site that sells: online ordering per location, a wholesale/co-packing inquiry page, and the 1912 story. 3,600 EUR (+220 EUR Spanish).
+**السعر:** 3,600 €  ·  ≈ 3,924 $  ·  ≈ 3,096 £ · رعاية 45 €/شهر · السنة الأولى 4,140 €
+**الخطوة الجاية:** panchoanaya.com is the "Products" store; the 3 retail bakeries have no page of their own. No email rendered on /location — 2026-11-01
+**مصدر الاسم:** foodandwine.com best bakeries
+
+### Fire Island Rustic Bakeshop — Anchorage, AK, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 — no email published
+**الموقع:** ?
+**اللي نشروه عندهن:** NO published address: "Get in Touch" is a Squarespace form only (Name/Email/Subject/Message). fireislandbread@gmail.com appears on their Facebook page and in directories - not on their own pages, so it is NOT ours to write to.
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (both chunks of the homepage). They say it themselves, twice, on the page: "We do not have online ordering capabilities at this time" and "We do not accept special orders" - right under the contact form. Other verbatim items: nav labels are inconsistent ("our food + Farmers", "dietARY restrictions", "Buy a gift card" vs "Buy Gift Cards"); the Airport Heights map link points to a query for 2530 E 16th Ave while the page text says 2520 E 16th Ave; the page ends with a raw tracking fragment rendered as text ("&gWwOgQlLa6S&gWwOgQlLa6S"); a seasonal notice ("Our Hours are Changing - Starting August 17th we will be closed Mondays and Tuesdays") is hard-typed at the bottom. 17 years of story text and no way to buy anything online.
+**ليش هلأ:** 2026 James Beard Outstanding Bakery finalist (the seal is on their homepage, dated 01/2026), 80-person team, three rooms in Anchorage, family-owned since 2009.
+**اتجاهنا:** NOT a redesign - they have a good story. Missing: online ordering + a special-order desk (they explicitly refuse it today), one source for hours across 3 rooms, a menu with prices. 3,496 EUR.
+**السعر:** 3,496 €  ·  ≈ 3,811 $  ·  ≈ 3,007 £ · رعاية 45 €/شهر · السنة الأولى 4,036 €
+**الخطوة الجاية:** Their own page says twice: "We do not have online ordering capabilities at this time" / "We do not accept special orders — 2026-11-01
+**مصدر الاسم:** cnn.com 16 Jun 2026
 
 ### Handy Bakery — Barcelona (Gràcia) — Carrer de Rabassa 5, ES  ·  verified-ready
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
@@ -64,6 +97,18 @@
 **المبعوث:** shop@northern-rye.co.uk · 2026-10-11T09:15Z · “Trade-counter ordering + separate hours for Ouseburn and North Shields”
 **الخطوة الجاية:** follow-up day 5 if silent, once more at day 14, then stop
 **مصدر الاسم:** shortlist.com 06 Feb 2026
+
+### Noble Bread — Phoenix, AZ, US  ·  sent
+**وين إحنا:** VERIFIED 2026-10-11
+**الموقع:** ?
+**اللي نشروه عندهن:** contact@noblebread.com - mailto in the "contact us" block of https://noblebread.com/ (whole page opened 2026-10-11 12:15, both chunks) + tel 602-697-8967
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11 (full page, 2 chunks). Verbatim problems: (1) same page states Eatery hours twice, differently - "Mon - Fri 9:00 AM - 3:00 PM until sold out" in WHERE TO BUY vs "Mon — Fri: 10:30am to 3pm" in contact us; (2) Roadrunner Farmers Market links to https://share.google/3C66zaAFemVOfkrO9 (a Google share short-link, not the market); (3) wholesale is claimed in prose ("honored to partner with many great chefs and restaurants in Arizona") but there is no wholesale page, form or price list; (4) "Breads are rotated and selected on a weekly basis" and the only place that rotation exists is Instagram; (5) the bread menu has no prices at all.
+**ليش هلأ:** Est. 2012 micro-bakery that became a city-wide staple: one eatery, eleven farmers markets, and wholesale to Arizona restaurants - all of it run through two OTHER domains.
+**اتجاهنا:** Consolidate the two ordering domains into noblebread.com, one source for hours, add a wholesale account page + weekly bake list + prices. 2,290 EUR.
+**السعر:** 2,290 €  ·  ≈ 2,496 $  ·  ≈ 1,969 £ · رعاية 45 €/شهر · السنة الأولى 2,830 €
+**المبعوث:** contact@noblebread.com · 2026-10-11T12:16Z · “Your own site sends customers to two other domains”
+**الخطوة الجاية:** one chase in-thread, then drop — 2026-10-20
+**مصدر الاسم:** foodandwine.com
 
 ### Chatsworth Bakehouse — London (Crystal Palace), GB  ·  sent
 **وين إحنا:** NOT YET VERIFIED — press-list only (2026-10-11)
@@ -312,6 +357,17 @@
 **الخطوة الجاية:** await reply — 2026-10-18
 **مصدر الاسم:** Food Republic, 'best bakery in every US state', 2026-08-18
 
+### Super Secret Ice Cream — Bethlehem, NH, US  ·  verified-ready
+**وين إحنا:** VERIFIED 2026-10-11 — footer not readable by us
+**الموقع:** ?
+**اللي نشروه عندهن:** UNRESOLVED: their pages publish hello@supersecreticecream.com in the footer (visible in the search index of / and /flavors) but our fetches of / and /flavors rendered no footer, and the site says "we do not have a telephone, e-mail is the quickest & easiest way to reach us". Verify by opening the site in a browser, then it is pitchable.
+**شو لقينا بصفحتهم (حرفاً):** Opened 2026-10-11: / and /flavors (full). Verbatim: "FIND US" is a Google Maps URL loaded with tracking junk (?gs_lcrp=EgZjaHJvbWUqDQ...&fb=1&gl=us); the Upcoming Events block prints the same entry three times ("September 7, 2026 – October 12, 2026 / Fall Hours Start" repeated, with a bare "Read more →" between); a homepage image asset is literally named "Screenshot 2025-03-12 at 12.47.56 PM.png"; the flavors page says "this list could be out of date when you arrive but we’re working on a solution" and sends people to Instagram instead; a cart exists but nothing is purchasable.
+**ليش هلأ:** James Beard 2026 Outstanding Bakery finalist; a rural NH scoop shop that runs on a Memorial Day-to-Labor Day rush and posts fall hours as an event.
+**اتجاهنا:** A real "today at the counter" page + pre-order for pints and events so the fall/winter months are not dead, with the flavor list off Instagram. 1,305 EUR.
+**السعر:** 1,305 €  ·  ≈ 1,422 $  ·  ≈ 1,122 £ · رعاية 0 €/شهر · السنة الأولى 1,305 €
+**الخطوة الجاية:** hello@supersecreticecream.com is what their footer says (search index of / and /flavors) but our fetches returned no foo — 2026-11-01
+**مصدر الاسم:** cnn.com 16 Jun 2026
+
 ### Weltons Tiny Bakeshop — Charleston, SC, US  ·  verified-ready
 **وين إحنا:** TO VERIFY: confirm site status + owner email before outreach
 **الموقع:** weltonstinybakeshop.com
@@ -469,7 +525,7 @@
 **الخطوة الجاية:** no pitch - their stack is ahead of the kit; revisit in 6 months — 2027-04-01
 **مصدر الاسم:** niedlovs.com/contact-us (own site, opened 2026-10-11)
 
-## القسم الثاني — 99 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
+## القسم الثاني — 94 محلاً بالقائمة، ما فتحنا موقعهن بعد (ما صالح للتواصل)
 كل سطر هنا اسمه من مصدر 2026 موثّق، بس ما قرينا صفحة ولا واحد منهن: لا إيميل، لا عرض، لا وعد. الطابور يمشي محل-بمحل.
 
 سطر لكل محل: الاسم · المدينة · السعر · الإشارة. ما في إيميل ولا عرض مفصّل - لأنو ما قرينا صفحة ولا واحد منهن.
@@ -559,16 +615,11 @@
 - **Dan The Baker** — Columbus, OH, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **DeLuxe Cakes** — Los Angeles, CA, US · 1,450 €  ·  ≈ 1,581 $  ·  ≈ 1,247 £ · Beard 2026 semifinalist; LA storefront with a cult order book
 - **DeLuxe Cakes and Pastries** — Iowa City, IA, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **Fire Island Rustic Bakeshop** — Anchorage, AK, US · 3,496 €  ·  ≈ 3,811 $  ·  ≈ 3,007 £ · JB 2026 finalist - remote market, mail-order potential
-- **JinJu Patisserie** — Portland, OR, US · 3,600 €  ·  ≈ 3,924 $  ·  ≈ 3,096 £ · James Beard 2025 Outstanding Bakery; relocating to 3494 N Williams Ave, soft opening Sept 
 - **Librae** — Seattle, WA, US · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · Beard 2026 semifinalist; single-line pastry counter
 - **Librae Bakery** — New York, NY, US · 2,900 €  ·  ≈ 3,161 $  ·  ≈ 2,494 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **Mercado Sin Nombre** — Austin, TX, US · 1,670 €  ·  ≈ 1,820 $  ·  ≈ 1,436 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **Niedlov's Bakery & Cafe** — Chattanooga, TN, US · 149 €  ·  ≈ 162 $  ·  ≈ 128 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **Noble Bread** — Phoenix, AZ, US · 2,290 €  ·  ≈ 2,496 $  ·  ≈ 1,969 £ · Home launch 2012 → city-wide staple, sells to restaurants across town
-- **Pancho Anaya** — Tulsa, OK, US · 3,600 €  ·  ≈ 3,924 $  ·  ≈ 3,096 £ · Century-old panadería (Michoacán roots), expanding family business
 - **Poupart Beacon Bakery** — Lafayette, LA, US · 2,252 €  ·  ≈ 2,455 $  ·  ≈ 1,937 £ · James Beard America's Classic 2025 buzz, French market café + wholesale bread
 - **Starship Bagel** — Dallas, TX, US · 1,130 €  ·  ≈ 1,232 $  ·  ≈ 972 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
-- **Super Secret Ice Cream** — Bethlehem, NH, US · 1,305 €  ·  ≈ 1,422 $  ·  ≈ 1,122 £ · JB 2026 finalist for Outstanding Bakery - rural NH, huge seasonal traffic
 - **The Burque Bakehouse** — Albuquerque, NM, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2
 - **The Local General Store** — Honolulu, HI, US · 1,830 €  ·  ≈ 1,995 $  ·  ≈ 1,574 £ · James Beard 2026 Outstanding Bakery semifinalist (announced Jan 2026, list published Aug 2

@@ -1,15 +1,15 @@
 # JinJu Patisserie — design board & pitch
 
-Portland, OR, US · B — upgrade · template **patisserie** · patisserie · 3600 €
+Portland, OR, US · B — re-open moment · template **patisserie** · patisserie · 3600 €
 Verified 2026-10-11: **NO — do the 4-minute check before anything is sent**
 
 ## 1. Why them, now
-James Beard 2025 Outstanding Bakery; relocating to 3494 N Williams Ave, soft opening Sept 2026
+2025 James Beard "Outstanding Bakery" WINNER - the award is the first thing on their site - and they are between spaces, which is precisely when a new site gets built.
 Source on file: travelportland.com 08 Jul 2026.
 
 ## 2. What their web presence actually is
-public notes say: “Rebrand moment = new site, high intent” — open their site before you use this sentence
-Claimed earlier (press/aggregator): Rebrand moment = new site, high intent
+public notes say: “Square Online site; the only rendered content is the award banner, gift cards and a cart. No menu, no hours, no story page, no contact page.” — open their site before you use this sentence
+Claimed earlier (press/aggregator): Square Online site; the only rendered content is the award banner, gift cards and a cart. No menu, no hours, no story page, no contact page.
 
 ## 3. The design I'd ship
 - **Template:** patisserie · **palette:** Plum, meringue, lilac — `#1c1a24 ink / #b4708c accent / #f8f2f4 paper / #6d5a7a muted`
@@ -21,7 +21,7 @@ Claimed earlier (press/aggregator): Rebrand moment = new site, high intent
 - **Live preview:** `dist/templates/patisserie/index.html?lang=en` (open it on your phone first — that's the only screen they will judge it on)
 
 ## 4. What I would say (first touch, to be found during verification)
-> Hi JinJu Patisserie team — I looked at ? this morning. public notes say: “Rebrand moment = new site, high intent” — open their site before you use this sentence.
+> Hi JinJu Patisserie team — I looked at ? this morning. public notes say: “Square Online site; the only rendered content is the award banner, gift cards and a cart. No menu, no hours, no story page, no contact page.” — open their site before you use this sentence.
 > That's exactly the part I build: hero, marquee, specialties, menu — 3925 $ delivered in 14 days, and the files and repository are yours, no subscription, no Shopify fees. Includes seo + photo.
 > No VAT on my invoice: you account for local VAT yourself (reverse charge), and it nets off if you are VAT-registered.
 > If this isn't the right conversation, say so once and I won't write again.

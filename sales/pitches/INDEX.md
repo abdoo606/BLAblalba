@@ -39,7 +39,7 @@ and `sales/pitches/html/<file>.html` (the design board — open it in a browser,
 | [31-fire-island-rustic-bakeshop](./31-fire-island-rustic-bakeshop.md) | Fire Island Rustic Bakeshop | Anchorage, AK | 1 | artisan | 3496 | ⬜ | to be found during verification |
 | [32-pancho-anaya](./32-pancho-anaya.md) | Pancho Anaya | Tulsa, OK | 1 | moderno | 3600 | ⬜ | to be found during verification |
 | [33-belle-s-bread](./33-belle-s-bread.md) | Belle's Bread | Columbus, OH | 1 | moderno | 1910 | ⬜ | to be found during verification |
-| [34-noble-bread](./34-noble-bread.md) | Noble Bread | Phoenix, AZ | 1 | artisan | 2290 | ⬜ | to be found during verification |
+| [34-noble-bread](./34-noble-bread.md) | Noble Bread | Phoenix, AZ | U | artisan | 2290 | ⬜ | to be found during verification |
 | [35-babettes-artisan-breads](./35-babettes-artisan-breads.md) | Babettes Artisan Breads | Denver, CO | 1 | artisan | 1282 | ⬜ | to be found during verification |
 | [36-poupart-beacon-bakery](./36-poupart-beacon-bakery.md) | Poupart Beacon Bakery | Lafayette, LA | 1 | patisserie | 2252 | ⬜ | to be found during verification |
 | [37-toad-bakery](./37-toad-bakery.md) | Toad Bakery | London (Camberwell + Deptford) | 1 | artisan | 1630 | ⬜ | to be found during verification |
