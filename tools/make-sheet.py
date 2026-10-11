@@ -48,7 +48,9 @@ def main():
     out.sort(key=lambda x: (order[x["st"]], x["w"], -x["eur"]))
 
     log = list(csv.DictReader(open("sales/OUTREACH-LOG.csv", newline="")))
-    sent = [r for r in log if r["status"] == "sent"]
+    sent = [r for r in log if r["status"].startswith("sent")]
+    auto = [r for r in log if "auto-reply" in r["status"]]
+    human = [r for r in log if r["status"].startswith(("replied", "quoted", "negotiated", "won"))]
 
     with open(OUT, "w", newline="") as fp:
         w = csv.writer(fp)
@@ -67,8 +69,9 @@ def main():
                     "%d €/mo if all take care" % (45 * len(out)),
                     "SENT: %d leads · %s € quoted" % (len(sent), format(sum(int(r["quoted_eur"] or 0) for r in sent), ",")),
                     "", "sales/pitches/"])
-    print("%d rows · %d verified · total %d EUR · %d sent" % (
-        len(out), sum(1 for r in out if r["st"] == "VERIFIED"), sum(r["eur"] for r in out), len(sent)))
+    print("%d rows · %d verified · total %d EUR · %d sent · %d human replies · %d auto-replies (not replies)" % (
+        len(out), sum(1 for r in out if r["st"] == "VERIFIED"), sum(r["eur"] for r in out),
+        len(sent), len(human), len(auto)))
 
 
 if __name__ == "__main__":
