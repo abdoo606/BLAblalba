@@ -721,7 +721,6 @@ function hubPage({ rel }) {
   const docs = [
     ['docs/README.md', './docs/README.md', 'file.readme', 'MD'],
     ['docs/PRICING.md', './docs/PRICING.md', 'file.pricing', '€'],
-    ['docs/PROSPECTS.md', './docs/PROSPECTS.md', 'file.prospects', '☰'],
     ['src/data/locales/', './assets/i18n.generated.js', 'file.locales', 'i18n'],
     ['src/styles/core.css', './assets/core.css', 'file.themes', 'CSS'],
   ]
@@ -1080,7 +1079,9 @@ function build() {
   cpSync(join(SRC, 'styles', 'hub.css'), join(DIST, 'assets', 'hub.css'));
   if (existsSync(join(SRC, 'assets', 'img'))) cpSync(join(SRC, 'assets', 'img'), join(DIST, 'assets', 'img'), { recursive: true });
   mkdirSync(join(DIST, 'docs'), { recursive: true });
-  for (const f of ['PRICING.md', 'PROSPECTS.md', 'HANDOVER.md', 'README.md']) {
+  // Never publish the pipeline: docs/PROSPECTS.md and sales/* stay out of dist/ on purpose.
+  const PRIVATE = ['PROSPECTS.md'];
+  for (const f of ['PRICING.md', 'HANDOVER.md', 'README.md'].filter((x) => !PRIVATE.includes(x))) {
     const p = join(ROOT, 'docs', f);
     if (existsSync(p)) cpSync(p, join(DIST, 'docs', f));
     else if (f === 'README.md' && existsSync(join(ROOT, 'README.md'))) cpSync(join(ROOT, 'README.md'), join(DIST, 'docs', f));
