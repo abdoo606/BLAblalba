@@ -59,7 +59,7 @@ call, then I retouch"). No on-site work = no permanent establishment = no foreig
 | **BTW position** | If your turnover stays ≤ €20,000/yr you can apply for the **KOR** (kleineondernemersregeling): no BTW charged, no BTW returns, no reclaim of input BTW, note on every invoice *"Vrijgesteld van btw op grond van de kleineondernemersregeling"*. Since 2025 you can leave the KOR at any time. Since 2025 there is also an **EU-KOR** up to €100,000 EU-wide. Decide with the boekhouder *before* the first invoice, because it changes the invoice text. |
 | **ICP listing** (only for EU sales) | B2B services to a business in another EU country must be reported on the *opgaaf intracommunautaire prestaties* (ICP). It's a nil-tax listing of amounts and the customer's VAT number — not a payment. UK/US/CA sales are **not** in the ICP. |
 
-## Per-country verdict for the 134 leads (24 verified, 15 emailed 2026-10-11)
+## Per-country verdict for the 134 leads (26 verified, 16 emailed 2026-10-11)
 
 | Wave | Countries | Verdict for you | What the invoice says |
 |---|---|---|---|
