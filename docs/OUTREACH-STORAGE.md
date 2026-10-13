@@ -5,7 +5,8 @@ The repository remains public; changing its visibility was not authorised. From 
 - `.gitignore` excludes the paths listed below. Removing tracking does not delete the working files.
 - The active data is in the workspace and backed up as **10 · Private outreach sources** in the same Drive folder as 00–09.
 - A fresh clone must restore that private source bundle to the repository root before running outreach tools. Do not invent an empty suppression registry or start a replacement contact list: missing safety files intentionally fail closed.
-- Use only a trusted bundle from the user's Drive; inspect archive paths and reject absolute paths, `..` segments and symlinks before extraction. Do not publish the archive or client-specific reports.
+- Use only a trusted bundle from the user's Drive. Restore with `python3 tools/restore-outreach.py /path/to/bundle.zip`: it checks permitted data paths, member hashes, traversal/symlinks, size bounds and conflicts with existing local files. Hashes detect corruption; they do not authenticate an untrusted archive. Do not publish the archive or client-specific reports.
+- Mail-check summaries are also private. Minimal current counts and notes live inside `CAMPAIGN-ACTIVITY.json`; `sales/MAIL-CHECK.md` and temporary connector downloads are excluded from public Git. No raw reset/password links or authentication tokens belong in those reports.
 - The website build remains usable without client data. Python outreach dependencies: `python3 -m pip install --break-system-packages -r requirements-outreach.txt`.
 - `python3 -m unittest discover -s tests -p 'test_*.py'` runs fixture tests; private-dataset checks are skipped if their trusted files have not been restored.
 

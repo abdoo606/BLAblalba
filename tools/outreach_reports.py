@@ -138,6 +138,16 @@ def resume():
         '## 7. حدود الحذف',
         'الملفات الحالية نظيفة من النسخ القديمة والأسواق المستبعدة؛ بقيت بصمات وأعداد منع فقط. تاريخ Git ومهملات Gmail/Drive ونسخ المستلمين لم تُمحَ.', '',
         (ROOT / 'sales/DRIVE-HANDOVER.txt').read_text(encoding='utf-8').strip()])
+    check = activity.get('latest_mail_check')
+    if check:
+        lines.extend(['', '## 8. آخر فحص للإيميلات',
+            f"- وقت الفحص: {check['checked_at']} · بحث كامل مع المهملات/السبام؛ لا رد قديم يُحسب كجديد.",
+            f"- ردود بشرية جديدة: {check['new_human_campaign_replies']} · اهتمام مؤكد: {check['confirmed_positive_campaign_replies']}.",
+            f"- ردود استلام آلية قديمة: {len(check['known_automatic_acknowledgements'])} · ارتداد قديم: {check['known_old_delivery_failures']}؛ لا إعادة إرسال.",
+            f"- رسائل إرسال جديدة خارج المهملات: {check['active_gmail_sent_since_reset']} · مسودات Gmail: {check['gmail_drafts']}. الـ25 صياغة الخاصة ليست مسودات Gmail ولا رسائل مبعوثة.",
+            '- لا بيانات تتبع فتح/قراءة للمستلمين. الفحص لم يرسل أو يحذف أو يغيّر UNREAD.',
+            '- تنبيه أمان مستقل من LinkedIn بتاريخ 11/10 يبلغ عن محاولات دخول مريبة؛ راجع التطبيق/الموقع الرسمي مباشرة وكلمة مرور فريدة والتحقق بخطوتين. لم تُعدَّل إعدادات الحساب.',
+            '- التقرير الخاص: sales/MAIL-CHECK.md · النسخة 11 بالدرايف. أعداد وبصمات فقط، بلا روابط استعادة أو رموز حسابات.'])
     (ROOT / 'sales/DRIVE-RESUME.md').write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8')
     print(f"resume: {stats['active']} active · {stats['rewrites']} rewrites · {stats['new_sent']} new sends · {stats['send_ready']} ready")
 
